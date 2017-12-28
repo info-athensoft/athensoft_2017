@@ -15,7 +15,7 @@
 		<meta charset="utf-8">
 		<title>MTL</title>		
 		<meta name="keywords" content="computer,repair,montreal" />
-		<meta name="description" content="Micro Tech Land">
+		<meta name="description" content="Informatique Athensoft">
 		<meta name="author" content="athensoft.com">
 
 		<!-- Mobile Metas -->
@@ -124,10 +124,10 @@
 					<div class="row center">
 						<div class="col-md-12">
 							<h2 class="short word-rotator-title">
-								Micro Tech Land is the <strong>TOP</strong> Computer and Digital Security System Service Provider
+								Informatique Athensoft is the <strong>TOP</strong> Computer and Digital Security System Service Provider
 							</h2>
 							<p class="lead">
-								Trusted by over 13,000 satisfied users, Micro Tech Land was at your service since 1996 <br> in Montreal.
+								Trusted by over 13,000 satisfied users, Informatique Athensoft was at your service since 2008 <br> in Cananda.
 							</p>
 						</div>
 					</div>
@@ -362,7 +362,7 @@
 					<div class="container">
 						<div class="row center">
 							<div class="col-md-12 center">
-								<h2 class="white"><strong>What</strong> Clients Say</h2>
+								<h2 class="white"><strong>What</strong> Our Clients Say</h2>
 								<div class="row">
 									<div class="owl-carousel testimonials" data-plugin-options='{"items": 1}'>
 										<div>
@@ -415,7 +415,7 @@
 										</span>
 									</span>
 								</strong>
-								about Micro Tech Land
+								about Informatique Athensoft
 							</h2>
 							<!--
 							<p class="lead">13,000+ customers in more than 100 countries use Porto Template.</p>
@@ -458,7 +458,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="center">
-								<h3>Micro Tech Land is <strong>always</strong> ready to listen to you! <a href="contact_us.do" target="_blank" class="btn btn-lg btn-primary" data-appear-animation="bounceIn">Contact us now!</a> <span class="arrow hlb hidden-xs hidden-sm hidden-md" data-appear-animation="rotateInUpLeft" style="top: -22px;"></span></h3>
+								<h3>Informatique Athensoft is <strong>always</strong> ready to listen to you! <a href="contact_us.do" target="_blank" class="btn btn-lg btn-primary" data-appear-animation="bounceIn">Contact us now!</a> <span class="arrow hlb hidden-xs hidden-sm hidden-md" data-appear-animation="rotateInUpLeft" style="top: -22px;"></span></h3>
 							</div>
 						</div>
 					</div>

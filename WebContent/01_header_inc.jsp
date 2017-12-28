@@ -3,7 +3,7 @@
 <div class="container">				
 	<div class="logo">
 		<a href="index.jsp">
-			<img alt="MTL" width="111" height="54" data-sticky-width="82" data-sticky-height="40" src="img/logo/logo.png">
+			<img alt="Informatique Athensoft" width="80" height="80" data-sticky-width="40" data-sticky-height="40" src="img/logo/athensoftlogo-128.gif">
 		</a>
 	</div>
 	<div class="search">

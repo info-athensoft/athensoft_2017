@@ -13,30 +13,122 @@
 <div class="navbar-collapse nav-main-collapse collapse">
 	<div class="container">
 		<ul class="social-icons">
-			<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
-			<li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
+			<li class="facebook"><a href="https://www.facebook.com/infoathensoft/" target="_blank" title="Facebook">Facebook</a></li>
+			<li class="twitter"><a href="https://twitter.com/Athensoft" target="_blank" title="Twitter">Twitter</a></li>
 			<li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin">Linkedin</a></li>
 		</ul>
 		<nav class="nav-main mega-menu">
 			<ul class="nav nav-pills nav-main" id="mainMenu">							
 				<!-- mtl menu -->
 					<li class="active">
-						<a href="index.jsp">é¦é¡µ</a>
+						<a href="index.jsp">首页</a>
+					</li>
+					
+					
+					<li class="dropdown">
+						<a class="dropdown-item dropdown-toggle" href="#">
+							网站开发
+							<i class="fa fa-angle-down"></i>
+						</a>
+						
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">功能与模块</a></li>
+							<li><a class="dropdown-item" href="#">主题与案例</a></li>
+						</ul>
+					</li>
+					
+					
+					
+					<li class="">
+						<a href="gotoonlinemarketing.do">网络推广</a>
 					</li>
 					
 					<li class="">
-						<a href="gotoservice.do">ç½ç«å¼å</a>
+						<a href="gotographicdesign.do">平面设计</a>
 					</li>
 					
 					<li class="">
-						<a href="gotomarketing.do">ç½ç»æ¨å¹¿</a>
+						<a href="gotoaboutus.do">关于我们</a>
 					</li>
 					
 					<li class="">
-						<a href="gotodesign.do">å¹³é¢è®¾è®¡</a>
+						<a href="gotocontactus.do">联系我们</a>
 					</li>
 					
+					<!--
+					<li class="dropdown">
+						<a class="dropdown-item dropdown-toggle" href="#">
+							Pages
+							<i class="fa fa-angle-down"></i>
+						</a>
+						
+						<ul class="dropdown-menu">
+							<li class="dropdown-submenu">
+								<a class="dropdown-item" href="#">About Us</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="shop-full-width.html">Shop - Full Width</a></li>
+									<li><a class="dropdown-item" href="shop-sidebar.html">Shop - Sidebar</a></li>
+									<li><a class="dropdown-item" href="shop-product-full-width.html">Shop - Product Full Width</a></li>
+									<li><a class="dropdown-item" href="shop-product-sidebar.html">Shop - Product Sidebar</a></li>
+									<li><a class="dropdown-item" href="shop-cart.html">Shop - Cart</a></li>
+									<li><a class="dropdown-item" href="shop-login.html">Shop - Login</a></li>
+									<li><a class="dropdown-item" href="shop-checkout.html">Shop - Checkout</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a class="dropdown-item" href="#">Shop</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="shop-full-width.html">Shop - Full Width</a></li>
+									<li><a class="dropdown-item" href="shop-sidebar.html">Shop - Sidebar</a></li>
+									<li><a class="dropdown-item" href="shop-product-full-width.html">Shop - Product Full Width</a></li>
+									<li><a class="dropdown-item" href="shop-product-sidebar.html">Shop - Product Sidebar</a></li>
+									<li><a class="dropdown-item" href="shop-cart.html">Shop - Cart</a></li>
+									<li><a class="dropdown-item" href="shop-login.html">Shop - Login</a></li>
+									<li><a class="dropdown-item" href="shop-checkout.html">Shop - Checkout</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a class="dropdown-item" href="#">Blog</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="blog-full-width.html">Blog Full Width</a></li>
+									<li><a class="dropdown-item" href="blog-large-image.html">Blog Large Image</a></li>
+									<li><a class="dropdown-item" href="blog-medium-image.html">Blog Medium Image</a></li>
+									<li><a class="dropdown-item" href="blog-timeline.html">Blog Timeline</a></li>
+									<li><a class="dropdown-item" href="blog-post.html">Single Post</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a class="dropdown-item" href="#">Layouts</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="page-full-width.html">Full Width</a></li>
+									<li><a class="dropdown-item" href="page-left-sidebar.html">Left Sidebar</a></li>
+									<li><a class="dropdown-item" href="page-right-sidebar.html">Right Sidebar</a></li>
+									<li><a class="dropdown-item" href="page-left-and-right-sidebars.html">Left and Right Sidebars</a></li>
+									<li><a class="dropdown-item" href="page-sticky-sidebar.html">Sticky Sidebar</a></li>
+									<li><a class="dropdown-item" href="page-secondary-navbar.html">Secondary Navbar</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a class="dropdown-item" href="#">Extra</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="page-404.html">404 Error</a></li>
+									<li><a class="dropdown-item" href="page-coming-soon.html">Coming Soon</a></li>
+									<li><a class="dropdown-item" href="page-maintenance-mode.html">Maintenance Mode</a></li>
+									<li><a class="dropdown-item" href="sitemap.html">Sitemap</a></li>
+								</ul>
+							</li>
+							<li><a class="dropdown-item" href="page-custom-header.html">Custom Header</a></li>
+							<li><a class="dropdown-item" href="page-team.html">Team</a></li>
+							<li><a class="dropdown-item" href="page-services.html">Services</a></li>
+							<li><a class="dropdown-item" href="page-careers.html">Careers</a></li>
+							<li><a class="dropdown-item" href="page-our-office.html">Our Office</a></li>
+							<li><a class="dropdown-item" href="page-faq.html">FAQ</a></li>
+							<li><a class="dropdown-item" href="page-login.html">Login / Register</a></li>
+						</ul>
+					</li>
+					 -->
 					
+					<!-- 
 					<li class="dropdown mega-menu-item mega-menu-fullwidth">
 						<a class="dropdown-toggle" href="goshopping_family.do?familyClassId=3">
 							Products
@@ -158,14 +250,8 @@
 							</li>
 						</ul>
 					</li>
-					
-					<li class="">
-						<a href="about_us_basic.do">About us</a>
-					</li>
-					
-					<li class="">
-						<a href="contact_us.do">Contact us</a>
-					</li>
+				
+					-->				
 				</ul>
 			</nav>
 		</div>
