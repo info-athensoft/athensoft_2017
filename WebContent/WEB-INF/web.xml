@@ -14,12 +14,12 @@
   </listener>
   <servlet>
     <description></description>
-    <display-name>mtlpc</display-name>
-    <servlet-name>mtlpc</servlet-name>
+    <display-name>athensoft</display-name>
+    <servlet-name>athensoft</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>mtlpc</servlet-name>
+    <servlet-name>athensoft</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
