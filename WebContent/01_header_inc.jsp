@@ -35,7 +35,7 @@
 				</li>
 			</c:if>
 			<li class="phone">
-				<span><i class="fa fa-phone"></i>(514) 938-9491</span>
+				<span><i class="fa fa-phone"></i>(514) 746-9188</span>
 			</li>
 		</ul>
 	</nav>
