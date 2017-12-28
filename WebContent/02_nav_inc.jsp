@@ -1,3 +1,15 @@
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page language="java"%>
+<%@ page pageEncoding="utf-8"%>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Basic -->
+		<meta charset="utf-8">
+	</head>
+
+<body>
 <div class="navbar-collapse nav-main-collapse collapse">
 	<div class="container">
 		<ul class="social-icons">
@@ -9,12 +21,21 @@
 			<ul class="nav nav-pills nav-main" id="mainMenu">							
 				<!-- mtl menu -->
 					<li class="active">
-						<a href="index.jsp">Home</a>
+						<a href="index.jsp">é¦é¡µ</a>
 					</li>
 					
 					<li class="">
-						<a href="gotoservice.do">Services</a>
+						<a href="gotoservice.do">ç½ç«å¼å</a>
 					</li>
+					
+					<li class="">
+						<a href="gotomarketing.do">ç½ç»æ¨å¹¿</a>
+					</li>
+					
+					<li class="">
+						<a href="gotodesign.do">å¹³é¢è®¾è®¡</a>
+					</li>
+					
 					
 					<li class="dropdown mega-menu-item mega-menu-fullwidth">
 						<a class="dropdown-toggle" href="goshopping_family.do?familyClassId=3">
@@ -155,3 +176,5 @@
 	<script>
 		
 	</script>
+</body>
+</html>
