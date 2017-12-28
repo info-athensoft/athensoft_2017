@@ -1,3 +1,7 @@
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page language="java"%>
+<%@ page pageEncoding="utf-8"%>
+
 <div class="slider-container">
 	<div class="slider" id="revolutionSlider" data-plugin-revolution-slider data-plugin-options='{"startheight": 677}'>
 		<ul>
@@ -9,35 +13,35 @@
 						 data-y="250"
 						 data-speed="300"
 						 data-start="1000"
-						 data-easing="easeOutExpo"><img src="img/slides/slide-title-border.png" alt=""></div>
+						 data-easing="easeOutExpo"></div>
 
 					<div class="tp-caption top-label lfl stl"
 						 data-x="center" data-hoffset="0"
 						 data-y="250"
 						 data-speed="300"
 						 data-start="500"
-						 data-easing="easeOutExpo">DO YOU NEED</div>
+						 data-easing="easeOutExpo">您值得信赖的网站和电子商务专家</div>
 
 					<div class="tp-caption sft stb visible-lg"
 						 data-x="717"
 						 data-y="250"
 						 data-speed="300"
 						 data-start="1000"
-						 data-easing="easeOutExpo"><img src="img/slides/slide-title-border.png" alt=""></div>
+						 data-easing="easeOutExpo"></div>
 
 					<div class="tp-caption main-label sft stb"
 						 data-x="center" data-hoffset="0"
 						 data-y="280"
 						 data-speed="300"
 						 data-start="1500"
-						 data-easing="easeOutExpo">Professional Computer Resolutions?</div>
+						 data-easing="easeOutExpo">INFORMATIQUE ATHENSOFT</div>
 
 					<div class="tp-caption bottom-label sft stb"
 						 data-x="center" data-hoffset="0"
 						 data-y="350"
 						 data-speed="500"
 						 data-start="2000"
-						 data-easing="easeOutExpo"><strong>Check out our services and products</strong></div>
+						 data-easing="easeOutExpo"><strong>一站式建站服务</strong></div>
 
 					<a class="tp-caption customin btn btn-lg btn-primary main-button" href="gotoservice.do"
 						data-x="center" data-hoffset="0"
@@ -47,7 +51,7 @@
 						data-start="1700"
 						data-easing="Back.easeInOut"
 						data-endspeed="300">
-							Get Started Now!
+							查看详情
 					</a>
 
 			</li>

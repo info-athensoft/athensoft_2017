@@ -333,7 +333,7 @@
 												</span>
 											</a>
 											<span class="product-thumb-info-content">
-												<a href="shop-product-sidebar.html">
+												<a href="shop-product-sidebar.jsp">
 													<h4>Workout</h4>
 													<span class="price">
 														<span class="amount">$60</span>
@@ -429,7 +429,7 @@
 			</div>
 
 			<!-- footer -->
-			<%@ include file="../../04_footer_inc.html" %>
+			<%@ include file="../../04_footer_inc.jsp" %>
 			<!-- footer -->
 		</div>
 

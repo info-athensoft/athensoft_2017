@@ -1,3 +1,7 @@
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page language="java"%>
+<%@ page pageEncoding="utf-8"%>
+
 <footer id="footer">
 				<div class="container">
 					<div class="row">
