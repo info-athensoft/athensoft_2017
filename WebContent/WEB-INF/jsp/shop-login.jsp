@@ -154,7 +154,7 @@
 			</div>
 
 			<!-- footer -->
-			<%@ include file="../../04_footer_inc.html" %>
+			<%@ include file="../../04_footer_inc.jsp" %>
 			<!-- footer -->
 		</div>
 

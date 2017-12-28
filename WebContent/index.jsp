@@ -13,7 +13,7 @@
 
 		<!-- Basic -->
 		<meta charset="utf-8">
-		<title>MTL</title>		
+		<title>Informatique Athensoft</title>		
 		<meta name="keywords" content="computer,repair,montreal" />
 		<meta name="description" content="Informatique Athensoft">
 		<meta name="author" content="athensoft.com">
@@ -81,7 +81,7 @@
 			<!-- main -->
 			<div role="main" class="main">
 				<!-- slider -->
-				<%@ include file="11_slide_inc.html" %>
+				<%@ include file="11_slide_inc.jsp" %>
 				<!-- slider -->
 				
 				<div class="home-intro">
@@ -89,14 +89,14 @@
 						<div class="row">
 							<div class="col-md-8">
 								<p>
-									Sign up today to get 5% off on every purchase you made!
-									<span>Check out our special offer and featured products</span>
+									免费在线估价服务正式上线!
+									<span>价格透明，心中无忧</span>
 								</p>
 							</div>
 							<div class="col-md-4">
 								<div class="get-started">
-									<a href="signup.do" class="btn btn-lg btn-primary">Get Started Now!</a>
-									<div class="learn-more">or <a href="gotoservice.do">learn more.</a></div>
+									<a href="signup.do" class="btn btn-lg btn-primary">免费估价!</a>
+									<div class="learn-more">更多服务请 <a href="gotocontactus.do" target="_blank">联系我们</a>。</div>
 								</div>
 							</div>
 						</div>
@@ -124,10 +124,10 @@
 					<div class="row center">
 						<div class="col-md-12">
 							<h2 class="short word-rotator-title">
-								Informatique Athensoft is the <strong>TOP</strong> Computer and Digital Security System Service Provider
+								Informatique Athensoft <br><strong>加拿大一站式电子商务服务提供商</strong> 
 							</h2>
 							<p class="lead">
-								Trusted by over 13,000 satisfied users, Informatique Athensoft was at your service since 2008 <br> in Cananda.
+								网站创建、网络推广、平面设计
 							</p>
 						</div>
 					</div>
@@ -136,7 +136,7 @@
 				<div class="container">
 					<div class="row center">
 						<div class="col-md-12">
-							<img src="${imageBase}/home/ad-01.png" class="img-responsive" data-appear-animation="fadeInUp" alt="dark and light" style="margin: 45px 0px -35px;">
+							<img src="${imageBase}/home/123.jpg" class="img-responsive" data-appear-animation="fadeInUp" alt="Athensoft E-commerce Solution 网站建设 网络推广 平面设计服务" style="margin: 45px 0px -35px;">
 						</div>
 					</div>
 				</div>
@@ -156,8 +156,14 @@
 												<i class="fa fa-shopping-cart"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Shopping in store</h4>
-												<p class="tall">We always have the right products meeting customers' requirements. Fully but free estimation is guaranteed and offered by our shop.</p>
+												<h4 class="shorter">网站开发</h4>
+												<p class="tall">专业设计形象宣传网站、产品展示网站、企业或组织网站及各类电商网站等，行业不限。PC端与移动端完美兼容。十五年专业品质，值得信赖！</p>
+												<ul>
+												<li>网站方案策划</li>
+												<li>网站设计</li>
+												<li>域名主机代理</li>
+												<li>网站维护</li>
+												</ul>
 											</div>
 										</div>
 									</div>
@@ -167,8 +173,14 @@
 												<i class="fa fa-check"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Our promise</h4>
-												<p class="tall">Those used products we are selling are promised more than 50% lower than the market price as well as 10% lower on new products. For reparation, if we cannot fix, we don't charge.</p>
+												<h4 class="shorter">网络推广</h4>
+												<p class="tall">专业提供手机、网络、邮件、平台等宣传推广服务。可根据您的业务需求定制互联网营销策划方案。足不出户也能维护老客户，吸引新客户。</p>
+												<ul>
+												<li>微信平台推送</li>
+												<li>手机短信推送</li>
+												<li>电子邮件营销</li>
+												<li>社交网络推广</li>
+												</ul>
 											</div>
 										</div>
 									</div>
@@ -178,46 +190,69 @@
 												<i class="fa fa-group"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Become our partner</h4>
-												<p class="tall">The store has built a very good relationship with computer stores around in the town. We share technologies and helping each other to fix things right. We are still looking for partner to improve our techniques and sharing resources.</p>
+												<h4 class="shorter">在线支付</h4>
+												<p class="tall">为企业和个人提供便捷、灵活、安全、可靠的在线支付解决方案。使您的网站支持信用卡（VISA, MasterCard）、PayPal等多种在线结算方式。</p>
+												<ul>
+												<li>在线支付流程实现</li>
+												<li>电子购物车开发</li>
+												<li>集成订单系统</li>
+												<li>集成发票系统</li>
+												</ul>
 											</div>
 										</div>
 									</div>
-								</div>
-								
-								
-								<!-- row 2 -->
-								<div class="row">
-									<div class="col-md-4">
-										<div class="feature-box secundary">
-											<div class="feature-box-icon">
-												<i class="fa fa-wrench"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="shorter">Professional and Efficient services</h4>
-												<p class="tall">We give the professional solutions for customers before we start the jobs. We try our best to finish the jobs as soon as possible respecting the rule time is money.</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
+										
+																		<div class="col-md-4">
+													<hr>						
 										<div class="feature-box secundary">
 											<div class="feature-box-icon">
 												<i class="fa fa-file"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">Contract service</h4>
-												<p class="tall">We keep offering contracts to the small businesses for long-term services and great deals on our featured products. There are many discounts on upgrading old equipment and on-site services for contracted clients.</p>
+												<h4 class="shorter">平面设计</h4>
+												<p class="tall">为企业和个人网络海报设计，网站横幅设计，企业标志设计（VI），传单设计，印刷海报设计，产品图册和宣传册设计。</p>
+												<ul>
+												<li>网络海报、广告横幅设计</li>
+												<li>企业标志设计（VI）</li>
+												<li>产品图册设计</li>
+												<li>宣传册设计</li>
+												</ul>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+																		<div class="col-md-4">
+											<hr>		
+										<div class="feature-box secundary">
+											<div class="feature-box-icon">
+												<i class="fa fa-wrench"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="shorter">Adogo品牌与广告推广平台</h4>
+												<p class="tall">一个一站式获取产品和服务信息的专业生活搜索引擎。为商家和消费者建立一个的开放式交流渠道。为企业提供一个更为有效的信息传播与推广平台。</p>
+												<ul>
+												<li>在线支付流程实现</li>
+												<li>电子购物车开发</li>
+												<li>订单系统开发</li>
+												<li>Paypal系统集成</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+																		<div class="col-md-4">
+											<hr>		
 										<div class="feature-box secundary">
 											<div class="feature-box-icon">
 												<i class="fa fa-star"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="shorter">After-sale service</h4>
-												<p class="tall">We offer warranties on each product and service we sold in the store up to 3 months. For those products which have one-year warranty, we also help customers to do warranties with factories in order to maximize clients' satisfaction.</p>
+												<h4 class="shorter">企业应用</h4>
+												<p class="tall">量身订制轻量便捷功能强大的中小企业应用，提升企业整体运作效率，节省时间和成本，</p>
+												<ul>
+												<li>产品和库存管理</li>
+												<li>用户关系管理</li>
+												<li>订单发票管理</li>
+												<li>新闻消息管理</li>
+												</ul>
 											</div>
 										</div>
 									</div>
@@ -469,7 +504,7 @@
 			<!--  -->
 
 			<!-- footer -->
-			<%@ include file="04_footer_inc.html" %>
+			<%@ include file="04_footer_inc.jsp" %>
 			<!-- footer -->
 		</div>
 
