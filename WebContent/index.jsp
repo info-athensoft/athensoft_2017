@@ -2,7 +2,7 @@
 <%@ page language="java"%>
 <%@ page pageEncoding="utf-8"%>
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!-- image path base -->
 <c:set var="imageBase" value="img/local"></c:set>
@@ -153,7 +153,7 @@
 									<div class="col-md-4">
 										<div class="feature-box secundary">
 											<div class="feature-box-icon">
-												<i class="fa fa-shopping-cart"></i>
+												<i class="fa fa-wrench"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="shorter">网站开发</h4>
@@ -170,7 +170,7 @@
 									<div class="col-md-4">
 										<div class="feature-box secundary">
 											<div class="feature-box-icon">
-												<i class="fa fa-check"></i>
+												<i class="fa fa-line-chart"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="shorter">网络推广</h4>
@@ -187,11 +187,11 @@
 									<div class="col-md-4">
 										<div class="feature-box secundary">
 											<div class="feature-box-icon">
-												<i class="fa fa-group"></i>
+												<i class="fa fa-shopping-cart"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="shorter">在线支付</h4>
-												<p class="tall">为企业和个人提供便捷、灵活、安全、可靠的在线支付解决方案。使您的网站支持信用卡（VISA, MasterCard）、PayPal等多种在线结算方式。</p>
+												<p class="tall">为企业和个人提供便捷灵活、安全可靠的在线支付解决方案。使您的网站支持信用卡（VISA, MasterCard）、PayPal等多种在线结算方式。</p>
 												<ul>
 												<li>在线支付流程实现</li>
 												<li>电子购物车开发</li>
@@ -202,11 +202,11 @@
 										</div>
 									</div>
 										
-																		<div class="col-md-4">
+										<div class="col-md-4">
 													<hr>						
 										<div class="feature-box secundary">
 											<div class="feature-box-icon">
-												<i class="fa fa-file"></i>
+												<i class="fa fa-paint-brush"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="shorter">平面设计</h4>
@@ -220,15 +220,15 @@
 											</div>
 										</div>
 									</div>
-																		<div class="col-md-4">
-											<hr>		
-										<div class="feature-box secundary">
+									<div class="col-md-4">
+									<hr>		
+									<div class="feature-box secundary">
 											<div class="feature-box-icon">
-												<i class="fa fa-wrench"></i>
+												<i class="fa fa-group"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="shorter">Adogo品牌与广告推广平台</h4>
-												<p class="tall">一个一站式获取产品和服务信息的专业生活搜索引擎。为商家和消费者建立一个的开放式交流渠道。为企业提供一个更为有效的信息传播与推广平台。</p>
+												<p class="tall">一站式获取产品和服务信息的专业生活搜索引擎。商家和消费者的开放式交流渠道。为企业提供一个更为有效的信息传播与推广平台。</p>
 												<ul>
 												<li>在线支付流程实现</li>
 												<li>电子购物车开发</li>
@@ -238,15 +238,15 @@
 											</div>
 										</div>
 									</div>
-																		<div class="col-md-4">
-											<hr>		
-										<div class="feature-box secundary">
+									<div class="col-md-4">
+									<hr>		
+									<div class="feature-box secundary">
 											<div class="feature-box-icon">
-												<i class="fa fa-star"></i>
+												<i class="fa fa-briefcase"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="shorter">企业应用</h4>
-												<p class="tall">量身订制轻量便捷功能强大的中小企业应用，提升企业整体运作效率，节省时间和成本，</p>
+												<p class="tall">量身订制轻量型中小企业应用，操作便捷，为您节省时间和人工成本功能强大，大大提升您的企业整体运作效率。</p>
 												<ul>
 												<li>产品和库存管理</li>
 												<li>用户关系管理</li>
@@ -268,43 +268,109 @@
 							<img class="img-responsive" src="${imageBase}/home/1.jpg" alt="layout styles" data-appear-animation="fadeInLeft">
 						</div>
 						<div class="col-md-7 col-md-offset-1">
-							<h2 class="push-top"><strong>Chip-level</strong> maintenance</h2>
+							<h2 class="push-top"><strong>建立网站之前该准备什么？</strong></h2>
 							<p class="lead">
-								is a high-precision professional electronic reparation. Due to the high difficulty and high-tech requirements, our company hires professional technicians and purchases specific equipment to accomplish the jobs. In fact, chip-level maintenance tools require very high technical contents not like the general maintenance. So far, our chip-level maintenance is mainly applying on PC's motherboard problems and smart phone main board problems.
-							</p>
+								在互联网、通讯、移动技术迅猛发展的今天，建立属于自己的网站是您的业务发展过程中不可或缺的一环。尽管网站已经司空见惯，但是建立网站本身仍然是一个专业性较强的话题。在您打算建立您专属网站之前，需要：</p>
+									<ul>
+									<li>准备好一个简单容易记的域名</li>
+									<li>咨询技术人员如何选购主机空间 </li>
+									<li>联系一家专业的网站开发商</li>
+									<li>制定好您将展示在互联网上的业务方案</li>
+									<li>制定好符合业务需要的网站预算方案</li>
+									</ul>
+							
 						</div>
 					</div>
-
-					<hr class="tall" />
-
+					
+					<hr class="tall" />			
+				
+				 
 					<div class="row">
 						<div class="col-md-7">
-							<h2 class="push-top">Professional <strong>Security System</strong> Installation</strong></h2>
-							<p class="lead">
-								We have stated installing security systems for business institutions since the company was launched in 1996. Since then, we have installed over 300 sets of security system for small businesses. We offer those business owners perfect sales service. All of our clients are satisfied with our services and products, so that we always have long-term cooperation with our clients.  
-							</p>
+							<h2 class="push-top"> <strong>如何选择适合您的网站方案？ </strong></h2>
+							<p class="lead">"我的网站应该是什么样子？" 这是每个商户们心中普遍想过的问题。其实要弄清楚非常简单，只需要考虑以下几点： </p>
+								<ul>		
+								<li>个人网站？公司网站？</li>
+								<li>何种行业？电商？批发零售？餐饮？旅游？服务业？教育？……）</li>
+								<li>何种商业目的？（企业形象，品牌形象？产品/服务展示？运营？推广？……）</li>
+								<li>包含什么功能？（多语言？内容管理？产品管理？用户管理？在线支付？……）</li>
+								<li>谁来维护？（您自己的团队维护？委托第三方维护？协同维护？）</li>
+								</ul>
+							 
 						</div>
 						<div class="col-md-4 col-md-offset-1 push-top">
 							<img class="img-responsive" src="${imageBase}/home/2.jpg" alt="style switcher" data-appear-animation="fadeInRight">
 						</div>
 					</div>
 					
+										<hr class="tall" />			
+					
 					<div class="row push-top">
 						<div class="col-md-4 push-top">
 							<img class="img-responsive" src="${imageBase}/home/3.jpg" alt="layout styles" data-appear-animation="fadeInLeft">
 						</div>
 						<div class="col-md-7 col-md-offset-1">
-							<h2 class="push-top">Always <strong>Good deals</h2>
-							<p class="lead">
-								Our used products which we are selling are promised more than 50% lower than the market price as well as 10% lower on new products. For reparation, if we cannot fix, we don't charge. The clients are always able to find the right products in the store. However, our service charger is relevantly reasonable than other big stores. 
+							<h2 class="push-top"><strong>做网站的基本流程是怎样的？</strong></h2>
+							<p class="lead">一个专业和规范的网站设计团队会严格遵循软件设计流程和技术行业商业流程的规则，充分了解客户的需求，与客户共同完成网站项目的各个阶段，依次包含：
 							</p>
+								<ul>
+								<li>业务意向达成</li>
+								<li>了解业务需求和设计要求</li>
+								<li>签立服务合同或协议</li>
+								<li>设计方案确定</li>
+								<li>实施和构建</li>
+								<li>验收和发布</li>
+								<li>移交和维护</li>
+								</ul>
+							
+							
 						</div>
 					</div>
-
-					<hr class="tall">
+		
+				
+			<hr class="tall" />	
+					<div class="row">
+						<div class="col-md-7">
+							<h2 class="push-top"><strong>影响网站价格的因素有哪些？ </strong></h2>
+							<p class="lead">从客户的角度来说，网站的成本一般包含域名空间服务费、设计开发费、运营维护费等部分。通常意义上的“做网站的费用”是网站开发商收取的设计开发费，其它部分费用则是缴纳给相应的服务提供商。部分网站开发商可以代理域名空间购置和运营维护。设计费用没有具体定数和统一标准，但基本上按照工作量，复杂程度，设计精细度等方面估算：<a href="" target="_blank"><strong>在线免费估价>></strong></a> </p>
+								<ul>
+									<li>网站外观设计的美观度</li>
+									<li>实现视觉效果和用户体验复杂度</li>
+									<li>网站网页的数量</li>
+									<li>网站功能的数量与复杂程度</li>
+									<li>网站的数据量</li>
+									<li>网站架构设计的灵活度</li>
+									<li>运用技术的先进程度和实现的难易程度</li>
+								</ul>
+							 
+						</div>
+						<div class="col-md-4 col-md-offset-1 push-top">
+							<img class="img-responsive" src="${imageBase}/home/2.jpg" alt="style switcher" data-appear-animation="fadeInRight">
+						</div>
+					</div>
+	</div>
+				
+				<div class="home-intro">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<p>网站模板
+									<span>种类繁多，设计新颖</span>
+								</p>
+							</div>
+							<div class="col-md-4">
+								<div class="get-started">
+									<a href="signup.do" class="btn btn-lg btn-primary">查看更多!</a>
+									<div class="learn-more">更多服务请 <a href="gotocontactus.do" target="_blank">联系我们</a>。</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				
-				<!-- featured products -->
+				
+				
+				<!-- featured 
 				<div class="container">
 					<div class="row center">
 						<div class="col-md-12">
@@ -317,7 +383,11 @@
 						</div>
 					</div>
 				</div>
-
+				products -->
+				
+				
+				
+				
 				<ul class="portfolio-list sort-destination full-width">
 					<li class="isotope-item">
 						<div class="portfolio-item img-thumbnail">

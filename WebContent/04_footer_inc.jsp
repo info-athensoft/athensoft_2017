@@ -10,14 +10,14 @@
 						</div>
 						<div class="col-md-3">
 							<div class="newsletter">
-								<h4>Our Services</h4>
+								<h4>服务项目</h4>
 								<p>
-									<a href="gotoservice.do">Hardware diagnostic</a><br/>
-									<a href="gotoservice.do">Operating system maintenance</a><br/>
-									<a href="gotoservice.do">Hardware reparation</a><br/>
-									<a href="gotoservice.do">Smartphone screen replacement</a><br/>
-									<a href="gotoservice.do">Data recovery</a><br/>
-									<a href="gotoservice.do">Security system installation</a>
+									<a href="gotoservice.do">网站建设</a><br/>
+									<a href="gotoservice.do">电子商务解决方案</a><br/>
+									<a href="gotoservice.do">电子商务咨询</a><br/>
+									<a href="gotoservice.do">网络推广</a><br/>
+									<a href="gotoservice.do">在线支付解决方案</a><br/>
+									<a href="gotoservice.do">平面设计（网络/印刷）</a>
 								</p>
 								
 								<!--
@@ -40,29 +40,24 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<h4>Our Products</h4>
-							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options='{"username": "", "count": 2}'>
-								<p>
-									<a href="goshopping_family.do?familyClassId=2">Security devices</a><br/>
-									<a href="goshopping_family.do?familyClassId=3">Laptops</a><br/>
-									<a href="goshopping_family.do?familyClassId=4">Desktops</a><br/>
-									<a href="goshopping_family.do?familyClassId=5">Tablets</a><br/>
-									<a href="goshopping_family.do?familyClassId=6">Computer Accessories</a><br/>
-									<a href="goshopping_family.do?familyClassId=7">Printer Accessories</a><br/>
-									<a href="goshopping_family.do?familyClassId=8">Monitors</a>&nbsp;&nbsp;
-									<a href="goshopping_family.do?familyClassId=9">TVs</a>
-									
-								</p>
+							<h4>联系我们</h4>
+							<div class="contact-details">
+								<ul class="contact">
+									<li><strong>一般咨询：</strong>info@athensoft.com</li>
+									<li><strong>注册客户：</strong>support@athensoft.com</li>
+									<li><strong>联系电话：</strong>(514)746-9188</li>
+									<li><strong>微信客服：</strong>Athens314<br/></li>
+								</ul>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="contact-details">
 								<h4>Contact Us</h4>
 								<ul class="contact">
-									<li><p><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1678 Avenue Lincoln, Montreal, Canada</p></li>
-									<li><p><i class="fa fa-phone"></i> <strong>Phone:</strong> (514) 938-9491</p></li>
-									<li><p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mtlpc@videotron.ca">mtlpc@videotron.ca</a></p></li>
-								</ul>
+									<li><strong>位置:</strong> Montreal Quebec Canada</li>
+									<li><strong>电话:</strong> (514) 746-9188</li>
+									<li><strong>邮箱:</strong> <a href="mailto:info@athensoft.com">info@athensoft.com</a></li>
+								</ul>	
 							</div>
 						</div>
 						<div class="col-md-2">
@@ -82,7 +77,7 @@
 						<div class="row">
 							<div class="col-md-1">
 								<a href="index.html" class="logo">
-									<img alt="Porto Website Template" class="img-responsive" src="img/logo/logo_grey.png">
+									<img alt="Porto Website Template" class="img-responsive" src="img/logo/athensoftlogo-grey.png" width="64">
 								</a>
 							</div>
 							<div class="col-md-7">
