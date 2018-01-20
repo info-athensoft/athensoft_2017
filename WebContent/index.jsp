@@ -41,6 +41,7 @@
 		<!-- Current Page CSS -->
 		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
 		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+		<link rel="stylesheet" href="vendor/nivo-slider/nivo-slider.css" media="screen">
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/default.css">
@@ -602,6 +603,7 @@
 		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+		<script src="vendor/nivo-slider/jquery.nivo.slider.js"></script>
 		<script src="js/views/view.home.js"></script>
 		
 		<!-- Theme Custom -->
