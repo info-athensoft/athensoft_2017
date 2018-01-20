@@ -8,14 +8,43 @@
 		theme.PluginScrollToTop.initialize();
 	}
 
-	// Parallax
-	if (typeof theme.PluginParallax !== 'undefined') {
-		theme.PluginParallax.initialize();
-	}
-
 	// Tooltips
 	if ($.isFunction($.fn['tooltip'])) {
-		$('[data-tooltip]').tooltip();
+		$('[data-tooltip]:not(.manual), [data-plugin-tooltip]:not(.manual)').tooltip();
+	}
+
+	// Popover
+	if ($.isFunction($.fn['popover'])) {
+		$(function() {
+			$('[data-plugin-popover]:not(.manual)').each(function() {
+				var $this = $(this),
+					opts;
+
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
+				if (pluginOptions)
+					opts = pluginOptions;
+
+				$this.popover(opts);
+			});
+		});
+	}
+
+	// Validations
+	if (typeof theme.PluginValidation !== 'undefined') {
+		theme.PluginValidation.initialize();
+	}
+
+	// Match Height
+	if ($.isFunction($.fn['matchHeight'])) {
+
+		$('.match-height').matchHeight();
+
+		// Featured Boxes
+		$('.featured-boxes .featured-box').matchHeight();
+
+		// Featured Box Full
+		$('.featured-box-full').matchHeight();
+
 	}
 
 }).apply(this, [jQuery]);
@@ -28,11 +57,11 @@
 	if ($.isFunction($.fn['themePluginAnimate'])) {
 
 		$(function() {
-			$('[data-plugin-animate], [data-appear-animation]').each(function() {
+			$('[data-appear-animation]').each(function() {
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -56,7 +85,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -80,7 +109,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -104,7 +133,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -116,23 +145,23 @@
 
 }).apply(this, [jQuery]);
 
-// Flickr
+// Lazy Load
 (function($) {
 
 	'use strict';
 
-	if ($.isFunction($.fn['themePluginFlickr'])) {
+	if ($.isFunction($.fn['themePluginLazyLoad'])) {
 
 		$(function() {
-			$('[data-plugin-flickr]:not(.manual)').each(function() {
+			$('[data-plugin-lazyload]:not(.manual)').each(function() {
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
-				$this.themePluginFlickr(opts);
+				$this.themePluginLazyLoad(opts);
 			});
 		});
 
@@ -152,7 +181,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -176,11 +205,59 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
 				$this.themePluginMasonry(opts);
+			});
+		});
+
+	}
+
+}).apply(this, [jQuery]);
+
+// Match Height
+(function($) {
+
+	'use strict';
+
+	if ($.isFunction($.fn['themePluginMatchHeight'])) {
+
+		$(function() {
+			$('[data-plugin-match-height]:not(.manual)').each(function() {
+				var $this = $(this),
+					opts;
+
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
+				if (pluginOptions)
+					opts = pluginOptions;
+
+				$this.themePluginMatchHeight(opts);
+			});
+		});
+
+	}
+
+}).apply(this, [jQuery]);
+
+// Parallax
+(function($) {
+
+	'use strict';
+
+	if ($.isFunction($.fn['themePluginParallax'])) {
+
+		$(function() {
+			$('[data-plugin-parallax]:not(.manual)').each(function() {
+				var $this = $(this),
+					opts;
+
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
+				if (pluginOptions)
+					opts = pluginOptions;
+
+				$this.themePluginParallax(opts);
 			});
 		});
 
@@ -200,7 +277,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -224,7 +301,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -248,11 +325,35 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
 				$this.themePluginSort(opts);
+			});
+		});
+
+	}
+
+}).apply(this, [jQuery]);
+
+// Sticky
+(function($) {
+
+	'use strict';
+
+	if ($.isFunction($.fn['themePluginSticky'])) {
+
+		$(function() {
+			$('[data-plugin-sticky]:not(.manual)').each(function() {
+				var $this = $(this),
+					opts;
+
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
+				if (pluginOptions)
+					opts = pluginOptions;
+
+				$this.themePluginSticky(opts);
 			});
 		});
 
@@ -272,7 +373,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -296,7 +397,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -320,7 +421,7 @@
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
@@ -332,23 +433,23 @@
 
 }).apply(this, [jQuery]);
 
-// Word Rotate
+// Word Rotator
 (function($) {
 
 	'use strict';
 
-	if ($.isFunction($.fn['themePluginWordRotate'])) {
+	if ($.isFunction($.fn['themePluginWordRotator'])) {
 
 		$(function() {
-			$('[data-plugin-word-rotate]:not(.manual), .word-rotate:not(.manual)').each(function() {
+			$('[data-plugin-word-rotator]:not(.manual), .word-rotator:not(.manual)').each(function() {
 				var $this = $(this),
 					opts;
 
-				var pluginOptions = $this.data('plugin-options');
+				var pluginOptions = theme.fn.getOptions($this.data('plugin-options'));
 				if (pluginOptions)
 					opts = pluginOptions;
 
-				$this.themePluginWordRotate(opts);
+				$this.themePluginWordRotator(opts);
 			});
 		});
 
@@ -361,9 +462,9 @@
 
 	'use strict';
 
-	// Sticky Menu
-	if (typeof theme.StickyMenu !== 'undefined') {
-		theme.StickyMenu.initialize();
+	// Sticky Header
+	if (typeof theme.StickyHeader !== 'undefined') {
+		theme.StickyHeader.initialize();
 	}
 
 	// Nav Menu

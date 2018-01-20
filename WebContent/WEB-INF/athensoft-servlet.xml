@@ -11,9 +11,7 @@
 	<mvc:annotation-driven></mvc:annotation-driven>
 	
 	<!-- Component auto-scan support -->
-	<context:component-scan base-package="com.athensoft.ecomm.controller"></context:component-scan>
-	<context:component-scan base-package="com.athensoft.uaas.controller"></context:component-scan>
-	<context:component-scan base-package="com.athensoft.common.controller"></context:component-scan>
+	<context:component-scan base-package="com.athensoft.site.**.controller"></context:component-scan>
 	
 
 	<!-- View Resolver -->
@@ -22,4 +20,11 @@
 		<property name="prefix" value="/WEB-INF/jsp/"></property>
 		<property name="suffix" value=".jsp"></property>
 	</bean>
+	
+	<!-- static resources -->
+	<mvc:resources mapping="/images/**" location="images/" />
+	<mvc:resources mapping="/img/**" location="img/" />
+	<mvc:resources mapping="/css/**" location="css/" />
+	<mvc:resources mapping="/js/**" location="js/" />
+	<mvc:resources mapping="/vendor/**" location="vendor/" />
 </beans>

@@ -1,7 +1,7 @@
 /*
 Name: 			View - Home
 Written by: 	Okler Themes - (http://www.okler.net)
-Version: 		3.7.0
+Theme Version:	6.0.0
 */
 
 (function($) {
@@ -62,7 +62,12 @@ Version: 		3.7.0
 			manualAdvance: false,
 			prevText: 'Prev',
 			nextText: 'Next',
-			randomStart: false
+			randomStart: false,
+			beforeChange: function(){},
+			afterChange: function(){},
+			slideshowEnd: function(){},
+			lastSlide: function(){},
+			afterLoad: function(){}
 		});
 	}
 
