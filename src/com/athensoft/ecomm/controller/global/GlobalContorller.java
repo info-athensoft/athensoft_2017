@@ -177,6 +177,4 @@ public class GlobalContorller {
 		mav.setViewName("sitemap");
 		return mav;
 	}
-	
-	
 }
