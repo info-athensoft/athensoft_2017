@@ -92,7 +92,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-graphic"/></h1>
+								<h1><spring:message code="page-title-portfolio"/></h1>
 							</div>
 						</div>
 					</div>
@@ -310,14 +310,14 @@
 							</p>
 						</div>
 						<div class="col-sm-4 mt-4">
-							<img class="img-fluid mt-5" src="${img_dir}/device.png" alt="">
+							<img class="img-fluid mt-5" src="img/device.png" alt="">
 						</div>
 					</div>
 
 				</div>
 
 			</div>
-			
+
 			<!-- footer -->
 			<jsp:include page="${inc_dir}/footer_inc.jsp"></jsp:include>
 			<!-- END footer -->

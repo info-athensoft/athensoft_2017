@@ -46,36 +46,36 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
 
 		<!-- Vendor CSS -->
-		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="vendor/animate/animate.min.css">
-		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
-		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/animate/animate.min.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/magnific-popup/magnific-popup.min.css">
 
 		<!-- Theme CSS -->
-		<link rel="stylesheet" href="css/theme.css">
-		<link rel="stylesheet" href="css/theme-elements.css">
-		<link rel="stylesheet" href="css/theme-blog.css">
-		<link rel="stylesheet" href="css/theme-shop.css">
+		<link rel="stylesheet" href="${webapp_name}/css/theme.css">
+		<link rel="stylesheet" href="${webapp_name}/css/theme-elements.css">
+		<link rel="stylesheet" href="${webapp_name}/css/theme-blog.css">
+		<link rel="stylesheet" href="${webapp_name}/css/theme-shop.css">
 
 		<!-- Current Page CSS -->
-		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/rs-plugin/css/settings.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/rs-plugin/css/layers.css">
+		<link rel="stylesheet" href="${webapp_name}/vendor/rs-plugin/css/navigation.css">
 		
 		<!-- Demo CSS -->
 
 
 		<!-- Skin CSS -->
-		<link rel="stylesheet" href="css/skins/default.css"> 
+		<link rel="stylesheet" href="${webapp_name}/css/skins/default.css"> 
 
 		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="${webapp_name}/css/custom.css">
 
 		<!-- Head Libs -->
-		<script src="vendor/modernizr/modernizr.min.js"></script>
+		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
 	<body>
@@ -144,57 +144,57 @@
 												<i class="fa fa-group"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-0">Customer Support</h4>
-												<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing <span class="alternative-font">metus.</span> elit. Quisque rutrum pellentesque imperdiet.</p>
+												<h4 class="mb-0"><spring:message code="index-feature-title-1"/></h4>
+												<p class="mb-4"><spring:message code="index-feature-1"/></p>
 											</div>
 										</div>
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-file"></i>
+												<i class="fa fa-group"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-0">HTML5 / CSS3 / JS</h4>
-												<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4">
-										<div class="feature-box feature-box-style-2">
-											<div class="feature-box-icon">
-												<i class="fa fa-film"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="mb-0">Sliders</h4>
-												<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-											</div>
-										</div>
-										<div class="feature-box feature-box-style-2">
-											<div class="feature-box-icon">
-												<i class="fa fa-check"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="mb-0">Icons</h4>
-												<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing <span class="alternative-font">metus.</span> elit. Quisque rutrum pellentesque imperdiet.</p>
+												<h4 class="mb-0"><spring:message code="index-feature-title-2"/></h4>
+												<p class="mb-4"><spring:message code="index-feature-2"/></p>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4">
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-bars"></i>
+												<i class="fa fa-group"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-0">Buttons</h4>
-												<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+												<h4 class="mb-0"><spring:message code="index-feature-title-3"/></h4>
+												<p class="mb-4"><spring:message code="index-feature-3"/></p>
 											</div>
 										</div>
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-desktop"></i>
+												<i class="fa fa-group"></i>
 											</div>
 											<div class="feature-box-info">
-												<h4 class="mb-0">Lightbox</h4>
-												<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+												<h4 class="mb-0"><spring:message code="index-feature-title-4"/></h4>
+												<p class="mb-4"><spring:message code="index-feature-4"/></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="feature-box feature-box-style-2">
+											<div class="feature-box-icon">
+												<i class="fa fa-group"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="mb-0"><spring:message code="index-feature-title-5"/></h4>
+												<p class="mb-4"><spring:message code="index-feature-5"/></p>
+											</div>
+										</div>
+										<div class="feature-box feature-box-style-2">
+											<div class="feature-box-icon">
+												<i class="fa fa-group"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="mb-0"><spring:message code="index-feature-title-6"/></h4>
+												<p class="mb-4"><spring:message code="index-feature-6"/></p>
 											</div>
 										</div>
 									</div>
@@ -205,50 +205,17 @@
 				</section>
 
 				<div class="container">
-					<div class="row counters">
-						<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-							<div class="counter counter-dark">
-								<i class="fa fa-user"></i>
-								<strong data-to="25000" data-append="+">0</strong>
-								<label>Happy Clients</label>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-							<div class="counter counter-dark">
-								<i class="fa fa-star"></i>
-								<strong data-to="15">0</strong>
-								<label>Years in Business</label>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3 mb-4 mb-sm-0">
-							<div class="counter counter-dark">
-								<i class="fa fa-coffee"></i>
-								<strong data-to="352">0</strong>
-								<label>Cups of Coffee</label>
-							</div>
-						</div>
-						<div class="col-sm-6 col-lg-3">
-							<div class="counter counter-dark">
-								<i class="fa fa-bar-chart"></i>
-								<strong data-to="178">0</strong>
-								<label>High Score</label>
-							</div>
-						</div>
-					</div>
-
-					<hr class="tall">
-
 					<div class="row">
 						<div class="col-lg-4">
-							<img class="img-fluid mt-5 appear-animation" src="img/layout-styles.png" alt="layout styles" data-appear-animation="fadeInLeft">
+							<img class="img-fluid mt-5 appear-animation" src="${img_dir}/local/home/content-1.jpg" alt="layout styles" data-appear-animation="fadeInLeft">
 						</div>
 						<div class="col-lg-7 col-lg-offset-1">
-							<h2 class="mt-5"><strong>Layout</strong> Styles &amp; Variants</h2>
+							<h2 class="mt-5"><strong><spring:message code="index-content-title-1a"/></strong> <spring:message code="index-content-title-1b"/></h2>
 							<p class="lead">
-								There are so many styles you can combine that is possible to create almost any kind of layout based on Porto Template, navigate in our preview and see the header variations, the colors, and the page content types that you will be able to use.
+								<spring:message code="index-content-1a"/>
 							</p>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo. Vestibulum ante ipsum primis in faucibus orci.
+								<spring:message code="index-content-1b"/>
 							</p>
 						</div>
 					</div>
@@ -257,19 +224,52 @@
 
 					<div class="row">
 						<div class="col-lg-7">
-							<h2 class="mt-5">Exclusive <strong>Style Switcher</strong></h2>
+							<h2 class="mt-5"><strong><spring:message code="index-content-title-2a"/></strong> <spring:message code="index-content-title-2b"/></h2>
 							<p class="lead">
-								With our exlusive Style Switcher you will be able to choose any color you want for your website, choose the layout style (wide / boxed), website type (one page / normal), then generate the css that will be compiled by a {less} proccessor. 
+								 <spring:message code="index-content-2a"/>
 							</p>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo. Vestibulum ante ipsum primis in faucibus orci.
+								<spring:message code="index-content-2b"/>
 							</p>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1 mt-5">
-							<img class="img-fluid appear-animation" src="img/style-switcher.png" alt="style switcher" data-appear-animation="fadeInRight">
+							<img class="img-fluid appear-animation" src="${img_dir}/local/home/content-2.jpg" alt="style switcher" data-appear-animation="fadeInRight">
 						</div>
 					</div>
 					
+					<hr class="tall">
+					
+					<div class="row">
+						<div class="col-lg-4">
+							<img class="img-fluid mt-5 appear-animation" src="${img_dir}/local/home/content-3.jpg" alt="layout styles" data-appear-animation="fadeInLeft">
+						</div>
+						<div class="col-lg-7 col-lg-offset-1">
+							<h2 class="mt-5"><strong><spring:message code="index-content-title-3a"/></strong> <spring:message code="index-content-title-3b"/></h2>
+							<p class="lead">
+								<spring:message code="index-content-3a"/>
+							</p>
+							<p>
+								<spring:message code="index-content-3b"/>
+							</p>
+						</div>
+					</div>
+					
+					<hr class="tall">
+
+					<div class="row">
+						<div class="col-lg-7">
+							<h2 class="mt-5"><strong><spring:message code="index-content-title-4a"/></strong> <spring:message code="index-content-title-4b"/></h2>
+							<p class="lead">
+								 <spring:message code="index-content-4a"/>
+							</p>
+							<p>
+								<spring:message code="index-content-4b"/>
+							</p>
+						</div>
+						<div class="col-lg-4 col-lg-offset-1 mt-5">
+							<img class="img-fluid appear-animation" src="${img_dir}/local/home/content-4.jpg" alt="style switcher" data-appear-animation="fadeInRight">
+						</div>
+					</div>
 					 
 					<hr class="tall">
 					<!-- 
@@ -514,34 +514,34 @@
 			</div>
 
 		<!-- Vendor -->
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-		<script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
-		<script src="vendor/popper/umd/popper.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="vendor/common/common.min.js"></script>
-		<script src="vendor/jquery.validation/jquery.validation.min.js"></script>
-		<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
-		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
-		<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-		<script src="vendor/isotope/jquery.isotope.min.js"></script>
-		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script src="vendor/vide/vide.min.js"></script>
+		<script src="${webapp_name}/vendor/jquery/jquery.min.js"></script>
+		<script src="${webapp_name}/vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="${webapp_name}/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="${webapp_name}/vendor/jquery-cookie/jquery-cookie.min.js"></script>
+		<script src="${webapp_name}/vendor/popper/umd/popper.min.js"></script>
+		<script src="${webapp_name}/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="${webapp_name}/vendor/common/common.min.js"></script>
+		<script src="${webapp_name}/vendor/jquery.validation/jquery.validation.min.js"></script>
+		<script src="${webapp_name}/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		<script src="${webapp_name}/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="${webapp_name}/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="${webapp_name}/vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="${webapp_name}/vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="${webapp_name}/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="${webapp_name}/vendor/vide/vide.min.js"></script>
 		
 		<!-- Theme Base, Components and Settings -->
-		<script src="js/theme.js"></script>
+		<script src="${webapp_name}/js/theme.js"></script>
 		
 		<!-- Current Page Vendor and Views -->
-		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="${webapp_name}/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="${webapp_name}/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 		
 		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
+		<script src="${webapp_name}/js/custom.js"></script>
 		
 		<!-- Theme Initialization Files -->
-		<script src="js/theme.init.js"></script>
+		<script src="${webapp_name}/js/theme.init.js"></script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>

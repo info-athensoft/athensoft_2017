@@ -27,11 +27,11 @@
 				
 				<!-- menu - language -->
 				<li class="dropdown">
-					<a class="dropdown-item dropdown-toggle" href="/graphic.html"> <spring:message code="menu-graphic"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#"><spring:message code="menu-graphic-1"/></a></li>
-						<li><a class="dropdown-item" href="#"><spring:message code="menu-graphic-2"/></a></li>
-						<li><a class="dropdown-item" href="#"><spring:message code="menu-graphic-3"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/index.html"><spring:message code="menu-graphic-1"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/portfolio.html"><spring:message code="menu-graphic-2"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/case.html"><spring:message code="menu-graphic-3"/></a></li>
 					</ul>
 				</li>
 				
