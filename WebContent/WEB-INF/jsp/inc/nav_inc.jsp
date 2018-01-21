@@ -2,10 +2,19 @@
 <%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 <!-- page variables  -->
 <c:set var="img_dir" value="../images"></c:set>
 <!-- END page variables -->
+
+<!-- i18n -->
+<c:set var="loc" value="en_US"/>
+<c:if test="${!(empty param.locale)}">
+  <c:set var="loc" value="${param.locale}"/>
+</c:if>
+<fmt:setLocale value="${loc}" />
+<!-- ENDS i18n -->
 
 <div class="header-nav">
 	<div
@@ -356,10 +365,10 @@
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-lang"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#"><img alt="English" src="${img_dir}/language/canada.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_en"/></a></li>
-						<li><a class="dropdown-item" href="#"><img alt="English" src="${img_dir}/language/french.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_fr"/></a></li>
-						<li><a class="dropdown-item" href="#"><img alt="English" src="${img_dir}/language/chineseS.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_chs"/></a></li>
-						<li><a class="dropdown-item" href="#"><img alt="English" src="${img_dir}/language/chineseS.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_cht"/></a></li>
+						<li><a class="dropdown-item" href="/index.html"><img alt="English" src="${img_dir}/language/canada.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_en"/></a></li>
+						<li><a class="dropdown-item" href="/index.html?locale=fr_CA"><img alt="English" src="${img_dir}/language/french.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_fr"/></a></li>
+						<li><a class="dropdown-item" href="/index.html?locale=zh_CN"><img alt="Chinese Simplied" src="${img_dir}/language/chineseS.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_chs"/></a></li>
+						<li><a class="dropdown-item" href="/index.html?locale=zh_CN"><img alt="Chinese Traditional" src="${img_dir}/language/chineseS.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_cht"/></a></li>
 					</ul>
 				</li>
 			</ul>

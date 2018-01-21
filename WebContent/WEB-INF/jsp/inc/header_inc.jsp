@@ -1,6 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 <!-- global variables settings -->
 <c:set var="webapp_name" value=""/>
@@ -9,6 +10,14 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="."/>
 <!-- END page variables -->
+
+<!-- i18n -->
+<c:set var="loc" value="en_US"/>
+<c:if test="${!(empty param.locale)}">
+  <c:set var="loc" value="${param.locale}"/>
+</c:if>
+<fmt:setLocale value="${loc}" />
+<!-- END i18n -->
 
 <header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 55, 'stickySetTop': '-55px', 'stickyChangeLogo': true}">
 	<div class="header-body">

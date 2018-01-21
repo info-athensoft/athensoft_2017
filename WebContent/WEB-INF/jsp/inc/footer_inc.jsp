@@ -2,10 +2,19 @@
 <%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 <!-- page variables  -->
 <c:set var="img_dir" value="../images"></c:set>
 <!-- END page variables -->
+
+<!-- i18n -->
+<c:set var="loc" value="en_US"/>
+<c:if test="${!(empty param.locale)}">
+  <c:set var="loc" value="${param.locale}"/>
+</c:if>
+<fmt:setLocale value="${loc}" />
+<!-- END i18n -->
 
 <footer id="footer">
 				<div class="container">

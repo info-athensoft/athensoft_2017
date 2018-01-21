@@ -19,7 +19,7 @@
   <c:set var="loc" value="${param.locale}"/>
 </c:if>
 <fmt:setLocale value="${loc}" />
-<!-- ENDS i18n -->
+<!-- END i18n -->
 
 <!DOCTYPE html>
 <html>
@@ -112,7 +112,7 @@
 					<div class="row text-center">
 						<div class="col">
 							<h2 class="mb-2 word-rotator-title">
-								Porto is the <strong>#1 Selling</strong> HTML Site Template on ThemeForest
+								Porto is the <strong>${loc}</strong> HTML Site Template on ThemeForest
 							</h2>
 							<p class="lead">
 								Trusted by over 25,000 satisfied users, Porto became the best-selling HTML template<br> in the of one of the world's largest MarketPlace.
