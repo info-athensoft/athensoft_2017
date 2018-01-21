@@ -8,24 +8,24 @@
 		class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
 		<nav class="collapse">
 			<ul class="nav nav-pills" id="mainNav">
-			
-				<li class=""><a class="nav-link active" href="/index.html"> <spring:message code="menu-home"/> </a></li>
-				
-				<li class="dropdown">
-					<a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-web"/> </a>
+				<li class="dropdown"><a
+					class="dropdown-item dropdown-toggle active" href="index.html">
+						Home </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#"> Landing Page </a></li>
-						<li class="dropdown-submenu">
-							<a class="dropdown-item" href="index-classic.html">Classic</a>
+						<li><a class="dropdown-item" href="index.html"> Landing
+								Page </a></li>
+						<li class="dropdown-submenu"><a class="dropdown-item"
+							href="index-classic.html">Classic</a>
 							<ul class="dropdown-menu">
 								<li><a class="dropdown-item" href="index-classic.html"
 									data-thumb-preview="img/previews/preview-classic.jpg">Classic
 										- Original</a></li>
 								<li><a class="dropdown-item"
 									href="index-classic-color.html"
-									data-thumb-preview="img/previews/preview-classic-color.jpg">Classic - Color</a></li>
-							</ul>
-						</li>
+									data-thumb-preview="img/previews/preview-classic-color.jpg">Classic
+										- Color</a></li>
+								
+							</ul></li>
 						<li class="dropdown-submenu"><a class="dropdown-item"
 							href="index-corporate.html">Corporate <span
 								class="tip tip-dark">hot</span></a>
@@ -47,9 +47,10 @@
 										Page Original</a></li>
 							</ul></li>
 					</ul></li>
-				
-				<li class="dropdown dropdown-mega">
-					<a class="dropdown-item dropdown-toggle" href="/graphic.html"> <spring:message code="menu-graphic"/> </a>
+				<li class=""><a class="nav-link" href="#"> <spring:message code="biz-website"/> </a>
+				</li>
+				<li class="dropdown dropdown-mega"><a
+					class="dropdown-item dropdown-toggle" href="#"> Shortcodes </a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class="dropdown-mega-content">
@@ -142,7 +143,8 @@
 							</div>
 						</li>
 					</ul></li>
-				<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-adogo"/> </a>
+				<li class="dropdown"><a class="dropdown-item dropdown-toggle"
+					href="#"> Features </a>
 
 					<ul class="dropdown-menu">
 						<li class="dropdown-submenu"><a class="dropdown-item"
@@ -358,7 +360,8 @@
 										Load</a></li>
 							</ul></li>
 					</ul></li>
-				<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"><spring:message code="menu-edu"/></a>
+				<li class="dropdown"><a class="dropdown-item dropdown-toggle"
+					href="#"> Portfolio </a>
 					<ul class="dropdown-menu">
 						<li class="dropdown-submenu"><a class="dropdown-item"
 							href="#">Single Project</a>
@@ -476,11 +479,13 @@
 										Filters</a></li>
 							</ul></li>
 					</ul></li>
-				<li class="dropdown">
-					<a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-lang"/> </a>
+				<li class="dropdown"><a class="dropdown-item dropdown-toggle"
+					href="#"> Contact Us </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#"><spring:message code="lang_en"/></a></li>
-						<li><a class="dropdown-item" href="#"><spring:message code="lang_fr"/></a></li>
+						<li><a class="dropdown-item" href="contact-us.html">Contact
+								Us - Basic</a></li>
+						<li><a class="dropdown-item" href="contact-us-advanced.php">Contact
+								Us - Advanced</a></li>
 					</ul></li>
 			</ul>
 		</nav>

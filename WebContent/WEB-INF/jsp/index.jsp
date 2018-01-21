@@ -1,6 +1,8 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!-- global variables settings -->
 <c:set var="webapp_name" value=""/>
@@ -11,6 +13,14 @@
 <c:set var="img_dir" value="images"></c:set>
 <!-- END page variables -->
 
+<!-- i18n -->
+<c:set var="loc" value="en_US"/>
+<c:if test="${!(empty param.locale)}">
+  <c:set var="loc" value="${param.locale}"/>
+</c:if>
+<fmt:setLocale value="${loc}" />
+<!-- ENDS i18n -->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -19,7 +29,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Informatique Athensoft - The professional and trustworthy software provider</title>	
+		<title><spring:message code="head-title"/></title>
 
 		<meta name="keywords" content="" />
 		<meta name="description" content="">
@@ -70,6 +80,7 @@
 	</head>
 	<body>
 		<div class="body">
+			<!-- header -->
 			<jsp:include page="${inc_dir}/header_inc.jsp"></jsp:include>
 
 			<div role="main" class="main">

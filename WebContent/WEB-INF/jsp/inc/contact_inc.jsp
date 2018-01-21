@@ -1,18 +1,17 @@
 <%@ page contentType="text/html; charset=utf-8"%>
-<%@ page language="java"%>
 <%@ page pageEncoding="utf-8"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <div class="header-row pt-3">
 	<nav class="header-nav-top">
 		<ul class="nav nav-pills">
 			<li class="nav-item d-none d-sm-block"><a class="nav-link"
-				href="about-us.html"><i class="fa fa-angle-right"></i> About Us</a>
+				href="about-us.html"><i class="fa fa-angle-right"></i> <spring:message code="link-about"/></a>
 			</li>
 			<li class="nav-item d-none d-sm-block"><a class="nav-link"
-				href="contact-us.html"><i class="fa fa-angle-right"></i> Contact
-					Us</a></li>
+				href="contact-us.html"><i class="fa fa-angle-right"></i> <spring:message code="link-contact"/></a></li>
 			<li class="nav-item"><span class="ws-nowrap"><i
-					class="fa fa-phone"></i> (123) 456-789</span></li>
+					class="fa fa-phone"></i> (514) 800-2956</span></li>
 		</ul>
 	</nav>
 	<div class="header-search d-none d-md-block">

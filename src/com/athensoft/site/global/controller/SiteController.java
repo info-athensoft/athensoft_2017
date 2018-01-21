@@ -23,4 +23,11 @@ public class SiteController {
 		logger.info("exiting.. /index");
 		return "index";
 	}
+	
+	@RequestMapping("/graphic.html")
+	public String gotoGraphicIndex(){
+		logger.info("entering.. /graphic.html");
+		logger.info("exiting.. /graphic.html");
+		return "graphic/graphic";
+	}
 }
