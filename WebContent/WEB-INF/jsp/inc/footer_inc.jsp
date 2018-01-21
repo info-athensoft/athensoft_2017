@@ -10,8 +10,8 @@
 
 <!-- i18n -->
 <c:set var="loc" value="en_US"/>
-<c:if test="${!(empty param.locale)}">
-  <c:set var="loc" value="${param.locale}"/>
+<c:if test="${!(empty param.lang)}">
+  <c:set var="loc" value="${param.lang}"/>
 </c:if>
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->

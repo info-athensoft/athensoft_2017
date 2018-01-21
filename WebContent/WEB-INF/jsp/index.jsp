@@ -15,8 +15,8 @@
 
 <!-- i18n -->
 <c:set var="loc" value="en_US"/>
-<c:if test="${!(empty param.locale)}">
-  <c:set var="loc" value="${param.locale}"/>
+<c:if test="${!(empty param.lang)}">
+  <c:set var="loc" value="${param.lang}"/>
 </c:if>
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
@@ -112,7 +112,7 @@
 					<div class="row text-center">
 						<div class="col">
 							<h2 class="mb-2 word-rotator-title">
-								Porto is the <strong>${loc}</strong> HTML Site Template on ThemeForest
+								Informatique Athensoft is the <strong>${loc}</strong> <spring:message code="index-feature-title-1"/>
 							</h2>
 							<p class="lead">
 								Trusted by over 25,000 satisfied users, Porto became the best-selling HTML template<br> in the of one of the world's largest MarketPlace.
