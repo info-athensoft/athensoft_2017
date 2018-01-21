@@ -1,7 +1,11 @@
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ page pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
+<!-- page variables  -->
+<c:set var="img_dir" value="../images"></c:set>
+<!-- END page variables -->
 
 <div class="header-nav">
 	<div
@@ -14,136 +18,24 @@
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-web"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#"> Landing Page </a></li>
-						<li class="dropdown-submenu">
-							<a class="dropdown-item" href="index-classic.html">Classic</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="index-classic.html"
-									data-thumb-preview="img/previews/preview-classic.jpg">Classic
-										- Original</a></li>
-								<li><a class="dropdown-item"
-									href="index-classic-color.html"
-									data-thumb-preview="img/previews/preview-classic-color.jpg">Classic - Color</a></li>
-							</ul>
-						</li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="index-corporate.html">Corporate <span
-								class="tip tip-dark">hot</span></a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="index-corporate.html"
-									data-thumb-preview="img/previews/preview-corporate.jpg">Corporate
-										- Version 1</a></li>
-								<li><a class="dropdown-item" href="index-corporate-2.html"
-									data-thumb-preview="img/previews/preview-corporate-version2.jpg">Corporate
-										- Version 2</a></li>
-								
-								
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">One Page</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="index-one-page.html"
-									data-thumb-preview="img/previews/preview-one-page.jpg">One
-										Page Original</a></li>
-							</ul></li>
+						<li><a class="dropdown-item" href="#"> <spring:message code="menu-web-1"/> </a></li>
+						<li><a class="dropdown-item" href="#"> <spring:message code="menu-web-2"/> </a></li>
+						<li><a class="dropdown-item" href="#"> <spring:message code="menu-web-3"/> </a></li>
+						<li><a class="dropdown-item" href="#"> <spring:message code="menu-web-4"/> </a></li>
 					</ul></li>
 				
-				<li class="dropdown dropdown-mega">
+				
+				<!-- menu - language -->
+				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic.html"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
-						<li>
-							<div class="dropdown-mega-content">
-								<div class="row">
-									<div class="col-lg-3">
-										<span class="dropdown-mega-sub-title">Shortcodes 1</span>
-										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item"
-												href="shortcodes-accordions.html">Accordions</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-toggles.html">Toggles</a></li>
-											<li><a class="dropdown-item" href="shortcodes-tabs.html">Tabs</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-icons.html">Icons</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-icon-boxes.html">Icon Boxes</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-carousels.html">Carousels</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-modals.html">Modals</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-lightboxes.html">Lightboxes</a></li>
-										</ul>
-									</div>
-									<div class="col-lg-3">
-										<span class="dropdown-mega-sub-title">Shortcodes 2</span>
-										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item"
-												href="shortcodes-buttons.html">Buttons</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-badges.html">Badges</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-lists.html">Lists</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-image-gallery.html">Image Gallery</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-image-frames.html">Image Frames</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-testimonials.html">Testimonials</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-blockquotes.html">Blockquotes</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-word-rotator.html">Word Rotator</a></li>
-										</ul>
-									</div>
-									<div class="col-lg-3">
-										<span class="dropdown-mega-sub-title">Shortcodes 3</span>
-										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item"
-												href="shortcodes-call-to-action.html">Call to Action</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-pricing-tables.html">Pricing Tables</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-tables.html">Tables</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-progressbars.html">Progress Bars</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-counters.html">Counters</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-sections-parallax.html">Sections &amp;
-													Parallax</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-tooltips-popovers.html">Tooltips &amp;
-													Popovers</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-sticky-elements.html">Sticky Elements</a></li>
-										</ul>
-									</div>
-									<div class="col-lg-3">
-										<span class="dropdown-mega-sub-title">Shortcodes 4</span>
-										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item"
-												href="shortcodes-headings.html">Headings</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-dividers.html">Dividers</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-animations.html">Animations</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-medias.html">Medias</a></li>
-											<li><a class="dropdown-item" href="shortcodes-maps.html">Maps</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-arrows.html">Arrows</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-alerts.html">Alerts</a></li>
-											<li><a class="dropdown-item"
-												href="shortcodes-posts.html">Posts</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul></li>
+						<li><a class="dropdown-item" href="#"><spring:message code="menu-graphic-1"/></a></li>
+						<li><a class="dropdown-item" href="#"><spring:message code="menu-graphic-2"/></a></li>
+						<li><a class="dropdown-item" href="#"><spring:message code="menu-graphic-3"/></a></li>
+					</ul>
+				</li>
+				
 				<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-adogo"/> </a>
-
 					<ul class="dropdown-menu">
 						<li class="dropdown-submenu"><a class="dropdown-item"
 							href="#">Headers</a>
@@ -161,203 +53,184 @@
 								<li class="dropdown-submenu"><a class="dropdown-item"
 									href="#">Flat</a>
 									<ul class="dropdown-menu">
-										<li><a class="dropdown-item"
-											href="index-header-flat.html">Flat</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-flat-top-bar.html">Flat + Top Bar</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-flat-colored-top-bar.html">Flat +
-												Colored Top Bar</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-flat-top-bar-search.html">Flat + Top
-												Bar with Search</a></li>
-									</ul></li>
-								<li><a class="dropdown-item"
-									href="index-header-center.html">Center</a></li>
-								<li><a class="dropdown-item"
-									href="index-header-below-slider.html">Below Slider</a></li>
-								<li><a class="dropdown-item"
-									href="index-header-full-video.html">Full Video</a></li>
-								<li><a class="dropdown-item"
-									href="index-header-narrow.html">Narrow</a></li>
-								<li><a class="dropdown-item"
-									href="index-header-always-sticky.html">Always Sticky</a></li>
-								<li class="dropdown-submenu"><a class="dropdown-item"
-									href="#">Transparent</a>
+										<li><a class="dropdown-item" href="#">Flat</a></li>
+										<li><a class="dropdown-item" href="#">Flat + Top Bar</a></li>
+										<li><a class="dropdown-item" href="#">Flat + Colored Top Bar</a></li>
+										<li><a class="dropdown-item" href="#">Flat + Top Bar with Search</a></li>
+									</ul>
+								</li>
+								<li><a class="dropdown-item" href="#">Center</a></li>
+								<li><a class="dropdown-item" href="#">Below Slider</a></li>
+								<li><a class="dropdown-item" href="#">Full Video</a></li>
+								<li><a class="dropdown-item" href="#">Narrow</a></li>
+								<li><a class="dropdown-item" href="#">Always Sticky</a></li>
+								<li class="dropdown-submenu"><a class="dropdown-item" href="#">Transparent</a>
 									<ul class="dropdown-menu">
-										<li><a class="dropdown-item"
-											href="index-header-transparent.html">Transparent</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-transparent-bottom-border.html">Transparent
-												- Bottom Border</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-semi-transparent.html">Semi
-												Transparent</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-semi-transparent-light.html">Semi
-												Transparent - Light</a></li>
-									</ul></li>
+										<li><a class="dropdown-item" href="#">Transparent</a></li>
+										<li><a class="dropdown-item" href="#">Transparent - Bottom Border</a></li>
+										<li><a class="dropdown-item" href="#">Semi Transparent</a></li>
+										<li><a class="dropdown-item" href="#">Semi Transparent - Light</a></li>
+									</ul>
+								</li>
 								<li><a class="dropdown-item"
-									href="index-header-full-width.html">Full-Width</a></li>
+									href="#">Full-Width</a></li>
 								<li class="dropdown-submenu"><a class="dropdown-item"
 									href="#">Navbar</a>
 									<ul class="dropdown-menu">
-										<li><a class="dropdown-item"
-											href="index-header-navbar.html">Navbar</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-navbar-extra-info.html">Navbar + Extra
-												Info</a></li>
-									</ul></li>
+										<li><a class="dropdown-item" href="#">Navbar</a></li>
+										<li><a class="dropdown-item" href="#">Navbar + Extra Info</a></li>
+									</ul>
+								</li>
 								<li class="dropdown-submenu"><a class="dropdown-item"
 									href="#">Side Header</a>
 									<ul class="dropdown-menu">
-										<li><a class="dropdown-item"
-											href="index-header-side-header-left.html">Side Header
-												Left</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-side-header-right.html">Side Header
-												Right</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-side-header-semi-transparent.html">Side
-												Header Semi Transparent</a></li>
+										<li><a class="dropdown-item" href="#">Side Header Left</a></li>
+										<li><a class="dropdown-item" href="#">Side Header Right</a></li>
+										<li><a class="dropdown-item" href="#">Side Header Semi Transparent</a></li>
 									</ul></li>
-								<li><a class="dropdown-item"
-									href="index-header-signin.html">Sign In / Sign Up</a></li>
-								<li><a class="dropdown-item"
-									href="index-header-logged.html">Logged</a></li>
+								<li><a class="dropdown-item" href="#">Sign In / Sign Up</a></li>
+								<li><a class="dropdown-item" href="#">Logged</a></li>
 							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Navigations</a>
+						<li class="dropdown-submenu"><a class="dropdown-item" href="#">Navigations</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="index-classic.html">Default</a></li>
-								<li><a class="dropdown-item"
-									href="index-navigation-stripe.html">Stripe</a></li>
-								<li><a class="dropdown-item"
-									href="index-navigation-top-line.html">Top Line</a></li>
-								<li><a class="dropdown-item"
-									href="index-navigation-dark-dropdown.html">Dark Dropdown</a></li>
-								<li><a class="dropdown-item"
-									href="index-navigation-colors.html">Colors</a></li>
+								<li><a class="dropdown-item" href="#">Default</a></li>
+								<li><a class="dropdown-item" href="#">Stripe</a></li>
+								<li><a class="dropdown-item" href="#">Top Line</a></li>
+								<li><a class="dropdown-item" href="#">Dark Dropdown</a></li>
+								<li><a class="dropdown-item" href="#">Colors</a></li>
 							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Footers</a>
+						<li class="dropdown-submenu"><a class="dropdown-item" href="#">Footers</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="index-classic.html#footer">Default</a></li>
-								<li><a class="dropdown-item"
-									href="index-footer-advanced.html#footer">Advanced</a></li>
-								<li><a class="dropdown-item"
-									href="index-footer-simple.html#footer">Simple</a></li>
-								<li><a class="dropdown-item"
-									href="index-footer-light.html#footer">Light</a></li>
-								<li><a class="dropdown-item"
-									href="index-footer-light-narrow.html#footer">Light Narrow</a></li>
-								<li class="dropdown-submenu"><a class="dropdown-item"
-									href="#">Colors</a>
+								<li><a class="dropdown-item" href="#">Default</a></li>
+								<li><a class="dropdown-item" href="#">Advanced</a></li>
+								<li><a class="dropdown-item" href="#">Simple</a></li>
+								<li><a class="dropdown-item" href="#">Light</a></li>
+								<li><a class="dropdown-item" href="#">Light Narrow</a></li>
+								<li class="dropdown-submenu">
+									<a class="dropdown-item" href="#">Colors</a>
 									<ul class="dropdown-menu">
-										<li><a class="dropdown-item"
-											href="index-footer-color-primary.html#footer">Primary
-												Color</a></li>
-										<li><a class="dropdown-item"
-											href="index-footer-color-secondary.html#footer">Secondary
-												Color</a></li>
-										<li><a class="dropdown-item"
-											href="index-footer-color-tertiary.html#footer">Tertiary
-												Color</a></li>
-										<li><a class="dropdown-item"
-											href="index-footer-color-quaternary.html#footer">Quaternary
-												Color</a></li>
+										<li><a class="dropdown-item" href="#">Primary Color</a></li>
+										<li><a class="dropdown-item" href="#">Secondary Color</a></li>
+										<li><a class="dropdown-item" href="#">Tertiary Color</a></li>
+										<li><a class="dropdown-item" href="#">Quaternary Color</a></li>
 									</ul></li>
-								<li><a class="dropdown-item"
-									href="index-footer-latest-work.html#footer">Latest Work</a></li>
-								<li><a class="dropdown-item"
-									href="index-footer-contact-form.html#footer">Contact Form</a></li>
+								<li><a class="dropdown-item" href="#">Latest Work</a></li>
+								<li><a class="dropdown-item" href="#">Contact Form</a></li>
 							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Page Headers</a>
+						<li class="dropdown-submenu">
+							<a class="dropdown-item" href="#">Page Headers</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="index-page-header-default.html">Default</a></li>
-								<li class="dropdown-submenu"><a class="dropdown-item"
-									href="#">Colors</a>
+								<li><a class="dropdown-item" href="#">Default</a></li>
+								<li class="dropdown-submenu"><a class="dropdown-item" href="#">Colors</a>
 									<ul class="dropdown-menu">
-										<li><a class="dropdown-item"
-											href="index-page-header-color-primary.html">Primary Color</a></li>
-										<li><a class="dropdown-item"
-											href="index-page-header-color-secondary.html">Secondary
-												Color</a></li>
-										<li><a class="dropdown-item"
-											href="index-page-header-color-tertiary.html">Tertiary
-												Color</a></li>
-										<li><a class="dropdown-item"
-											href="index-page-header-color-quaternary.html">Quaternary
-												Color</a></li>
+										<li><a class="dropdown-item" href="#">Primary Color</a></li>
+										<li><a class="dropdown-item" href="#">Secondary Color</a></li>
+										<li><a class="dropdown-item" href="#">Tertiary Color</a></li>
+										<li><a class="dropdown-item" href="#">Quaternary Color</a></li>
 									</ul></li>
-								<li><a class="dropdown-item"
-									href="index-page-header-light.html">Light</a></li>
-								<li><a class="dropdown-item"
-									href="index-page-header-light-reverse.html">Light - Reverse</a></li>
-								<li><a class="dropdown-item"
-									href="index-page-header-custom-background.html">Custom
-										Background</a></li>
-								<li><a class="dropdown-item"
-									href="index-page-header-parallax.html">Parallax</a></li>
-								<li><a class="dropdown-item"
-									href="index-page-header-center.html">Center</a></li>
+								<li><a class="dropdown-item" href="#">Light</a></li>
+								<li><a class="dropdown-item" href="#">Light - Reverse</a></li>
+								<li><a class="dropdown-item" href="#">Custom Background</a></li>
+								<li><a class="dropdown-item" href="#">Parallax</a></li>
+								<li><a class="dropdown-item" href="#">Center</a></li>
 							</ul></li>
 						<li class="dropdown-submenu"><a class="dropdown-item"
 							href="#">Admin Extension <span class="tip tip-dark">hot</span>
 								<em class="not-included">(Not Included)</em></a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="feature-admin-forms-basic.html">Forms Basic</a></li>
-								<li><a class="dropdown-item"
-									href="feature-admin-forms-advanced.html">Forms Advanced</a></li>
-								<li><a class="dropdown-item"
-									href="feature-admin-forms-wizard.html">Forms Wizard</a></li>
-								<li><a class="dropdown-item"
-									href="feature-admin-forms-code-editor.html">Code Editor</a></li>
-								<li><a class="dropdown-item"
-									href="feature-admin-tables-advanced.html">Tables Advanced</a></li>
-								<li><a class="dropdown-item"
-									href="feature-admin-tables-responsive.html">Tables
-										Responsive</a></li>
-								<li><a class="dropdown-item"
-									href="feature-admin-tables-editable.html">Tables Editable</a></li>
-								<li><a class="dropdown-item"
-									href="feature-admin-tables-ajax.html">Tables Ajax</a></li>
-								<li><a class="dropdown-item"
-									href="feature-admin-charts.html">Charts</a></li>
+								<li><a class="dropdown-item" href="#">Forms Basic</a></li>
+								<li><a class="dropdown-item" href="#">Forms Advanced</a></li>
+								<li><a class="dropdown-item" href="#">Forms Wizard</a></li>
+								<li><a class="dropdown-item" href="#">Code Editor</a></li>
+								<li><a class="dropdown-item" href="#">Tables Advanced</a></li>
+								<li><a class="dropdown-item" href="#">Tables Responsive</a></li>
+								<li><a class="dropdown-item" href="#">Tables Editable</a></li>
+								<li><a class="dropdown-item" href="#">Tables Ajax</a></li>
+								<li><a class="dropdown-item" href="#">Charts</a></li>
 							</ul></li>
 						<li class="dropdown-submenu"><a class="dropdown-item"
 							href="#">Sliders</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="index-classic.html">Revolution
-										Slider</a></li>
-								<li><a class="dropdown-item" href="index-slider-nivo.html">Nivo
-										Slider</a></li>
+								<li><a class="dropdown-item" href="#">Revolution Slider</a></li>
+								<li><a class="dropdown-item" href="#">Nivo Slider</a></li>
 							</ul></li>
 						<li class="dropdown-submenu"><a class="dropdown-item"
 							href="#">Layout Options</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="feature-layout-boxed.html">Boxed</a></li>
-								<li><a class="dropdown-item"
-									href="feature-layout-dark.html">Dark</a></li>
-								<li><a class="dropdown-item" href="feature-layout-rtl.html">RTL</a></li>
+								<li><a class="dropdown-item" href="#">Boxed</a></li>
+								<li><a class="dropdown-item" href="#">Dark</a></li>
+								<li><a class="dropdown-item" href="#">RTL</a></li>
 							</ul></li>
 						<li class="dropdown-submenu"><a class="dropdown-item"
 							href="#">Extra</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="feature-typography.html">Typography</a></li>
-								<li><a class="dropdown-item"
-									href="feature-grid-system.html">Grid System</a></li>
-								<li><a class="dropdown-item"
-									href="feature-page-loading.html">Page Loading</a></li>
-								<li><a class="dropdown-item" href="feature-lazy-load.html">Lazy
-										Load</a></li>
+								<li><a class="dropdown-item" href="#">Typography</a></li>
+								<li><a class="dropdown-item" href="#">Grid System</a></li>
+								<li><a class="dropdown-item" href="#">Page Loading</a></li>
+								<li><a class="dropdown-item" href="#">Lazy Load</a></li>
 							</ul></li>
 					</ul></li>
+				
+				<!-- menu - tour -->
+				<li class="dropdown dropdown-mega">
+					<a class="dropdown-item dropdown-toggle" href="/graphic.html"> <spring:message code="menu-edu"/> </a>
+					<ul class="dropdown-menu">
+						<li>
+							<div class="dropdown-mega-content">
+								<div class="row">
+									<div class="col-lg-3">
+										<span class="dropdown-mega-sub-title">Software Development</span>
+										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="#">Java Programming</a></li>
+											<li><a class="dropdown-item" href="#">Spring</a></li>
+											<li><a class="dropdown-item" href="#">Design Pattern</a></li>
+											<li><a class="dropdown-item" href="#">UML</a></li>
+											<li><a class="dropdown-item" href="#">Maven</a></li>
+											<li><a class="dropdown-item" href="#">Eclipse</a></li>
+											<li><a class="dropdown-item" href="#">Git</a></li>
+										</ul>
+									</div>
+									<div class="col-lg-3">
+										<span class="dropdown-mega-sub-title">AI and Bigdata</span>
+										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="#">Big Data</a></li>
+											<li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
+											<li><a class="dropdown-item" href="#">Machine Learning</a></li>
+											<li><a class="dropdown-item" href="#">Python</a></li>
+											<li><a class="dropdown-item" href="#">Kafka</a></li>
+											<li><a class="dropdown-item" href="#">Storm</a></li>
+											<li><a class="dropdown-item" href="#">Samza</a></li>
+										</ul>
+									</div>
+									<div class="col-lg-3">
+										<span class="dropdown-mega-sub-title">Online Marketing</span>
+										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="#">Social Media</a></li>
+											<li><a class="dropdown-item" href="#">Google Analytics</a></li>
+											<li><a class="dropdown-item" href="#">Google AdWords</a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+										</ul>
+									</div>
+									<div class="col-lg-3">
+										<span class="dropdown-mega-sub-title">Design and Media</span>
+										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="#">Graphic Design</a></li>
+											<li><a class="dropdown-item" href="#">Printing</a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</li>
+				
+				<!-- 
 				<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"><spring:message code="menu-edu"/></a>
 					<ul class="dropdown-menu">
 						<li class="dropdown-submenu"><a class="dropdown-item"
@@ -476,12 +349,19 @@
 										Filters</a></li>
 							</ul></li>
 					</ul></li>
+				
+ 				-->
+ 								
+ 				<!-- menu - language -->
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-lang"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#"><spring:message code="lang_en"/></a></li>
-						<li><a class="dropdown-item" href="#"><spring:message code="lang_fr"/></a></li>
-					</ul></li>
+						<li><a class="dropdown-item" href="#"><img alt="English" src="${img_dir}/language/canada.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_en"/></a></li>
+						<li><a class="dropdown-item" href="#"><img alt="English" src="${img_dir}/language/french.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_fr"/></a></li>
+						<li><a class="dropdown-item" href="#"><img alt="English" src="${img_dir}/language/chineseS.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_chs"/></a></li>
+						<li><a class="dropdown-item" href="#"><img alt="English" src="${img_dir}/language/chineseS.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_cht"/></a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 	</div>

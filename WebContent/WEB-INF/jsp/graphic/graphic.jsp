@@ -29,11 +29,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Services | INF. Athensoft</title>	
+		<title><spring:message code="head-title-graphic"/></title>
 
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta name="keywords" content="" />
+		<meta name="description" content="">
+		<meta name="author" content="">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -92,7 +92,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1>Services</h1>
+								<h1><spring:message code="page-title-graphic"/></h1>
 							</div>
 						</div>
 					</div>
