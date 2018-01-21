@@ -8,9 +8,8 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="inc"/>
-<c:set var="imageBase" value="images/local"></c:set>
+<c:set var="img_dir" value="images/icon"></c:set>
 <!-- END page variables -->
-
 
 <!DOCTYPE html>
 <html>
@@ -20,15 +19,15 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Porto - Responsive HTML5 Template 6.0.0</title>	
+		<title>Informatique Athensoft - The professional and trustworthy software provider</title>	
 
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta name="keywords" content="" />
+		<meta name="description" content="">
+		<meta name="author" content="Informatique Athensoft">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="${img_dir}/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="${img_dir}/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -70,59 +69,10 @@
 
 	</head>
 	<body>
-
 		<div class="body">
-			<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 55, 'stickySetTop': '-55px', 'stickyChangeLogo': true}">
-				<div class="header-body">
-					<div class="header-container container">
-						<div class="header-row">
-							<div class="header-column">
-								<div class="header-row">
-									<div class="header-logo">
-										<a href="index.html">
-											<img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="img/logo.png">
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="header-column justify-content-end">
-								<div class="header-row pt-3">
-									<nav class="header-nav-top">
-										<ul class="nav nav-pills">
-											<li class="nav-item d-none d-sm-block">
-												<a class="nav-link" href="about-us.html"><i class="fa fa-angle-right"></i> About Us</a>
-											</li>
-											<li class="nav-item d-none d-sm-block">
-												<a class="nav-link" href="contact-us.html"><i class="fa fa-angle-right"></i> Contact Us</a>
-											</li>
-											<li class="nav-item">
-												<span class="ws-nowrap"><i class="fa fa-phone"></i> (123) 456-789</span>
-											</li>
-										</ul>
-									</nav>
-									<div class="header-search d-none d-md-block">
-										<form id="searchForm" action="page-search-results.html" method="get">
-											<div class="input-group">
-												<input type="text" class="form-control" name="q" id="q" placeholder="Search..." required>
-												<span class="input-group-btn">
-													<button class="btn btn-light" type="submit"><i class="fa fa-search"></i></button>
-												</span>
-											</div>
-										</form>
-									</div>
-								</div>
-								<div class="header-row">
-									<!-- menu -->
-									<jsp:include page="${inc_dir}/02_nav_inc.jsp"></jsp:include>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
+			<jsp:include page="${inc_dir}/header_inc.jsp"></jsp:include>
 
 			<div role="main" class="main">
-
 				<div class="slider-container rev_slider_wrapper" style="height: 677px;">
 					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 800, 'gridheight': 677, 'responsiveLevels': [4096,1200,992,500]}">
 						<ul>
@@ -629,7 +579,7 @@
 	
 	
 			<!-- footer -->
-			<jsp:include page="${inc_dir}/04_footer_inc.jsp"></jsp:include>
+			<jsp:include page="${inc_dir}/footer_inc.jsp"></jsp:include>
 			<!-- END footer -->
 	
 			</div>
