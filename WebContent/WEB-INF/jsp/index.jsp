@@ -258,9 +258,10 @@
 							<img class="img-fluid appear-animation" src="img/style-switcher.png" alt="style switcher" data-appear-animation="fadeInRight">
 						</div>
 					</div>
-
+					
+					 
 					<hr class="tall">
-
+					<!-- 
 					<div class="row text-center">
 						<div class="col">
 							<h2 class="mb-0 word-rotator-title mt-5">
@@ -271,9 +272,23 @@
 							</p>
 						</div>
 					</div>
-
+					 -->
+					 
+					<div class="row text-center">
+						<div class="col">
+							<h2 class="mb-0 word-rotator-title mt-5">
+								What our <strong>clients</strong> say
+							</h2>
+							<p class="lead mb-5">
+								Check out what we have been doing
+							</p>
+						</div>
+					</div>
+					 
 				</div>
-
+				
+				<!-- portfolio -->
+				<!-- 
 				<div class="image-gallery sort-destination full-width mb-0">
 					<div class="isotope-item">
 						<div class="image-gallery-item mb-0">
@@ -366,8 +381,11 @@
 						</div>
 					</div>
 				</div>
-
-				<section class="parallax section section-text-light section-parallax section-center mt-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax-2.jpg">
+				 -->
+				<!-- END portfolio -->
+				
+				<!-- testimonial -->
+				<section class="parallax section section-text-light section-parallax section-center mt-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="${img_dir}/local/home/testimonial-img.jpg">
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-lg-10">
@@ -382,7 +400,7 @@
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ante tellus, convallis non consectetur sed, pharetra nec ex.</p>
 												</blockquote>
 												<div class="testimonial-author">
-													<p><strong>John Smith</strong><span>CEO & Founder - Okler</span></p>
+													<p><strong>Zhenimport</strong><span>CEO & Founder - WF Zhen</span></p>
 												</div>
 											</div>
 										</div>
@@ -397,7 +415,7 @@
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 												</blockquote>
 												<div class="testimonial-author">
-													<p><strong>John Smith</strong><span>CEO & Founder - Okler</span></p>
+													<p><strong>Green Fenzi Health Counseling Service</strong><span>CEO & Founder - Ying Zhang</span></p>
 												</div>
 											</div>
 										</div>
@@ -407,7 +425,8 @@
 						</div>
 					</div>
 				</section>
-
+				<!-- END testimonial -->
+				
 				<div class="container">
 					<div class="row text-center">
 						<div class="col">
