@@ -112,10 +112,10 @@
 					<div class="row text-center">
 						<div class="col">
 							<h2 class="mb-2 word-rotator-title">
-								Informatique Athensoft is the <strong>${loc}</strong> <spring:message code="index-feature-title-1"/>
+								Informatique Athensoft <strong></strong> <spring:message code="index-intro-1"/>
 							</h2>
 							<p class="lead">
-								Trusted by over 25,000 satisfied users, Porto became the best-selling HTML template<br> in the of one of the world's largest MarketPlace.
+								<spring:message code="index-intro-2"/>
 							</p>
 						</div>
 					</div>
@@ -143,7 +143,7 @@
 									<div class="col-lg-4">
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-group"></i>
+												<i class="fa fa-tv"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-feature-title-1"/></h4>
@@ -152,7 +152,7 @@
 										</div>
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-group"></i>
+												<i class="fa fa-paint-brush"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-feature-title-2"/></h4>
@@ -163,7 +163,7 @@
 									<div class="col-lg-4">
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-group"></i>
+												<i class="fa fa-share-alt"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-feature-title-3"/></h4>
@@ -172,7 +172,7 @@
 										</div>
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-group"></i>
+												<i class="fa fa-question-circle"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-feature-title-4"/></h4>
@@ -183,7 +183,7 @@
 									<div class="col-lg-4">
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-group"></i>
+												<i class="fa fa-cloud"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-feature-title-5"/></h4>
@@ -192,7 +192,7 @@
 										</div>
 										<div class="feature-box feature-box-style-2">
 											<div class="feature-box-icon">
-												<i class="fa fa-group"></i>
+												<i class="fa fa-rocket"></i>
 											</div>
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-feature-title-6"/></h4>
