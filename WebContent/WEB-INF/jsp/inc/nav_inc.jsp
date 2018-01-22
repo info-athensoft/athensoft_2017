@@ -44,141 +44,15 @@
 					</ul>
 				</li>
 				
-				<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-adogo"/> </a>
+				<!-- menu - adogo -->
+				<li class="dropdown">
+					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html"> <spring:message code="menu-adogo"/> </a>
 					<ul class="dropdown-menu">
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Headers</a>
-							<ul class="dropdown-menu">
-								<li class="dropdown-submenu"><a class="dropdown-item"
-									href="#">Default</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="index-classic.html">Default</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-language-dropdown.html">Default +
-												Language Dropdown</a></li>
-										<li><a class="dropdown-item"
-											href="index-header-big-logo.html">Default + Big Logo</a></li>
-									</ul></li>
-								<li class="dropdown-submenu"><a class="dropdown-item"
-									href="#">Flat</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="#">Flat</a></li>
-										<li><a class="dropdown-item" href="#">Flat + Top Bar</a></li>
-										<li><a class="dropdown-item" href="#">Flat + Colored Top Bar</a></li>
-										<li><a class="dropdown-item" href="#">Flat + Top Bar with Search</a></li>
-									</ul>
-								</li>
-								<li><a class="dropdown-item" href="#">Center</a></li>
-								<li><a class="dropdown-item" href="#">Below Slider</a></li>
-								<li><a class="dropdown-item" href="#">Full Video</a></li>
-								<li><a class="dropdown-item" href="#">Narrow</a></li>
-								<li><a class="dropdown-item" href="#">Always Sticky</a></li>
-								<li class="dropdown-submenu"><a class="dropdown-item" href="#">Transparent</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="#">Transparent</a></li>
-										<li><a class="dropdown-item" href="#">Transparent - Bottom Border</a></li>
-										<li><a class="dropdown-item" href="#">Semi Transparent</a></li>
-										<li><a class="dropdown-item" href="#">Semi Transparent - Light</a></li>
-									</ul>
-								</li>
-								<li><a class="dropdown-item"
-									href="#">Full-Width</a></li>
-								<li class="dropdown-submenu"><a class="dropdown-item"
-									href="#">Navbar</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="#">Navbar</a></li>
-										<li><a class="dropdown-item" href="#">Navbar + Extra Info</a></li>
-									</ul>
-								</li>
-								<li class="dropdown-submenu"><a class="dropdown-item"
-									href="#">Side Header</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="#">Side Header Left</a></li>
-										<li><a class="dropdown-item" href="#">Side Header Right</a></li>
-										<li><a class="dropdown-item" href="#">Side Header Semi Transparent</a></li>
-									</ul></li>
-								<li><a class="dropdown-item" href="#">Sign In / Sign Up</a></li>
-								<li><a class="dropdown-item" href="#">Logged</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item" href="#">Navigations</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Default</a></li>
-								<li><a class="dropdown-item" href="#">Stripe</a></li>
-								<li><a class="dropdown-item" href="#">Top Line</a></li>
-								<li><a class="dropdown-item" href="#">Dark Dropdown</a></li>
-								<li><a class="dropdown-item" href="#">Colors</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item" href="#">Footers</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Default</a></li>
-								<li><a class="dropdown-item" href="#">Advanced</a></li>
-								<li><a class="dropdown-item" href="#">Simple</a></li>
-								<li><a class="dropdown-item" href="#">Light</a></li>
-								<li><a class="dropdown-item" href="#">Light Narrow</a></li>
-								<li class="dropdown-submenu">
-									<a class="dropdown-item" href="#">Colors</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="#">Primary Color</a></li>
-										<li><a class="dropdown-item" href="#">Secondary Color</a></li>
-										<li><a class="dropdown-item" href="#">Tertiary Color</a></li>
-										<li><a class="dropdown-item" href="#">Quaternary Color</a></li>
-									</ul></li>
-								<li><a class="dropdown-item" href="#">Latest Work</a></li>
-								<li><a class="dropdown-item" href="#">Contact Form</a></li>
-							</ul></li>
-						<li class="dropdown-submenu">
-							<a class="dropdown-item" href="#">Page Headers</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Default</a></li>
-								<li class="dropdown-submenu"><a class="dropdown-item" href="#">Colors</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="#">Primary Color</a></li>
-										<li><a class="dropdown-item" href="#">Secondary Color</a></li>
-										<li><a class="dropdown-item" href="#">Tertiary Color</a></li>
-										<li><a class="dropdown-item" href="#">Quaternary Color</a></li>
-									</ul></li>
-								<li><a class="dropdown-item" href="#">Light</a></li>
-								<li><a class="dropdown-item" href="#">Light - Reverse</a></li>
-								<li><a class="dropdown-item" href="#">Custom Background</a></li>
-								<li><a class="dropdown-item" href="#">Parallax</a></li>
-								<li><a class="dropdown-item" href="#">Center</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Admin Extension <span class="tip tip-dark">hot</span>
-								<em class="not-included">(Not Included)</em></a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Forms Basic</a></li>
-								<li><a class="dropdown-item" href="#">Forms Advanced</a></li>
-								<li><a class="dropdown-item" href="#">Forms Wizard</a></li>
-								<li><a class="dropdown-item" href="#">Code Editor</a></li>
-								<li><a class="dropdown-item" href="#">Tables Advanced</a></li>
-								<li><a class="dropdown-item" href="#">Tables Responsive</a></li>
-								<li><a class="dropdown-item" href="#">Tables Editable</a></li>
-								<li><a class="dropdown-item" href="#">Tables Ajax</a></li>
-								<li><a class="dropdown-item" href="#">Charts</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Sliders</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Revolution Slider</a></li>
-								<li><a class="dropdown-item" href="#">Nivo Slider</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Layout Options</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Boxed</a></li>
-								<li><a class="dropdown-item" href="#">Dark</a></li>
-								<li><a class="dropdown-item" href="#">RTL</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Extra</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Typography</a></li>
-								<li><a class="dropdown-item" href="#">Grid System</a></li>
-								<li><a class="dropdown-item" href="#">Page Loading</a></li>
-								<li><a class="dropdown-item" href="#">Lazy Load</a></li>
-							</ul></li>
-					</ul></li>
+						<li><a class="dropdown-item" href="/graphic/index.html"><spring:message code="menu-adogo-1"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/portfolio.html"><spring:message code="menu-adogo-2"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/portfolio.html"><spring:message code="menu-adogo-3"/></a></li>
+					</ul>
+				</li>
 				
 				<!-- menu - tour -->
 				<li class="dropdown dropdown-mega">
