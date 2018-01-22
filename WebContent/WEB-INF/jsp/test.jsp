@@ -9,11 +9,13 @@
 <!-- END global variables settings -->
 
 <!-- i18n -->
+<!-- 
 <c:set var="loc" value="en_US"/>
 <c:if test="${!(empty param.lang)}">
   <c:set var="loc" value="${param.lang}"/>
 </c:if>
 <fmt:setLocale value="${loc}" />
+ -->
 <!-- END i18n -->
 
 <!DOCTYPE html>
@@ -25,7 +27,16 @@
 </head>
 <body>
 <h2 class="mb-2 word-rotator-title">
-	Informatique Athensoft is the <strong>${loc}</strong> <spring:message code="index-feature-title-1"/>
+	Informatique Athensoft is the <strong>${loc}</strong> <br/>
+	<spring:message code="index-feature-title-1"/><br/>
+	<fmt:message key="index-feature-title-1"/>
+	<br/>
+	${pageContext.response.locale}
+	
+	<br/>
+	<a href="?lang=zh_CN">Chinese</a><br/>
+	<a href="?lang=en_US">English</a><br/>
+	<a href="?lang=fr_CA">French</a><br/>
 </h2>
 </body>
 </html>
