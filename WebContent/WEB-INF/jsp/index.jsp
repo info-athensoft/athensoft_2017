@@ -407,7 +407,7 @@
 										<div class="col">
 											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
 												<div class="testimonial-author">
-													<img src="${webapp_name}/img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+													<img src="${img_dir}/client/client-1.png" class="img-fluid rounded-circle" alt="">
 												</div>
 												<blockquote>
 													<p><spring:message code="index-testimonial-quote-1"/></p>
@@ -422,7 +422,7 @@
 										<div class="col">
 											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
 												<div class="testimonial-author">
-													<img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+													<img src="${img_dir}/client/client-2.png" class="img-fluid rounded-circle" alt="">
 												</div>
 												<blockquote>
 													<p><spring:message code="index-testimonial-quote-2"/></p>
