@@ -44,4 +44,11 @@ public class SiteController {
 		logger.info("exiting.. /graphic/case.html");
 		return "graphic/case";
 	}
+	
+	@RequestMapping("/about/aboutus.html")
+	public String gotoAboutus(){
+		logger.info("entering.. /about/aboutus.html");
+		logger.info("exiting.. /about/aboutus.html");
+		return "about/about_us";
+	}
 }

@@ -22,41 +22,41 @@
 		<nav class="collapse">
 			<ul class="nav nav-pills" id="mainNav">
 			
-				<li class=""><a class="nav-link active" href="/index.html"> <spring:message code="menu-home"/> </a></li>
+				<li class=""><a class="nav-link active" href="/index.html?lang=${loc}"> <spring:message code="menu-home"/> </a></li>
 				
 				<li class="dropdown">
-					<a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-web"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="#?lang=${loc}"> <spring:message code="menu-web"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#"> <spring:message code="menu-web-1"/> </a></li>
-						<li><a class="dropdown-item" href="#"> <spring:message code="menu-web-2"/> </a></li>
-						<li><a class="dropdown-item" href="#"> <spring:message code="menu-web-3"/> </a></li>
-						<li><a class="dropdown-item" href="#"> <spring:message code="menu-web-4"/> </a></li>
+						<li><a class="dropdown-item" href="#?lang=${loc}"> <spring:message code="menu-web-1"/> </a></li>
+						<li><a class="dropdown-item" href="#?lang=${loc}"> <spring:message code="menu-web-2"/> </a></li>
+						<li><a class="dropdown-item" href="#?lang=${loc}"> <spring:message code="menu-web-3"/> </a></li>
+						<li><a class="dropdown-item" href="#?lang=${loc}"> <spring:message code="menu-web-4"/> </a></li>
 					</ul></li>
 				
 				
 				<!-- menu - language -->
 				<li class="dropdown">
-					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html"> <spring:message code="menu-graphic"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/graphic/index.html"><spring:message code="menu-graphic-1"/></a></li>
-						<li><a class="dropdown-item" href="/graphic/portfolio.html"><spring:message code="menu-graphic-2"/></a></li>
-						<li><a class="dropdown-item" href="/graphic/case.html"><spring:message code="menu-graphic-3"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/index.html?lang=${loc}"><spring:message code="menu-graphic-1"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/portfolio.html?lang=${loc}"><spring:message code="menu-graphic-2"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/case.html?lang=${loc}"><spring:message code="menu-graphic-3"/></a></li>
 					</ul>
 				</li>
 				
 				<!-- menu - adogo -->
 				<li class="dropdown">
-					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html"> <spring:message code="menu-adogo"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> <spring:message code="menu-adogo"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/graphic/index.html"><spring:message code="menu-adogo-1"/></a></li>
-						<li><a class="dropdown-item" href="/graphic/portfolio.html"><spring:message code="menu-adogo-2"/></a></li>
-						<li><a class="dropdown-item" href="/graphic/portfolio.html"><spring:message code="menu-adogo-3"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/index.html?lang=${loc}"><spring:message code="menu-adogo-1"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/portfolio.html?lang=${loc}"><spring:message code="menu-adogo-2"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/portfolio.html?lang=${loc}"><spring:message code="menu-adogo-3"/></a></li>
 					</ul>
 				</li>
 				
 				<!-- menu - tour -->
 				<li class="dropdown dropdown-mega">
-					<a class="dropdown-item dropdown-toggle" href="/graphic.html"> <spring:message code="menu-edu"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="/graphic.html?lang=${loc}"> <spring:message code="menu-edu"/> </a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class="dropdown-mega-content">
@@ -113,128 +113,6 @@
 					</ul>
 				</li>
 				
-				<!-- 
-				<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"><spring:message code="menu-edu"/></a>
-					<ul class="dropdown-menu">
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Single Project</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="portfolio-single-small-slider.html">Small Slider</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-wide-slider.html">Wide Slider</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-full-width-slider.html">Full Width
-										Slider</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-gallery.html">Gallery</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-carousel.html">Carousel</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-medias.html">Medias</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-full-width-video.html">Full Width
-										Video</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-masonry-images.html">Masonry Images</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-left-sidebar.html">Left Sidebar</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-right-sidebar.html">Right Sidebar</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-left-and-right-sidebars.html">Left
-										and Right Sidebars</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-sticky-sidebar.html">Sticky Sidebar</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-single-extended.html">Extended</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Grid Layouts</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="portfolio-grid-1-column.html">1 Column</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-2-columns.html">2 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-3-columns.html">3 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-4-columns.html">4 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-5-columns.html">5 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-6-columns.html">6 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-no-margins.html">No Margins</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-full-width.html">Full Width</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-full-width-no-margins.html">Full Width
-										No Margins</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-grid-1-column-title-and-description.html">Title
-										and Description</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Masonry Layouts</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="portfolio-masonry-2-columns.html">2 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-masonry-3-columns.html">3 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-masonry-4-columns.html">4 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-masonry-5-columns.html">5 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-masonry-6-columns.html">6 Columns</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-masonry-no-margins.html">No Margins</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-masonry-full-width.html">Full Width</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Sidebar Layouts</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="portfolio-sidebar-left.html">Left Sidebar</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-sidebar-right.html">Right Sidebar</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-sidebar-left-and-right.html">Left and Right
-										Sidebars</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-sidebar-sticky.html">Sticky Sidebar</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Ajax</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="portfolio-ajax-page.html">Ajax on Page</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-ajax-modal.html">Ajax on Modal</a></li>
-							</ul></li>
-						<li class="dropdown-submenu"><a class="dropdown-item"
-							href="#">Extra</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item"
-									href="portfolio-extra-timeline.html">Timeline</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-extra-lightbox.html">Lightbox</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-extra-load-more.html">Load More</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-extra-infinite-scroll.html">Infinite Scroll</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-extra-pagination.html">Pagination</a></li>
-								<li><a class="dropdown-item"
-									href="portfolio-extra-combination-filters.html">Combination
-										Filters</a></li>
-							</ul></li>
-					</ul></li>
-				
- 				-->
- 								
  				<!-- menu - language -->
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-lang"/> </a>

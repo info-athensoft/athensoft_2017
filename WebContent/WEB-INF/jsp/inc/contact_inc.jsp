@@ -16,24 +16,24 @@
 	<nav class="header-nav-top">
 		<ul class="nav nav-pills">
 			<li class="nav-item d-none d-sm-block">
-				<a class="nav-link" href="#">
+				<a class="nav-link" href="/about/aboutus.html?lang=${loc}">
 					<i class="fa fa-angle-right"></i> <spring:message code="link-about"/>
 				</a>
 			</li>
 			<li class="nav-item d-none d-sm-block">
-				<a class="nav-link" href="#">
+				<a class="nav-link" href="#?lang=${loc}">
 					<i class="fa fa-angle-right"></i> <spring:message code="link-contact"/>
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">
+				<a class="nav-link" href="#?lang=${loc}">
 					<i class="fa fa-angle-right"></i> <spring:message code="link-support"/>
 				</a>
 			</li>
 		</ul>
 	</nav>
 	<div class="header-search d-none d-md-block">
-		<form id="searchForm" action="page-search-results.html" method="get">
+		<form id="searchForm" action="page-search-results.html?lang=${loc}" method="get">
 			<div class="input-group">
 				<input type="text" class="form-control" name="q" id="q"
 					placeholder="Search..." required> <span

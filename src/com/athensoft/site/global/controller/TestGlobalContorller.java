@@ -15,7 +15,17 @@ public class TestGlobalContorller {
 		mav.setViewName("test");		
 		return mav;
 	}
+	
+	@RequestMapping("/test/test2.html")	
+	public ModelAndView testI18N2(){
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("test/test2");		
+		return mav;
+	}
 
 
-
+	@RequestMapping("/test/aboutus.html")
+	public String gotoAboutus(){
+		return "test/test-aboutus";
+	}
 }
