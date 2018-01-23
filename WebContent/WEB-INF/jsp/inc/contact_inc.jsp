@@ -21,12 +21,12 @@
 				</a>
 			</li>
 			<li class="nav-item d-none d-sm-block">
-				<a class="nav-link" href="#?lang=${loc}">
+				<a class="nav-link" href="/support/contactus.html?lang=${loc}">
 					<i class="fa fa-angle-right"></i> <spring:message code="link-contact"/>
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#?lang=${loc}">
+				<a class="nav-link" href="/support/support.html?lang=${loc}">
 					<i class="fa fa-angle-right"></i> <spring:message code="link-support"/>
 				</a>
 			</li>

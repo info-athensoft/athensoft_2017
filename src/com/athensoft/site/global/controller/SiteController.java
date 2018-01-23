@@ -51,4 +51,32 @@ public class SiteController {
 		logger.info("exiting.. /about/aboutus.html");
 		return "about/about_us";
 	}
+	
+	@RequestMapping("/about/sitemap.html")
+	public String gotoSitemap(){
+		logger.info("entering.. /about/sitemap.html");
+		logger.info("exiting.. /about/sitemap.html");
+		return "about/sitemap";
+	}
+	
+	@RequestMapping("/support/support.html")
+	public String gotoSupportIndex(){
+		logger.info("entering.. /support/support.html");
+		logger.info("exiting.. /support/support.html");
+		return "support/support";
+	}
+	
+	@RequestMapping("/support/faq.html")
+	public String gotoFaq(){
+		logger.info("entering.. /support/faq.html");
+		logger.info("exiting.. /support/faq.html");
+		return "support/faq";
+	}
+	
+	@RequestMapping("/support/contactus.html")
+	public String gotoContactus(){
+		logger.info("entering.. /support/contactus.html");
+		logger.info("exiting.. /support/contactus.html");
+		return "support/contact_us";
+	}
 }
