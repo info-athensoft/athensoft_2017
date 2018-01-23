@@ -104,11 +104,23 @@
 					</div>
 				</section>
 			
+			
+				
+				
 				<div class="container">
+
 					<div class="row">
 						<div class="col">
 							<h2 class="word-rotator-title">
-								<spring:message code="aboutus-section-title-1"/>
+								The New Way to <strong>
+									<span class="word-rotator" data-plugin-options="{'delay': 2000}">
+										<span class="word-rotator-items">
+											<span>success.</span>
+											<span>advance.</span>
+											<span>progress.</span>
+										</span>
+									</span>
+								</strong>
 							</h2>
 						</div>
 					</div>
@@ -116,7 +128,7 @@
 					<div class="row align-items-center">
 						<div class="col-lg-10">
 							<p class="lead">
-								<spring:message code="aboutus-section-1"/>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non <span class="alternative-font">metus.</span> pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh.
 							</p>
 						</div>
 						<div class="col-lg-2">
@@ -130,166 +142,112 @@
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row mt-4">
 						<div class="col-lg-7 col-xl-8">
-							<h3 class="heading-primary"><spring:message code="aboutus-section-title-2"/></h3>
-							<p><spring:message code="aboutus-section-2"/></p>
-							<p>&nbsp;</p>
+							<h3 class="heading-primary"><strong>Who</strong> We Are</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
+							<p>Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing <span class="alternative-font">metus</span> sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula.</p>
+						</div>
+						<div class="col-lg-5 col-xl-4">
+							<div class="featured-box featured-box-primary">
+								<div class="box-content">
+									<h4 class="text-uppercase">Behind the scenes</h4>
+									<ul class="thumbnail-gallery mb-4 pb-3" data-plugin-lightbox data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}}">
+										<li>
+											<a title="Benefits 1" href="img/benefits/benefits-1.jpg">
+												<span class="thumbnail mb-0">
+													<img src="img/benefits/benefits-1-thumb.jpg" alt="">
+												</span>
+											</a>
+										</li>
+										<li>
+											<a title="Benefits 2" href="img/benefits/benefits-2.jpg">
+												<span class="thumbnail mb-0">
+													<img src="img/benefits/benefits-2-thumb.jpg" alt="">
+												</span>
+											</a>
+										</li>
+										<li>
+											<a title="Benefits 3" href="img/benefits/benefits-3.jpg">
+												<span class="thumbnail mb-0">
+													<img src="img/benefits/benefits-3-thumb.jpg" alt="">
+												</span>
+											</a>
+										</li>
+										<li>
+											<a title="Benefits 4" href="img/benefits/benefits-4.jpg">
+												<span class="thumbnail mb-0">
+													<img src="img/benefits/benefits-4-thumb.jpg" alt="">
+												</span>
+											</a>
+										</li>
+										<li>
+											<a title="Benefits 5" href="img/benefits/benefits-5.jpg">
+												<span class="thumbnail mb-0">
+													<img src="img/benefits/benefits-5-thumb.jpg" alt="">
+												</span>
+											</a>
+										</li>
+										<li>
+											<a title="Benefits 6" href="img/benefits/benefits-6.jpg">
+												<span class="thumbnail mb-0">
+													<img src="img/benefits/benefits-6-thumb.jpg" alt="">
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
-					
-					<div class="row">
-						<div class="col-lg-7 col-xl-8">
-							<h3 class="heading-primary"><spring:message code="aboutus-section-title-3"/></h3>
-							<p><spring:message code="aboutus-section-3"/></p>
-							<p>&nbsp;</p>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-lg-7 col-xl-8">
-							<h3 class="heading-primary"><spring:message code="aboutus-section-title-4"/></h3>
-							<p><spring:message code="aboutus-section-4"/></p>
-							<p>&nbsp;</p>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-lg-7 col-xl-8">
-							<h3 class="heading-primary"><spring:message code="aboutus-section-title-5"/></h3>
-							<p><spring:message code="aboutus-section-5"/></p>
-						</div>
-					</div>
-					
-					
+
 					<div class="row">
 						<div class="col">
-							<hr class="short">
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col">
-							<h3 class="heading-primary mt-5"><spring:message code="aboutus-history-title"/></h3>
+
+							<h3 class="heading-primary mt-5">Our <strong>History</strong></h3>
+
 							<ul class="history">
 								<li class="appear-animation" data-appear-animation="fadeInUp">
 									<div class="thumb">
-										<img src="${img_dir}/about/4.jpg" alt="" />
+										<img src="img/office/office-4.jpg" alt="" />
 									</div>
 									<div class="featured-box">
 										<div class="box-content">
-											<h4 class="heading-primary"><strong>2018</strong></h4>
-											<p><spring:message code="aboutus-history-1"/></p>
+											<h4 class="heading-primary"><strong>2012</strong></h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus,</p>
 										</div>
 									</div>
 								</li>
 								<li class="appear-animation" data-appear-animation="fadeInUp">
 									<div class="thumb">
-										<img src="${img_dir}/about/3.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2017</strong></h4>
-											<p><spring:message code="aboutus-history-2"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/2.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2016</strong></h4>
-											<p><spring:message code="aboutus-history-3"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/1.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2015</strong></h4>
-											<p><spring:message code="aboutus-history-4"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/4.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2014</strong></h4>
-											<p><spring:message code="aboutus-history-5"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/3.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2011</strong></h4>
-											<p><spring:message code="aboutus-history-6"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/2.jpg" alt="" />
+										<img src="img/office/office-3.jpg" alt="" />
 									</div>
 									<div class="featured-box">
 										<div class="box-content">
 											<h4 class="heading-primary"><strong>2010</strong></h4>
-											<p><spring:message code="aboutus-history-7"/></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia.</p>
 										</div>
 									</div>
 								</li>
 								<li class="appear-animation" data-appear-animation="fadeInUp">
 									<div class="thumb">
-										<img src="${img_dir}/about/1.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2008</strong></h4>
-											<p><spring:message code="aboutus-history-8"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/3.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2006</strong></h4>
-											<p><spring:message code="aboutus-history-9"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/2.jpg" alt="" />
+										<img src="img/office/office-2.jpg" alt="" />
 									</div>
 									<div class="featured-box">
 										<div class="box-content">
 											<h4 class="heading-primary"><strong>2005</strong></h4>
-											<p><spring:message code="aboutus-history-10"/></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus,</p>
 										</div>
 									</div>
 								</li>
 								<li class="appear-animation" data-appear-animation="fadeInUp">
 									<div class="thumb">
-										<img src="${img_dir}/about/2.jpg" alt="" />
+										<img src="img/office/office-1.jpg" alt="" />
 									</div>
 									<div class="featured-box">
 										<div class="box-content">
-											<h4 class="heading-primary"><strong>2004</strong></h4>
-											<p><spring:message code="aboutus-history-11"/></p>
+											<h4 class="heading-primary"><strong>2000</strong></h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus,</p>
 										</div>
 									</div>
 								</li>

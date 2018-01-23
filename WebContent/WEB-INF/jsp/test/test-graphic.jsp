@@ -15,11 +15,11 @@
 
 <!-- i18n -->
 <c:set var="loc" value="en_US"/>
-<c:if test="${!(empty param.lang)}">
-  <c:set var="loc" value="${param.lang}"/>
+<c:if test="${!(empty param.locale)}">
+  <c:set var="loc" value="${param.locale}"/>
 </c:if>
 <fmt:setLocale value="${loc}" />
-<!-- END i18n -->
+<!-- ENDS i18n -->
 
 <!DOCTYPE html>
 <html>
@@ -29,11 +29,11 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title><spring:message code="head-title-index"/></title>
+		<title><spring:message code="head-title-graphic"/></title>
 
 		<meta name="keywords" content="" />
 		<meta name="description" content="">
-		<meta name="author" content="Informatique Athensoft">
+		<meta name="author" content="">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="${img_dir}/icon/favicon.ico" type="image/x-icon" />
@@ -59,11 +59,6 @@
 		<link rel="stylesheet" href="${webapp_name}/css/theme-elements.css">
 		<link rel="stylesheet" href="${webapp_name}/css/theme-blog.css">
 		<link rel="stylesheet" href="${webapp_name}/css/theme-shop.css">
-
-		<!-- Current Page CSS -->
-		<link rel="stylesheet" href="${webapp_name}/vendor/rs-plugin/css/settings.css">
-		<link rel="stylesheet" href="${webapp_name}/vendor/rs-plugin/css/layers.css">
-		<link rel="stylesheet" href="${webapp_name}/vendor/rs-plugin/css/navigation.css">
 		
 		<!-- Demo CSS -->
 
@@ -78,11 +73,10 @@
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
-	<body>
+<body>
 		<div class="body">
 			<!-- header -->
 			<jsp:include page="${inc_dir}/header_inc.jsp"></jsp:include>
-
 			
 			<div role="main" class="main">
 
@@ -103,9 +97,7 @@
 						</div>
 					</div>
 				</section>
-			
-				
-			
+
 				<div class="container">
 
 					<h2>Our <strong>Services</strong></h2>
@@ -122,8 +114,7 @@
 					</div>
 
 					<hr>
-					
-					
+
 					<div class="featured-boxes">
 						<div class="row">
 							<div class="col-lg-3 col-sm-6">
@@ -324,14 +315,14 @@
 					</div>
 
 				</div>
-			
+
 			</div>
 			
 			<!-- footer -->
 			<jsp:include page="${inc_dir}/footer_inc.jsp"></jsp:include>
 			<!-- END footer -->
-	
-			</div>
+			
+		</div>
 
 		<!-- Vendor -->
 		<script src="${webapp_name}/vendor/jquery/jquery.min.js"></script>
@@ -352,10 +343,6 @@
 		
 		<!-- Theme Base, Components and Settings -->
 		<script src="${webapp_name}/js/theme.js"></script>
-		
-		<!-- Current Page Vendor and Views -->
-		<script src="${webapp_name}/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="${webapp_name}/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 		
 		<!-- Theme Custom -->
 		<script src="${webapp_name}/js/custom.js"></script>
