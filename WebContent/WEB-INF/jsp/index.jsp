@@ -92,14 +92,14 @@
 						<div class="row align-items-center">
 							<div class="col-lg-8">
 								<p>
-									The fastest way to grow your business with the leader in <em>Technology</em>
-									<span>Check out our options and features included.</span>
+									<spring:message code="index-slogan-1"/> <em><spring:message code="index-slogan-2"/></em>
+									<span><spring:message code="index-slogan-3"/></span>
 								</p>
 							</div>
 							<div class="col-lg-4">
 								<div class="get-started text-left text-lg-right">
-									<a href="#" class="btn btn-lg btn-primary">Get Started Now!</a>
-									<div class="learn-more">or <a href="index.html">learn more.</a></div>
+									<a href="#" class="btn btn-lg btn-primary"><spring:message code="index-btnlink-quote-1"/></a>
+									<div class="learn-more"><spring:message code="index-btnlink-quote-2"/><a href="#"><spring:message code="index-btnlink-quote-3"/></a></div>
 								</div>
 							</div>
 						</div>
@@ -290,10 +290,10 @@
 					<div class="row text-center">
 						<div class="col">
 							<h2 class="mb-0 word-rotator-title mt-5">
-								What our <strong>clients</strong> say
+								<spring:message code="index-testimonial-title-1"/>
 							</h2>
 							<p class="lead mb-5">
-								Check out what we have been doing
+								<spring:message code="index-testimonial-title-2"/>
 							</p>
 						</div>
 					</div>
@@ -410,10 +410,10 @@
 													<img src="${webapp_name}/img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
 												</div>
 												<blockquote>
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ante tellus, convallis non consectetur sed, pharetra nec ex.</p>
+													<p><spring:message code="index-testimonial-quote-1"/></p>
 												</blockquote>
 												<div class="testimonial-author">
-													<p><strong>Zhenimport Inc</strong><span>CEO & Founder - WF Zhen</span></p>
+													<p><strong><spring:message code="index-testimonial-owner-1"/></strong><span><spring:message code="index-testimonial-position-1"/></span></p>
 												</div>
 											</div>
 										</div>
@@ -425,10 +425,10 @@
 													<img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
 												</div>
 												<blockquote>
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+													<p><spring:message code="index-testimonial-quote-2"/></p>
 												</blockquote>
 												<div class="testimonial-author">
-													<p><strong>Green Fenzi Health Counseling Service</strong><span>CEO & Founder - Ying Zhang</span></p>
+													<p><strong><spring:message code="index-testimonial-owner-2"/></strong><span><spring:message code="index-testimonial-position-2"/></span></p>
 												</div>
 											</div>
 										</div>
@@ -444,68 +444,60 @@
 					<div class="row text-center">
 						<div class="col">
 							<h2 class="mb-0 word-rotator-title mt-4">
-								We're not the only ones
-								<strong>
-									<span class="word-rotator" data-plugin-options="{'delay': 3500, 'animDelay': 400}">
-										<span class="word-rotator-items">
-											<span>excited</span>
-											<span>happy</span>
-										</span>
-									</span>
-								</strong>
-								about Porto Template...
+								<spring:message code="index-partner-title-1"/>
 							</h2>
-							<p class="lead">25,000+ customers in more than 100 countries use Porto Template.</p>
+							<p class="lead"><spring:message code="index-partner-title-2"/></p>
 						</div>
 					</div>
 					<div class="row text-center mt-5">
 						<div class="owl-carousel owl-theme" data-plugin-options="{'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
 							<div>
-								<img class="img-fluid" src="img/logos/logo-1.png" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/csbg-big.jpg" alt="">
 							</div>
 							<div>
-								<img class="img-fluid" src="img/logos/logo-2.png" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/metous-big.jpg" alt="">
 							</div>
 							<div>
-								<img class="img-fluid" src="img/logos/logo-3.png" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/muyuyan-big.jpg" alt="">
 							</div>
 							<div>
-								<img class="img-fluid" src="img/logos/logo-4.png" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/silvertac-big.jpg" alt="">
 							</div>
 							<div>
-								<img class="img-fluid" src="img/logos/logo-5.png" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/tongda-big.jpg" alt="">
 							</div>
 							<div>
-								<img class="img-fluid" src="img/logos/logo-6.png" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/vvintlgroup-big.jpg" alt="">
 							</div>
 							<div>
-								<img class="img-fluid" src="img/logos/logo-4.png" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/xinyueanni-big.jpg" alt="">
 							</div>
 							<div>
-								<img class="img-fluid" src="img/logos/logo-2.png" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/zhenimport-big.png" alt="">
 							</div>
 						</div>
 					</div>
 				</div>
-
+				
+				<!-- 
 				<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-9 col-lg-9">
 								<div class="call-to-action-content">
-									<h3>Porto is <strong>everything</strong> you need to create an <strong>awesome</strong> website!</h3>
+									<h3>Informatique Athensoft is <strong>everything</strong> you need to create an <strong>awesome</strong> website!</h3>
 									<p class="mb-0">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-lg-3">
 								<div class="call-to-action-btn">
-									<a href="http://themeforest.net/item/porto-responsive-html5-template/4106987" target="_blank" class="btn btn-lg btn-primary">Buy Now!</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+									<a href="#" target="_blank" class="btn btn-lg btn-primary">Buy Now!</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-
+				 -->
 			</div>
 	
 	

@@ -87,7 +87,7 @@
 					data-fontsize="['52','52','52','62']"
 					style="z-index: 5"
 					data-transform_in="y:[100%];s:500;"
-					data-transform_out="opacity:0;s:500;">WELCOME TO PORTO</div>
+					data-transform_out="opacity:0;s:500;">WELCOME TO INF. ATHENSOFT</div>
 
 				<div class="tp-caption bottom-label"
 					data-x="center"
