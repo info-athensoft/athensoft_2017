@@ -5,9 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
-import com.athensoft.common.email.service.EmailService;
 import com.athensoft.site.support.model.ContactForm;
+import com.athensoft.site.support.service.SupportService;
 
 
 @Controller
@@ -15,13 +16,13 @@ import com.athensoft.site.support.model.ContactForm;
 public class SupportController {
 	private static final Logger logger = Logger.getLogger(SupportController.class);
 	
-	private EmailService emailService;
+	private SupportService supportService;
 	
 	@Autowired
-	public void setEmailService(EmailService emailService){
-		this.emailService = emailService;
+	public void setSupportService(SupportService supportService) {
+		this.supportService = supportService;
 	}
-	
+
 	@RequestMapping("/support.html")
 	public String gotoSupportIndex(){
 		logger.info("entering.. /support/support.html");
@@ -44,15 +45,17 @@ public class SupportController {
 	}
 	
 	@RequestMapping("/mailToUs")
-	public String mailtoUs(@ModelAttribute("contactForm") ContactForm contactForm){
+	public String mailtoUs(@ModelAttribute("contactForm") ContactForm contactForm,
+						   @RequestParam("lang") String lang){
 		logger.info("entering.. /support/mailToUs");
 		
-		System.out.println(contactForm.toString());
+		logger.info(contactForm.toString());
+		logger.info("lang="+lang);
 		
-		emailService.sendContactMail(contactForm);
+		supportService.sendContactMail(contactForm);
 		
 		logger.info("exiting.. /support/mailToUs");
-		return "support/contact_us";
+		return "redirect:/support/contactus.html?lang="+lang;
 	}
 	
 	

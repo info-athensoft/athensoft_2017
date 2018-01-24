@@ -149,6 +149,11 @@
 										<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary btn-lg" data-loading-text="Loading...">
 									</div>
 								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<input type="hidden" value="${loc}" name="lang"/>
+									</div>
+								</div>
 							</form>
 						</div>
 						<div class="col-lg-6">
