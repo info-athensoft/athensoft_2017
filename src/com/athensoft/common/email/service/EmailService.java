@@ -28,18 +28,18 @@ public class EmailService {
 	public static final String FROM_EMAIL_ADDR = "support@athensoft.com";
 	public static final String TO_EMAIL_ADDR = "athens314@hotmail.com";
 	
-	private MailSender mailSender ;
+//	private MailSender mailSender ;
+//	
+//	@Autowired
+//	public void setMailSender(MailSender mailSender) {
+//		this.mailSender = mailSender;
+//	}
+	
+	private JavaMailSenderImpl javaMailSenderImpl ;
 	
 	@Autowired
-	public void setMailSender(MailSender mailSender) {
-		this.mailSender = mailSender;
-	}
-	
-	private JavaMailSenderImpl senderImpl ;
-	
-	@Autowired
-	public void setJavaMailSenderImpl(JavaMailSenderImpl senderImpl) {
-		this.senderImpl = senderImpl;
+	public void setJavaMailSenderImpl(JavaMailSenderImpl javaMailSenderImpl) {
+		this.javaMailSenderImpl = javaMailSenderImpl;
 	}
 
 	/*
@@ -95,42 +95,30 @@ public class EmailService {
 	
 	public void sendContactMail(ContactForm contactForm){
 		
-		MimeMessage mail = senderImpl.createMimeMessage();		
-		MimeMessageHelper messageHelper = new MimeMessageHelper(mail);
-		try{
-			messageHelper.setFrom(FROM_EMAIL_ADDR);
-			messageHelper.setTo(TO_EMAIL_ADDR);  
-			
-			//set mail subject
-			String emailTitle = "[Customer] sent us an email via website";
-			messageHelper.setSubject(emailTitle);
-			
-			//set mail body
-			String senderName 	= contactForm.getName();
-//			String senderPhone 	= contactForm.getPhone();
-			String senderEmail 	= contactForm.getEmail();
-			String senderSubject= contactForm.getSubject();
-			String senderMessage= contactForm.getMessage();
-			
-			StringBuffer mailBody = new StringBuffer();
-			mailBody.append("Customer: "+senderName);
-			mailBody.append("<br/>");
-//			mailBody.append("Phone: "+senderPhone);
-//			mailBody.append("<br/>");
-			mailBody.append("Email: "+senderEmail);
-			mailBody.append("<br/><br/>");
-			mailBody.append("Subject: "+senderSubject);
-			mailBody.append("<br/><br/>");
-			mailBody.append(senderMessage);
-							
-			messageHelper.setText(mailBody.toString(),true);
-			
-			//execute sending mail
-        	senderImpl.send(mail);
-        	
-		}catch(Exception e){
-			e.printStackTrace();
-		}
+		//set mail subject
+		String emailTitle = "[Customer] sent us an email via website";
+		
+		
+		//set mail body
+		String senderName 	= contactForm.getName();
+		String senderEmail 	= contactForm.getEmail();
+		String senderSubject= contactForm.getSubject();
+		String senderMessage= contactForm.getMessage();
+		
+		StringBuffer mailBody = new StringBuffer();
+		mailBody.append("Customer: "+senderName);
+		mailBody.append("<br/>");
+		mailBody.append("Email: "+senderEmail);
+		mailBody.append("<br/><br/>");
+		mailBody.append("Subject: "+senderSubject);
+		mailBody.append("<br/><br/>");
+		mailBody.append(senderMessage);
+		
+		String emailBody = mailBody.toString();
+		
+		//send mail
+		sendTextMail(FROM_EMAIL_ADDR,TO_EMAIL_ADDR,emailTitle,emailBody);
+						
 	}
 	
 	
@@ -177,4 +165,32 @@ public class EmailService {
 	*/
 	
 
+	/**
+	 * send a text-based email
+	 * @param fromEmail sender's email address
+	 * @param toEmail receiver's email address
+	 * @param mailTitle title of the email message
+	 * @param mailBody body content of the email message
+	 */
+	public void sendTextMail(String fromEmailAddr, String toEmailAddr, String mailTitle, String mailBody){
+		MimeMessage mail = javaMailSenderImpl.createMimeMessage();		
+		MimeMessageHelper messageHelper = new MimeMessageHelper(mail);
+		try{
+			//set sender and receiver
+			messageHelper.setFrom(fromEmailAddr);
+			messageHelper.setTo(toEmailAddr);  
+			
+			//set mail subject
+			messageHelper.setSubject(mailTitle);
+			
+			//set mail body		
+			messageHelper.setText(mailBody,true);
+			
+			//execute sending mail
+        	javaMailSenderImpl.send(mail);
+        	
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
 }
