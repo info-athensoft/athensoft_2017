@@ -29,7 +29,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title><spring:message code="head-title-index"/></title>
+		<title><spring:message code="head-title-aboutus"/></title>
 
 		<meta name="keywords" content="" />
 		<meta name="description" content="">

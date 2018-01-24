@@ -24,26 +24,7 @@ public class SiteController {
 		return "index";
 	}
 	
-	@RequestMapping("/graphic/index.html")
-	public String gotoGraphicIndex(){
-		logger.info("entering.. /graphic.html");
-		logger.info("exiting.. /graphic.html");
-		return "graphic/graphic";
-	}
 	
-	@RequestMapping("/graphic/portfolio.html")
-	public String gotoGraphicPortfolio(){
-		logger.info("entering.. /graphic/portfolio.html");
-		logger.info("exiting.. /graphic/portfolio.html");
-		return "graphic/portfolio";
-	}
-	
-	@RequestMapping("/graphic/case.html")
-	public String gotoGraphicCase(){
-		logger.info("entering.. /graphic/case.html");
-		logger.info("exiting.. /graphic/case.html");
-		return "graphic/case";
-	}
 	
 	@RequestMapping("/about/aboutus.html")
 	public String gotoAboutus(){
@@ -51,4 +32,13 @@ public class SiteController {
 		logger.info("exiting.. /about/aboutus.html");
 		return "about/about_us";
 	}
+	
+	@RequestMapping("/about/sitemap.html")
+	public String gotoSitemap(){
+		logger.info("entering.. /about/sitemap.html");
+		logger.info("exiting.. /about/sitemap.html");
+		return "about/sitemap";
+	}
+	
+	
 }
