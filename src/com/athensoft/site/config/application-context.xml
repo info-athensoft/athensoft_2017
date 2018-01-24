@@ -65,7 +65,7 @@
 	</bean>
 	  -->
 	 	<!-- Email athensoft email smtp conf  NON-SSL-->
-	 <!-- 	
+	  	
  	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<property name="host" value="mail.athensoft.com"></property>
 		<property name="port" value="8025"></property>
@@ -80,5 +80,5 @@
 			</props>
 		</property>
 	</bean>
-	  -->
+	
 </beans>

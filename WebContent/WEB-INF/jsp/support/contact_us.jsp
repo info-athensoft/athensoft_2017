@@ -121,7 +121,7 @@
 
 							<h2 class="mb-3 mt-2"><spring:message code="contactus-form-title"/></h2>
 
-							<form id="contactForm" action="php/contact-form.php" method="POST">
+							<form id="contactForm" name="contactForm" action="/support/mailToUs" method="POST">
 								<div class="form-row">
 									<div class="form-group col-lg-6">
 										<label><spring:message code="contactus-form-clientname"/> *</label>
@@ -153,25 +153,35 @@
 						</div>
 						<div class="col-lg-6">
 
-							<h4 class="heading-primary mt-4">Get in <strong>Touch</strong></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-							<hr>
-
-							<h4 class="heading-primary">The <strong>Office</strong></h4>
+							<h4 class="heading-primary mt-4"><spring:message code="contactus-email-title"/></h4>
 							<ul class="list list-icons list-icons-style-3 mt-4">
-								<li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</li>
-								<li><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-789</li>
-								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
+								<li><i class="fa fa-envelope"></i> <strong><spring:message code="contactus-email-name-1"/>:</strong> <a href="mailto:info@athensoft.com">info@athensoft.com</a></li>
+								<li><i class="fa fa-envelope"></i> <strong><spring:message code="contactus-email-name-2"/>:</strong> <a href="mailto:support@athensoft.com">support@athensoft.com</a></li>
 							</ul>
 
 							<hr>
+							
+							<h4 class="heading-primary mt-4"><spring:message code="contactus-phone-title"/></h4>
+							<ul class="list list-icons list-icons-style-3 mt-4">
+								<li><i class="fa fa-phone"></i> <strong><spring:message code="contactus-phone-name-1"/>:</strong> (514) 800-2956</li>
+								<li><i class="fa fa-mobile"></i> <strong><spring:message code="contactus-phone-name-2"/>:</strong> (514) 746-9188</li>
+							</ul>
 
-							<h4 class="heading-primary">Business <strong>Hours</strong></h4>
-							<ul class="list list-icons list-dark mt-4">
-								<li><i class="fa fa-clock-o"></i> Monday - Friday - 9am to 5pm</li>
-								<li><i class="fa fa-clock-o"></i> Saturday - 9am to 2pm</li>
-								<li><i class="fa fa-clock-o"></i> Sunday - Closed</li>
+							<hr>
+							
+							<h4 class="heading-primary mt-4"><spring:message code="contactus-messenger-title"/></h4>
+							<ul class="list list-icons list-icons-style-3 mt-4">
+								<li><i class="fa fa-wechat"></i> <strong><spring:message code="contactus-messenger-name-1"/>:</strong> Athens314</li>
+							</ul>
+							
+							<hr>
+							
+							<h4 class="heading-primary mt-4"><spring:message code="contactus-social-title"/></h4>
+							<ul class="social-icons">
+								<li class="social-icons-facebook"><a href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li class="social-icons-twitter"><a href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+								<li class="social-icons-youtube"><a href="http://www.youtube.com/" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 
 						</div>
