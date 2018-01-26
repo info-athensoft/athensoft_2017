@@ -1,4 +1,4 @@
-package com.athensoft.site.graphic.controller;
+package com.athensoft.site.biz.controller;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
@@ -18,6 +18,13 @@ public class GraphicController {
 		return "graphic/graphic";
 	}
 	
+	@RequestMapping("/graphic.html")
+	public String gotoGraphicIndex2(){
+		logger.info("entering.. /graphic.html");
+		logger.info("exiting.. /graphic.html");
+		return "graphic/graphic";
+	}
+	
 	@RequestMapping("/portfolio.html")
 	public String gotoGraphicPortfolio(){
 		logger.info("entering.. /graphic/portfolio.html");
@@ -30,5 +37,12 @@ public class GraphicController {
 		logger.info("entering.. /graphic/case.html");
 		logger.info("exiting.. /graphic/case.html");
 		return "graphic/case";
+	}
+	
+	@RequestMapping("/pricing.html")
+	public String gotoGraphicPricing(){
+		logger.info("entering.. /graphic/pricing.html");
+		logger.info("exiting.. /graphic/pricing.html");
+		return "graphic/pricing";
 	}
 }

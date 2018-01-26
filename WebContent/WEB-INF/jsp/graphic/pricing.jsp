@@ -98,7 +98,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-graphic"/></h1>
+								<h1><spring:message code="page-title-graphic-pricing"/></h1>
 							</div>
 						</div>
 					</div>

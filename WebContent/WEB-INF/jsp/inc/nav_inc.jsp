@@ -27,10 +27,10 @@
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="#?lang=${loc}"> <spring:message code="menu-web"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#?lang=${loc}"> <spring:message code="menu-web-1"/> </a></li>
-						<li><a class="dropdown-item" href="#?lang=${loc}"> <spring:message code="menu-web-2"/> </a></li>
-						<li><a class="dropdown-item" href="#?lang=${loc}"> <spring:message code="menu-web-3"/> </a></li>
-						<li><a class="dropdown-item" href="#?lang=${loc}"> <spring:message code="menu-web-4"/> </a></li>
+						<li><a class="dropdown-item" href="/webdev/webdev.html?lang=${loc}"> <spring:message code="menu-web-1"/> </a></li>
+						<li><a class="dropdown-item" href="/webdev/product.html?lang=${loc}"> <spring:message code="menu-web-2"/> </a></li>
+						<li><a class="dropdown-item" href="/webdev/case.html?lang=${loc}"> <spring:message code="menu-web-3"/> </a></li>
+						<li><a class="dropdown-item" href="/webdev/pricing.html?lang=${loc}"> <spring:message code="menu-web-4"/> </a></li>
 					</ul></li>
 				
 				
@@ -38,9 +38,10 @@
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="/graphic/index.html?lang=${loc}"><spring:message code="menu-graphic-1"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/graphic.html?lang=${loc}"><spring:message code="menu-graphic-1"/></a></li>
 						<li><a class="dropdown-item" href="/graphic/portfolio.html?lang=${loc}"><spring:message code="menu-graphic-2"/></a></li>
 						<li><a class="dropdown-item" href="/graphic/case.html?lang=${loc}"><spring:message code="menu-graphic-3"/></a></li>
+						<li><a class="dropdown-item" href="/graphic/pricing.html?lang=${loc}"><spring:message code="menu-graphic-4"/></a></li>
 					</ul>
 				</li>
 				

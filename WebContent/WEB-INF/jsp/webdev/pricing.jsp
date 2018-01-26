@@ -29,7 +29,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title><spring:message code="head-title-graphic"/></title>
+		<title><spring:message code="head-title-webdev"/></title>
 
 		<meta name="keywords" content="" />
 		<meta name="description" content="">
@@ -98,7 +98,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-graphic"/></h1>
+								<h1><spring:message code="page-title-webdev-pricing"/></h1>
 							</div>
 						</div>
 					</div>

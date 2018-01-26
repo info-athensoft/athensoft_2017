@@ -2825,7 +2825,7 @@ section.video .container {
 }
 
 section.video .video-overlay {
-	background: transparent url(../img/video-overlay.png) repeat 0 0;
+	background: transparent url(/img/video-overlay.png) repeat 0 0;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -2837,7 +2837,7 @@ section.video .video-overlay {
 }
 
 section.video.video-overlay-dark .video-overlay {
-	background-image: url(../img/video-overlay-dark.png);
+	background-image: url(/img/video-overlay-dark.png);
 }
 
 html.boxed section.video > div:first-child {

@@ -160,23 +160,23 @@
 
 							<h4 class="heading-primary mt-4"><spring:message code="contactus-email-title"/></h4>
 							<ul class="list list-icons list-icons-style-3 mt-4">
-								<li><i class="fa fa-envelope"></i> <strong><spring:message code="contactus-email-name-1"/>:</strong> <a href="mailto:info@athensoft.com">info@athensoft.com</a></li>
-								<li><i class="fa fa-envelope"></i> <strong><spring:message code="contactus-email-name-2"/>:</strong> <a href="mailto:support@athensoft.com">support@athensoft.com</a></li>
+								<li><i class="fa fa-envelope"></i> <spring:message code="contactus-email-name-1"/>: <a href="mailto:info@athensoft.com">info@athensoft.com</a></li>
+								<li><i class="fa fa-envelope"></i> <spring:message code="contactus-email-name-2"/>: <a href="mailto:support@athensoft.com">support@athensoft.com</a></li>
 							</ul>
 
 							<hr>
 							
 							<h4 class="heading-primary mt-4"><spring:message code="contactus-phone-title"/></h4>
 							<ul class="list list-icons list-icons-style-3 mt-4">
-								<li><i class="fa fa-phone"></i> <strong><spring:message code="contactus-phone-name-1"/>:</strong> (514) 800-2956</li>
-								<li><i class="fa fa-mobile"></i> <strong><spring:message code="contactus-phone-name-2"/>:</strong> (514) 746-9188</li>
+								<li><i class="fa fa-phone"></i> <spring:message code="contactus-phone-name-1"/>: (514) 800-2956</li>
+								<li><i class="fa fa-mobile"></i> <spring:message code="contactus-phone-name-2"/>: (514) 746-9188</li>
 							</ul>
 
 							<hr>
 							
 							<h4 class="heading-primary mt-4"><spring:message code="contactus-messenger-title"/></h4>
 							<ul class="list list-icons list-icons-style-3 mt-4">
-								<li><i class="fa fa-wechat"></i> <strong><spring:message code="contactus-messenger-name-1"/>:</strong> Athens314</li>
+								<li><i class="fa fa-wechat"></i> <spring:message code="contactus-messenger-name-1"/>: Athens314</li>
 							</ul>
 							
 							<hr>
