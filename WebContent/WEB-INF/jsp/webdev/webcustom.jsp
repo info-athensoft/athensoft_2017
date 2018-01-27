@@ -82,10 +82,8 @@
 		<div class="body">
 			<!-- header -->
 			<jsp:include page="${inc_dir}/header_inc.jsp"></jsp:include>
-
 			
 			<div role="main" class="main">
-
 				<section class="page-header">
 					<div class="container">
 						<div class="row">
@@ -98,7 +96,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-webdev-product"/></h1>
+								<h1><spring:message code="page-title-webdev-webcustom"/></h1>
 							</div>
 						</div>
 					</div>
@@ -106,9 +104,7 @@
 			
 							
 				<div class="container">
-
 					<h2>Our <strong>Services</strong></h2>
-
 					<div class="row align-items-center">
 						<div class="col-lg-10">
 							<p class="lead">
@@ -121,6 +117,8 @@
 					</div>
 
 					<hr>
+					
+					
 					
 					
 					<div class="featured-boxes">

@@ -104,228 +104,173 @@
 					</div>
 				</section>
 			
-							
 				<div class="container">
 
-					<h2>Our <strong>Services</strong></h2>
+					<div class="row">
+						<div class="col-lg-3 order-2 order-lg-1">
+							<aside class="sidebar">
 
-					<div class="row align-items-center">
-						<div class="col-lg-10">
-							<p class="lead">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh metus.
-							</p>
+								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
+
+								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
+									<li class="nav-item" data-option-value="*"><a class="nav-link active" href="#"><spring:message code="webdev-sidebar-link-1"/></a></li>
+									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-2"/></a></li>
+									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-3"/></a></li>
+									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-4"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-5"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-6"/></a></li>
+								</ul>
+
+								<hr class="invisible mt-5 mb-2">
+
+								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
+								<p>Contact us or give us a call to discover how we can help.</p>
+
+								<form id="contactForm" action="php/contact-form.php" method="POST">
+									<div class="form-row">
+										<div class="form-group col">
+											<label>Your name *</label>
+											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<label>Your email address *</label>
+											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<label>Subject</label>
+											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<label>Message *</label>
+											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<input type="submit" value="Send Message" class="btn btn-primary mb-4" data-loading-text="Loading...">
+
+											<div class="alert alert-success d-none" id="contactSuccess">
+												Message has been sent to us.
+											</div>
+
+											<div class="alert alert-danger d-none" id="contactError">
+												Error sending your message.
+											</div>
+										</div>
+									</div>
+								</form>
+							</aside>
 						</div>
-						<div class="col-lg-2">
-							<a href="#" class="btn btn-lg btn-primary">Contact Us!</a>
-						</div>
-					</div>
-
-					<hr>
-					
-					
-					
-					
-					<div class="featured-boxes">
-						<div class="row">
-							<div class="col-lg-3 col-sm-6">
-								<div class="featured-box featured-box-primary featured-box-effect-1 mt-0 mt-lg-5">
-									<div class="box-content">
-										<i class="icon-featured fa fa-user"></i>
-										<h4 class="text-uppercase">Loved by Customers</h4>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-										<p><a href="/" class="lnk-primary learn-more">Learn More <i class="fa fa-angle-right"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-sm-6">
-								<div class="featured-box featured-box-secondary featured-box-effect-1 mt-0 mt-lg-5">
-									<div class="box-content">
-										<i class="icon-featured fa fa-book"></i>
-										<h4 class="text-uppercase">Well Documented</h4>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-										<p><a href="/" class="lnk-secondary learn-more">Learn more <i class="fa fa-angle-right"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-sm-6">
-								<div class="featured-box featured-box-tertiary featured-box-effect-1 mt-0 mt-lg-5">
-									<div class="box-content">
-										<i class="icon-featured fa fa-trophy"></i>
-										<h4 class="text-uppercase">Winner</h4>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
-										<p><a href="/" class="lnk-tertiary learn-more">Learn more <i class="fa fa-angle-right"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-sm-6">
-								<div class="featured-box featured-box-quaternary featured-box-effect-1 mt-0 mt-lg-5">
-									<div class="box-content">
-										<i class="icon-featured fa fa-cogs"></i>
-										<h4 class="text-uppercase">Customizable</h4>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus. </p>
-										<p><a href="/" class="lnk-quaternary learn-more">Learn more <i class="fa fa-angle-right"></i></a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<hr>
-
-					<div class="row pt-4">
-						<div class="col-lg-8">
-							<h2>Our <strong>Features</strong></h2>
+						
+						<div class="col-lg-9 order-1 order-lg-2">
+						
+							<!-- overview -->
+							<h3><spring:message code="webdev-title-1-1"/></h3>
 							<div class="row">
-								<div class="col-sm-6">
-									<div class="feature-box">
-										<div class="feature-box-icon">
-											<i class="fa fa-group"></i>
-										</div>
-										<div class="feature-box-info">
-											<h4 class="heading-primary mb-0">Customer Support</h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur.</p>
-										</div>
-									</div>
-									<div class="feature-box">
-										<div class="feature-box-icon">
-											<i class="fa fa-file"></i>
-										</div>
-										<div class="feature-box-info">
-											<h4 class="heading-primary mb-0">HTML5 / CSS3 / JS</h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet,.</p>
-										</div>
-									</div>
-									<div class="feature-box">
-										<div class="feature-box-icon">
-											<i class="fa fa-google-plus"></i>
-										</div>
-										<div class="feature-box-info">
-											<h4 class="heading-primary mb-0">500+ Google Fonts</h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur.</p>
-										</div>
-									</div>
-									<div class="feature-box">
-										<div class="feature-box-icon">
-											<i class="fa fa-adjust"></i>
-										</div>
-										<div class="feature-box-info">
-											<h4 class="heading-primary mb-0">Colors</h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur.</p>
+								<div class="col">
+									<p class="">
+										<spring:message code="webdev-content-1-1"/>
+									</p>
+								</div>
+							</div>
+
+							<hr class="short">
+							
+							<!-- main business -->
+							<h3><spring:message code="webdev-title-2-1"/></h3>
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="featured-box featured-box-tertiary mt-2">
+										<div class="box-content">
+											<div class="row">
+												<div class="col">
+													<i class="icon-featured fa fa-cube m-0"></i>
+													<h2 class="mb-4"><spring:message code="webdev-title-2-1_a"/></h2>
+													<p><spring:message code="webdev-content-2-1_a"/></p>
+													<button class="btn btn-tertiary mr-1 mb-4" type="button">
+														<spring:message code="webdev-btn-2-1_a"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
+													</button>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6">
-									<div class="feature-box">
-										<div class="feature-box-icon">
-											<i class="fa fa-film"></i>
-										</div>
-										<div class="feature-box-info">
-											<h4 class="heading-primary mb-0">Sliders</h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur.</p>
-										</div>
-									</div>
-									<div class="feature-box">
-										<div class="feature-box-icon">
-											<i class="fa fa-user"></i>
-										</div>
-										<div class="feature-box-info">
-											<h4 class="heading-primary mb-0">Icons</h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur.</p>
-										</div>
-									</div>
-									<div class="feature-box">
-										<div class="feature-box-icon">
-											<i class="fa fa-bars"></i>
-										</div>
-										<div class="feature-box-info">
-											<h4 class="heading-primary mb-0">Buttons</h4>
-											<p class="mb-4">Lorem ipsum dolor sit, consectetur.</p>
-										</div>
-									</div>
-									<div class="feature-box">
-										<div class="feature-box-icon">
-											<i class="fa fa-desktop"></i>
-										</div>
-										<div class="feature-box-info">
-											<h4 class="heading-primary mb-0">Lightbox</h4>
-											<p class="mb-4">Lorem sit amet, consectetur.</p>
+								<div class="col-lg-6">
+									<div class="featured-box featured-box-tertiary mt-2">
+										<div class="box-content">
+											<div class="row">
+												<div class="col">
+													<i class="icon-featured fa fa-cogs m-0"></i>
+													<h2 class="mb-4"><spring:message code="webdev-title-2-1_b"/></h2>
+													<p><spring:message code="webdev-content-2-1_b"/></p>
+													<button class="btn btn-tertiary mr-1 mb-4" type="button">
+														<spring:message code="webdev-btn-2-1_b"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
+													</button>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-4">
-							<h2>and more...</h2>
-
-							<div class="accordion" id="accordion">
-								<div class="card card-default">
-									<div class="card-header">
-										<h4 class="card-title m-0">
-											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-												<i class="fa fa-usd"></i>
-												Pricing Tables
-											</a>
-										</h4>
-									</div>
-									<div id="collapseOne" class="collapse show">
-										<div class="card-body">
-											Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor.
+							
+							<hr class="tall"/>
+							
+							<!-- why us -->
+							<h3><spring:message code="webdev-title-3-1"/></h3>
+							<div class="row">
+								<div class="col">
+									<p class="lead">
+										<spring:message code="webdev-content-3-1"/>
+									</p>
+								</div>
+							</div>
+							
+							<hr class="short"/>
+							
+							<!-- testimonial -->
+							<h3><spring:message code="webdev-title-4-1"/></h3>
+							
+							<div class="row mt-lg-5">
+								<div class="col-lg-6">
+									<div class="testimonial testimonial-style-4">
+										<blockquote>
+											<p><spring:message code="webdev-txt-4-1_a"/></p>
+										</blockquote>
+										<div class="testimonial-arrow-down"></div>
+										<div class="testimonial-author">
+											<div class="testimonial-author-thumbnail">
+												<img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+											</div>
+											<p><strong><spring:message code="webdev-txt-4-1_b"/></strong><span><spring:message code="webdev-txt-4-1_c"/></span></p>
 										</div>
 									</div>
 								</div>
-								<div class="card card-default">
-									<div class="card-header">
-										<h4 class="card-title m-0">
-											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-												<i class="fa fa-comment"></i>
-												Contact Forms
-											</a>
-										</h4>
-									</div>
-									<div id="collapseTwo" class="collapse">
-										<div class="card-body">
-											Donec tellus massa, tristique sit amet condimentum vel, facilisis quis sapien.
-										</div>
-									</div>
-								</div>
-								<div class="card card-default">
-									<div class="card-header">
-										<h4 class="card-title m-0">
-											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-												<i class="fa fa-laptop"></i>
-												Portfolio Pages
-											</a>
-										</h4>
-									</div>
-									<div id="collapseThree" class="collapse">
-										<div class="card-body">
-											Donec tellus massa, tristique sit amet condimentum vel, facilisis quis sapien.
+								<div class="col-lg-6">
+									<div class="testimonial testimonial-style-4">
+										<blockquote>
+											<p><spring:message code="webdev-txt-4-2_a"/></p>
+										</blockquote>
+										<div class="testimonial-arrow-down"></div>
+										<div class="testimonial-author">
+											<div class="testimonial-author-thumbnail">
+												<img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+											</div>
+											<p><strong><spring:message code="webdev-txt-4-2_b"/></strong><span><spring:message code="webdev-txt-4-2_c"/></span></p>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-
-					<hr class="tall">
-
-					<div class="row justify-content-around mb-5">
-						<div class="col-sm-7">
-							<h2>Premium <strong>Features</strong></h2>
-							<p class="lead">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo. Vestibulum ante ipsum primis in faucibus orci.
-							</p>
-							<p class="mt-4">
-								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis in vel justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent scelerisque volutpat turpis, eu hendrerit enim scel.
-							</p>
-						</div>
-						<div class="col-sm-4 mt-4">
-							<img class="img-fluid mt-5" src="${img_dir}/graphic/device.png" alt="">
+							
 						</div>
 					</div>
 
 				</div>
-			
 			</div>
 			
 			<!-- footer -->

@@ -4,6 +4,11 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<!-- page variables  -->
+<c:set var="inc_dir" value="../inc"/>
+<c:set var="img_dir" value="../images"></c:set>
+<!-- END page variables -->
+
 <!-- i18n -->
 <c:set var="loc" value="en_US"/>
 <c:if test="${!(empty param.lang)}">
@@ -30,6 +35,20 @@
 					<i class="fa fa-angle-right"></i> <spring:message code="link-support"/>
 				</a>
 			</li>
+			<!-- 
+			<li class="nav-item dropdown">
+				<a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<img src="${img_dir}/language/canada.gif" class="flag flag-us" alt="English" /> English
+					<i class="fa fa-angle-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdownLanguage">
+					<a class="dropdown-item" href="#"><img src="${img_dir}/language/canada.gif"  alt="English" /> English</a>
+					<a class="dropdown-item" href="#"><img src="${img_dir}/language/french.gif"  alt="French" /> Fran\u00e7aise</a>
+					<a class="dropdown-item" href="#"><img src="${img_dir}/language/chineseS.gif"  alt="ChineseS" /> \u7b80\u4f53\u4e2d\u6587</a>
+					<a class="dropdown-item" href="#"><img src="${img_dir}/language/chineseT.gif"  alt="ChineseT" /> \u7e41\u4f53\u4e2d\u6587</a>
+				</div>
+			</li> -->
+			
 		</ul>
 	</nav>
 	<div class="header-search d-none d-md-block">

@@ -37,6 +37,20 @@ public class SupportController {
 		return "support/faq";
 	}
 	
+	@RequestMapping("/faq-webdev.html")
+	public String gotoFaqWebdev(){
+		logger.info("entering.. /support/faq-webdev.html");
+		logger.info("exiting.. /support/faq-webdev.html");
+		return "support/faq_webdev";
+	}
+	
+	@RequestMapping("/faq-graphic.html")
+	public String gotoFaqGraphic(){
+		logger.info("entering.. /support/faq-graphic.html");
+		logger.info("exiting.. /support/faq-graphic.html");
+		return "support/faq_graphic";
+	}
+	
 	@RequestMapping("/contactus.html")
 	public String gotoContactus(){
 		logger.info("entering.. /support/contactus.html");

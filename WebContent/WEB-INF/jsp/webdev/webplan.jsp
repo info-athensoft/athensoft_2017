@@ -98,7 +98,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-webdev-product"/></h1>
+								<h1><spring:message code="page-title-webdev-webplan"/></h1>
 							</div>
 						</div>
 					</div>
@@ -121,6 +121,8 @@
 					</div>
 
 					<hr>
+					
+					
 					
 					
 					<div class="featured-boxes">

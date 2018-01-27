@@ -29,7 +29,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title><spring:message code="head-title-webdev"/></title>
+		<title><spring:message code="head-title-adogo"/></title>
 
 		<meta name="keywords" content="" />
 		<meta name="description" content="">
@@ -98,7 +98,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-webdev-product"/></h1>
+								<h1><spring:message code="page-title-adogo"/></h1>
 							</div>
 						</div>
 					</div>
@@ -121,6 +121,8 @@
 					</div>
 
 					<hr>
+					
+					
 					
 					
 					<div class="featured-boxes">

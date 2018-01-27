@@ -24,6 +24,20 @@ public class WebdevController {
 		return "webdev/webdev";
 	}
 	
+	@RequestMapping("/webplan.html")
+	public String gotoWebPlan(){
+		logger.info("entering.. /webdev/webplan.html");
+		logger.info("exiting.. /webdev/webplan.html");
+		return "webdev/webplan";
+	}
+	
+	@RequestMapping("/webcustom.html")
+	public String gotoWebCustom(){
+		logger.info("entering.. /webdev/webcustom.html");
+		logger.info("exiting.. /webdev/webcustom.html");
+		return "webdev/webcustom";
+	}
+	
 	@RequestMapping("/product.html")
 	public String gotoWebdevProduct(){
 		logger.info("entering.. /webdev/product.html");
