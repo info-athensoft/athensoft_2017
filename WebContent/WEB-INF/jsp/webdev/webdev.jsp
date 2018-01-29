@@ -193,9 +193,9 @@
 													<i class="icon-featured fa fa-cube m-0"></i>
 													<h2 class="mb-4"><spring:message code="webdev-title-2-1_a"/></h2>
 													<p><spring:message code="webdev-content-2-1_a"/></p>
-													<button class="btn btn-tertiary mr-1 mb-4" type="button">
+													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webplan.html?lang=${loc}">
 														<spring:message code="webdev-btn-2-1_a"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
-													</button>
+													</a>
 												</div>
 											</div>
 										</div>
@@ -209,9 +209,9 @@
 													<i class="icon-featured fa fa-cogs m-0"></i>
 													<h2 class="mb-4"><spring:message code="webdev-title-2-1_b"/></h2>
 													<p><spring:message code="webdev-content-2-1_b"/></p>
-													<button class="btn btn-tertiary mr-1 mb-4" type="button">
+													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webcustom.html?lang=${loc}">
 														<spring:message code="webdev-btn-2-1_b"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
-													</button>
+													</a>
 												</div>
 											</div>
 										</div>
@@ -271,6 +271,7 @@
 					</div>
 
 				</div>
+			
 			</div>
 			
 			<!-- footer -->

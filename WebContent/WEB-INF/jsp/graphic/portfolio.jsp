@@ -166,13 +166,9 @@
 										</div>
 									</div>
 								</form>
-
-								
-
 							</aside>
 						</div>
 						<div class="col-lg-9 order-1 order-lg-2">
-
 							<div class="sort-destination-loader sort-destination-loader-showing">
 								<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
 									<div class="col-lg-4 isotope-item brands">
