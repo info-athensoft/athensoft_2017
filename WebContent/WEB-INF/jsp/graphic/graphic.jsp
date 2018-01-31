@@ -174,12 +174,12 @@
 							<div class="row">
 								<div class="col">
 									<p class="">
-										<spring:message code="graphic-content-1-1"/>
+										<spring:message code="graphic-pricing-content-1-1"/>
 									</p>
 								</div>
 							</div>
 
-							<hr class="short">
+							<hr class="invisible mt-2 mb-2">
 							
 							<!-- main business -->
 							<h3><spring:message code="graphic-title-2-1"/></h3>
@@ -191,8 +191,7 @@
 										</div>
 										<div class="feature-box-info">
 											<a href="#"><h4 class="heading-primary mb-0"><spring:message code="graphic-item-2-1_1a"/></h4></a>
-											<p class="mb-4"><spring:message code="graphic-item-2-1_1b"/><br/>
-												<span class="small"><a href="#"><spring:message code="graphic-btn-2-1"/></a></span></p>
+											<p class="mb-4"><spring:message code="graphic-item-2-1_1b"/></p>
 										</div>
 									</div>
 									<div class="feature-box feature-box-style-3">
@@ -201,8 +200,7 @@
 										</div>
 										<div class="feature-box-info">
 											<a href="#"><h4 class="heading-primary mb-0"><spring:message code="graphic-item-2-1_2a"/></h4></a>
-											<p class="mb-4"><spring:message code="graphic-item-2-1_2b"/><br/>
-												<span class="small"><a href="#"><spring:message code="graphic-btn-2-1"/></a></span></p>
+											<p class="mb-4"><spring:message code="graphic-item-2-1_2b"/></p>
 										</div>
 									</div>
 									<div class="feature-box feature-box-style-3">
@@ -211,8 +209,7 @@
 										</div>
 										<div class="feature-box-info">
 											<a href="#"><h4 class="heading-primary mb-0"><spring:message code="graphic-item-2-1_3a"/></h4></a>
-											<p class="mb-4"><spring:message code="graphic-item-2-1_3b"/><br/>
-												<span class="small"><a href="#"><spring:message code="graphic-btn-2-1"/></a></span></p>
+											<p class="mb-4"><spring:message code="graphic-item-2-1_3b"/></p>
 										</div>
 									</div>
 									<div class="feature-box feature-box-style-3">
@@ -221,8 +218,7 @@
 										</div>
 										<div class="feature-box-info">
 											<a href="#"><h4 class="heading-primary mb-0"><spring:message code="graphic-item-2-1_4a"/></h4></a>
-											<p class="mb-4"><spring:message code="graphic-item-2-1_4b"/><br/>
-												<span class="small"><a href="#"><spring:message code="graphic-btn-2-1"/></a></span></p>
+											<p class="mb-4"><spring:message code="graphic-item-2-1_4b"/></p>
 										</div>
 									</div>
 								</div>
@@ -233,8 +229,7 @@
 										</div>
 										<div class="feature-box-info">
 											<a href="#"><h4 class="heading-primary mb-0"><spring:message code="graphic-item-2-1_5a"/></h4></a>
-											<p class="mb-4"><spring:message code="graphic-item-2-1_5b"/><br/>
-												<span class="small"><a href="#"><spring:message code="graphic-btn-2-1"/></a></span></p>
+											<p class="mb-4"><spring:message code="graphic-item-2-1_5b"/></p>
 										</div>
 									</div>
 									<div class="feature-box feature-box-style-3">
@@ -243,8 +238,7 @@
 										</div>
 										<div class="feature-box-info">
 											<a href="#"><h4 class="heading-primary mb-0"><spring:message code="graphic-item-2-1_6a"/></h4></a>
-											<p class="mb-4"><spring:message code="graphic-item-2-1_6b"/><br/>
-												<span class="small"><a href="#"><spring:message code="graphic-btn-2-1"/></a></span></p>
+											<p class="mb-4"><spring:message code="graphic-item-2-1_6b"/></p>
 										</div>
 									</div>
 									<div class="feature-box feature-box-style-3">
@@ -253,8 +247,7 @@
 										</div>
 										<div class="feature-box-info">
 											<a href="#"><h4 class="heading-primary mb-0"><spring:message code="graphic-item-2-1_7a"/></h4></a>
-											<p class="mb-4"><spring:message code="graphic-item-2-1_7b"/><br/>
-												<span class="small"><a href="#"><spring:message code="graphic-btn-2-1"/></a></span></p>
+											<p class="mb-4"><spring:message code="graphic-item-2-1_7b"/></p>
 										</div>
 									</div>
 									<div class="feature-box feature-box-style-3">
@@ -263,75 +256,13 @@
 										</div>
 										<div class="feature-box-info">
 											<a href="#"><h4 class="heading-primary mb-0"><spring:message code="graphic-item-2-1_8a"/></h4></a>
-											<p class="mb-4"><spring:message code="graphic-item-2-1_8b"/><br/>
-												<span class="small"><a href="#"><spring:message code="graphic-btn-2-1"/></a></span></p>
+											<p class="mb-4"><spring:message code="graphic-item-2-1_8b"/></p>
 										</div>
 									</div>
 								</div>
 							</div>
 							
-							
-							<hr class="tall"/>
-							
-							
-							<!-- latest work -->
-							<h3><spring:message code="graphic-title-3-1"/></h3>
-							<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
-								<div class="col-lg-4 isotope-item brands">
-									<div class="portfolio-item">
-										<a href="portfolio-single-small-slider.html">
-											<span class="thumb-info thumb-info-lighten">
-												<span class="thumb-info-wrapper">
-													<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Presentation</span>
-														<span class="thumb-info-type">Brand</span>
-													</span>
-													<span class="thumb-info-action">
-														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="col-lg-4 isotope-item brands">
-									<div class="portfolio-item">
-										<a href="portfolio-single-small-slider.html">
-											<span class="thumb-info thumb-info-lighten">
-												<span class="thumb-info-wrapper">
-													<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Presentation</span>
-														<span class="thumb-info-type">Brand</span>
-													</span>
-													<span class="thumb-info-action">
-														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="col-lg-4 isotope-item brands">
-								<div class="portfolio-item">
-									<a href="portfolio-single-small-slider.html">
-										<span class="thumb-info thumb-info-lighten">
-											<span class="thumb-info-wrapper">
-												<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Presentation</span>
-													<span class="thumb-info-type">Brand</span>
-												</span>
-												<span class="thumb-info-action">
-													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-							</div>
-							</div>
+							<hr class="invisible mt-2 mb-4">
 							
 							<section class="call-to-action featured featured-primary mb-5">
 								<div class="col-sm-9 col-lg-9">
@@ -346,6 +277,52 @@
 									</div>
 								</div>
 							</section>
+							
+							
+							<!-- latest work -->
+							<h3><spring:message code="graphic-title-3-1"/></h3>
+							<div class="row">
+								<div class="col-lg-4">
+									<a href="portfolio-single-small-slider.html">
+										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
+											<span class="thumb-info-wrapper">
+												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner">Project Title</span>
+													<span class="thumb-info-type">Project Type</span>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4">
+									<a href="portfolio-single-small-slider.html">
+										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
+											<span class="thumb-info-wrapper">
+												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner">Project Title</span>
+													<span class="thumb-info-type">Project Type</span>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4">
+									<a href="portfolio-single-small-slider.html">
+										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
+											<span class="thumb-info-wrapper">
+												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<span class="thumb-info-title">
+													<span class="thumb-info-inner">Project Title</span>
+													<span class="thumb-info-type">Project Type</span>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							
 						</div>
 					</div>
 

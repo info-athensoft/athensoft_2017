@@ -174,7 +174,7 @@
 									<div class="col-lg-4 isotope-item brands">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -192,7 +192,7 @@
 									<div class="col-lg-4 isotope-item medias">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-zoom">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-zoom thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<span class="owl-carousel owl-theme nav-inside m-0" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
 															<span>
@@ -218,7 +218,7 @@
 									<div class="col-lg-4 isotope-item logos">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-2.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -236,7 +236,7 @@
 									<div class="col-lg-4 isotope-item brands">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-3.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -254,7 +254,7 @@
 									<div class="col-lg-4 isotope-item logos">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-4.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -272,7 +272,7 @@
 									<div class="col-lg-4 isotope-item brands">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-5.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -290,7 +290,7 @@
 									<div class="col-lg-4 isotope-item websites">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-6.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -308,7 +308,7 @@
 									<div class="col-lg-4 isotope-item medias">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-7.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -326,7 +326,7 @@
 									<div class="col-lg-4 isotope-item logos">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-23.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -344,7 +344,7 @@
 									<div class="col-lg-4 isotope-item websites">
 										<div class="portfolio-item">
 											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-24.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -361,8 +361,8 @@
 									</div>
 									<div class="col-lg-4 isotope-item medias">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+											<a href="${img_dir}/graphic/portfolio/project-25.jpg">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-25.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
@@ -379,8 +379,8 @@
 									</div>
 									<div class="col-lg-4 isotope-item websites">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten">
+											<a href="${img_dir}/graphic/portfolio/project-26.jpg">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-26.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
