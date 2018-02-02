@@ -115,8 +115,8 @@
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
 									<li class="nav-item" data-option-value="*"><a class="nav-link" href="/webdev/webdev.html?lang=${loc}"><spring:message code="webdev-sidebar-link-1"/></a></li>
 									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="/webdev/webplan.html?lang=${loc}"><spring:message code="webdev-sidebar-link-2"/></a></li>
-									<li class="nav-item" data-option-value=".logos"><a class="nav-link active" href="#"><spring:message code="webdev-sidebar-link-3"/></a></li>
-									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-4"/></a></li>
+									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="/webdev/webcustom.html?lang=${loc}"><spring:message code="webdev-sidebar-link-3"/></a></li>
+									<li class="nav-item" data-option-value=".brands"><a class="nav-link active" href="#"><spring:message code="webdev-sidebar-link-4"/></a></li>
 									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-5"/></a></li>
 									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-6"/></a></li>
 								</ul>
@@ -180,60 +180,52 @@
 									</p>
 									<p class="">
 										<spring:message code="webdev-product-content-1-2a"/>
-										<spring:message code="webdev-product-content-1-2b"/>
+										<a href="#webdev-comp-item"><spring:message code="webdev-comp-item"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-price"><spring:message code="webdev-comp-price"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-inventory"><spring:message code="webdev-comp-inventory"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-order"><spring:message code="webdev-comp-order"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-invoice"><spring:message code="webdev-comp-invoice"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-cart"><spring:message code="webdev-comp-cart"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-pay"><spring:message code="webdev-comp-pay"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-news"><spring:message code="webdev-comp-news"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-comment"><spring:message code="webdev-comp-comment"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-acct"><spring:message code="webdev-comp-acct"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-comp-uaas"><spring:message code="webdev-comp-uaas"/></a>
 									</p>
 									<p class="">
 										<spring:message code="webdev-product-content-1-3a"/>
-										<spring:message code="webdev-product-content-1-3b"/>
+										<a href="#webdev-fn-i18n"><spring:message code="webdev-fn-i18n"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-fn-mail"><spring:message code="webdev-fn-mail"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-fn-fileupload"><spring:message code="webdev-fn-fileupload"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-it-social-fb"><spring:message code="webdev-it-social-fb"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-it-social-tw"><spring:message code="webdev-it-social-tw"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-it-social-yt"><spring:message code="webdev-it-social-yt"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-it-ga"><spring:message code="webdev-it-ga"/></a>,&nbsp;&nbsp;
+										<a href="#webdev-it-gmap"><spring:message code="webdev-it-gmap"/></a>
 									</p>
 								</div>
 							</div>
 
-							<hr class="invisible mt-2 mb-2">
+							<hr class="invisible mt-3 mb-4">
 							
 							<!-- main business -->
 							<h3><spring:message code="webdev-product-title-2-1"/></h3>
 							
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="portfolio-item">
-											<a href="#">
-												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-8">
-										<div class="portfolio-info">
-											<div class="row">
-												<div class="col-md-6">
-													<h4 class="heading-primary">Presentation</h4>	
-												</div>
-												<div class="col-md-6 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
-												</div>
-											</div>
-										</div>
-
-										<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. Suspendisse potenti.</p>
-										
-										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
-										</ul>
-									</div>
+							<div class="row">
+								<div class="col">
+									
+									<p class="">
+										<spring:message code="webdev-product-content-2-1a"/>
+										<spring:message code="webdev-product-content-2-1b"/>
+									</p>
+									<p class="">
+										<spring:message code="webdev-product-content-2-2a"/>
+										<spring:message code="webdev-product-content-2-2b"/>
+									</p>
 								</div>
 							</div>
 							
-							<hr class="short"/>
+							<hr class="invisible mt-2 mb-3" id="webdev-comp-item"/>
 							
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -254,16 +246,58 @@
 									<div class="col-lg-8">
 										<div class="portfolio-info">
 											<div class="row">
-												<div class="col-md-6">
-													<h4 class="heading-primary">Presentation</h4>	
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-item"/></h4>	
 												</div>
-												<div class="col-md-6 text-center text-md-right">
+												<div class="col-md-3 text-center text-md-right">
 													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
 												</div>
 											</div>
 										</div>
 
-										<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. Suspendisse potenti.</p>
+										<p class="mt-3"><spring:message code="webdev-comp-item-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-price"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-price"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-price-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
@@ -274,7 +308,7 @@
 								</div>
 							</div>
 							
-							<hr class="short"/>
+							<hr class="short" id="webdev-comp-inventory"/>
 							
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -295,16 +329,693 @@
 									<div class="col-lg-8">
 										<div class="portfolio-info">
 											<div class="row">
-												<div class="col-md-6">
-													<h4 class="heading-primary">Presentation</h4>	
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-inventory"/></h4>	
 												</div>
-												<div class="col-md-6 text-center text-md-right">
+												<div class="col-md-3 text-center text-md-right">
 													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
 												</div>
 											</div>
 										</div>
 
-										<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. Suspendisse potenti.</p>
+										<p class="mt-3"><spring:message code="webdev-comp-inventory-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-order"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-order"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-order-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-invoice"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-invoice"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-invoice-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-cart"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-cart"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-cart-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-pay"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-pay"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-pay-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-news"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-news"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-news-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-comment"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-comment"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-comment-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-acct"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-acct"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-acct-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id="webdev-comp-uaas"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-comp-uaas"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-comp-uaas-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="tall"/>
+							
+							<!-- main business 2 -->
+							<h3><spring:message code="webdev-product-title-3-1"/></h3>
+							
+							<div class="row">
+								<div class="col">
+									
+									<p class="">
+										<spring:message code="webdev-product-content-3-1a"/>
+										<spring:message code="webdev-product-content-3-1b"/>
+									</p>
+									<p class="">
+										<spring:message code="webdev-product-content-3-2a"/>
+										<spring:message code="webdev-product-content-3-2b"/>
+									</p>
+								</div>
+							</div>
+							
+							<hr class="invisible mt-2 mb-3" id="webdev-fn-i18n"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-fn-i18n"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-fn-i18n-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="invisible mt-2 mb-3" id="webdev-fn-mail"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-fn-mail"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-fn-mail-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="invisible mt-2 mb-3" id="webdev-fn-fileupload"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-fn-fileupload"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-fn-fileupload-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="invisible mt-2 mb-3" id="webdev-it-social-fb"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-it-social-fb"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-it-social-fb-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="invisible mt-2 mb-3" id="webdev-it-social-tw"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-it-social-tw"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-it-social-tw-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							
+							<hr class="invisible mt-2 mb-3" id="webdev-it-social-yt"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-it-social-yt"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-it-social-yt-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="invisible mt-2 mb-3" id="webdev-it-ga"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-it-ga"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-it-ga-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							
+							<hr class="invisible mt-2 mb-3" id="webdev-it-gmap"/>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-it-gmap"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-it-gmap-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
@@ -320,7 +1031,7 @@
 							<section class="call-to-action featured featured-primary mb-5">
 								<div class="col-sm-9 col-lg-9">
 									<div class="call-to-action-content">
-										<p class="mb-0">Athensoft is <strong>everything</strong> you need to visualize your <strong>idea!</strong></p>
+										<p class="mb-0">Athensoft is <strong>everything</strong> you need to realize your <strong>idea!</strong></p>
 									</div>
 								</div>
 								<div class="col-sm-3 col-lg-3">
