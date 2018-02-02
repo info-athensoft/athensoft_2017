@@ -89,8 +89,8 @@
 						<div class="row">
 							<div class="col">
 								<ul class="breadcrumb">
-									<li><a href="#">Home</a></li>
-									<li class="active">Pages</li>
+									<li><a href="${webapp_name}/index.html?lang=${loc}"><spring:message code="menu-home"/></a></li>
+									<li class="active"><a href="${webapp_name}/webdev/webdev.html?lang=${loc}"><spring:message code="menu-web"/></a></li>
 								</ul>
 							</div>
 						</div>
@@ -112,47 +112,49 @@
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value="*"><a class="nav-link" href="/webdev/webdev.html?lang=${loc}"><spring:message code="webdev-sidebar-link-1"/></a></li>
-									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="/webdev/webplan.html?lang=${loc}"><spring:message code="webdev-sidebar-link-2"/></a></li>
+									<li class="nav-item" data-option-value="*"><a class="nav-link" href="${webapp_name}/webdev/webdev.html?lang=${loc}"><spring:message code="webdev-sidebar-link-1"/></a></li>
+									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="${webapp_name}/webdev/webplan.html?lang=${loc}"><spring:message code="webdev-sidebar-link-2"/></a></li>
 									<li class="nav-item" data-option-value=".logos"><a class="nav-link active" href="#"><spring:message code="webdev-sidebar-link-3"/></a></li>
-									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-4"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-5"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-6"/></a></li>
+									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="${webapp_name}/webdev/product.html?lang=${loc}"><spring:message code="webdev-sidebar-link-4"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/case.html?lang=${loc}"><spring:message code="webdev-sidebar-link-5"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/pricing.html?lang=${loc}"><spring:message code="webdev-sidebar-link-6"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/support/faq-webdev.html?lang=${loc}"><spring:message code="webdev-sidebar-link-7"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
 
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
-								<p>Contact us or give us a call to discover how we can help.</p>
+								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
+									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
-								<form id="contactForm" action="php/contact-form.php" method="POST">
+								<form id="contactForm" action="/support/mailToUs" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your name *</label>
+											<label><spring:message code="contactus-form-clientname"/> *</label>
 											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your email address *</label>
+											<label><spring:message code="contactus-form-clientemail"/> *</label>
 											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Subject</label>
+											<label><spring:message code="contactus-form-subject"/></label>
 											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Message *</label>
+											<label><spring:message code="contactus-form-message"/> *</label>
 											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<input type="submit" value="Send Message" class="btn btn-primary mb-4" data-loading-text="Loading...">
+											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
 
 											<div class="alert alert-success d-none" id="contactSuccess">
 												Message has been sent to us.

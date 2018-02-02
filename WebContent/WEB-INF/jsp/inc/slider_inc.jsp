@@ -1,10 +1,22 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 <!-- page variables  -->
-<c:set var="img_dir" value="images"></c:set>
+<c:set var="img_dir" value="/images"></c:set>
 <!-- END page variables -->
+
+<!-- i18n -->
+<c:set var="loc" value="en_US"/>
+<c:if test="${!(empty param.lang)}">
+  <c:set var="loc" value="${param.lang}"/>
+</c:if>
+<fmt:setLocale value="${loc}" />
+<!-- END i18n -->
+
+
 
 <div class="slider-container rev_slider_wrapper" style="height: 677px;">
 	<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 800, 'gridheight': 677, 'responsiveLevels': [4096,1200,992,500]}">
@@ -29,14 +41,14 @@
 					data-y="center" data-voffset="-95"
 					data-start="500"
 					style="z-index: 5"
-					data-transform_in="y:[-300%];opacity:0;s:500;">DO YOU NEED A NEW</div>
+					data-transform_in="y:[-300%];opacity:0;s:500;"><spring:message code="slide-p1-titel-1"/></div>
 
 				<div class="tp-caption"
 					data-x="center" data-hoffset="150"
 					data-y="center" data-voffset="-95"
 					data-start="1000"
 					style="z-index: 5"
-					data-transform_in="x:[300%];opacity:0;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
+					data-transform_in="x:[300%];opacity:0;s:500;"><img src="${img_dir}/slides/slide-title-border.png" alt=""></div>
 
 				<div class="tp-caption main-label"
 					data-x="center" data-hoffset="0"
@@ -46,7 +58,7 @@
 					data-transform_in="y:[100%];s:500;"
 					data-transform_out="opacity:0;s:500;"
 					style="z-index: 5"
-					data-mask_in="x:0px;y:0px;">WEB DESIGN?</div>
+					data-mask_in="x:0px;y:0px;"><spring:message code="slide-p1-titel-2"/></div>
 
 				<div class="tp-caption bottom-label"
 					data-x="center" data-hoffset="0"
@@ -54,7 +66,7 @@
 					data-start="2000"
 					data-fontsize="['20','20','20','30']"
 					style="z-index: 5"
-					data-transform_in="y:[100%];opacity:0;s:500;">Check out our options and features.</div>
+					data-transform_in="y:[100%];opacity:0;s:500;"><spring:message code="slide-p1-titel-3"/></div>
 
 				<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
 					data-hash
@@ -68,7 +80,7 @@
 					data-transform_in="y:[100%];s:500;"
 					data-transform_out="opacity:0;s:500;"
 					style="z-index: 5"
-					data-mask_in="x:0px;y:0px;">Get Started Now!</a>
+					data-mask_in="x:0px;y:0px;"><spring:message code="slide-p1-btn-1"/></a>
 				
 			</li>
 			<li data-transition="fade">
@@ -87,7 +99,7 @@
 					data-fontsize="['52','52','52','62']"
 					style="z-index: 5"
 					data-transform_in="y:[100%];s:500;"
-					data-transform_out="opacity:0;s:500;">WELCOME TO INF. ATHENSOFT</div>
+					data-transform_out="opacity:0;s:500;">INFORMATIQUE ATHENSOFT</div>
 
 				<div class="tp-caption bottom-label"
 					data-x="center"
@@ -102,7 +114,7 @@
 					data-splitout="none" 
 					data-responsive_offset="on"
 					style="font-size: 23px; line-height: 30px;"
-					data-elementdelay="0.05">The #1 Selling HTML Site Template on ThemeForest</div>
+					data-elementdelay="0.05">The Professional Software and IT Services Provider</div>
 
 			</li>
 		</ul>

@@ -122,17 +122,7 @@
 
 				</div>
 				
-				<!-- 
-				<div class="container">
-					<div class="row text-center">
-						<div class="col">
-							<div style="margin: 45px 0px -30px; overflow: hidden;">
-								<img src="img/dark-and-light.jpg" class="img-fluid appear-animation" data-appear-animation="fadeInUp" alt="dark and light">
-							</div>
-						</div>
-					</div>
-				</div>
-				 -->
+				
 				 
 				<section class="section">
 					<div class="container">
@@ -217,7 +207,7 @@
 								<spring:message code="index-content-1a"/>
 							</p>
 							<p>
-								<spring:message code="index-content-1b"/>
+								<a href="/webdev/webdev.html?lang=${loc}"><spring:message code="index-content-1b"/></a>
 							</p>
 						</div>
 					</div>
@@ -231,7 +221,7 @@
 								 <spring:message code="index-content-2a"/>
 							</p>
 							<p>
-								<spring:message code="index-content-2b"/>
+								<a href="/graphic/graphic.html?lang=${loc}"><spring:message code="index-content-2b"/></a>
 							</p>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1 mt-5">
@@ -251,7 +241,7 @@
 								<spring:message code="index-content-3a"/>
 							</p>
 							<p>
-								<spring:message code="index-content-3b"/>
+								<a href="/adogo/adogo.html?lang=${loc}"><spring:message code="index-content-3b"/></a>
 							</p>
 						</div>
 					</div>
@@ -265,7 +255,7 @@
 								 <spring:message code="index-content-4a"/>
 							</p>
 							<p>
-								<spring:message code="index-content-4b"/>
+								<a href="#?lang=${loc}"><spring:message code="index-content-4b"/></a>
 							</p>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1 mt-5">

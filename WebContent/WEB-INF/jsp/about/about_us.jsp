@@ -91,8 +91,8 @@
 						<div class="row">
 							<div class="col">
 								<ul class="breadcrumb">
-									<li><a href="#">Home</a></li>
-									<li class="active">Pages</li>
+									<li><a href="${webapp_name}/index.html?lang=${loc}"><spring:message code="menu-home"/></a></li>
+									<li class="active"><a href="${webapp_name}/support/aboutus.html?lang=${loc}"><spring:message code="link-about"/></a></li>
 								</ul>
 							</div>
 						</div>

@@ -91,8 +91,8 @@
 						<div class="row">
 							<div class="col">
 								<ul class="breadcrumb">
-									<li><a href="#">Home</a></li>
-									<li class="active">Pages</li>
+									<li><a href="${webapp_name}/index.html?lang=${loc}"><spring:message code="menu-home"/></a></li>
+									<li class="active"><a href="${webapp_name}/webdev/webdev.html?lang=${loc}"><spring:message code="menu-web"/></a></li>
 								</ul>
 							</div>
 						</div>
@@ -121,9 +121,6 @@
 					</div>
 
 					<hr>
-					
-					
-					
 					
 					<div class="featured-boxes">
 						<div class="row">

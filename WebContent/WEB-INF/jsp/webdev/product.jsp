@@ -91,8 +91,8 @@
 						<div class="row">
 							<div class="col">
 								<ul class="breadcrumb">
-									<li><a href="#">Home</a></li>
-									<li class="active">Pages</li>
+									<li><a href="${webapp_name}/index.html?lang=${loc}"><spring:message code="menu-home"/></a></li>
+									<li class="active"><a href="${webapp_name}/webdev/webdev.html?lang=${loc}"><spring:message code="menu-web"/></a></li>
 								</ul>
 							</div>
 						</div>
@@ -113,47 +113,49 @@
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value="*"><a class="nav-link" href="/webdev/webdev.html?lang=${loc}"><spring:message code="webdev-sidebar-link-1"/></a></li>
-									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="/webdev/webplan.html?lang=${loc}"><spring:message code="webdev-sidebar-link-2"/></a></li>
-									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="/webdev/webcustom.html?lang=${loc}"><spring:message code="webdev-sidebar-link-3"/></a></li>
+									<li class="nav-item" data-option-value="*"><a class="nav-link" href="${webapp_name}/webdev/webdev.html?lang=${loc}"><spring:message code="webdev-sidebar-link-1"/></a></li>
+									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="${webapp_name}/webdev/webplan.html?lang=${loc}"><spring:message code="webdev-sidebar-link-2"/></a></li>
+									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="${webapp_name}/webdev/webcustom.html?lang=${loc}"><spring:message code="webdev-sidebar-link-3"/></a></li>
 									<li class="nav-item" data-option-value=".brands"><a class="nav-link active" href="#"><spring:message code="webdev-sidebar-link-4"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-5"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#"><spring:message code="webdev-sidebar-link-6"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/case.html?lang=${loc}"><spring:message code="webdev-sidebar-link-5"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/pricing.html?lang=${loc}"><spring:message code="webdev-sidebar-link-6"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/support/faq-webdev.html?lang=${loc}"><spring:message code="webdev-sidebar-link-7"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
 
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
-								<p>Contact us or give us a call to discover how we can help.</p>
+								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
+									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
-								<form id="contactForm" action="php/contact-form.php" method="POST">
+								<form id="contactForm" action="/support/mailToUs" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your name *</label>
+											<label><spring:message code="contactus-form-clientname"/> *</label>
 											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your email address *</label>
+											<label><spring:message code="contactus-form-clientemail"/> *</label>
 											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Subject</label>
+											<label><spring:message code="contactus-form-subject"/></label>
 											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Message *</label>
+											<label><spring:message code="contactus-form-message"/> *</label>
 											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<input type="submit" value="Send Message" class="btn btn-primary mb-4" data-loading-text="Loading...">
+											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
 
 											<div class="alert alert-success d-none" id="contactSuccess">
 												Message has been sent to us.
@@ -176,10 +178,12 @@
 								<div class="col">
 									<p class="">
 										<spring:message code="webdev-product-content-1-1a"/>
+										<br/>
 										<spring:message code="webdev-product-content-1-1b"/>
 									</p>
 									<p class="">
 										<spring:message code="webdev-product-content-1-2a"/>
+										<br/>
 										<a href="#webdev-comp-item"><spring:message code="webdev-comp-item"/></a>,&nbsp;&nbsp;
 										<a href="#webdev-comp-price"><spring:message code="webdev-comp-price"/></a>,&nbsp;&nbsp;
 										<a href="#webdev-comp-inventory"><spring:message code="webdev-comp-inventory"/></a>,&nbsp;&nbsp;
@@ -194,6 +198,7 @@
 									</p>
 									<p class="">
 										<spring:message code="webdev-product-content-1-3a"/>
+										<br/>
 										<a href="#webdev-fn-i18n"><spring:message code="webdev-fn-i18n"/></a>,&nbsp;&nbsp;
 										<a href="#webdev-fn-mail"><spring:message code="webdev-fn-mail"/></a>,&nbsp;&nbsp;
 										<a href="#webdev-fn-fileupload"><spring:message code="webdev-fn-fileupload"/></a>,&nbsp;&nbsp;
@@ -215,11 +220,11 @@
 								<div class="col">
 									
 									<p class="">
-										<spring:message code="webdev-product-content-2-1a"/>
+										<spring:message code="webdev-product-content-2-1a"/><br/>
 										<spring:message code="webdev-product-content-2-1b"/>
 									</p>
 									<p class="">
-										<spring:message code="webdev-product-content-2-2a"/>
+										<spring:message code="webdev-product-content-2-2a"/><br/>
 										<spring:message code="webdev-product-content-2-2b"/>
 									</p>
 								</div>
@@ -300,9 +305,10 @@
 										<p class="mt-3"><spring:message code="webdev-comp-price-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
 										</ul>
 									</div>
 								</div>
@@ -341,9 +347,8 @@
 										<p class="mt-3"><spring:message code="webdev-comp-inventory-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
 										</ul>
 									</div>
 								</div>
@@ -382,9 +387,9 @@
 										<p class="mt-3"><spring:message code="webdev-comp-order-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
 										</ul>
 									</div>
 								</div>
@@ -423,9 +428,9 @@
 										<p class="mt-3"><spring:message code="webdev-comp-invoice-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
 										</ul>
 									</div>
 								</div>
@@ -464,9 +469,7 @@
 										<p class="mt-3"><spring:message code="webdev-comp-cart-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
 										</ul>
 									</div>
 								</div>
@@ -505,9 +508,9 @@
 										<p class="mt-3"><spring:message code="webdev-comp-pay-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
 										</ul>
 									</div>
 								</div>
@@ -546,9 +549,7 @@
 										<p class="mt-3"><spring:message code="webdev-comp-news-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -587,9 +588,7 @@
 										<p class="mt-3"><spring:message code="webdev-comp-comment-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -628,9 +627,7 @@
 										<p class="mt-3"><spring:message code="webdev-comp-acct-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -669,9 +666,9 @@
 										<p class="mt-3"><spring:message code="webdev-comp-uaas-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
 										</ul>
 									</div>
 								</div>
@@ -686,11 +683,11 @@
 								<div class="col">
 									
 									<p class="">
-										<spring:message code="webdev-product-content-3-1a"/>
+										<spring:message code="webdev-product-content-3-1a"/><br/>
 										<spring:message code="webdev-product-content-3-1b"/>
 									</p>
 									<p class="">
-										<spring:message code="webdev-product-content-3-2a"/>
+										<spring:message code="webdev-product-content-3-2a"/><br/>
 										<spring:message code="webdev-product-content-3-2b"/>
 									</p>
 								</div>
@@ -729,9 +726,7 @@
 										<p class="mt-3"><spring:message code="webdev-fn-i18n-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -770,9 +765,7 @@
 										<p class="mt-3"><spring:message code="webdev-fn-mail-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -811,9 +804,7 @@
 										<p class="mt-3"><spring:message code="webdev-fn-fileupload-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -852,9 +843,7 @@
 										<p class="mt-3"><spring:message code="webdev-it-social-fb-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -893,9 +882,7 @@
 										<p class="mt-3"><spring:message code="webdev-it-social-tw-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -935,9 +922,7 @@
 										<p class="mt-3"><spring:message code="webdev-it-social-yt-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -976,9 +961,7 @@
 										<p class="mt-3"><spring:message code="webdev-it-ga-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
@@ -1018,9 +1001,7 @@
 										<p class="mt-3"><spring:message code="webdev-it-gmap-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> Corporate/Catalog Site</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> E-Commerce</li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> ERP Lite</li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-all"/></li>
 										</ul>
 									</div>
 								</div>
