@@ -45,7 +45,7 @@
 						</div>
 						<div class="col-lg-3">
 							<h4><spring:message code="footer-title-tweets"/></h4>
-							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': '', 'count': 2}">
+							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'athens314@hotmail.com': '', 'count': 2}">
 								<p>Please wait...</p>
 							</div>
 						</div>

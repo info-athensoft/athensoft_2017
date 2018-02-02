@@ -2157,9 +2157,10 @@ window.theme.fn = {
 	};
 
 	PluginTweets.defaults = {
-		username: null,
+		username: 'athens314@hotmail.com',
 		count: 2,
-		URL: 'php/twitter-feed.php'
+		//URL: 'php/twitter-feed.php'
+		URL: 'https://api.twitter.com/1.1/statuses/home_timeline.json'
 	};
 
 	PluginTweets.prototype = {
