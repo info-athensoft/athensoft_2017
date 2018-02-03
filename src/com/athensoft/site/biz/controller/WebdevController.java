@@ -1,14 +1,27 @@
 package com.athensoft.site.biz.controller;
 
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.athensoft.site.support.model.ContactForm;
+import com.athensoft.site.support.service.SupportService;
 
 
 @Controller
 @RequestMapping("/webdev")
 public class WebdevController {
 	private static final Logger logger = Logger.getLogger(WebdevController.class);
+	
+	private SupportService supportService;
+	
+	@Autowired
+	public void setSupportService(SupportService supportService) {
+		this.supportService = supportService;
+	}
 	
 	@RequestMapping("/index.html")
 	public String gotoWebdevIndex(){
@@ -57,5 +70,20 @@ public class WebdevController {
 		logger.info("entering.. /webdev/pricing.html");
 		logger.info("exiting.. /webdev/pricing.html");
 		return "webdev/pricing";
+	}
+	
+	@RequestMapping("/quote")
+	public String quote(@RequestParam("quoteStr") String quoteStr,
+						@RequestParam("lang") String lang,
+						@RequestParam("customerName") String customerName,
+						@RequestParam("customerEmail") String customerEmail){
+		logger.info("entering.. /webdev/quote");
+		
+		logger.info(quoteStr);
+		
+		supportService.sendQuoteMail(quoteStr,customerName,customerEmail);
+		
+		logger.info("exiting.. /webdev/quote");
+		return "redirect:/webdev/webcustom.html?lang="+lang;
 	}
 }

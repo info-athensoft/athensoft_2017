@@ -188,6 +188,7 @@
 							<div class="row">
 								<div class="col">
 									<p class="">
+										<a href="/webdev/pricing.html?lang=${loc}" class="btn btn-primary" onclick=";">免费报价</a><br/>
 										<spring:message code="webdev-webcustom-content-2-1"/>
 									</p>
 								</div>

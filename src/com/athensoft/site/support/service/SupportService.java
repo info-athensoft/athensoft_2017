@@ -52,6 +52,34 @@ public class SupportService {
 	}
 	
 	
+	public void sendQuoteMail(String quoteStr, String customerName, String customerEmail){
+		
+		//set mail subject
+		String emailTitle = "[Customer] sent us a quote request";
+		
+		//set mail body
+		String senderName 	= customerName.trim().equals("")?"Anonymous":customerName;
+		String senderEmail 	= customerEmail.trim().equals("")?"Unknown":customerEmail;
+		String senderSubject= "Request quote";
+		String senderMessage= quoteStr;
+		
+		StringBuffer mailBody = new StringBuffer();
+		mailBody.append("Customer: "+senderName);
+		mailBody.append("<br/>");
+		mailBody.append("Email: "+senderEmail);
+		mailBody.append("<br/><br/>");
+		mailBody.append("Subject: "+senderSubject);
+		mailBody.append("<br/><br/>");
+		mailBody.append(senderMessage);
+		
+		String emailBody = mailBody.toString();
+		
+		//send mail
+		emailService.sendTextMail(FROM_EMAIL_ADDR,TO_EMAIL_ADDR,emailTitle,emailBody);
+						
+	}
+	
+	
 	/* application form */
 	/*
 	public void sendApplicationMail(EmailForm applicationForm){

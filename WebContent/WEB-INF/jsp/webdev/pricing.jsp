@@ -202,35 +202,35 @@
 												<div class="col-lg-9">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg1" id="biz-goal-1">
+															<input type="checkbox" value="bg1" id="biz-goal-0">
 															我想展示公司或者生意介绍，展示商业形象
 														</label>
 													</div>
 						
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg2" id="biz-goal-2">
+															<input type="checkbox" value="bg2" id="biz-goal-1">
 															我想展示产品或服务目录，可包含详情、价格等
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg3" id="biz-goal-3">
+															<input type="checkbox" value="bg3" id="biz-goal-2">
 															我想做电子商城，可以线上下单、付款交易
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg4" id="biz-goal-4">
+															<input type="checkbox" value="bg4" id="biz-goal-3">
 															我想线上处理业务，电子化企业管理和运营，代替或缓解人工操作
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg5" id="biz-goal-5">
+															<input type="checkbox" value="bg5" id="biz-goal-4">
 															我想此站作为官方网站或主站
 														</label>
 													</div>
@@ -248,19 +248,19 @@
 											<h4 class="heading-primary text-uppercase mb-3">网页内容</h4>
 
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">网页数量</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">网页大约数量</label>
 												<div class="form-group col-lg-1">
-													<input type="text" value="" class="form-control form-control-sm mt-2">
+													<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
 												</div>
 												
 												<label class="col-lg-2 control-label text-lg-right pt-2">语言数量</label>
 												<div class="form-group col-lg-1">
-													<input type="text" value="" class="form-control form-control-sm mt-2">
+													<input type="text" value="1" class="form-control form-control-sm mt-2" id="qtyLang">
 												</div>
 												
-												<label class="col-lg-2 control-label text-lg-right pt-2">图片数量</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">图片大约数量</label>
 												<div class="form-group col-lg-1">
-													<input type="text" value="" class="form-control form-control-sm mt-2">
+													<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
 												</div>
 											</div>
 											
@@ -269,19 +269,19 @@
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios1" id="optionsRadios11" value="11" checked="">
+															<input type="radio" name="copywrite" id="copywrite1" value="1" checked="checked">
 															我不需要，自己负责书写所有文字内容
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios1" id="optionsRadios12" value="12">
+															<input type="radio" name="copywrite" id="copywrite2" value="2">
 															我需要，准备委托第三方代理
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios1" id="optionsRadios13" value="13">
+															<input type="radio" name="copywrite" id="copywrite3" value="3">
 															我需要，准备委托Athensoft代理
 														</label>
 													</div>
@@ -293,19 +293,19 @@
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios2" id="optionsRadios21" value="21" checked="">
+															<input type="radio" name="translate" id="translate1" value="1" checked="checked">
 															我不需要，自己负责翻译所有文字内容
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios2" id="optionsRadios22" value="22">
+															<input type="radio" name="translate" id="translate2" value="2">
 															我需要，准备委托第三方代理
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios2" id="optionsRadios23" value="23">
+															<input type="radio" name="translate" id="translate3" value="3">
 															我需要，准备委托Athensoft代理
 														</label>
 													</div>
@@ -326,79 +326,81 @@
 												<div class="col-lg-4">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizcomponent-0">
 															<spring:message code="webdev-comp-item"/>
 														</label>
 													</div>
 						
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizcomponent-1">
 															<spring:message code="webdev-comp-price"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizcomponent-2">
 															<spring:message code="webdev-comp-inventory"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizcomponent-3">
 															<spring:message code="webdev-comp-order"/>
 														</label>
 													</div>
 												</div>
-												<div class="col-lg-4">
-														<div class="checkbox">
-															<label>
-																<input type="checkbox" value="">
-																<spring:message code="webdev-comp-invoice"/>
-															</label>
-														</div>
-														
-														<div class="checkbox">
-															<label>
-																<input type="checkbox" value="">
-																<spring:message code="webdev-comp-cart"/>
-															</label>
-														</div>
-														
-														<div class="checkbox">
-															<label>
-																<input type="checkbox" value="">
-																<spring:message code="webdev-comp-pay"/>
-															</label>
-														</div>
-														
-														<div class="checkbox">
-															<label>
-																<input type="checkbox" value="">
-																<spring:message code="webdev-comp-news"/>
-															</label>
-														</div>
-													</div>
+												
 												<div class="col-lg-4">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizcomponent-4">
+															<spring:message code="webdev-comp-invoice"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="bizcomponent-5">
+															<spring:message code="webdev-comp-cart"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="bizcomponent-6">
+															<spring:message code="webdev-comp-pay"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="bizcomponent-7">
+															<spring:message code="webdev-comp-news"/>
+														</label>
+													</div>
+												</div>
+												
+												<div class="col-lg-4">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="bizcomponent-8">
 															<spring:message code="webdev-comp-comment"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizcomponent-9">
 															<spring:message code="webdev-comp-acct"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizcomponent-10">
 															<spring:message code="webdev-comp-uaas"/>
 														</label>
 													</div>
@@ -418,21 +420,21 @@
 												<div class="col-lg-4">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizfunc-0">
 															<spring:message code="webdev-fn-i18n"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizfunc-1">
 															<spring:message code="webdev-fn-mail"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizfunc-2">
 															<spring:message code="webdev-fn-fileupload"/>
 														</label>
 													</div>
@@ -441,21 +443,21 @@
 												<div class="col-lg-4">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizfunc-3">
 															<spring:message code="webdev-it-social-fb"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizfunc-4">
 															<spring:message code="webdev-it-social-tw"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizfunc-5">
 															<spring:message code="webdev-it-social-yt"/>
 														</label>
 													</div>
@@ -464,14 +466,14 @@
 												<div class="col-lg-4">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizfunc-6">
 															<spring:message code="webdev-it-ga"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="">
+															<input type="checkbox" value="" id="bizfunc-7">
 															<spring:message code="webdev-it-gmap"/>
 														</label>
 													</div>
@@ -492,13 +494,13 @@
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios3" id="optionsRadios31" value="31" checked="">
+															<input type="radio" name="contentmaintain" id="contentmaintain1" value="1" checked="">
 															我不需要后台，内容变化少或不频繁，准备委托Athensoft维护内容和数据
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios3" id="optionsRadios32" value="32">
+															<input type="radio" name="contentmaintain" id="contentmaintain2" value="2">
 															我需要后台，自行维护内容和数据
 														</label>
 													</div>
@@ -520,31 +522,31 @@
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios4" id="optionsRadios41" value="41" checked="">
+															<input type="radio" name="domainname" id="domainname1" value="1" checked="">
 															我已经有域名，可以自己管理
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios4" id="optionsRadios42" value="42">
+															<input type="radio" name="domainname" id="domainname2" value="2">
 															我已经有域名，需要委托Athensoft管理
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios4" id="optionsRadios43" value="43">
+															<input type="radio" name="domainname" id="domainname3" value="3">
 															我没有域名，可以自己申请购买，并自己管理
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios4" id="optionsRadios44" value="44">
+															<input type="radio" name="domainname" id="domainname4" value="4">
 															我没有域名，可以自己申请购买，需要委托Athensoft管理
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios4" id="optionsRadios45" value="45">
+															<input type="radio" name="domainname" id="domainname5" value="5">
 															我没有域名，需要委托Athensoft申请购买并管理
 														</label>
 													</div>
@@ -566,19 +568,19 @@
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios5" id="optionsRadios51" value="51" checked="">
+															<input type="radio" name="hosting" id="hosting1" value="1" checked="">
 															我已经有购买主机服务
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios5" id="optionsRadios52" value="52">
+															<input type="radio" name="hosting" id="hosting2" value="2">
 															我没有主机服务，准备自行购买
 														</label>
 													</div>
 													<div class="radio">
 														<label>
-															<input type="radio" name="optionsRadios5" id="optionsRadios52" value="53">
+															<input type="radio" name="hosting" id="hosting3" value="3">
 															我没有主机服务，准备委托Athensoft代理
 														</label>
 													</div>
@@ -592,7 +594,20 @@
 							</div>
 							<!-- END ROW -->
 							
-							<a href="javascript:void(0);" class="btn btn-primary" onclick="requestQuote();">现在提交&nbsp;&nbsp;获取报价</a>
+							<hr class="invisible mt-3 mb-2"/>
+							<div class="row">
+								<label class="col-lg-2 pt-2 text-lg-right">Please send to:</label>
+								<div class="col-lg-3">
+									<input type="text" class="form-control" id="customerName" placeholder="your name"/></div>
+								
+								<label class="col-lg-1 pt-2 text-lg-right">@</label>
+								<div class="col-lg-4">
+									<input type="text" class="form-control" id="customerEmail" placeholder="your email"/></div>
+									
+								<div class="col-lg-2">
+									<a href="javascript:void(0);" class="btn btn-primary" onclick="requestQuote();">现在提交</a></div>
+								
+							</div>
 											
  
  							<hr class="tall"/>
@@ -665,16 +680,239 @@
 		function requestQuote(){
 			//alert("requestQuote");
 			
-			//biz goal
-			//var bizgoal[];
-			var bizgoal_1 = $("#biz-goal-1").val();
-			var bizgoal_2 = $("#biz-goal-2").val();
-			var bizgoal_3 = $("#biz-goal-3").val();
-			var bizgoal_4 = $("#biz-goal-4").val();
-			var bizgoal_5 = $("#biz-goal-5").val();
+			//buisness goal
+			var bizgoal = new Array(5);
+			bizgoal[0] = "I will take it as corporate site";
+			bizgoal[1] = "I will take it as catalog site";
+			bizgoal[2] = "I will take it as e-commerce site";
+			bizgoal[3] = "I will take it as business web app";
+			bizgoal[4] = "I will take it as primary site";
+			
+			var strBizgoal = "";
+			
+			var hasChecked = false;
+			for(var i=0; i<bizgoal.length; i++){
+				if($("#biz-goal-"+i).is(':checked')){
+					hasChecked = true;
+					strBizgoal += bizgoal[i]+"<br/>";
+				}
+			}
+			
+			//if(strBizgoal.replace(/(^\s*)|(\s*$)/g, "").length ==0){
+			if(!hasChecked){
+				strBizgoal = "The business goal is not clear.<br/>"
+			}
+			//end of buisness goal
 			
 			
-			alert(bizgoal_1+","+bizgoal_2+","+bizgoal_3+","+bizgoal_4+","+bizgoal_5);
+			//web page content
+			var pagecontent = new Array(5);
+			pagecontent[0] = "Qty of web page : "+$("#qtyWebpage").val();
+			pagecontent[1] = "Qty of language : "+$("#qtyLang").val();
+			pagecontent[2] = "Qty of image : "+$("#qtyImage").val();
+			pagecontent[3] = $("input[type='radio'][name='copywrite']:checked").val();
+			pagecontent[4] = $("input[type='radio'][name='translate']:checked").val();
+			
+			var strPagecontent = "";
+			
+			switch(pagecontent[3]){
+				case '1':
+					pagecontent[3]="copywrite : no need";
+					break;
+				case '2':
+					pagecontent[3]="copywrite : I need, but delegate to the 3rd party";
+					break;
+				case '3':
+					pagecontent[3]="copywrite : I need, and delegate to Athensoft";
+					break;
+				default:
+					break;
+			}
+			
+			switch(pagecontent[4]){
+				case '1':
+					pagecontent[4]="translate : no need";
+					break;
+				case '2':
+					pagecontent[4]="translate : I need, but delegate to the 3rd party";
+					break;
+				case '3':
+					pagecontent[4]="translate : I need, and delegate to Athensoft";
+					break;
+				default:
+					break;
+			}
+			
+			for(var i=0; i<pagecontent.length; i++){
+				strPagecontent += pagecontent[i]+"<br/>";
+			}
+			//end of web page content
+			
+			
+			//business component
+			var bizcomponent = new Array(11);
+			bizcomponent[0] = "item";
+			bizcomponent[1] = "price";
+			bizcomponent[2] = "inventory";
+			bizcomponent[3] = "order";
+			bizcomponent[4] = "invoice";
+			bizcomponent[5] = "cart";
+			bizcomponent[6] = "pay";
+			bizcomponent[7] = "news";
+			bizcomponent[8] = "comment";
+			bizcomponent[9] = "acct";
+			bizcomponent[10] = "uaas";
+			
+			var strBizcomponent = "";
+			
+			var hasChecked2 = false;
+			for(var i=0; i<bizcomponent.length; i++){
+				if($("#bizcomponent-"+i).is(':checked')){
+					hasChecked2 = true;
+					strBizcomponent += bizcomponent[i]+",";
+				}
+			}
+			
+			//if(strBizcomponent.replace(/(^\s*)|(\s*$)/g, "").length ==0){
+			if(!hasChecked2){
+				strBizcomponent = "Business component : none selected.<br/>"
+			}else{
+				strBizcomponent = "Business component : <br/>"+strBizcomponent;
+			}
+			//end business component
+			
+			
+			//business func
+			var bizfunc = new Array(8);
+			bizfunc[0] = "i18n";
+			bizfunc[1] = "email";
+			bizfunc[2] = "fileupload";
+			bizfunc[3] = "facebook integration";
+			bizfunc[4] = "twitter integration";
+			bizfunc[5] = "youtube integration";
+			bizfunc[6] = "Google Analytics integration";
+			bizfunc[7] = "Google Map integration";
+			
+			var strBizfunc = "";
+			
+			for(var i=0; i<bizfunc.length; i++){
+				if($("#bizfunc-"+i).is(':checked')){
+					strBizfunc += bizfunc[i]+",";
+				}
+			}
+			
+			if(strBizfunc.replace(/(^\s*)|(\s*$)/g, "").length ==0){
+				strBizfunc = "Business function : none selected.<br/>"
+			}else{
+				strBizfunc = "Business function : <br/>"+strBizfunc;
+			}
+			//end business func
+			
+			
+			//content maintain
+			var contentmaintain = new Array(1);
+			contentmaintain[0] = $("input[type='radio'][name='contentmaintain']:checked").val();
+			var strContentmaintain = "";
+			
+			switch(contentmaintain[0]){
+				case '1':
+					contentmaintain[0]="content maintain : no need of content or data maintain";
+					break;
+				case '2':
+					contentmaintain[0]="content maintain : I need content or data maintain";
+					break;
+				default:
+					break;
+			}
+			
+			for(var i=0; i<contentmaintain.length; i++){
+				strContentmaintain += contentmaintain[i]+"<br/>";
+			}
+			//end content maintain
+			
+			
+			//domain name
+			var domainname = new Array(1);
+			domainname[0] = $("input[type='radio'][name='domainname']:checked").val();
+			var strDomainname = "";
+			
+			switch(domainname[0]){
+				case '1':
+					domainname[0]="domain name : I already have domian name, and I can manage by myself";
+					break;
+				case '2':
+					domainname[0]="domain name : I already have domian name, and I will delegate to Athensoft to manage";
+					break;
+				case '3':
+					domainname[0]="domain name : I have no domain name yet, and I will purchase and manage by myself";
+					break;
+				case '4':
+					domainname[0]="domain name : I have no domain name yet, and I will purchase by myself, will delegate to Athensoft to manage";
+					break;
+				case '5':
+					domainname[0]="domain name : I have no domain name yet, and I will delegate to Athensoft to purchase and manage";
+					break;
+				default:
+					break;
+			}
+			
+			for(var i=0; i<domainname.length; i++){
+				strDomainname += domainname[i]+"<br/>";
+			}
+			//end domain name
+			
+			
+			
+			//hosting
+			var hosting = new Array(1);
+			hosting[0] = $("input[type='radio'][name='hosting']:checked").val();
+			var strHosting = "";
+			
+			switch(hosting[0]){
+				case '1':
+					hosting[0]="hosting : I already have hosting";
+					break;
+				case '2':
+					hosting[0]="hosting : I have no hosting yet, and I will purchase by myself";
+					break;
+				case '3':
+					hosting[0]="hosting : I have no hosting yet, and I will delegate to Athensoft to purchase and manage";
+					break;
+				default:
+					break;
+			}
+			
+			for(var i=0; i<hosting.length; i++){
+				strHosting += hosting[i]+"<br/>";
+			}
+			//end hosting
+			
+			
+			//user info
+			var customerName = $("#customerName").val();
+			var customerEmail = $("#customerEmail").val();
+			
+			customerName=encodeURI(customerName);
+			customerEmail=encodeURI(customerEmail);
+			
+			alert(strBizgoal+"\r\r"+strPagecontent+"\r"+strBizcomponent+"\r\r"+strBizfunc+"\r\r"+strContentmaintain+"\r"+strDomainname+"\r\r"+strHosting);
+
+			var quoteStr = strBizgoal+"<br/>"+strPagecontent+"<br/>"+strBizcomponent+"<br/>"+strBizfunc+"<br/>"+strContentmaintain+"<br/>"+strDomainname+"<br/>"+strHosting;
+			quoteStr = encodeURI(quoteStr);
+			
+			
+					
+			var lang = '${loc}';
+			$.ajax({
+				type	:	"post",
+				url		:	"/webdev/quote?quoteStr="+quoteStr+"&lang="+lang+"&customerName="+customerName+"&customerEmail="+customerEmail,
+				dataType:	"html",
+				//data	: {	quoteStr : quoteStr },
+				timeout : 5000,
+				success:function(data){
+					window.location.href="/webdev/webcustom.html?lang="+lang;				
+				}		
+			});
 			
 		}
 		
