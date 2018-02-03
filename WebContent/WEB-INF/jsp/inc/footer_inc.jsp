@@ -45,8 +45,15 @@
 						</div>
 						<div class="col-lg-3">
 							<h4><spring:message code="footer-title-tweets"/></h4>
-							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'athens314@hotmail.com': '', 'count': 2}">
-								<p>Please wait...</p>
+							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': '', 'count': 2}">
+								<!-- <p>Please wait...</p> -->
+								<a class="twitter-timeline" 
+									data-width="220" 
+									data-height="240" 
+									data-theme="dark" 
+									data-chrome="nofooter noborders transparent noheader noscrollbar"
+									href="https://twitter.com/Athensoft?ref_src=twsrc%5Etfw">Tweets by Athensoft</a> 
+									<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 							</div>
 						</div>
 						<div class="col-lg-4">

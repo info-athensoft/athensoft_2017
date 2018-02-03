@@ -167,6 +167,17 @@
 										</div>
 									</div>
 								</form>
+								
+								<hr class="invisible mt-2 mb-2">
+								
+								<a class="twitter-timeline" 
+									data-width="220" 
+									data-height="320" 
+									data-theme="light" 
+									data-chrome="nofooter noborders transparent noscrollbar"
+									href="https://twitter.com/Athensoft?ref_src=twsrc%5Etfw">Tweets by Athensoft</a> 
+									<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								
 							</aside>
 						</div>
 						
