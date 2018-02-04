@@ -198,13 +198,13 @@
 							<!-- main business -->
 							<h3><spring:message code="webdev-title-2-1"/></h3>
 							<div class="row">
-								<div class="col-lg-6">
+								<div class="col-lg-4">
 									<div class="featured-box featured-box-tertiary mt-2">
 										<div class="box-content">
 											<div class="row">
 												<div class="col">
 													<i class="icon-featured fa fa-cube m-0"></i>
-													<h2 class="mb-4"><spring:message code="webdev-title-2-1_a"/></h2>
+													<h4 class="mt-2 mb-2"><spring:message code="webdev-title-2-1_a"/></h4>
 													<p><spring:message code="webdev-content-2-1_a"/></p>
 													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webplan.html?lang=${loc}">
 														<spring:message code="webdev-btn-2-1_a"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
@@ -214,16 +214,32 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-4">
 									<div class="featured-box featured-box-tertiary mt-2">
 										<div class="box-content">
 											<div class="row">
 												<div class="col">
 													<i class="icon-featured fa fa-cogs m-0"></i>
-													<h2 class="mb-4"><spring:message code="webdev-title-2-1_b"/></h2>
+													<h4 class="mt-2 mb-2"><spring:message code="webdev-title-2-1_b"/></h4>
 													<p><spring:message code="webdev-content-2-1_b"/></p>
 													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webcustom.html?lang=${loc}">
 														<spring:message code="webdev-btn-2-1_b"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="featured-box featured-box-tertiary mt-2">
+										<div class="box-content">
+											<div class="row">
+												<div class="col">
+													<i class="icon-featured fa fa-cogs m-0"></i>
+													<h4 class="mt-2 mb-2"><spring:message code="webdev-title-2-1_c"/></h4>
+													<p><spring:message code="webdev-content-2-1_c"/></p>
+													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webcustom.html?lang=${loc}">
+														<spring:message code="webdev-btn-2-1_c"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
 													</a>
 												</div>
 											</div>
@@ -238,18 +254,22 @@
 							<h3><spring:message code="webdev-title-3-1"/></h3>
 							<div class="row">
 								<div class="col">
-									<p class="lead">
-										<spring:message code="webdev-content-3-1"/>
-									</p>
+									<ol class="list list-ordened list-ordened-style-3">
+										<li><spring:message code="webdev-item-3-1_a"></spring:message></li>
+										<li><spring:message code="webdev-item-3-1_b"></spring:message></li>
+										<li><spring:message code="webdev-item-3-1_c"></spring:message></li>
+										<li><spring:message code="webdev-item-3-1_d"></spring:message></li>
+										<li><spring:message code="webdev-item-3-1_e"></spring:message></li>
+									</ol>
 								</div>
 							</div>
 							
-							<hr class="short"/>
+							<hr class="invisible mt-3 mb-2"/>
 							
 							<!-- testimonial -->
 							<h3><spring:message code="webdev-title-4-1"/></h3>
 							
-							<div class="row mt-lg-5">
+							<div class="row mt-lg-1">
 								<div class="col-lg-6">
 									<div class="testimonial testimonial-style-4">
 										<blockquote>
@@ -258,7 +278,7 @@
 										<div class="testimonial-arrow-down"></div>
 										<div class="testimonial-author">
 											<div class="testimonial-author-thumbnail">
-												<img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+												<img src="${img_dir}/client/client-1.jpg" class="img-fluid rounded-circle" alt="">
 											</div>
 											<p><strong><spring:message code="webdev-txt-4-1_b"/></strong><span><spring:message code="webdev-txt-4-1_c"/></span></p>
 										</div>
@@ -272,7 +292,7 @@
 										<div class="testimonial-arrow-down"></div>
 										<div class="testimonial-author">
 											<div class="testimonial-author-thumbnail">
-												<img src="img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+												<img src="${img_dir}/client/client-1.jpg" class="img-fluid rounded-circle" alt="">
 											</div>
 											<p><strong><spring:message code="webdev-txt-4-2_b"/></strong><span><spring:message code="webdev-txt-4-2_c"/></span></p>
 										</div>

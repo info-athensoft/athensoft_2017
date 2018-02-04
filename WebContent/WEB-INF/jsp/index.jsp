@@ -98,8 +98,8 @@
 							</div>
 							<div class="col-lg-4">
 								<div class="get-started text-left text-lg-right">
-									<a href="#" class="btn btn-lg btn-primary"><spring:message code="index-btnlink-quote-1"/></a>
-									<div class="learn-more"><spring:message code="index-btnlink-quote-2"/><a href="#"><spring:message code="index-btnlink-quote-3"/></a></div>
+									<a href="/webdev/pricing.html?lang=${loc}" class="btn btn-lg btn-primary"><spring:message code="index-btnlink-quote-1"/></a>
+									<div class="learn-more"><spring:message code="index-btnlink-quote-2"/><a href="/webdev/webdev.html?lang=${loc}"><spring:message code="index-btnlink-quote-3"/></a></div>
 								</div>
 							</div>
 						</div>
