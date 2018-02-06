@@ -11,6 +11,7 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="../images"></c:set>
+<c:set var="pageName" value="webpricing"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -128,7 +129,7 @@
 								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
 									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
-								<form id="contactForm" action="/support/mailToUs" method="POST">
+								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
 											<label><spring:message code="contactus-form-clientname"/> *</label>
@@ -164,6 +165,12 @@
 											<div class="alert alert-danger d-none" id="contactError">
 												Error sending your message.
 											</div>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<input type="hidden" value="${loc}" name="lang"/>
+											<input type="hidden" value="${pageName}" name="pageName"/>
 										</div>
 									</div>
 								</form>
@@ -612,13 +619,29 @@
  
  							<hr class="tall"/>
 							
-							<!-- why us -->
-							<h3><spring:message code="webdev-title-3-1"/></h3>
+							<!-- support -->
 							<div class="row">
-								<div class="col">
-									<p class="lead">
-										<spring:message code="webdev-content-3-1"/>
-									</p>
+								<div class="col-lg-6">
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-bars"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-2"><spring:message code="webdev-webplan-title-5-1"/></h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="feature-box feature-box-style-6">
+										<div class="feature-box-icon">
+											<i class="fa fa-bars"></i>
+										</div>
+										<div class="feature-box-info">
+											<h4 class="mb-2"><spring:message code="webdev-webplan-title-5-2"/></h4>
+											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+										</div>
+									</div>
 								</div>
 							</div>
 							

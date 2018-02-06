@@ -11,6 +11,7 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="../images"></c:set>
+<c:set var="pageName" value="webplan"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -128,7 +129,7 @@
 								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
 									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
-								<form id="contactForm" action="/support/mailToUs" method="POST">
+								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
 											<label><spring:message code="contactus-form-clientname"/> *</label>
@@ -166,6 +167,12 @@
 											</div>
 										</div>
 									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<input type="hidden" value="${loc}" name="lang"/>
+											<input type="hidden" value="${pageName}" name="pageName"/>
+										</div>
+									</div>
 								</form>
 							</aside>
 						</div>
@@ -189,45 +196,45 @@
 							<div class="pricing-table princig-table-flat row no-gutters mt-2 mb-2">
 								<div class="col-lg-4 col-sm-6 text-center">
 									<div class="plan">
-										<h3>Express<em class="desc">One-page Site</em><span>$359.99</span></h3>
+										<h3><spring:message code="webdev-webplan-plan-title-1"/><em class="desc"><spring:message code="webdev-webplan-plan-type-1"/></em><span>$359.99</span></h3>
 										<ul>
-											<li><strong>1 web page</strong> Design</li>
-											<li><strong>Responsive</strong> Design</li>
-											<li><strong>Any 2</strong> Languages</li>
-											<li><strong>Up to 20</strong> product/service images</li>
-											<li><strong>Free hosting</strong> for 1st year</li>
-											<li><strong>$9.99/mo</strong> from 2nd year</li>
-											<li><a class="btn btn-primary" href="#">Get Started Now!</a></li>
+											<li><spring:message code="webdev-webplan-plan-feature-1_1"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-1_2"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-1_3"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-1_4"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-1_5"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-1_6"/></li>
+											<li><a class="btn btn-primary" href="#"><spring:message code="webdev-webplan-plan-feature-1_7"/></a></li>
 										</ul>
 									</div>
 								</div>
 								
 								<div class="col-lg-4 col-sm-6 text-center">
 									<div class="plan">
-										<h3>Standard<em class="desc">Corporate Site</em><span>$479.99</span></h3>
+										<h3><spring:message code="webdev-webplan-plan-title-2"/><em class="desc"><spring:message code="webdev-webplan-plan-type-2"/></em><span>$479.99</span></h3>
 										<ul>
-											<li><strong>4-5 web pages</strong> Design</li>
-											<li><strong>Responsive</strong> Design</li>
-											<li><strong>Any 2</strong> Languages</li>
-											<li><strong>Up to 50</strong> product/service images</li>
-											<li><strong>Free hosting</strong> for 1st year</li>
-											<li><strong>$12.99/mo</strong> from 2nd year</li>
-											<li><a class="btn btn-primary" href="#">Get Started Now!</a></li>
+											<li><spring:message code="webdev-webplan-plan-feature-2_1"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-2_2"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-2_3"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-2_4"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-2_5"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-2_6"/></li>
+											<li><a class="btn btn-primary" href="#"><spring:message code="webdev-webplan-plan-feature-2_7"/></a></li>
 										</ul>
 									</div>
 								</div>
 								
 								<div class="col-lg-4 col-sm-6 text-center">
 									<div class="plan">
-										<h3>Professional<em class="desc">Portfolio Site</em><span>$799.99</span></h3>
+										<h3><spring:message code="webdev-webplan-plan-title-3"/><em class="desc"><spring:message code="webdev-webplan-plan-type-3"/></em><span>$799.99</span></h3>
 										<ul>
-											<li><strong>4-6 web page</strong> Design</li>
-											<li><strong>Responsive</strong> Design</li>
-											<li><strong>Any 2</strong> Languages</li>
-											<li><strong>Up to 80</strong> product/service images</li>
-											<li><strong>Free hosting</strong> for 1st year</li>
-											<li><strong>$15.99/mo</strong> from 2nd year</li>
-											<li><a class="btn btn-primary" href="#">Get Started Now!</a></li>
+											<li><spring:message code="webdev-webplan-plan-feature-3_1"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-3_2"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-3_3"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-3_4"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-3_5"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-3_6"/></li>
+											<li><a class="btn btn-primary" href="#"><spring:message code="webdev-webplan-plan-feature-3_7"/></a></li>
 										</ul>
 									</div>
 								</div>
@@ -242,27 +249,51 @@
 									<div class="tabs">
 										<ul class="nav nav-tabs">
 											<li class="nav-item active">
-												<a class="nav-link" href="#onepage" data-toggle="tab">One-page Site</a>
+												<a class="nav-link" href="#onepage" data-toggle="tab"><spring:message code="webdev-webplan-plan-title-1"/></a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link" href="#corporate" data-toggle="tab">Corporate Site</a>
+												<a class="nav-link" href="#corporate" data-toggle="tab"><spring:message code="webdev-webplan-plan-title-2"/></a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link" href="#portfolio" data-toggle="tab">Portfolio Site</a>
+												<a class="nav-link" href="#portfolio" data-toggle="tab"><spring:message code="webdev-webplan-plan-title-3"/></a>
 											</li>
 										</ul>
 										<div class="tab-content">
 											<div id="onepage" class="tab-pane active">
-												<p>Popular</p>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+												<p><spring:message code="webdev-webplan-plan-content-1_1"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-1_2"/><br/>												
+												<spring:message code="webdev-webplan-plan-content-1_2"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-1_3"/><br/>
+												<spring:message code="webdev-webplan-plan-content-1_3"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-1_4"/><br/>
+												<spring:message code="webdev-webplan-plan-content-1_4"/></p>
 											</div>
 											<div id="corporate" class="tab-pane">
-												<p>Recent</p>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+												<p><spring:message code="webdev-webplan-plan-content-2_1"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-2_2"/><br/>												
+												<spring:message code="webdev-webplan-plan-content-2_2"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-2_3"/><br/>
+												<spring:message code="webdev-webplan-plan-content-2_3"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-2_4"/><br/>
+												<spring:message code="webdev-webplan-plan-content-2_4"/></p>
 											</div>
 											<div id="portfolio" class="tab-pane">
-												<p>Recent</p>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+												<p><spring:message code="webdev-webplan-plan-content-3_1"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-3_2"/><br/>												
+												<spring:message code="webdev-webplan-plan-content-3_2"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-3_3"/><br/>
+												<spring:message code="webdev-webplan-plan-content-3_3"/></p>
+												
+												<p><spring:message code="webdev-webplan-plan-title-3_4"/><br/>
+												<spring:message code="webdev-webplan-plan-content-3_4"/></p>
 											</div>
 										</div>
 									</div>
@@ -276,11 +307,17 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<ol class="list list-ordened list-ordened-style-3">
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd  mt-lg-5 mt-lg-5 mt-lg-5 mt-lg-5</li>
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd</li>
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd</li>
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd</li>
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd</li>
+										<li><spring:message code="webdev-webplan-policy-4-1_1"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_2"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_3"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_4"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_5"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_6"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_7"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_8"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_9"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_10"/></li>
+										<li><spring:message code="webdev-webplan-policy-4-1_11"/></li>
 										
 									</ol>
 								</div>

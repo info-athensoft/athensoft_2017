@@ -11,6 +11,7 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="../images"></c:set>
+<c:set var="pageName" value="webcustom"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -127,7 +128,7 @@
 								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
 									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
-								<form id="contactForm" action="/support/mailToUs" method="POST">
+								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
 											<label><spring:message code="contactus-form-clientname"/> *</label>
@@ -163,6 +164,12 @@
 											<div class="alert alert-danger d-none" id="contactError">
 												Error sending your message.
 											</div>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<input type="hidden" value="${loc}" name="lang"/>
+											<input type="hidden" value="${pageName}" name="pageName"/>
 										</div>
 									</div>
 								</form>

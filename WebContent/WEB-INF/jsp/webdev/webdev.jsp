@@ -10,7 +10,8 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="../images"></c:set>
+<c:set var="img_dir" value="/images"></c:set>
+<c:set var="pageName" value="webdev"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -128,7 +129,7 @@
 								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
 									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
-								<form id="contactForm" action="/support/mailToUs" method="POST">
+								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
 											<label><spring:message code="contactus-form-clientname"/> *</label>
@@ -164,6 +165,12 @@
 											<div class="alert alert-danger d-none" id="contactError">
 												Error sending your message.
 											</div>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<input type="hidden" value="${loc}" name="lang"/>
+											<input type="hidden" value="${pageName}" name="pageName"/>
 										</div>
 									</div>
 								</form>
@@ -278,7 +285,7 @@
 										<div class="testimonial-arrow-down"></div>
 										<div class="testimonial-author">
 											<div class="testimonial-author-thumbnail">
-												<img src="${img_dir}/client/client-1.jpg" class="img-fluid rounded-circle" alt="">
+												<img src="${img_dir}/client/client-1.png" class="img-fluid rounded-circle" alt="">
 											</div>
 											<p><strong><spring:message code="webdev-txt-4-1_b"/></strong><span><spring:message code="webdev-txt-4-1_c"/></span></p>
 										</div>
@@ -292,7 +299,7 @@
 										<div class="testimonial-arrow-down"></div>
 										<div class="testimonial-author">
 											<div class="testimonial-author-thumbnail">
-												<img src="${img_dir}/client/client-1.jpg" class="img-fluid rounded-circle" alt="">
+												<img src="${img_dir}/client/client-2.png" class="img-fluid rounded-circle" alt="">
 											</div>
 											<p><strong><spring:message code="webdev-txt-4-2_b"/></strong><span><spring:message code="webdev-txt-4-2_c"/></span></p>
 										</div>

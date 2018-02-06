@@ -72,5 +72,46 @@ public class SupportController {
 		return "redirect:/support/contactus.html?lang="+lang;
 	}
 	
+	@RequestMapping("/mailInquiry")
+	public String mailtoUs(@ModelAttribute("contactForm") ContactForm contactForm,
+						   @RequestParam("lang") String lang,
+						   @RequestParam("pageName") String pageName){
+		logger.info("entering.. /support/mailInquiry");
+		
+		logger.info(contactForm.toString());
+		logger.info("lang="+lang);
+		
+		supportService.sendContactMail(contactForm);
+		
+		String returnURL = "redirect:/support/contactus.html?lang="+lang;
+		
+		switch(pageName){
+			case "webdev":
+				returnURL = "redirect:/webdev/webdev.html?lang="+lang;
+				break;
+			case "webplan":
+				returnURL = "redirect:/webdev/webplan.html?lang="+lang;
+				break;
+			case "webcustom":
+				returnURL = "redirect:/webdev/webcustom.html?lang="+lang;
+				break;
+			case "webproduct":
+				returnURL = "redirect:/webdev/product.html?lang="+lang;
+				break;
+			case "webcase":
+				returnURL = "redirect:/webdev/case.html?lang="+lang;
+				break;
+			case "webpricing":
+				returnURL = "redirect:/webdev/pricing.html?lang="+lang;
+				break;
+			default:
+				break;
+				
+		}
+		
+		logger.info("exiting.. /support/mailInquiry");
+		return returnURL;
+	}
+	
 	
 }
