@@ -80,46 +80,34 @@ public class SupportService {
 	}
 	
 	
-	/* application form */
-	/*
-	public void sendApplicationMail(EmailForm applicationForm){
-		System.out.println("sendApplicationMail() of"+ this.getClass().getName());
+	public void sendWebPlanOrderMail(String orderStr, String customerName, String customerEmail){
 		
-		MimeMessage mail = senderImpl.createMimeMessage();		
-		MimeMessageHelper messageHelper = new MimeMessageHelper(mail);
-		try{
-			messageHelper.setFrom(FROM_EMAIL_ADDR);
-			messageHelper.setTo(TO_EMAIL_ADDR);  
-			
-			//set mail subject
-			String emailTitle = "[Job application] someone sent us a job application via website";
-			messageHelper.setSubject(emailTitle);
-			
-			//set mail body
-			String senderFirstName 	= applicationForm.getFirstName();
-			String senderLastName 	= applicationForm.getLastName();
-			String senderPhone 		= applicationForm.getPhone();
-			String senderEmail 		= applicationForm.getEmail();
-			String senderMessage	= applicationForm.getMessage();
-			
-			StringBuffer mailBody = new StringBuffer();
-			mailBody.append("Customer: "+senderFirstName+" "+senderLastName);
-			mailBody.append("<br/>");
-			mailBody.append("Phone: "+senderPhone);
-			mailBody.append("<br/>");
-			mailBody.append("Email: "+senderEmail);
-			mailBody.append("<br/><br/>");
-			mailBody.append(senderMessage);
-							
-			messageHelper.setText(mailBody.toString(),true);
-			
-			//execute sending mail
-        	senderImpl.send(mail);
-        	
-		}catch(Exception e){
-			e.printStackTrace();
-		}
+		//set mail subject
+		String emailTitle = "[Customer] placed a webplan order";
+		
+		//set mail body
+		String senderName 	= customerName.trim().equals("")?"Anonymous":customerName;
+		String senderEmail 	= customerEmail.trim().equals("")?"Unknown":customerEmail;
+		String senderSubject= "Web plan order";
+		String senderMessage= orderStr;
+		
+		StringBuffer mailBody = new StringBuffer();
+		mailBody.append("Customer: "+senderName);
+		mailBody.append("<br/>");
+		mailBody.append("Email: "+senderEmail);
+		mailBody.append("<br/><br/>");
+		mailBody.append("Subject: "+senderSubject);
+		mailBody.append("<br/><br/>");
+		mailBody.append(senderMessage);
+		
+		String emailBody = mailBody.toString();
+		
+		//send mail
+		emailService.sendTextMail(FROM_EMAIL_ADDR,TO_EMAIL_ADDR,emailTitle,emailBody);
+						
 	}
-	*/
+	
+	
+	
 	
 }

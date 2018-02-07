@@ -10,8 +10,8 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="/images"></c:set>
-<c:set var="pageName" value="webpricing"></c:set>
+<c:set var="img_dir" value="../images"></c:set>
+<c:set var="pageName" value="webplan_order"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -99,7 +99,7 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-webdev-pricing"/></h1>
+								<h1><spring:message code="page-title-webdev-webplan-order"/></h1>
 							</div>
 						</div>
 					</div>
@@ -191,54 +191,61 @@
 						<div class="col-lg-9 order-1 order-lg-2">
 							
 							<!-- quote form -->
-							<h3><spring:message code="pricing-title-1-1"/></h3>
+							<h3><spring:message code="webdev-webplan-order-title-1-1"/></h3>
 							<div class="row">
 								<div class="col">
 									<p class="">
-										<spring:message code="pricing-content-1-1"/>
+										<spring:message code="webdev-webplan-order-content-1-1"/>
 									</p>
 								</div>
 							</div>
 							<div class="row">
-								<!-- business purpose -->
-								<div class="col-sm-12">
+								<!-- plan 1 -->
+								<div class="col-sm-12" id="plan-1">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">商业目的</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="webdev-webplan-order-header-1"/></h4>
 											<div class="form-row">
 												<div class="col-lg-9">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg1" id="biz-goal-0">
-															我想展示公司或者生意介绍，展示商业形象
+															<input type="checkbox" value="bg1" id="biz-goal-0" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-1_1"/>
 														</label>
 													</div>
 						
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg2" id="biz-goal-1">
-															我想展示产品或服务目录，可包含详情、价格等
+															<input type="checkbox" value="bg2" id="biz-goal-1" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-1_2"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg3" id="biz-goal-2">
-															我想做电子商城，可以线上下单、付款交易
+															<input type="checkbox" value="bg3" id="biz-goal-2" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-1_3"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg4" id="biz-goal-3">
-															我想线上处理业务，电子化企业管理和运营，代替或缓解人工操作
+															<input type="checkbox" value="bg4" id="biz-goal-3" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-1_4"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg5" id="biz-goal-4">
-															我想此站作为官方网站或主站
+															<input type="checkbox" value="bg5" id="biz-goal-4" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-1_5"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg6" id="biz-goal-5" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-1_6"/>
 														</label>
 													</div>
 												</div>
@@ -246,76 +253,190 @@
 										</div>
 									</div>
 								</div>
-								<!-- END business purpose -->
+								<!-- END plan 1 -->
+								
+								<!-- plan 2 -->
+								<div class="col-sm-12" id="plan-2">
+									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
+										<div class="box-content">
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="webdev-webplan-order-header-2"/></h4>
+											<div class="form-row">
+												<div class="col-lg-9">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg1" id="biz-goal-0" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-2_1"/>
+														</label>
+													</div>
+						
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg2" id="biz-goal-1" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-2_2"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg3" id="biz-goal-2" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-2_3"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg4" id="biz-goal-3" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-2_4"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg5" id="biz-goal-4" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-2_5"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg6" id="biz-goal-5" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-2_6"/>
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- END plan 2 -->
+								
+								<!-- plan 3 -->
+								<div class="col-sm-12" id="plan-3">
+									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
+										<div class="box-content">
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="webdev-webplan-order-header-3"/></h4>
+											<div class="form-row">
+												<div class="col-lg-9">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg1" id="biz-goal-0" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-3_1"/>
+														</label>
+													</div>
+						
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg2" id="biz-goal-1" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-3_2"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg3" id="biz-goal-2" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-3_3"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg4" id="biz-goal-3" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-3_4"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg5" id="biz-goal-4" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-3_5"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg6" id="biz-goal-5" checked="checked" disabled="disabled">
+															<spring:message code="webdev-webplan-order-item-3_6"/>
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- END plan 3 -->
 								
 								<!-- page content -->
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">网页内容</h4>
-
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="webdev-webplan-order-header-4"/></h4>
+											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">网页大约数量</label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
+												<div class="col-lg-4">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="page-topic-0" checked="checked">
+															<spring:message code="webdev-webplan-order-page-1"/>
+														</label>
+													</div>
+						
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="page-topic-1" checked="checked">
+															<spring:message code="webdev-webplan-order-page-2"/>
+														</label>
+													</div>
 												</div>
 												
-												<label class="col-lg-2 control-label text-lg-right pt-2">语言数量</label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="1" class="form-control form-control-sm mt-2" id="qtyLang">
+												<div class="col-lg-4">	
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="page-topic-2" checked="checked">
+															<spring:message code="webdev-webplan-order-page-3"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="page-topic-3" checked="checked">
+															<spring:message code="webdev-webplan-order-page-4"/>
+														</label>
+													</div>
 												</div>
 												
-												<label class="col-lg-2 control-label text-lg-right pt-2">图片大约数量</label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
+												<div class="col-lg-4">	
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="page-topic-4" checked="checked">
+															<spring:message code="webdev-webplan-order-page-5"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="page-topic-5" checked="checked">
+															<spring:message code="webdev-webplan-order-page-6"/>
+														</label>
+													</div>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-0">文案需求</label>
-												<div class="col-lg-9">
-													<div class="radio">
-														<label>
-															<input type="radio" name="copywrite" id="copywrite1" value="1" checked="checked">
-															我不需要，自己负责书写所有文字内容
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="copywrite" id="copywrite2" value="2">
-															我需要，准备委托第三方代理
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="copywrite" id="copywrite3" value="3">
-															我需要，准备委托Athensoft代理
-														</label>
-													</div>
+												<label class="col-lg-3 control-label text-lg-left pt-2"><spring:message code="webdev-webplan-order-req-1"/></label>
+												<div class="form-group col-lg-1">
+													<input type="text" value="0" class="form-control form-control-sm mt-2" id="extraPageNumber">
 												</div>
 											</div>
-											
-											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-0">翻译需求</label>
-												<div class="col-lg-9">
-													<div class="radio">
-														<label>
-															<input type="radio" name="translate" id="translate1" value="1" checked="checked">
-															我不需要，自己负责翻译所有文字内容
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="translate" id="translate2" value="2">
-															我需要，准备委托第三方代理
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="translate" id="translate3" value="3">
-															我需要，准备委托Athensoft代理
-														</label>
-													</div>
+											<div class="form-row">	
+												<label class="col-lg-3 control-label text-lg-left pt-2"><spring:message code="webdev-webplan-order-req-2"/></label>
+												<div class="form-group col-lg-1">
+													<input type="text" value="0" class="form-control form-control-sm mt-2" id="extraLangNumber">
+												</div>
+											</div>
+											<div class="form-row">	
+												<label class="col-lg-3 control-label text-lg-left pt-2"><spring:message code="webdev-webplan-order-req-3"/></label>
+												<div class="form-group col-lg-6">
+													<textarea rows="3" class="form-control form-control-sm mt-2" id="pageTopicDesc"></textarea>
 												</div>
 											</div>
 											
@@ -324,279 +445,21 @@
 								</div>
 								<!-- END page content -->
 								
-								<!-- component -->
+								<!-- other req -->
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">业务功能</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="webdev-webplan-order-header-5"/></h4>
 											<div class="form-row">
-												<div class="col-lg-4">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-0">
-															<spring:message code="webdev-comp-item"/>
-														</label>
-													</div>
-						
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-1">
-															<spring:message code="webdev-comp-price"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-2">
-															<spring:message code="webdev-comp-inventory"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-3">
-															<spring:message code="webdev-comp-order"/>
-														</label>
-													</div>
-												</div>
-												
-												<div class="col-lg-4">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-4">
-															<spring:message code="webdev-comp-invoice"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-5">
-															<spring:message code="webdev-comp-cart"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-6">
-															<spring:message code="webdev-comp-pay"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-7">
-															<spring:message code="webdev-comp-news"/>
-														</label>
-													</div>
-												</div>
-												
-												<div class="col-lg-4">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-8">
-															<spring:message code="webdev-comp-comment"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-9">
-															<spring:message code="webdev-comp-acct"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizcomponent-10">
-															<spring:message code="webdev-comp-uaas"/>
-														</label>
-													</div>
+												<label class="col-lg-3 control-label text-lg-left pt-2"><spring:message code="webdev-webplan-order-req-4"/></label>
+												<div class="form-group col-lg-6">
+													<textarea rows="6" class="form-control form-control-sm mt-2" id="otherReqDesc"></textarea>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<!-- END component -->
-								
-								<!-- function -->
-								<div class="col-sm-12">
-									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
-										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">网站功能</h4>
-											<div class="form-row">
-												<div class="col-lg-4">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizfunc-0">
-															<spring:message code="webdev-fn-i18n"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizfunc-1">
-															<spring:message code="webdev-fn-mail"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizfunc-2">
-															<spring:message code="webdev-fn-fileupload"/>
-														</label>
-													</div>
-												</div>
-												
-												<div class="col-lg-4">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizfunc-3">
-															<spring:message code="webdev-it-social-fb"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizfunc-4">
-															<spring:message code="webdev-it-social-tw"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizfunc-5">
-															<spring:message code="webdev-it-social-yt"/>
-														</label>
-													</div>
-												</div>
-												
-												<div class="col-lg-4">
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizfunc-6">
-															<spring:message code="webdev-it-ga"/>
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="" id="bizfunc-7">
-															<spring:message code="webdev-it-gmap"/>
-														</label>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- END function -->
-								
-								
-								<!-- content and data -->
-								<div class="col-sm-12">
-									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
-										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">网页内容和数据维护</h4>
-											<div class="form-row">
-												<div class="col-lg-9">
-													<div class="radio">
-														<label>
-															<input type="radio" name="contentmaintain" id="contentmaintain1" value="1" checked="">
-															我不需要后台，内容变化少或不频繁，准备委托Athensoft维护内容和数据
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="contentmaintain" id="contentmaintain2" value="2">
-															我需要后台，自行维护内容和数据
-														</label>
-													</div>
-													
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- END content and data -->
-								
-								
-								<!-- domain name -->
-								<div class="col-sm-12">
-									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
-										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">网站域名</h4>
-											<div class="form-row">
-												<div class="col-lg-9">
-													<div class="radio">
-														<label>
-															<input type="radio" name="domainname" id="domainname1" value="1" checked="">
-															我已经有域名，可以自己管理
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="domainname" id="domainname2" value="2">
-															我已经有域名，需要委托Athensoft管理
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="domainname" id="domainname3" value="3">
-															我没有域名，可以自己申请购买，并自己管理
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="domainname" id="domainname4" value="4">
-															我没有域名，可以自己申请购买，需要委托Athensoft管理
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="domainname" id="domainname5" value="5">
-															我没有域名，需要委托Athensoft申请购买并管理
-														</label>
-													</div>
-													
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- END domain name -->
-								
-								
-								<!-- hosting -->
-								<div class="col-sm-12">
-									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
-										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">主机服务</h4>
-											<div class="form-row">
-												<div class="col-lg-9">
-													<div class="radio">
-														<label>
-															<input type="radio" name="hosting" id="hosting1" value="1" checked="">
-															我已经有购买主机服务
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="hosting" id="hosting2" value="2">
-															我没有主机服务，准备自行购买
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="hosting" id="hosting3" value="3">
-															我没有主机服务，准备委托Athensoft代理
-														</label>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- END hosting -->
+								<!-- END other req -->
 								
 							</div>
 							<!-- END ROW -->
@@ -612,7 +475,7 @@
 									<input type="text" class="form-control" id="customerEmail" placeholder="your email"/></div>
 									
 								<div class="col-lg-2">
-									<a href="javascript:void(0);" class="btn btn-primary" onclick="requestQuote();">现在提交</a></div>
+									<a href="javascript:void(0);" class="btn btn-primary" onclick="placeOrder();"><spring:message code="webdev-webplan-order-btn-1"/></a></div>
 								
 							</div>
 											
@@ -700,6 +563,100 @@
 		</script>
 		 -->
 		<script>
+		$(document).ready(function(){  
+		     $("#plan-1").hide();
+		     $("#plan-2").hide();
+		     $("#plan-3").hide();
+		     
+		     var webplanNo = '${webplanNo}';
+		     
+		     //alert(webplanNo);
+		     
+		     if(webplanNo=='3'){
+		    	 $("#page-topic-5").prop('checked', true);
+		     }else{
+		    	 $("#page-topic-5").prop('checked', false);
+		     }
+		     
+		     $("#plan-"+webplanNo).show();
+		}); 
+		
+		
+		function placeOrder(){
+			
+			var strWebPlan = "Web Plan - ";
+			var webplanNo = '${webplanNo}';
+			if(webplanNo=='1'){
+				strWebPlan += "One-page site";
+			}
+			if(webplanNo=='2'){
+				strWebPlan += "Corporate site";
+			}
+			if(webplanNo=='3'){
+				strWebPlan += "Catalog site";
+			}
+			
+			//page topic
+			var pagetopic = new Array(6);
+			pagetopic[0] = "home";
+			pagetopic[1] = "about us";
+			pagetopic[2] = "introduction to product or service";
+			pagetopic[3] = "feature";
+			pagetopic[4] = "contact us";
+			pagetopic[5] = "product or service list";
+			
+			var strPagetopic = "";
+			
+			var hasChecked = false;
+			for(var i=0; i<pagetopic.length; i++){
+				if($("#page-topic-"+i).is(':checked')){
+					hasChecked = true;
+					strPagetopic += pagetopic[i]+"<br/>";
+				}
+			}
+			
+			//if(strBizgoal.replace(/(^\s*)|(\s*$)/g, "").length ==0){
+			if(!hasChecked){
+				strPagetopic = "No page topic selected.<br/>"
+			}
+			
+			
+			//end of page topic
+			
+			//other req
+			var extraPageNumber = "Extra page number: "+$("#extraPageNumber").val();
+			var extraLangNumber = "Extra language number: "+$("#extraLangNumber").val();
+			var pageTopicDesc 	= "Web page topic list: "+$("#pageTopicDesc").val();
+			var otherReqDesc 	= "Other requirement description: "+$("#otherReqDesc").val();
+			
+			//alert(strPagetopic + extraPageNumber+ " "+extraLangNumber +" "+pageTopicDesc+" "+otherReqDesc);
+			
+			//user info
+			var customerName = $("#customerName").val();
+			var customerEmail = $("#customerEmail").val();
+			
+			customerName=encodeURI(customerName);
+			customerEmail=encodeURI(customerEmail);
+			
+			var orderStr = strWebPlan+"<br/>"+strPagetopic+"<br/>"+extraPageNumber+"<br/>"+extraLangNumber+"<br/>"+pageTopicDesc+"<br/>"+otherReqDesc;
+			orderStr = encodeURI(orderStr);
+			
+					
+			var lang = '${loc}';
+			$.ajax({
+				type	:	"post",
+				url		:	"/webdev/webplan/order?orderStr="+orderStr+"&lang="+lang+"&customerName="+customerName+"&customerEmail="+customerEmail,
+				dataType:	"html",
+				//data	: {	quoteStr : quoteStr },
+				//contentType: 'text/html; charset=utf-8',
+				timeout : 5000,
+				success:function(data){
+					window.location.href="/webdev/webplan.html?lang="+lang;				
+				}		
+			});
+		}
+		
+		
 		function requestQuote(){
 			//alert("requestQuote");
 			
@@ -922,7 +879,6 @@
 
 			var quoteStr = strBizgoal+"<br/>"+strPagecontent+"<br/>"+strBizcomponent+"<br/>"+strBizfunc+"<br/>"+strContentmaintain+"<br/>"+strDomainname+"<br/>"+strHosting;
 			quoteStr = encodeURI(quoteStr);
-			
 			
 					
 			var lang = '${loc}';

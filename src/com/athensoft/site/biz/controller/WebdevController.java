@@ -1,13 +1,14 @@
 package com.athensoft.site.biz.controller;
 
+import java.util.Map;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
-import com.athensoft.site.support.model.ContactForm;
 import com.athensoft.site.support.service.SupportService;
 
 
@@ -72,18 +73,20 @@ public class WebdevController {
 		return "webdev/pricing";
 	}
 	
-	@RequestMapping("/quote")
-	public String quote(@RequestParam("quoteStr") String quoteStr,
-						@RequestParam("lang") String lang,
-						@RequestParam("customerName") String customerName,
-						@RequestParam("customerEmail") String customerEmail){
-		logger.info("entering.. /webdev/quote");
+	@RequestMapping("/webplan/order.html")
+	public ModelAndView gotoWebplanOrder(@RequestParam String webplanNo){
+		logger.info("entering.. /webdev/webplan/order.html");
 		
-		logger.info(quoteStr);
+		logger.info("webplanNo="+webplanNo);
 		
-		supportService.sendQuoteMail(quoteStr,customerName,customerEmail);
+		ModelAndView mav = new ModelAndView();
+		Map<String,Object> model = mav.getModel();
+		model.put("webplanNo", webplanNo);
 		
-		logger.info("exiting.. /webdev/quote");
-		return "redirect:/webdev/webcustom.html?lang="+lang;
+		String viewName= "webdev/webplan_order";
+		mav.setViewName(viewName);
+		logger.info("exiting.. /webdev/webplan/order.html");
+		return mav;
 	}
+	
 }

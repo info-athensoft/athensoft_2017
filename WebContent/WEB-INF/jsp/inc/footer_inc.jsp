@@ -5,7 +5,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 <!-- page variables  -->
-<c:set var="img_dir" value="../images"></c:set>
+<c:set var="img_dir" value="/images"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->

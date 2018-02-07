@@ -1,5 +1,6 @@
 package com.athensoft.common.email.service;
 
+import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
 import org.apache.log4j.Logger;
@@ -36,12 +37,13 @@ public class EmailService {
 	 * @param toEmail receiver's email address
 	 * @param mailTitle title of the email message
 	 * @param mailBody body content of the email message
+	 * @throws MessagingException 
 	 */
 	public void sendTextMail(String fromEmailAddr, String toEmailAddr, String mailTitle, String mailBody){
-		MimeMessage mail = javaMailSenderImpl.createMimeMessage();		
-		MimeMessageHelper messageHelper = new MimeMessageHelper(mail);
 		try{
-			
+			MimeMessage mail = javaMailSenderImpl.createMimeMessage();		
+//			MimeMessageHelper messageHelper = new MimeMessageHelper(mail,true,"utf-8");
+			MimeMessageHelper messageHelper = new MimeMessageHelper(mail);
 			
 			//set sender and receiver
 			messageHelper.setFrom(fromEmailAddr);

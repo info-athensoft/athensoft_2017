@@ -10,7 +10,7 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="../images"></c:set>
+<c:set var="img_dir" value="/images"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->

@@ -10,7 +10,7 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="../images"></c:set>
+<c:set var="img_dir" value="/images"></c:set>
 <c:set var="pageName" value="webplan"></c:set>
 <!-- END page variables -->
 
@@ -204,7 +204,7 @@
 											<li><spring:message code="webdev-webplan-plan-feature-1_4"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-1_5"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-1_6"/></li>
-											<li><a class="btn btn-primary" href="#"><spring:message code="webdev-webplan-plan-feature-1_7"/></a></li>
+											<li><a class="btn btn-primary" href="/webdev/webplan/order.html?lang=${loc}&webplanNo=1"><spring:message code="webdev-webplan-plan-feature-1_7"/></a></li>
 										</ul>
 									</div>
 								</div>
@@ -219,7 +219,7 @@
 											<li><spring:message code="webdev-webplan-plan-feature-2_4"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-2_5"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-2_6"/></li>
-											<li><a class="btn btn-primary" href="#"><spring:message code="webdev-webplan-plan-feature-2_7"/></a></li>
+											<li><a class="btn btn-primary" href="/webdev/webplan/order.html?lang=${loc}&webplanNo=2"><spring:message code="webdev-webplan-plan-feature-2_7"/></a></li>
 										</ul>
 									</div>
 								</div>
@@ -234,7 +234,7 @@
 											<li><spring:message code="webdev-webplan-plan-feature-3_4"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-3_5"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-3_6"/></li>
-											<li><a class="btn btn-primary" href="#"><spring:message code="webdev-webplan-plan-feature-3_7"/></a></li>
+											<li><a class="btn btn-primary" href="/webdev/webplan/order.html?lang=${loc}&webplanNo=3"><spring:message code="webdev-webplan-plan-feature-3_7"/></a></li>
 										</ul>
 									</div>
 								</div>
