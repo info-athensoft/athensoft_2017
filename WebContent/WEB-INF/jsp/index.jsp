@@ -241,7 +241,8 @@
 								<spring:message code="index-content-3a"/>
 							</p>
 							<p>
-								<a href="/adogo/adogo.html?lang=${loc}"><spring:message code="index-content-3b"/></a>
+								<!-- <a href="/adogo/adogo.html?lang=${loc}"><spring:message code="index-content-3b"/></a>  -->
+								<a href="/about/comingsoon.html?lang=${loc}"><spring:message code="index-content-3b"/></a>
 							</p>
 						</div>
 					</div>
@@ -255,7 +256,7 @@
 								 <spring:message code="index-content-4a"/>
 							</p>
 							<p>
-								<a href="#?lang=${loc}"><spring:message code="index-content-4b"/></a>
+								<a href="/about/comingsoon.html?lang=${loc}"><spring:message code="index-content-4b"/></a>
 							</p>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1 mt-5">

@@ -195,7 +195,9 @@
 							<div class="row">
 								<div class="col">
 									<p class="">
-										<a href="/webdev/pricing.html?lang=${loc}" class="btn btn-primary" onclick=";">免费报价</a><br/>
+										<a href="/webdev/pricing.html?lang=${loc}" class="btn btn-primary" onclick=";">
+											<spring:message code="webdev-webcustom-btn-1"/></a>
+										<br/><br/>
 										<spring:message code="webdev-webcustom-content-2-1"/>
 									</p>
 								</div>
@@ -260,27 +262,38 @@
 									<div class="tabs">
 										<ul class="nav nav-tabs">
 											<li class="nav-item active">
-												<a class="nav-link" href="#onepage" data-toggle="tab">价格说明</a>
+												<a class="nav-link" href="#onepage" data-toggle="tab"><spring:message code="webdev-webcustom-term-title-1_1"/></a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link" href="#corporate" data-toggle="tab">Corporate Site</a>
+												<a class="nav-link" href="#corporate" data-toggle="tab"><spring:message code="webdev-webcustom-term-title-2_1"/></a>
 											</li>
 											<li class="nav-item">
-												<a class="nav-link" href="#portfolio" data-toggle="tab">Portfolio Site</a>
+												<a class="nav-link" href="#portfolio" data-toggle="tab"><spring:message code="webdev-webcustom-term-title-3_1"/></a>
 											</li>
 										</ul>
 										<div class="tab-content">
 											<div id="onepage" class="tab-pane active">
-												<p>Popular</p>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+												<p><spring:message code="webdev-webcustom-term-content-1_1"/></p>
+												<p><spring:message code="webdev-webcustom-term-title-1_2"/></p>
+												<p><spring:message code="webdev-webcustom-term-content-1_2"/></p>
+												<p><spring:message code="webdev-webcustom-term-title-1_3"/></p>
+												<p><spring:message code="webdev-webcustom-term-content-1_3"/></p>
+												<p><spring:message code="webdev-webcustom-term-title-1_4"/></p>
+												<p><spring:message code="webdev-webcustom-term-content-1_4"/></p>
 											</div>
 											<div id="corporate" class="tab-pane">
-												<p>Recent</p>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+												<p><spring:message code="webdev-webcustom-term-content-2_1"/></p>
+												<p><spring:message code="webdev-webcustom-term-title-2_2"/></p>
+												<p><spring:message code="webdev-webcustom-term-content-2_2"/></p>
+												<p><spring:message code="webdev-webcustom-term-title-2_3"/></p>
+												<p><spring:message code="webdev-webcustom-term-content-2_3"/></p>
 											</div>
 											<div id="portfolio" class="tab-pane">
-												<p>Recent</p>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat.</p>
+												<p><spring:message code="webdev-webcustom-term-content-3_1"/></p>
+												<p><spring:message code="webdev-webcustom-term-title-3_2"/></p>
+												<p><spring:message code="webdev-webcustom-term-content-3_2"/></p>
+												<p><spring:message code="webdev-webcustom-term-title-3_3"/></p>
+												<p><spring:message code="webdev-webcustom-term-content-3_3"/></p>
 											</div>
 										</div>
 									</div>
@@ -289,16 +302,18 @@
 							
 							
 							<!-- service policy -->
-							<h3><spring:message code="webdev-webplan-title-4-1"/></h3>
+							<h3><spring:message code="webdev-webcustom-title-4-1"/></h3>
 							
 							<div class="row">
 								<div class="col-lg-12">
 									<ol class="list list-ordened list-ordened-style-3">
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd  mt-lg-5 mt-lg-5 mt-lg-5 mt-lg-5</li>
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd</li>
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd</li>
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd</li>
-										<li>Lorem ipsum asda asdkfjaskd f asdfa sdfasdfasdfasfdas asfasdfasfd</li>
+										<li><spring:message code="webdev-webcustom-policy-4-1_1"/></li>
+										<li><spring:message code="webdev-webcustom-policy-4-1_2"/></li>
+										<li><spring:message code="webdev-webcustom-policy-4-1_3"/></li>
+										<li><spring:message code="webdev-webcustom-policy-4-1_4"/></li>
+										<li><spring:message code="webdev-webcustom-policy-4-1_5"/></li>
+										<li><spring:message code="webdev-webcustom-policy-4-1_6"/></li>
+										<li><spring:message code="webdev-webcustom-policy-4-1_7"/></li>
 									</ol>
 								</div>
 							</div>

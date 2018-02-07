@@ -120,7 +120,7 @@
 							</p>
 						</div>
 						<div class="col-lg-2">
-							<a href="#" class="btn btn-lg btn-primary">Join Our Team!</a>
+							<!-- <a href="#" class="btn btn-lg btn-primary">Join Our Team!</a>  -->
 						</div>
 					</div>
 
@@ -131,7 +131,7 @@
 					</div>
 
 					<div class="row">
-						<div class="col-lg-7 col-xl-8">
+						<div class="col-lg-10 col-xl-10">
 							<h3 class="heading-primary"><spring:message code="aboutus-section-title-2"/></h3>
 							<p><spring:message code="aboutus-section-2"/></p>
 							<p>&nbsp;</p>
@@ -139,7 +139,7 @@
 					</div>
 					
 					<div class="row">
-						<div class="col-lg-7 col-xl-8">
+						<div class="col-lg-10 col-xl-10">
 							<h3 class="heading-primary"><spring:message code="aboutus-section-title-3"/></h3>
 							<p><spring:message code="aboutus-section-3"/></p>
 							<p>&nbsp;</p>
@@ -147,7 +147,7 @@
 					</div>
 					
 					<div class="row">
-						<div class="col-lg-7 col-xl-8">
+						<div class="col-lg-10 col-xl-10">
 							<h3 class="heading-primary"><spring:message code="aboutus-section-title-4"/></h3>
 							<p><spring:message code="aboutus-section-4"/></p>
 							<p>&nbsp;</p>
@@ -155,7 +155,7 @@
 					</div>
 					
 					<div class="row">
-						<div class="col-lg-7 col-xl-8">
+						<div class="col-lg-10 col-xl-10">
 							<h3 class="heading-primary"><spring:message code="aboutus-section-title-5"/></h3>
 							<p><spring:message code="aboutus-section-5"/></p>
 						</div>

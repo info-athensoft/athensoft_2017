@@ -40,5 +40,10 @@ public class SiteController {
 		return "about/sitemap";
 	}
 	
-	
+	@RequestMapping("/about/comingsoon.html")
+	public String gotoComingsoon(){
+		logger.info("entering.. /about/comingsoon.html");
+		logger.info("exiting.. /about/comingsoon.html");
+		return "about/coming_soon";
+	}
 }

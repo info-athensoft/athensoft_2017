@@ -49,7 +49,7 @@
 					</ul>
 				</li>
 				
-				<!-- menu - adogo -->
+				<!-- menu - adogo 
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/adogo/index.html?lang=${loc}"> <spring:message code="menu-adogo"/> </a>
 					<ul class="dropdown-menu">
@@ -57,11 +57,21 @@
 						<li><a class="dropdown-item" href="/adogo/quickstart.html?lang=${loc}"><spring:message code="menu-adogo-2"/></a></li>
 						<li><a class="dropdown-item" href="/adogo/register.html?lang=${loc}"><spring:message code="menu-adogo-3"/></a></li>
 					</ul>
+				</li> 
+				-->
+				
+				<li class="dropdown">
+					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-adogo"/> </a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-adogo-1"/></a></li>
+						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-adogo-2"/></a></li>
+						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-adogo-3"/></a></li>
+					</ul>
 				</li>
 				
 				<!-- menu - tour -->
 				<li class="dropdown dropdown-mega">
-					<a class="dropdown-item dropdown-toggle" href="/graphic.html?lang=${loc}"> <spring:message code="menu-edu"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-edu"/> </a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class="dropdown-mega-content">
@@ -69,47 +79,40 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Software Development</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#">Java Programming</a></li>
-											<li><a class="dropdown-item" href="#">Spring</a></li>
-											<li><a class="dropdown-item" href="#">Design Pattern</a></li>
-											<li><a class="dropdown-item" href="#">UML</a></li>
-											<li><a class="dropdown-item" href="#">Maven</a></li>
-											<li><a class="dropdown-item" href="#">Eclipse</a></li>
-											<li><a class="dropdown-item" href="#">Git</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Java Programming</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Spring</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Design Pattern</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">UML</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Maven</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Eclipse</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Git</a></li>
 										</ul>
 									</div>
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">AI and Bigdata</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#">Big Data</a></li>
-											<li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
-											<li><a class="dropdown-item" href="#">Machine Learning</a></li>
-											<li><a class="dropdown-item" href="#">Python</a></li>
-											<li><a class="dropdown-item" href="#">Kafka</a></li>
-											<li><a class="dropdown-item" href="#">Storm</a></li>
-											<li><a class="dropdown-item" href="#">Samza</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Big Data</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Artificial Intelligence</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Machine Learning</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Python</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Kafka</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Storm</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Samza</a></li>
 										</ul>
 									</div>
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Online Marketing</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#">Social Media</a></li>
-											<li><a class="dropdown-item" href="#">Google Analytics</a></li>
-											<li><a class="dropdown-item" href="#">Google AdWords</a></li>
-											<li><a class="dropdown-item" href="#"></a></li>
-											<li><a class="dropdown-item" href="#"></a></li>
-											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Social Media</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Google Analytics</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Google AdWords</a></li>
 										</ul>
 									</div>
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Design and Media</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#">Graphic Design</a></li>
-											<li><a class="dropdown-item" href="#">Printing</a></li>
-											<li><a class="dropdown-item" href="#"></a></li>
-											<li><a class="dropdown-item" href="#"></a></li>
-											<li><a class="dropdown-item" href="#"></a></li>
-											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Graphic Design</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Printing</a></li>
 										</ul>
 									</div>
 								</div>
