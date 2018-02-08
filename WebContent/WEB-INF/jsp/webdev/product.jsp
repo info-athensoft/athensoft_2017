@@ -262,7 +262,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-item"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -304,7 +304,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-price"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -346,7 +346,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-inventory"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -386,7 +386,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-order"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -427,7 +427,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-invoice"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -468,7 +468,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-cart"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -507,7 +507,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-pay"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -548,7 +548,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-news"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -587,7 +587,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-comment"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -626,7 +626,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-acct"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -665,7 +665,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-comp-uaas"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -725,7 +725,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-fn-i18n"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -764,7 +764,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-fn-mail"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -803,7 +803,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-fn-fileupload"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -842,7 +842,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-it-social-fb"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -881,7 +881,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-it-social-tw"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -921,7 +921,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-it-social-yt"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -960,7 +960,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-it-ga"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -1000,7 +1000,7 @@
 													<h4 class="heading-primary"><spring:message code="webdev-it-gmap"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="#" class="btn btn-primary btn-xs">Learn More</a>
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
 												</div>
 											</div>
 										</div>
@@ -1016,63 +1016,20 @@
 							
 							<hr class="invisible mt-2 mb-4">
 							
+							<!-- call-to-action -->
 							<section class="call-to-action featured featured-primary mb-5">
 								<div class="col-sm-9 col-lg-9">
 									<div class="call-to-action-content">
-										<p class="mb-0">Athensoft is <strong>everything</strong> you need to realize your <strong>idea!</strong></p>
+										<p class="mb-0"><spring:message code="common-cta-title"/></p>
 									</div>
 								</div>
 								<div class="col-sm-3 col-lg-3">
 									<div class="call-to-action-btn">
-										<a href="#" target="_blank" class="btn btn-lg btn-primary">Contact us Now!</a>
+										<a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-lg btn-primary"><spring:message code="common-cta-btn"/></a>
 									</div>
 								</div>
 							</section>
-							
-							
-							<!-- latest work -->
-							<h3><spring:message code="graphic-title-3-1"/></h3>
-							<div class="row">
-								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
-										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
-											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
-										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
-											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
-										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
-											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
-												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
-												</span>
-											</span>
-										</span>
-									</a>
-								</div>
-							</div>
+							<!-- END call-to-action -->
 							
 						</div>
 					</div>

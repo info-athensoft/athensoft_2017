@@ -109,7 +109,7 @@
 
 					<div class="row justify-content-between">
 
-						<div class="col-lg-4">
+						<div class="col-lg-3">
 							<ul class="nav nav-list flex-column mb-5">
 								<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 								<li class="nav-item">
@@ -129,7 +129,7 @@
 							</ul>
 						</div>
 
-						<div class="col-lg-8">
+						<div class="col-lg-9">
 							<h2 class="mb-4">Who <strong>We Are</strong></h2>
 							<p class="lead">Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet.</p>
 							<ul class="list list-icons mt-5">

@@ -188,7 +188,7 @@
 								</div>
 							</div>
 
-							<hr class="short">
+							<hr class="invisible mt-2"/>
 							
 							<!-- main business -->
 							<h3><spring:message code="webdev-webcustom-title-2-1"/></h3>
@@ -204,7 +204,7 @@
 							</div>
 							<div class="row">
 								<div class="col-lg-12">
-										<div class="toggle toggle-primary" data-plugin-toggle>
+									<div class="toggle toggle-primary" data-plugin-toggle>
 											<section class="toggle">
 												<label><spring:message code="webdev-webcustom-2-1_1a"/></label>
 												<div class="toggle-content">
@@ -248,12 +248,10 @@
 												</div>
 											</section>
 										</div>
-									</div>
+								</div>
 							</div>
-				
 							
-							
-							<hr class="short"/>
+							<hr class="invisible mt-4"/>
 							 
 							<!-- detail of plan -->
 							<h3><spring:message code="webdev-webcustom-title-3-1"/></h3>
@@ -300,6 +298,7 @@
 								</div>
 							</div>
 							
+							<hr class="invisible mt-2"/>
 							
 							<!-- service policy -->
 							<h3><spring:message code="webdev-webcustom-title-4-1"/></h3>
@@ -328,8 +327,9 @@
 											<i class="fa fa-bars"></i>
 										</div>
 										<div class="feature-box-info">
-											<h4 class="mb-2"><spring:message code="webdev-webplan-title-5-1"/></h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+											<h4 class="mb-2"><spring:message code="common-faq-title"/></h4>
+											<p class="mb-4"><spring:message code="common-faq-content"/></p>
+											<p><a href="" class="btn btn-light"><spring:message code="common-faq-btn"/></a></p>
 										</div>
 									</div>
 								</div>
@@ -339,8 +339,9 @@
 											<i class="fa fa-bars"></i>
 										</div>
 										<div class="feature-box-info">
-											<h4 class="mb-2"><spring:message code="webdev-webplan-title-5-2"/></h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+											<h4 class="mb-2"><spring:message code="common-contactus-title"/></h4>
+											<p class="mb-4"><spring:message code="common-contactus-content"/></p>
+											<p><a href="" class="btn btn-light"><spring:message code="common-contactus-btn"/></a></p>
 										</div>
 									</div>
 								</div>
