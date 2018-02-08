@@ -272,25 +272,32 @@
 										<div class="tab-content">
 											<div id="onepage" class="tab-pane active">
 												<p><spring:message code="webdev-webcustom-term-content-1_1"/></p>
-												<p><spring:message code="webdev-webcustom-term-title-1_2"/></p>
+												
+												<spring:message code="webdev-webcustom-term-title-1_2"/><br/>
 												<p><spring:message code="webdev-webcustom-term-content-1_2"/></p>
-												<p><spring:message code="webdev-webcustom-term-title-1_3"/></p>
-												<p><spring:message code="webdev-webcustom-term-content-1_3"/></p>
-												<p><spring:message code="webdev-webcustom-term-title-1_4"/></p>
-												<p><spring:message code="webdev-webcustom-term-content-1_4"/></p>
+												
+												<p><spring:message code="webdev-webcustom-term-title-1_3"/><br/>
+												<spring:message code="webdev-webcustom-term-content-1_3"/></p>
+												
+												<p><spring:message code="webdev-webcustom-term-title-1_4"/><br/>
+												<spring:message code="webdev-webcustom-term-content-1_4"/></p>
 											</div>
 											<div id="corporate" class="tab-pane">
 												<p><spring:message code="webdev-webcustom-term-content-2_1"/></p>
-												<p><spring:message code="webdev-webcustom-term-title-2_2"/></p>
-												<p><spring:message code="webdev-webcustom-term-content-2_2"/></p>
-												<p><spring:message code="webdev-webcustom-term-title-2_3"/></p>
-												<p><spring:message code="webdev-webcustom-term-content-2_3"/></p>
+												
+												<p><spring:message code="webdev-webcustom-term-title-2_2"/>
+												<spring:message code="webdev-webcustom-term-content-2_2"/></p>
+												
+												<p><spring:message code="webdev-webcustom-term-title-2_3"/>
+												<spring:message code="webdev-webcustom-term-content-2_3"/></p>
 											</div>
 											<div id="portfolio" class="tab-pane">
 												<p><spring:message code="webdev-webcustom-term-content-3_1"/></p>
-												<p><spring:message code="webdev-webcustom-term-title-3_2"/></p>
-												<p><spring:message code="webdev-webcustom-term-content-3_2"/></p>
-												<p><spring:message code="webdev-webcustom-term-title-3_3"/></p>
+												
+												<p><spring:message code="webdev-webcustom-term-title-3_2"/>
+												<spring:message code="webdev-webcustom-term-content-3_2"/></p>
+												
+												<p><spring:message code="webdev-webcustom-term-title-3_3"/>
 												<p><spring:message code="webdev-webcustom-term-content-3_3"/></p>
 											</div>
 										</div>
