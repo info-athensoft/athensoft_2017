@@ -206,6 +206,11 @@
 									<p class="">
 										<spring:message code="webdev-product-content-1-3a"/>
 										<br/>
+										<spring:message code="webdev-product-content-1-3b"/>
+									</p>
+									<p class="">
+										<spring:message code="webdev-product-content-1-4a"/>
+										<br/>
 										<a href="#webdev-fn-i18n"><spring:message code="webdev-fn-i18n"/></a>,&nbsp;&nbsp;
 										<a href="#webdev-fn-mail"><spring:message code="webdev-fn-mail"/></a>,&nbsp;&nbsp;
 										<a href="#webdev-fn-fileupload"><spring:message code="webdev-fn-fileupload"/></a>,&nbsp;&nbsp;
