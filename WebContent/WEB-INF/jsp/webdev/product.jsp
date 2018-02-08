@@ -10,7 +10,7 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="../images"></c:set>
+<c:set var="img_dir" value="/images"></c:set>
 <c:set var="pageName" value="webproduct"></c:set>
 <!-- END page variables -->
 
@@ -246,7 +246,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -288,7 +288,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/comp-price.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -330,7 +330,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-inventory.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -370,7 +370,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-order.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -411,7 +411,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-invoice.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -452,7 +452,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-cart.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -491,7 +491,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-pay.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -532,7 +532,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-news.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -571,7 +571,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-comment.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -610,7 +610,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-acct.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -649,7 +649,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="">
+														<img src="${img_dir}/webproduct/comp-uaas.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -709,7 +709,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/fnc-i18n.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -748,7 +748,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/fnc-email.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -787,7 +787,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/fnc-fileupload.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -826,7 +826,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/fnc-fb.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -865,7 +865,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/fnc-tw.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -905,7 +905,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/fnc-yt.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -944,7 +944,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/fnc-ga.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -984,7 +984,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="http://via.placeholder.com/300x200" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/webproduct/fnc-gmap.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
