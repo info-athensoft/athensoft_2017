@@ -255,21 +255,26 @@
 											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="pricing-form-section-title-2"/></h4>
 
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_1"/></label>
+												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_1"/></label>
 												<div class="form-group col-lg-1">
 													<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
 												</div>
-												
-												<label class="col-lg-2 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_2"/></label>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_2"/></label>
 												<div class="form-group col-lg-1">
 													<input type="text" value="1" class="form-control form-control-sm mt-2" id="qtyLang">
 												</div>
-												
-												<label class="col-lg-2 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_3"/></label>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_3"/></label>
 												<div class="form-group col-lg-1">
 													<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
 												</div>
 											</div>
+											
 											
 											<div class="form-row">
 												<label class="col-lg-2 control-label text-lg-right pt-0"><spring:message code="pricing-form-section-title-2a"/></label>

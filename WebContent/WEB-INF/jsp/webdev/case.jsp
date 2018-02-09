@@ -268,10 +268,10 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-4.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/demos/event/1.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Three Bottles</span>
-															<span class="thumb-info-type">Logo</span>
+															<span class="thumb-info-inner">Event</span>
+															<span class="thumb-info-type">One-page Site</span>
 														</span>
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>

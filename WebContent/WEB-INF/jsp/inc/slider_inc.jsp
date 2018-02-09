@@ -114,7 +114,7 @@
 					data-splitout="none" 
 					data-responsive_offset="on"
 					style="font-size: 23px; line-height: 30px;"
-					data-elementdelay="0.05">The Professional Software and IT Services Provider</div>
+					data-elementdelay="0.05"><spring:message code="slide-p2-titel-2"/></div>
 
 			</li>
 		</ul>
