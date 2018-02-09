@@ -10,7 +10,7 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="../images"></c:set>
+<c:set var="img_dir" value="/images"></c:set>
 <c:set var="pageName" value="webcase"></c:set>
 <!-- END page variables -->
 
@@ -184,10 +184,11 @@
 								<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
 									<div class="col-lg-6 isotope-item brands">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
+														<!-- <img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt=""> -->
+														<img src="${img_dir}/test/1.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
 															<span class="thumb-info-inner">Presentation</span>
 															<span class="thumb-info-type">Brand</span>
@@ -202,15 +203,15 @@
 									</div>
 									<div class="col-lg-6 isotope-item medias">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-zoom thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<span class="owl-carousel owl-theme nav-inside m-0" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
 															<span>
-																<img src="${img_dir}/graphic/portfolio/project-1.jpg" class="img-fluid" alt="">
+																<img src="${img_dir}/test/2.jpg" class="img-fluid" alt="">
 															</span>
 															<span>
-																<img src="${img_dir}/graphic/portfolio/project-1-2.jpg" class="img-fluid" alt="">
+																<img src="${img_dir}/test/3.jpg" class="img-fluid" alt="">
 															</span>
 														</span>
 
@@ -228,13 +229,13 @@
 									</div>
 									<div class="col-lg-6 isotope-item logos">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-2.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/demos/hotel/1.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Identity</span>
-															<span class="thumb-info-type">Logo</span>
+															<span class="thumb-info-inner">Hotel</span>
+															<span class="thumb-info-type">Corporate Site</span>
 														</span>
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -246,13 +247,13 @@
 									</div>
 									<div class="col-lg-6 isotope-item brands">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-3.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/demos/realestate/1.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Watch Mockup</span>
-															<span class="thumb-info-type">Brand</span>
+															<span class="thumb-info-inner">Real Estate</span>
+															<span class="thumb-info-type">Corporate Site</span>
 														</span>
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -264,7 +265,7 @@
 									</div>
 									<div class="col-lg-6 isotope-item logos">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-4.jpg" class="img-fluid" alt="">
@@ -282,7 +283,7 @@
 									</div>
 									<div class="col-lg-6 isotope-item brands">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project-5.jpg" class="img-fluid" alt="">

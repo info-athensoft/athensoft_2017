@@ -604,16 +604,16 @@
 							<hr class="invisible mt-3 mb-2"/>
 							
 							<div class="row">
-								<label class="col-lg-2 pt-2 text-lg-right">Please send to:</label>
+								<label class="col-lg-2 pt-2 text-lg-right"><spring:message code="pricing-form-from-direction"/></label>
 								<div class="col-lg-3">
-									<input type="text" class="form-control" id="customerName" placeholder="your name"/></div>
+									<input type="text" class="form-control" id="customerName" placeholder='<spring:message code="pricing-form-from-customer"/>'/></div>
 								
 								<label class="col-lg-1 pt-2 text-lg-right">@</label>
 								<div class="col-lg-4">
-									<input type="text" class="form-control" id="customerEmail" placeholder="your email"/></div>
+									<input type="text" class="form-control" id="customerEmail" placeholder='<spring:message code="pricing-form-from-email"/>'/></div>
 									
 								<div class="col-lg-2">
-									<a href="javascript:void(0);" class="btn btn-primary" onclick="requestQuote();">现在提交</a>
+									<a href="javascript:void(0);" class="btn btn-primary" onclick="requestQuote();"><spring:message code="pricing-form-from-btn"/></a>
 								</div>
 							</div>
 											
