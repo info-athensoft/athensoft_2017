@@ -204,41 +204,41 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">商业目的</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="pricing-form-section-title-1"/></h4>
 											<div class="form-row">
 												<div class="col-lg-9">
 													<div class="checkbox">
 														<label>
 															<input type="checkbox" value="bg1" id="biz-goal-0">
-															我想展示公司或者生意介绍，展示商业形象
+															<spring:message code="pricing-form-section-item-1_1"/>
 														</label>
 													</div>
 						
 													<div class="checkbox">
 														<label>
 															<input type="checkbox" value="bg2" id="biz-goal-1">
-															我想展示产品或服务目录，可包含详情、价格等
+															<spring:message code="pricing-form-section-item-1_2"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
 															<input type="checkbox" value="bg3" id="biz-goal-2">
-															我想做电子商城，可以线上下单、付款交易
+															<spring:message code="pricing-form-section-item-1_3"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
 															<input type="checkbox" value="bg4" id="biz-goal-3">
-															我想线上处理业务，电子化企业管理和运营，代替或缓解人工操作
+															<spring:message code="pricing-form-section-item-1_4"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
 															<input type="checkbox" value="bg5" id="biz-goal-4">
-															我想此站作为官方网站或主站
+															<spring:message code="pricing-form-section-item-1_5"/>
 														</label>
 													</div>
 												</div>
@@ -252,68 +252,68 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">网页内容</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="pricing-form-section-title-2"/></h4>
 
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">网页大约数量</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_1"/></label>
 												<div class="form-group col-lg-1">
 													<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
 												</div>
 												
-												<label class="col-lg-2 control-label text-lg-right pt-2">语言数量</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_2"/></label>
 												<div class="form-group col-lg-1">
 													<input type="text" value="1" class="form-control form-control-sm mt-2" id="qtyLang">
 												</div>
 												
-												<label class="col-lg-2 control-label text-lg-right pt-2">图片大约数量</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_3"/></label>
 												<div class="form-group col-lg-1">
 													<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-0">文案需求</label>
+												<label class="col-lg-2 control-label text-lg-right pt-0"><spring:message code="pricing-form-section-title-2a"/></label>
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
 															<input type="radio" name="copywrite" id="copywrite1" value="1" checked="checked">
-															我不需要，自己负责书写所有文字内容
+															<spring:message code="pricing-form-section-item-2a_1"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="copywrite" id="copywrite2" value="2">
-															我需要，准备委托第三方代理
+															<spring:message code="pricing-form-section-item-2a_2"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="copywrite" id="copywrite3" value="3">
-															我需要，准备委托Athensoft代理
+															<spring:message code="pricing-form-section-item-2a_3"/>
 														</label>
 													</div>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-0">翻译需求</label>
+												<label class="col-lg-2 control-label text-lg-right pt-0"><spring:message code="pricing-form-section-title-2b"/></label>
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
 															<input type="radio" name="translate" id="translate1" value="1" checked="checked">
-															我不需要，自己负责翻译所有文字内容
+															<spring:message code="pricing-form-section-item-2b_1"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="translate" id="translate2" value="2">
-															我需要，准备委托第三方代理
+															<spring:message code="pricing-form-section-item-2b_2"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="translate" id="translate3" value="3">
-															我需要，准备委托Athensoft代理
+															<spring:message code="pricing-form-section-item-2b_3"/>
 														</label>
 													</div>
 												</div>
@@ -328,7 +328,7 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">业务功能</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="pricing-form-section-title-3"/></h4>
 											<div class="form-row">
 												<div class="col-lg-4">
 													<div class="checkbox">
@@ -422,7 +422,7 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">网站功能</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="pricing-form-section-title-4"/></h4>
 											<div class="form-row">
 												<div class="col-lg-4">
 													<div class="checkbox">
@@ -496,19 +496,19 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">网页内容和数据维护</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="pricing-form-section-title-5"/></h4>
 											<div class="form-row">
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
 															<input type="radio" name="contentmaintain" id="contentmaintain1" value="1" checked="">
-															我不需要后台，内容变化少或不频繁，准备委托Athensoft维护内容和数据
+															<spring:message code="pricing-form-section-item-5_1"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="contentmaintain" id="contentmaintain2" value="2">
-															我需要后台，自行维护内容和数据
+															<spring:message code="pricing-form-section-item-5_2"/>
 														</label>
 													</div>
 													
@@ -524,37 +524,37 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">网站域名</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="pricing-form-section-title-6"/></h4>
 											<div class="form-row">
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
 															<input type="radio" name="domainname" id="domainname1" value="1" checked="">
-															我已经有域名，可以自己管理
+															<spring:message code="pricing-form-section-item-6_1"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="domainname" id="domainname2" value="2">
-															我已经有域名，需要委托Athensoft管理
+															<spring:message code="pricing-form-section-item-6_2"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="domainname" id="domainname3" value="3">
-															我没有域名，可以自己申请购买，并自己管理
+															<spring:message code="pricing-form-section-item-6_3"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="domainname" id="domainname4" value="4">
-															我没有域名，可以自己申请购买，需要委托Athensoft管理
+															<spring:message code="pricing-form-section-item-6_4"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="domainname" id="domainname5" value="5">
-															我没有域名，需要委托Athensoft申请购买并管理
+															<spring:message code="pricing-form-section-item-6_5"/>
 														</label>
 													</div>
 													
@@ -570,25 +570,25 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
-											<h4 class="heading-primary text-uppercase mb-3">主机服务</h4>
+											<h4 class="heading-primary text-uppercase mb-3"><spring:message code="pricing-form-section-title-7"/></h4>
 											<div class="form-row">
 												<div class="col-lg-9">
 													<div class="radio">
 														<label>
 															<input type="radio" name="hosting" id="hosting1" value="1" checked="">
-															我已经有购买主机服务
+															<spring:message code="pricing-form-section-item-7_1"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="hosting" id="hosting2" value="2">
-															我没有主机服务，准备自行购买
+															<spring:message code="pricing-form-section-item-7_2"/>
 														</label>
 													</div>
 													<div class="radio">
 														<label>
 															<input type="radio" name="hosting" id="hosting3" value="3">
-															我没有主机服务，准备委托Athensoft代理
+															<spring:message code="pricing-form-section-item-7_3"/>
 														</label>
 													</div>
 												</div>
@@ -602,6 +602,7 @@
 							<!-- END ROW -->
 							
 							<hr class="invisible mt-3 mb-2"/>
+							
 							<div class="row">
 								<label class="col-lg-2 pt-2 text-lg-right">Please send to:</label>
 								<div class="col-lg-3">
@@ -612,8 +613,8 @@
 									<input type="text" class="form-control" id="customerEmail" placeholder="your email"/></div>
 									
 								<div class="col-lg-2">
-									<a href="javascript:void(0);" class="btn btn-primary" onclick="requestQuote();">现在提交</a></div>
-								
+									<a href="javascript:void(0);" class="btn btn-primary" onclick="requestQuote();">现在提交</a>
+								</div>
 							</div>
 											
  
