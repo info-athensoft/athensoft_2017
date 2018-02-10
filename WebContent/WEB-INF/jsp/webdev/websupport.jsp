@@ -11,7 +11,7 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="/images"></c:set>
-<c:set var="pageName" value="webcase"></c:set>
+<c:set var="pageName" value="webservice"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -99,13 +99,12 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-webdev-case"/></h1>
+								<h1><spring:message code="page-title-webdev-websupport"/></h1>
 							</div>
 						</div>
 					</div>
 				</section>
 			
-				
 				<div class="container">
 
 					<div class="row">
@@ -114,27 +113,15 @@
 
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
-								<ul class="nav nav-list flex-column mb-4 sort-source">
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/webdev/webdev.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-1"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/webdev/webplan.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-2"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/webdev/webcustom.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-3"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/webdev/websupport.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-4"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/webdev/product.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-5"/></a></li>
-									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="webdev-sidebar-link-6"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/webdev/pricing.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-7"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/support/faq-webdev.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-8"/></a></li>
-								</ul>
-
-								<hr class="invisible mt-5 mb-2">
-								
-								<h4 class="heading-primary">Filter</h4>
-
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value="*"><a class="nav-link" href="#">All</a></li>
-									<li class="nav-item" data-option-value=".onepagesite"><a class="nav-link" href="#">One-page site</a></li>
-									<li class="nav-item" data-option-value=".corporatesite"><a class="nav-link" href="#">Corporate site</a></li>
-									<li class="nav-item" data-option-value=".catalogsite"><a class="nav-link" href="#">Catalog site</a></li>
-									
+									<li class="nav-item" data-option-value="*"><a class="nav-link" href="${webapp_name}/webdev/webdev.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-1"/></a></li>
+									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="${webapp_name}/webdev/webplan.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-2"/></a></li>
+									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="${webapp_name}/webdev/webcustom.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-3"/></a></li>
+									<li class="nav-item" data-option-value=".brands"><a class="nav-link active" href="#"><spring:message code="webdev-sidebar-link-4"/></a></li>
+									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="${webapp_name}/webdev/product.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-5"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/case.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-6"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/pricing.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-7"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/support/faq-webdev.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-8"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -191,217 +178,349 @@
 							</aside>
 						</div>
 						
-						<!-- case show -->
 						<div class="col-lg-9 order-1 order-lg-2">
-							<div class="sort-destination-loader sort-destination-loader-showing">
-								<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
-								
-									<!-- 
-									<div class="col-lg-6 isotope-item brands">
-										<div class="portfolio-item">
-											<a href="#">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/test/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Presentation</span>
-															<span class="thumb-info-type">Brand</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-6 isotope-item medias">
-										<div class="portfolio-item">
-											<a href="#">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-zoom thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<span class="owl-carousel owl-theme nav-inside m-0" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-															<span>
-																<img src="${img_dir}/test/2.jpg" class="img-fluid" alt="">
-															</span>
-															<span>
-																<img src="${img_dir}/test/3.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Porto Watch</span>
-															<span class="thumb-info-type">Media</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									 -->
-									
-									<div class="col-lg-6 isotope-item corporatesite">
-										<div class="portfolio-item">
-											<a href="#">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/demos/hotel/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Hotel</span>
-															<span class="thumb-info-type">Corporate Site</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-6 isotope-item corporatesite">
-										<div class="portfolio-item">
-											<a href="#">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/demos/realestate/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Real Estate</span>
-															<span class="thumb-info-type">Corporate Site</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									
-									<div class="col-lg-6 isotope-item corporatesite">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/demos/webagency/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Web Design Agency</span>
-															<span class="thumb-info-type">Corporate</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									
-									<div class="col-lg-6 isotope-item corporatesite">
-										<div class="portfolio-item">
-											<a href="#">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/demos/restaurant/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Restaurant</span>
-															<span class="thumb-info-type">Corporate Site</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-6 isotope-item corporatesite">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/demos/gym/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Gym</span>
-															<span class="thumb-info-type">Corporate Site</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									
-									<div class="col-lg-6 isotope-item corporatesite">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/demos/wedding/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Wedding Service</span>
-															<span class="thumb-info-type">Corporate Site</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									
-									<div class="col-lg-6 isotope-item corporatesite">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/demos/interrior/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Interrior Design</span>
-															<span class="thumb-info-type">Corporate Site</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									
-									
-									<div class="col-lg-6 isotope-item onepagesite">
-										<div class="portfolio-item">
-											<a href="#">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/demos/event/1.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Event</span>
-															<span class="thumb-info-type">One-page Site</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-								
+						
+							<!-- overview -->
+							<h3><spring:message code="webdev-websupport-title-1-1"/></h3>
+							<div class="row">
+								<div class="col">
+									<p class="">
+										<spring:message code="webdev-websupport-content-1-1"/>
+									</p>
 								</div>
 							</div>
+
+							<hr class="invisible mt-3 mb-4">
+							
+							<!-- main business -->
+							<h3><spring:message code="webdev-websupport-title-2-1"/></h3>
+							
+							<div class="row">
+								<div class="col">
+									<p class="">
+										<spring:message code="webdev-websupport-content-2-1"/>
+									</p>
+								</div>
+							</div>
+							
+							<hr class="invisible mt-2 mb-3" id=""/>
+							
+							<div class="col-lg-12 isotope-item mt-4">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/webservice/domain.jpg" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-websupport-service-domain-title"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-websupport-service-domain-desc"/></p>
+										
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id=""/>
+							
+							<div class="col-lg-12 isotope-item mt-4">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/webservice/hosting.jpg" class="img-fluid" alt="" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-websupport-service-hosting-title"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-websupport-service-hosting-desc"/></p>
+										
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id=""/>
+							
+							<div class="col-lg-12 isotope-item mt-4">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/webservice/datamaintenance.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-websupport-service-data_maintenance-title"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-websupport-service-data_maintenance-desc"/></p>
+										
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id=""/>
+							
+							<div class="col-lg-12 isotope-item mt-4">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/webservice/contentmaintenance.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-websupport-service-content_maintenance-title"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-websupport-service-content_maintenance-desc"/></p>
+										
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id=""/>
+							
+							<div class="col-lg-12 isotope-item mt-4">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/webservice/systemmaintenance.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-websupport-service-system_maintenance-title"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-websupport-service-system_maintenance-desc"/></p>
+										
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id=""/>
+							
+							<div class="col-lg-12 isotope-item mt-4">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/webservice/projectplanning.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-websupport-service-project_planning-title"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-websupport-service-project_planning-desc"/></p>
+										
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id=""/>
+							
+							<div class="col-lg-12 isotope-item mt-4">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/webservice/techconsulting.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-websupport-service-tech_consulting-title"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-websupport-service-tech_consulting-desc"/></p>
+										
+										<p></p>
+									</div>
+								</div>
+							</div>
+							
+							<hr class="short" id=""/>
+							
+							<div class="col-lg-12 isotope-item mt-4">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="#">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/webservice/techtraining.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="webdev-websupport-service-tech_training-title"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-3"><spring:message code="webdev-websupport-service-tech_training-desc"/></p>
+										
+										<p></p>
+									</div>
+								</div>
+							</div>
+						
+							<hr class="invisible mt-4"/>
+							
+							<!-- call-to-action -->
+							<section class="call-to-action featured featured-primary mb-5">
+								<div class="col-sm-9 col-lg-9">
+									<div class="call-to-action-content">
+										<p class="mb-0"><spring:message code="common-cta-title"/></p>
+									</div>
+								</div>
+								<div class="col-sm-3 col-lg-3">
+									<div class="call-to-action-btn">
+										<a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-lg btn-primary"><spring:message code="common-cta-btn"/></a>
+									</div>
+								</div>
+							</section>
+							<!-- END call-to-action -->
+							
 						</div>
-						<!-- END case show -->
 					</div>
 
 				</div>
-				
+			
 			</div>
 			
 			<!-- footer -->

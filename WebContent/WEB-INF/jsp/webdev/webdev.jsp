@@ -115,12 +115,13 @@
 
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
 									<li class="nav-item" data-option-value="*"><a class="nav-link active" href="#"><spring:message code="webdev-sidebar-link-1"/></a></li>
-									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="${webapp_name}/webdev/webplan.html?lang=${loc}"><spring:message code="webdev-sidebar-link-2"/></a></li>
-									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="${webapp_name}/webdev/webcustom.html?lang=${loc}"><spring:message code="webdev-sidebar-link-3"/></a></li>
-									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="${webapp_name}/webdev/product.html?lang=${loc}"><spring:message code="webdev-sidebar-link-4"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/case.html?lang=${loc}"><spring:message code="webdev-sidebar-link-5"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/pricing.html?lang=${loc}"><spring:message code="webdev-sidebar-link-6"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/support/faq-webdev.html?lang=${loc}"><spring:message code="webdev-sidebar-link-7"/></a></li>
+									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="${webapp_name}/webdev/webplan.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-2"/></a></li>
+									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="${webapp_name}/webdev/webcustom.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-3"/></a></li>
+									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="${webapp_name}/webdev/support.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-4"/></a></li>
+									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="${webapp_name}/webdev/product.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-5"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/case.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-6"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/webdev/pricing.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-7"/></a></li>
+									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/support/faq-webdev.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-link-8"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -213,7 +214,7 @@
 													<i class="icon-featured fa fa-cube m-0"></i>
 													<h4 class="mt-2 mb-2"><spring:message code="webdev-title-2-1_a"/></h4>
 													<p><spring:message code="webdev-content-2-1_a"/></p>
-													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webplan.html?lang=${loc}">
+													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webplan.html?lang=${loc}" target="_blank">
 														<spring:message code="webdev-btn-2-1_a"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
 													</a>
 												</div>
@@ -229,7 +230,7 @@
 													<i class="icon-featured fa fa-cogs m-0"></i>
 													<h4 class="mt-2 mb-2"><spring:message code="webdev-title-2-1_b"/></h4>
 													<p><spring:message code="webdev-content-2-1_b"/></p>
-													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webcustom.html?lang=${loc}">
+													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webcustom.html?lang=${loc}" target="_blank">
 														<spring:message code="webdev-btn-2-1_b"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
 													</a>
 												</div>
@@ -245,7 +246,7 @@
 													<i class="icon-featured fa fa-cogs m-0"></i>
 													<h4 class="mt-2 mb-2"><spring:message code="webdev-title-2-1_c"/></h4>
 													<p><spring:message code="webdev-content-2-1_c"/></p>
-													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/webcustom.html?lang=${loc}">
+													<a class="btn btn-tertiary mr-1 mb-4" href="/webdev/websupport.html?lang=${loc}" target="_blank">
 														<spring:message code="webdev-btn-2-1_c"/> <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i>
 													</a>
 												</div>

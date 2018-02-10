@@ -52,6 +52,13 @@ public class WebdevController {
 		return "webdev/webcustom";
 	}
 	
+	@RequestMapping("/websupport.html")
+	public String gotoWebSupport(){
+		logger.info("entering.. /webdev/websupport.html");
+		logger.info("exiting.. /webdev/websupport.html");
+		return "webdev/websupport";
+	}
+	
 	@RequestMapping("/product.html")
 	public String gotoWebdevProduct(){
 		logger.info("entering.. /webdev/product.html");
