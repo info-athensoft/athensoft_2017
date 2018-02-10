@@ -102,22 +102,25 @@
 					</div>
 					<div class="row">
 						<div class="col">
-							<hr class="tall">
+							<hr class="short">
 						</div>
 					</div>
 					<div class="row justify-content-center">
 						<div class="col-lg-6">
 							<div class="progress-bars mt-4">
 								<div class="progress-label">
-									<span><strong><spring:message code="comingsoon-feature-1"/></strong></span>
+									<span><spring:message code="comingsoon-feature-1"/></span>
 								</div>
 								<div class="progress mb-2">
 									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="90%">
 										<span class="progress-bar-tooltip">90%</span>
 									</div>
 								</div>
+								
+								<hr class="invisible mt-1"/>
+								
 								<div class="progress-label">
-									<span><strong><spring:message code="comingsoon-feature-2"/></strong></span>
+									<span><spring:message code="comingsoon-feature-2"/></span>
 								</div>
 								<div class="progress mb-2">
 									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="75%" data-appear-animation-delay="300">
