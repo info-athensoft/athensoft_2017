@@ -128,7 +128,7 @@
 
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
 								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
-									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
+									<a href="/support/contactus.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
 								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
@@ -467,13 +467,13 @@
 							
 							<hr class="invisible mt-3 mb-2"/>
 							<div class="row">
-								<label class="col-lg-2 pt-2 text-lg-right">Please send to:</label>
+								<label class="col-lg-2 pt-2 text-lg-right"><spring:message code="pricing-form-from-direction"/></label>
 								<div class="col-lg-3">
-									<input type="text" class="form-control" id="customerName" placeholder="your name"/></div>
+									<input type="text" class="form-control" id="customerName" placeholder='<spring:message code="pricing-form-from-customer"/>'/></div>
 								
 								<label class="col-lg-1 pt-2 text-lg-right">@</label>
 								<div class="col-lg-4">
-									<input type="text" class="form-control" id="customerEmail" placeholder="your email"/></div>
+									<input type="text" class="form-control" id="customerEmail" placeholder='<spring:message code="pricing-form-from-email"/>'/></div>
 									
 								<div class="col-lg-2">
 									<a href="javascript:void(0);" class="btn btn-primary" onclick="placeOrder();"><spring:message code="webdev-webplan-order-btn-1"/></a></div>
@@ -491,8 +491,9 @@
 											<i class="fa fa-bars"></i>
 										</div>
 										<div class="feature-box-info">
-											<h4 class="mb-2"><spring:message code="webdev-webplan-title-5-1"/></h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+											<h4 class="mb-2"><spring:message code="common-faq-title"/></h4>
+											<p class="mb-4"><spring:message code="common-faq-content"/></p>
+											<p><a href="" class="btn btn-light"><spring:message code="common-faq-btn"/></a></p>
 										</div>
 									</div>
 								</div>
@@ -502,12 +503,14 @@
 											<i class="fa fa-bars"></i>
 										</div>
 										<div class="feature-box-info">
-											<h4 class="mb-2"><spring:message code="webdev-webplan-title-5-2"/></h4>
-											<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+											<h4 class="mb-2"><spring:message code="common-contactus-title"/></h4>
+											<p class="mb-4"><spring:message code="common-contactus-content"/></p>
+											<p><a href="" class="btn btn-light"><spring:message code="common-contactus-btn"/></a></p>
 										</div>
 									</div>
 								</div>
 							</div>
+							<!-- END support -->
 							
 						</div>
 					</div>

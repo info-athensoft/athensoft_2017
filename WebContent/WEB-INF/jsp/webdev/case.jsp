@@ -111,7 +111,18 @@
 					<div class="row">
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
+								<h4 class="heading-primary"><spring:message code="webdev-case-sidebar-filter-title"/></h4>
 
+								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
+									<li class="nav-item" data-option-value="*"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-0"/></a></li>
+									<li class="nav-item" data-option-value=".onepagesite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-1"/></a></li>
+									<li class="nav-item" data-option-value=".corporatesite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-2"/></a></li>
+									<li class="nav-item" data-option-value=".catalogsite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-3"/></a></li>
+									
+								</ul>
+
+								<hr class="invisible mt-5 mb-2">
+								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
@@ -126,22 +137,10 @@
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
-								
-								<h4 class="heading-primary">Filter</h4>
-
-								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value="*"><a class="nav-link" href="#">All</a></li>
-									<li class="nav-item" data-option-value=".onepagesite"><a class="nav-link" href="#">One-page site</a></li>
-									<li class="nav-item" data-option-value=".corporatesite"><a class="nav-link" href="#">Corporate site</a></li>
-									<li class="nav-item" data-option-value=".catalogsite"><a class="nav-link" href="#">Catalog site</a></li>
-									
-								</ul>
-
-								<hr class="invisible mt-5 mb-2">
 
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
 								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
-									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
+									<a href="/support/contactus.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
 								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
