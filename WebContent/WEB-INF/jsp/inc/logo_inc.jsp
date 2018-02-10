@@ -17,9 +17,20 @@
 
 <div class="header-row">
 	<div class="header-logo">
-		<a href="/index.html?lang=${loc}"> <img alt="Athensoft" width="64" height="64"
-			data-sticky-width="40" data-sticky-height="40" data-sticky-top="33"
-			src="${webapp_name}/images/logo/logo.gif">
+		<a href="/index.html?lang=${loc}">
+			<!-- 
+			<img alt="Athensoft" 
+			     width="64" height="64" 
+			     data-sticky-width="40" 
+			     data-sticky-height="40" 
+			     data-sticky-top="33"
+				src="${webapp_name}/images/logo/logo.gif">
+			 -->	
+			<img alt="Athensoft" 
+			     height="64" 
+			     data-sticky-height="40" 
+			     data-sticky-top="36"
+				src="${webapp_name}/images/logo/logo_text.png">
 		</a>
 	</div>
 </div>
