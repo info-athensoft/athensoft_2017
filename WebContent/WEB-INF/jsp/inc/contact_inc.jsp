@@ -31,7 +31,8 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/support/support.html?lang=${loc}">
+				<!-- <a class="nav-link" href="/support/support.html?lang=${loc}"> -->
+				<a class="nav-link" href="/about/comingsoon.html?lang=${loc}">
 					<i class="fa fa-angle-right"></i> <spring:message code="link-support"/>
 				</a>
 			</li>
@@ -52,7 +53,7 @@
 		</ul>
 	</nav>
 	<div class="header-search d-none d-md-block">
-		<form id="searchForm" action="page-search-results.html?lang=${loc}" method="get">
+		<form id="searchForm" action="#" method="get">
 			<div class="input-group">
 				<input type="text" class="form-control" name="q" id="q"
 					placeholder="Search..." required> <span

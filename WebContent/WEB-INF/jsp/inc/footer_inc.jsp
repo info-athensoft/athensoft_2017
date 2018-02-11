@@ -90,9 +90,12 @@
 				<div class="col-lg-4">
 					<nav id="sub-menu">
 						<ul>
-							<li><a href="/support/faq.html?lang=${loc}" target="_blank"><spring:message code="footer-link-faq"/></a></li>
-							<li><a href="/support/support.html?lang=${loc}" target="_blank"><spring:message code="footer-link-support"/></a></li>
-							<li><a href="/about/sitemap.html?lang=${loc}" target="_blank"><spring:message code="footer-link-sitemap"/></a></li>
+							<!-- <li><a href="/support/faq.html?lang=${loc}" target="_blank"><spring:message code="footer-link-faq"/></a></li> -->
+							<!-- <li><a href="/support/support.html?lang=${loc}" target="_blank"><spring:message code="footer-link-support"/></a></li> -->
+							<!-- <li><a href="/about/sitemap.html?lang=${loc}" target="_blank"><spring:message code="footer-link-sitemap"/></a></li> -->
+							<li><a href="/about/comingsoon.html?lang=${loc}"><spring:message code="footer-link-faq"/></a></li>
+							<li><a href="/about/comingsoon.html?lang=${loc}"><spring:message code="footer-link-support"/></a></li>
+							<li><a href="/about/comingsoon.html?lang=${loc}"><spring:message code="footer-link-sitemap"/></a></li>
 							<li><a href="/support/contactus.html?lang=${loc}" target="_blank"><spring:message code="footer-link-contact"/></a></li>
 						</ul>
 					</nav>

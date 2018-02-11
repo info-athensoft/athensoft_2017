@@ -279,15 +279,15 @@
 										</div>
 									</div>
 									
-									<div class="col-lg-6 isotope-item corporatesite">
+									<div class="col-lg-6 isotope-item onepagesite">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/demos/webagency/1.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
 															<span class="thumb-info-inner">Web Design Agency</span>
-															<span class="thumb-info-type">Corporate</span>
+															<span class="thumb-info-type">One-page Site</span>
 														</span>
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -318,7 +318,7 @@
 									</div>
 									<div class="col-lg-6 isotope-item corporatesite">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/demos/gym/1.jpg" class="img-fluid" alt="">
@@ -337,7 +337,7 @@
 									
 									<div class="col-lg-6 isotope-item corporatesite">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/demos/wedding/1.jpg" class="img-fluid" alt="">
@@ -356,7 +356,7 @@
 									
 									<div class="col-lg-6 isotope-item corporatesite">
 										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+											<a href="#">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/demos/interrior/1.jpg" class="img-fluid" alt="">
