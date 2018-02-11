@@ -635,7 +635,7 @@
 										<div class="feature-box-info">
 											<h4 class="mb-2"><spring:message code="common-faq-title"/></h4>
 											<p class="mb-4"><spring:message code="common-faq-content"/></p>
-											<p><a href="" class="btn btn-light"><spring:message code="common-faq-btn"/></a></p>
+											<p><a href="/about/comingsoon.html?lang=${loc}" class="btn btn-light"><spring:message code="common-faq-btn"/></a></p>
 										</div>
 									</div>
 								</div>
@@ -647,7 +647,7 @@
 										<div class="feature-box-info">
 											<h4 class="mb-2"><spring:message code="common-contactus-title"/></h4>
 											<p class="mb-4"><spring:message code="common-contactus-content"/></p>
-											<p><a href="" class="btn btn-light"><spring:message code="common-contactus-btn"/></a></p>
+											<p><a href="/support/contactus.html?lang=${loc}" class="btn btn-light"><spring:message code="common-contactus-btn"/></a></p>
 										</div>
 									</div>
 								</div>
