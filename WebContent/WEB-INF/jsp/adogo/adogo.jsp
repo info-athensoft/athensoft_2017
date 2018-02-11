@@ -37,7 +37,10 @@
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
-
+		
+		<!-- Bing tracking -->	
+		<meta name="msvalidate.01" content="A726798BCB4A23B609BF80FE1E7D77D8" />
+		
 		<title><spring:message code="head-title-adogo"/></title>
 
 		<meta name="keywords" content="" />
