@@ -201,8 +201,7 @@
 										<a href="#graphic-service-webpic"><spring:message code="graphic-service-webpic"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-imgicon"><spring:message code="graphic-service-imgicon"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-fonticon"><spring:message code="graphic-service-fonticon"/></a>,&nbsp;&nbsp;
-										<a href="#graphic-service-ebook"><spring:message code="graphic-service-ebook"/></a>,&nbsp;&nbsp;
-										<a href="#graphic-service-logo"><spring:message code="graphic-service-ebook"/></a>,&nbsp;&nbsp;
+										<a href="#graphic-service-logo"><spring:message code="graphic-service-logo"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-bizcard"><spring:message code="graphic-service-bizcard"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-imgprocess"><spring:message code="graphic-service-imgprocess"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-wallpaper"><spring:message code="graphic-service-wallpaper"/></a>,&nbsp;&nbsp;
@@ -246,13 +245,12 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-catalog-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-catalog-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -288,13 +286,12 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-brochure-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-brochure-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -330,13 +327,12 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-flyer-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-flyer-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -372,13 +368,12 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-menu-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-menu-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -414,13 +409,11 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-coupon-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-coupon-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -456,13 +449,12 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-poster-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-poster-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -498,13 +490,12 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-adbanner-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-adbanner-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -540,13 +531,11 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-smbanner-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-smbanner-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
 										</ul>
 									</div>
 								</div>
@@ -582,13 +571,10 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-webpic-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-webpic-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
 										</ul>
 									</div>
 								</div>
@@ -624,13 +610,11 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-imgicon-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-imgicon-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
 										</ul>
 									</div>
 								</div>
@@ -666,59 +650,17 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-fonticon-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-fonticon-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 							
 							<!-- 12 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-ebook"/>
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="portfolio-item">
-											<a href="#">
-												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-8">
-										<div class="portfolio-info">
-											<div class="row">
-												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-ebook"/></h4>	
-												</div>
-												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
-												</div>
-											</div>
-										</div>
-
-										<p class="mt-3"><spring:message code="graphic-service-ebook-desc"/></p>
-										
-										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
-										</ul>
-									</div>
-								</div>
-							</div>
+							
 							
 							<!-- 13 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-logo"/>
@@ -750,13 +692,12 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-logo-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-logo-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -792,13 +733,11 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-bizcard-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-bizcard-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -834,13 +773,12 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-imgprocess-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-imgprocess-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -876,13 +814,11 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-wallpaper-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-wallpaper-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
 										</ul>
 									</div>
 								</div>
@@ -918,13 +854,11 @@
 											</div>
 										</div>
 
-										<p class="mt-3"><spring:message code="graphic-service-ecalender-desc"/></p>
+										<p class="mt-1"><spring:message code="graphic-service-ecalender-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-corp"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-catalog"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-ecomm"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="webdev-prod-type-website-erp"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
 										</ul>
 									</div>
 								</div>
@@ -935,19 +869,20 @@
 							
 							<hr class="invisible mt-2 mb-4">
 							
+							<!-- call-to-action -->
 							<section class="call-to-action featured featured-primary mb-5">
 								<div class="col-sm-9 col-lg-9">
 									<div class="call-to-action-content">
-										<!-- <h4>Athensoft is <strong>everything</strong> you need to visualize your <strong>idea!</strong></h4> -->
-										<p class="mb-0">Athensoft is <strong>everything</strong> you need to visualize your <strong>idea!</strong></p>
+										<p class="mb-0"><spring:message code="common-cta-title-2"/></p>
 									</div>
 								</div>
 								<div class="col-sm-3 col-lg-3">
 									<div class="call-to-action-btn">
-										<a href="#" target="_blank" class="btn btn-lg btn-primary">Contact us Now!</a>
+										<a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-lg btn-primary"><spring:message code="common-cta-btn-2"/></a>
 									</div>
 								</div>
 							</section>
+							<!-- END call-to-action -->
 							
 							
 							<!-- latest work -->
