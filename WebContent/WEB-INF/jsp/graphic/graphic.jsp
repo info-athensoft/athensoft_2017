@@ -10,7 +10,7 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="../images"></c:set>
+<c:set var="img_dir" value="/images"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -124,12 +124,12 @@
 
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
-								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value="*"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-1"/></a></li>
-									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="${webapp_name}/graphic/portfolio.html?lang=${loc}"><spring:message code="graphic-sidebar-link-2"/></a></li>
-									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="${webapp_name}/graphic/case.html?lang=${loc}"><spring:message code="graphic-sidebar-link-3"/></a></li>
-									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="${webapp_name}/graphic/pricing.html?lang=${loc}"><spring:message code="graphic-sidebar-link-4"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-5"/></a></li>
+								<ul class="nav nav-list flex-column mb-4 sort-source">
+									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-1"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/portfolio.html?lang=${loc}"><spring:message code="graphic-sidebar-link-2"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/case.html?lang=${loc}"><spring:message code="graphic-sidebar-link-3"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/pricing.html?lang=${loc}"><spring:message code="graphic-sidebar-link-4"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-5"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -224,7 +224,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -245,7 +245,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-catalog-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-catalog-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -265,7 +265,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -286,7 +286,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-brochure-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-brochure-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -306,7 +306,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -327,7 +327,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-flyer-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-flyer-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -347,7 +347,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -368,7 +368,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-menu-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-menu-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -388,7 +388,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -409,7 +409,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-coupon-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-coupon-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
@@ -428,7 +428,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -449,7 +449,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-poster-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-poster-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -469,7 +469,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -490,7 +490,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-adbanner-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-adbanner-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -510,7 +510,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -531,7 +531,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-smbanner-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-smbanner-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -550,7 +550,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -571,7 +571,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-webpic-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-webpic-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
@@ -589,7 +589,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -610,7 +610,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-imgicon-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-imgicon-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -629,7 +629,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -650,7 +650,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-fonticon-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-fonticon-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
@@ -671,7 +671,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -692,7 +692,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-logo-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-logo-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -712,7 +712,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -733,7 +733,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-bizcard-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-bizcard-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -752,7 +752,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -773,7 +773,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-imgprocess-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-imgprocess-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -793,7 +793,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -814,7 +814,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-wallpaper-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-wallpaper-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
@@ -833,7 +833,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/webproduct/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -854,7 +854,7 @@
 											</div>
 										</div>
 
-										<p class="mt-1"><spring:message code="graphic-service-ecalender-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-ecalender-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
