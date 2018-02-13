@@ -46,4 +46,6 @@ public class SiteController {
 		logger.info("exiting.. /about/comingsoon.html");
 		return "about/coming_soon";
 	}
+	
+	
 }

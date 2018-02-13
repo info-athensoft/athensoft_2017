@@ -52,4 +52,5 @@
 	<mvc:resources mapping="/fonts/**" location="fonts/" />
 	<mvc:resources mapping="/vendor/**" location="vendor/" />
 	<mvc:resources mapping="/video/**" location="video/" />
+	<mvc:resources mapping="/sitemap.xml" location="/" />
 </beans>
