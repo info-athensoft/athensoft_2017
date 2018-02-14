@@ -182,15 +182,15 @@
 						</div>
 						<div class="col-lg-9 order-1 order-lg-2">
 							<div class="sort-destination-loader sort-destination-loader-showing">
-								<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
-									<div class="col-lg-4 isotope-item brands">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+								<div class="row portfolio-list sort-destination image-gallery lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
+									<div class="col-lg-6 isotope-item brands">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
 														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Presentation</span>
+															<span class="thumb-info-inner">22Presentation</span>
 															<span class="thumb-info-type">Brand</span>
 														</span>
 														<span class="thumb-info-action">
@@ -201,58 +201,14 @@
 											</a>
 										</div>
 									</div>
-									<div class="col-lg-4 isotope-item medias">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-zoom thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<span class="owl-carousel owl-theme nav-inside m-0" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-															<span>
-																<img src="${img_dir}/graphic/portfolio/project-1.jpg" class="img-fluid" alt="">
-															</span>
-															<span>
-																<img src="${img_dir}/graphic/portfolio/project-1-2.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Porto Watch</span>
-															<span class="thumb-info-type">Media</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-4 isotope-item logos">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+									<div class="col-lg-6 isotope-item brands">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-2.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Identity</span>
-															<span class="thumb-info-type">Logo</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-4 isotope-item brands">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-3.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Watch Mockup</span>
+															<span class="thumb-info-inner">22Presentation</span>
 															<span class="thumb-info-type">Brand</span>
 														</span>
 														<span class="thumb-info-action">
@@ -263,32 +219,14 @@
 											</a>
 										</div>
 									</div>
-									<div class="col-lg-4 isotope-item logos">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+									<div class="col-lg-6 isotope-item brands">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-4.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Three Bottles</span>
-															<span class="thumb-info-type">Logo</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-4 isotope-item brands">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-5.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Company T-Shirt</span>
+															<span class="thumb-info-inner">22Presentation</span>
 															<span class="thumb-info-type">Brand</span>
 														</span>
 														<span class="thumb-info-action">
@@ -299,15 +237,15 @@
 											</a>
 										</div>
 									</div>
-									<div class="col-lg-4 isotope-item websites">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
+									<div class="col-lg-6 isotope-item brands">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-6.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Mobile Mockup</span>
-															<span class="thumb-info-type">Website</span>
+															<span class="thumb-info-inner">22Presentation</span>
+															<span class="thumb-info-type">Brand</span>
 														</span>
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -317,96 +255,8 @@
 											</a>
 										</div>
 									</div>
-									<div class="col-lg-4 isotope-item medias">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-7.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Porto Label</span>
-															<span class="thumb-info-type">Media</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-4 isotope-item logos">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-23.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Business Folders</span>
-															<span class="thumb-info-type">Logo</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-4 isotope-item websites">
-										<div class="portfolio-item">
-											<a href="portfolio-single-small-slider.html">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-24.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Tablet Screen</span>
-															<span class="thumb-info-type">Website</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-4 isotope-item medias">
-										<div class="portfolio-item">
-											<a href="${img_dir}/graphic/portfolio/project-25.jpg">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-25.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Black Watch</span>
-															<span class="thumb-info-type">Media</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-4 isotope-item websites">
-										<div class="portfolio-item">
-											<a href="${img_dir}/graphic/portfolio/project-26.jpg">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project-26.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">Monitor Mockup</span>
-															<span class="thumb-info-type">Website</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
+									
+									
 								</div>
 							</div>
 

@@ -221,10 +221,10 @@
 								<div class="row">
 									<div class="col-lg-4">
 										<div class="portfolio-item">
-											<a href="#">
+											<a href="/graphic/service/catalog.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -265,7 +265,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -306,7 +306,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -347,7 +347,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -388,7 +388,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -428,7 +428,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -469,7 +469,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -510,7 +510,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -550,7 +550,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -589,7 +589,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -629,7 +629,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -671,7 +671,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -712,7 +712,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -752,7 +752,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -793,7 +793,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -833,7 +833,7 @@
 											<a href="#">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/comp-item.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
