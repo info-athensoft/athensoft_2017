@@ -43,8 +43,8 @@
 		
 		<title><spring:message code="head-title-index"/></title>
 
-		<meta name="keywords" content="" />
-		<meta name="description" content="">
+		<meta name="keywords" content="<spring:message code='seo-keywords-index'/>"/>
+		<meta name="description" content="<spring:message code='seo-desc-index'/>">
 		<meta name="author" content="Informatique Athensoft">
 
 		<!-- Favicon -->

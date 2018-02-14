@@ -44,8 +44,8 @@
 
 		<title><spring:message code="head-title-webdev"/></title>
 
-		<meta name="keywords" content="" />
-		<meta name="description" content="">
+		<meta name="keywords" content="<spring:message code='seo-keywords-webdev'/>" />
+		<meta name="description" content="<spring:message code='seo-desc-webdev'/>">
 		<meta name="author" content="Informatique Athensoft">
 
 		<!-- Favicon -->
