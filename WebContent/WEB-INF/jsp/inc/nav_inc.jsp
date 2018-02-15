@@ -38,7 +38,7 @@
 					</ul></li>
 				
 				
-				
+				<!-- menu - graphic
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
@@ -49,8 +49,8 @@
 						<li><a class="dropdown-item" href="/support/faq-graphic.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-5"/></a></li>
 					</ul>
 				</li>
-				
-				<!-- menu - graphic 
+				-->
+				 
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
@@ -61,7 +61,7 @@
 						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-graphic-5"/></a></li>
 					</ul>
 				</li>
-				-->
+				
 				<!-- menu - adogo 
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/adogo/index.html?lang=${loc}"> <spring:message code="menu-adogo"/> </a>
@@ -92,18 +92,22 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Software Development</span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Java Programming</a></li>
+											<li><a class="dropdown-item" href="/knowledge/dev/java8/1?lang=${loc}">Java 8 &nbsp;<span class="tip tip-dark">new</span></a></li>
+											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Spring</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Design Pattern</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">UML</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Maven</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Eclipse</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Git</a></li>
+											 -->
 										</ul>
 									</div>
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">AI and Bigdata</span>
 										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="#">Coming soon</a></li>
+											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Big Data</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Artificial Intelligence</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Machine Learning</a></li>
@@ -111,21 +115,28 @@
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Kafka</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Storm</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Samza</a></li>
+											 -->
 										</ul>
 									</div>
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Online Marketing</span>
 										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="#">Coming soon</a></li>
+											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Social Media</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Google Analytics</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Google AdWords</a></li>
+											 -->
 										</ul>
 									</div>
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Design and Media</span>
 										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="#">Coming soon</a></li>
+											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Graphic Design</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Printing</a></li>
+											 -->
 										</ul>
 									</div>
 								</div>
