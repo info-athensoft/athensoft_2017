@@ -121,7 +121,22 @@
 					<div class="row">
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
+								<h4 class="heading-primary">目录</h4>
 
+								<ul class="nav nav-list flex-column mb-4 sort-source">
+									<li class="nav-item"><strong>Java 8  新特性简明教程</strong></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/1?lang=${loc}">Java 8  新特性概述</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/2?lang=${loc}">Lambda 表达式</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/3?lang=${loc}">方法引用</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/4?lang=${loc}">函数接口</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/5?lang=${loc}">Default 方法</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/6?lang=${loc}">Stream 流</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/7?lang=${loc}">Optional 类</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/8?lang=${loc}">Nashorn JavaScript</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/9?lang=${loc}">新 日期/时间 API</a></li>
+									<li class="nav-item"><a href="/knowledge/dev/java8/10?lang=${loc}">Base64</a></li>
+								</ul>
+								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
@@ -132,6 +147,7 @@
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
+
 							</aside>
 						</div>
 						
@@ -145,13 +161,8 @@
 								<div class="post-image">
 										<div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
 											<div>
-												<div class="img-thumbnail d-block">
-													<img class="img-fluid" src="/img/blog/blog-image-3.jpg" alt="">
-												</div>
-											</div>
-											<div>
-												<div class="img-thumbnail d-block">
-													<img class="img-fluid" src="/img/blog/blog-image-2.jpg" alt="">
+												<div class="img-thumbnail">
+													<img class="img-fluid" src="${img_dir}/knowledge/${topicClass}/${topicName}/1-1.jpg" alt="${topicName}" height="40%">
 												</div>
 											</div>
 										</div>
@@ -159,7 +170,7 @@
 								<div class="post-content">
 									<h3>Java 8 New Features</h3>
 									<div class="post-meta">
-										<span><i class="fa fa-user"></i> By <a href="#">Athensoft Developers</a> </span>
+										<span><i class="fa fa-user"></i><a href="#"> Developers</a> </span>
 										<span><i class="fa fa-tag"></i> <a href="#">Java 8 Programming</a>, <a href="#">Software Developing</a> </span>
 										<span><i class="fa fa-comments"></i> <a href="#">0 Comments</a></span>
 										<span class="d-block d-sm-inline-block float-sm-right mt-3 mt-sm-0"><a href="#" class="btn btn-xs btn-primary">Read more...</a></span>
@@ -168,7 +179,7 @@
 								
 								<div class="post-content">
 									<p>&nbsp;</p>
-									<jsp:include page="software/java8/chapter1.jsp" flush="true"></jsp:include>
+									<jsp:include page="${topicClass}/${topicName}/${chapterNo}.jsp" flush="true"></jsp:include>
 								</div>
 							</div>
 							
@@ -183,18 +194,6 @@
 							<!-- page content -->
 							
 							<!-- END page content -->
-							
-							<hr class="invisible mt-3 mb-2"/>
-							
-							
-							
-							
-							<hr class="invisible mt-4 mb-4">
-							
-							
-							
-							
-							<!-- latest work -->
 							
 							
 						</div>

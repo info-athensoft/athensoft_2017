@@ -1,7 +1,11 @@
 package com.athensoft.site.biz.controller;
 
+import java.util.Map;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping("/knowledge")
@@ -17,8 +21,20 @@ public class KnowledgeController {
 		return "knowledge/post";
 	}
 	
-	@RequestMapping("/dev/java8/1")
-	public String goto1(){
-		return "knowledge/post_1-1-1";
+	@RequestMapping("/{topicClass}/{topicName}/{chapterNo}")
+	public ModelAndView goto1(
+			@PathVariable String topicClass,
+			@PathVariable String topicName,
+			@PathVariable String chapterNo){
+		
+		ModelAndView mav = new ModelAndView();
+		Map<String, Object> model = mav.getModel();
+		model.put("topicClass",topicClass);
+		model.put("topicName",topicName);
+		model.put("chapterNo",chapterNo);
+		
+		String viewName = "knowledge/post";
+		mav.setViewName(viewName);
+		return mav;
 	}
 }

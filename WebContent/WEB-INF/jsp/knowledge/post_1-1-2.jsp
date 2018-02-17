@@ -121,10 +121,10 @@
 					<div class="row">
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
-								
 								<h4 class="heading-primary">目录</h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
+									<li class="nav-item"><strong>Java 8  新特性简明教程</strong></li>
 									<li class="nav-item"><a href="/knowledge/dev/java8/1?lang=${loc}">Java 8  新特性概述</a></li>
 									<li class="nav-item"><a href="/knowledge/dev/java8/2?lang=${loc}">Lambda 表达式</a></li>
 									 
@@ -181,7 +181,7 @@
 								
 								<div class="post-content">
 									<p>&nbsp;</p>
-									<jsp:include page="dev/java8/1.jsp" flush="true"></jsp:include>
+									<jsp:include page="dev/java8/2.jsp" flush="true"></jsp:include>
 								</div>
 								
 								<hr class="invisible mt-3 mb-2"/>
@@ -195,7 +195,7 @@
 								<div class="post-content">
 									<h3>相关链接</h3>
 									<ul>
-										<li><a href="/knowledge/dev/java8/2?lang=${loc}">Lambda 表达式</a></li>
+										<li><a href="/knowledge/dev/java8/2?lang=${loc}">Java 8 新特性概述</a></li>
 									</ul>
 								</div>
 							</div>

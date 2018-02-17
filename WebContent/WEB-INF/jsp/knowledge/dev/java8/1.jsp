@@ -1,13 +1,6 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
 
-
-
-
-<h3>Java 8 新特性简明教程</h3>
-<p>Java 8是最受期待的主要功能版本。本教程以简单直观的方式介绍Java 8的基本到高级特性及其用法。</p>
-
-
 <h3>第一章	概述</h3>
 <p>
 JAVA 8是 JAVA编程语言开发的一个主要功能版本。 它的最初版本于2014年3月18日发布。<br/>
@@ -79,4 +72,10 @@ public class Java8Tester {
    }
 }
 </pre>
-
+<h5>运行结果</h5>
+<pre>
+Sort using Java 7 syntax:
+[ Kalpesh Mahesh Naresh Ramesh Suresh ]
+Sort using Java 8 syntax:
+[ Kalpesh Mahesh Naresh Ramesh Suresh ]
+</pre>
