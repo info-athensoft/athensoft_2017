@@ -43,8 +43,8 @@
 		
 		<title><spring:message code="head-title-knowledge"/></title>
 
-		<meta name="keywords" content="" />
-		<meta name="description" content="">
+		<meta name="keywords" content="java 8, java programming, java, new feature, develop, developer, advanced" />
+		<meta name="description" content="Java 8 is the most awaited and is a major feature release of Java programming language.">
 		<meta name="author" content="Informatique Athensoft">
 
 		<!-- Favicon -->
@@ -127,15 +127,10 @@
 									<li class="nav-item"><strong>Java 8  新特性简明教程</strong></li>
 									<li class="nav-item"><a href="/knowledge/dev/java8/1?lang=${loc}">Java 8  新特性概述</a></li>
 									<li class="nav-item"><a href="/knowledge/dev/java8/2?lang=${loc}">Lambda 表达式</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/3?lang=${loc}">方法引用</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/4?lang=${loc}">函数接口</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/5?lang=${loc}">Default 方法</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/6?lang=${loc}">Stream 流</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/7?lang=${loc}">Optional 类</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/8?lang=${loc}">Nashorn JavaScript</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/9?lang=${loc}">新 日期/时间 API</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/10?lang=${loc}">Base64</a></li>
+									 
 								</ul>
+
+								<hr class="invisible mt-5 mb-2">
 								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
@@ -148,6 +143,8 @@
 
 								<hr class="invisible mt-5 mb-2">
 
+								<h4 class="heading-primary"></h4>
+								
 							</aside>
 						</div>
 						
@@ -162,30 +159,48 @@
 										<div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
 											<div>
 												<div class="img-thumbnail">
-													<img class="img-fluid" src="${img_dir}/knowledge/${topicClass}/${topicName}/1-1.jpg" alt="${topicName}" height="40%">
+													<img class="img-fluid" src="${img_dir}/knowledge/software/java8/1-1.jpg" alt="java8" height="40%">
 												</div>
 											</div>
 										</div>
 								</div>
 								<div class="post-content">
-									<h3>Java 8 New Features</h3>
+									<h3>Java 8  新特性简明教程</h3>
+									<p>Java 8是最受期待的主要功能版本。本教程以简单直观的方式介绍Java 8的基本到高级特性及其用法。</p>
 									<div class="post-meta">
-										<span><i class="fa fa-user"></i><a href="#"> Developers</a> </span>
-										<span><i class="fa fa-tag"></i> <a href="#">Java 8 Programming</a>, <a href="#">Software Developing</a> </span>
-										<span><i class="fa fa-comments"></i> <a href="#">0 Comments</a></span>
+										<span><i class="fa fa-user"></i> <a href="#">Developers</a> &nbsp;</span>
+										<span><i class="fa fa-tag"></i> <a href="#">Java 8 Programming</a>, <a href="#">Software Developing</a> &nbsp;</span>
+										<span><i class="fa fa-comments"></i> <a href="#">0 Comments</a>&nbsp;</span>
+										<!-- 
 										<span class="d-block d-sm-inline-block float-sm-right mt-3 mt-sm-0"><a href="#" class="btn btn-xs btn-primary">Read more...</a></span>
+										 -->
 									</div>
 								</div>
 								
+								<hr class="short"/>
+								
 								<div class="post-content">
 									<p>&nbsp;</p>
-									<jsp:include page="${topicClass}/${topicName}/${chapterNo}.jsp" flush="true"></jsp:include>
+									<jsp:include page="dev/java8/2.jsp" flush="true"></jsp:include>
+								</div>
+								
+								<hr class="invisible mt-3 mb-2"/>
+								
+								<div>
+								<pre>Original Article: tutorialspoint.com/java8/index.htm</pre>
+								</div>
+								
+								<hr class="short"/>
+								
+								<div class="post-content">
+									<h3>相关链接</h3>
+									<ul>
+										<li><a href="/knowledge/dev/java8/2?lang=${loc}">Java 8 新特性概述</a></li>
+									</ul>
 								</div>
 							</div>
 							
 							<!-- END main features -->
-							
-							<hr class="invisible mt-3 mb-2"/>
 							
 							
 							
@@ -194,6 +209,10 @@
 							<!-- page content -->
 							
 							<!-- END page content -->
+							
+							<hr class="invisible mt-3 mb-2"/>
+							
+							<!-- latest work -->
 							
 							
 						</div>
