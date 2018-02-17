@@ -199,7 +199,7 @@
 						
 						<div class="col-lg-9 order-1 order-lg-2">
 							
-							<hr class="invisible mt-4 mb-2" id="graphic-service-catalog"/>
+							<hr class="invisible mt-4 mb-2" id="graphic-service-coupon"/>
 							
 							<!-- main features -->
 							<div class="blog-posts">
@@ -208,17 +208,16 @@
 										<div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
 											<div>
 												<div class="img-thumbnail d-block">
-													<img class="img-fluid" src="${img_dir}/graphicservice/big/catalog.jpg" alt="design catalog">
+													<img class="img-fluid" src="${img_dir}/graphicservice/big/coupon.jpg" alt="design coupon">
 												</div>
 											</div>
 										</div>
 								</div>
 								<div class="post-content">
-									<h3><spring:message code="graphic-service-catalog"/></h3>
-									<p><spring:message code="graphic-service-catalog-desc"/></p>
+									<h3><spring:message code="graphic-service-coupon"/></h3>
+									<p><spring:message code="graphic-service-coupon-desc"/></p>
 									
 									<ul class="list list-inline list-icons">
-										<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
 										<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
 										<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 									</ul>
@@ -230,59 +229,49 @@
 							<hr class="invisible mt-3 mb-2"/>
 							
 							<!-- pricing table -->
+							<!--  
 							<hr class="long"/>
 							<div class="post-content">
 								<h3><spring:message code="grahpic-service-catalog-price_table-title"/></h3>
-								<table class="table table-striped table-bordered">
-									<thead>
-										<tr class="info">
-											<th rowspan="2">#</th><th>Number of Page</th><th>Letter/A4</th><th>A5</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr><td>1</td><td>4 pages</td><td>$200</td><td>$160</td></tr>
-										<tr><td>2</td><td>8 pages</td><td>$300</td><td>$240</td></tr>
-										<tr><td>3</td><td>12 pages</td><td>$400</td><td>$320</td></tr>
-										<tr><td>4</td><td>16 pages</td><td>$480</td><td>$400</td></tr>
-										<tr><td>5</td><td>20 pages</td><td>$580</td><td>$480</td></tr>
-										<tr><td>6</td><td>24 pages</td><td>$680</td><td>$560</td></tr>
-										<tr><td>7</td><td>28 pages</td><td>$780</td><td>$640</td></tr>
-									</tbody>
-								</table>
+								
 							</div>
+							-->
 							<!-- END pricing table -->
 							
 							<hr class="invisible mt-3 mb-4"/>
 							
-							<!-- page content -->
-							<div class="col-sm-12">
+							<!-- quote form -->
+							<div class="post-content">
 								<h3><spring:message code="grahpic-service-catalog-quote_form-title"/></h3>
-								<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
-									<div class="box-content">
-										<div class="form-row">
-											<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_1"/></label>
-											<div class="form-group col-lg-1">
-												<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
+								<div class="col-sm-12">
+									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
+										<div class="box-content">
+											<div class="form-row">
+												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_1"/></label>
+												<div class="form-group col-lg-1">
+													<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
+												</div>
 											</div>
-										</div>
-										
-										<div class="form-row">
-											<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_3"/></label>
-											<div class="form-group col-lg-1">
-												<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
+											
+											<div class="form-row">
+												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_3"/></label>
+												<div class="form-group col-lg-1">
+													<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
+												</div>
 											</div>
-										</div>
-										
-										<div class="form-row">
-											<label class="col-lg-3 control-label text-lg-right pt-2">Comment</label>
-											<div class="form-group col-lg-8">
-												<textarea rows="5" class="form-control form-control-sm mt-2" id=""></textarea>
+											
+											<div class="form-row">
+												<label class="col-lg-3 control-label text-lg-right pt-2">Comment</label>
+												<div class="form-group col-lg-8">
+													<textarea rows="5" class="form-control form-control-sm mt-2" id=""></textarea>
+												</div>
 											</div>
+											
 										</div>
-										
 									</div>
 								</div>
 							</div>
+							<!-- END quote form -->
 							
 							<hr class="invisible mt-3 mb-2"/>
 							

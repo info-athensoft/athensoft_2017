@@ -38,7 +38,7 @@
 					</ul></li>
 				
 				
-				<!-- menu - graphic
+				<!-- menu - graphic -->
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
@@ -49,8 +49,9 @@
 						<li><a class="dropdown-item" href="/support/faq-graphic.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-5"/></a></li>
 					</ul>
 				</li>
-				-->
-				 
+				
+				
+				<!--  
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
@@ -61,6 +62,7 @@
 						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-graphic-5"/></a></li>
 					</ul>
 				</li>
+				--> 
 				
 				<!-- menu - adogo 
 				<li class="dropdown">
