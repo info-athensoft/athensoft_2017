@@ -217,6 +217,7 @@
 							<hr class="invisible mt-4 mb-2" id="graphic-service-catalog"/>
 							
 							<h3><spring:message code="graphic-title-2-1"/></h3>
+							<!-- 1 -->
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
 									<div class="col-lg-4">
@@ -240,7 +241,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-catalog"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/catalog.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -265,7 +266,7 @@
 											<a href="/graphic/service/brochure.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/brochure.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -281,7 +282,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-brochure"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/brochure.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -322,7 +323,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-flyer"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/flyer.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -363,7 +364,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-menu"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/menu.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -404,7 +405,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-coupon"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/coupon.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -428,7 +429,7 @@
 											<a href="/graphic/service/poster.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/poster.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -444,7 +445,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-poster"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/poster.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -469,7 +470,7 @@
 											<a href="/graphic/service/adbanner.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/adbanner.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -485,7 +486,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-adbanner"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/adbanner.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -510,7 +511,7 @@
 											<a href="/graphic/service/smbanner.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/smbanner.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -526,7 +527,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-smbanner"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/smbanner.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -550,7 +551,7 @@
 											<a href="/graphic/service/webpic.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/webpic.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -566,7 +567,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-webpic"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/webpic.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -589,7 +590,7 @@
 											<a href="/graphic/service/imgicon.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/imgicon.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -605,7 +606,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-imgicon"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/imgicon.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -629,7 +630,7 @@
 											<a href="/graphic/service/fonticon.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/fonticon.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -645,7 +646,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-fonticon"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/fonticon.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -688,7 +689,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-logo"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/logo.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -729,7 +730,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-bizcard"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/bizcard.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -753,7 +754,7 @@
 											<a href="/graphic/service/imgprocess.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/imgprocess.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -769,7 +770,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-imgprocess"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/imgprocess.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -794,7 +795,7 @@
 											<a href="/graphic/service/wallpaper.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/wallpaper.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -810,7 +811,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-wallpaper"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/wallpaper.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
@@ -834,7 +835,7 @@
 											<a href="/graphic/service/ecalender.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/1.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/ecalender.jpg" class="img-fluid" alt="" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -850,7 +851,7 @@
 													<h4 class="heading-primary"><spring:message code="graphic-service-ecalender"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<!-- <a href="#" class="btn btn-primary btn-xs">Learn More</a> -->
+													<a href="${webapp_name}/graphic/service/ecalender.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
