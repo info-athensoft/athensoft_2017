@@ -1,52 +1,105 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
 
-<h3>第六章	  Streams流</h3>
+<h3>第七章	  Optional 类</h3>
 <p>
-Stream是Java 8中引入的一个新的抽象层。使用流，您可以使用类似于SQL语句的声明方式处理数据。 例如，请考虑以下SQL语句。
+Optional是用于包含非空对象的容器对象。Optional对象用于表示缺少值的空值。 这个类有各种实用方法来帮助代码将值处理为'可用'或'不可用'，而不是检查空值。 它在Java 8中被引入，类似于Guava中的Optional。
 </p>
+
+<h5>类声明</h5>
+<p>
 <code>
-SELECT max(salary), employee_id, employee_name FROM Employee
+public final class Optional<T> extends Object
 </code>
-
-<p>
-上面的SQL表达式会自动返回最大薪水员工的详细信息，而不会对开发人员做任何计算。 在Java中使用集合框架，开发人员必须使用循环并进行重复检查。 另一个问题是效率; 由于多核处理器可以轻松实现，因此Java开发人员必须编写并行代码处理，这些处理可能非常容易出错。
-<br/>
-为了解决这些问题，Java 8引入了流的概念，使开发人员可以声明性地处理数据并利用多核架构，而无需为其编写任何特定的代码。
 </p>
 
+<h5>类的方法</h5>
+<strong>static &lt;T> Optional&lt;T> empty()</strong>
+<p>Returns an empty Optional instance.</p>
 
-<div><strong>什么是Stream？</strong></div>
-<p>
-什么是Stream？
-流代表来自源的一系列对象，它支持聚合操作。以下是Stream的特点 - 
-</p>
+<strong>boolean equals(Object obj)</strong>
+<p>Indicates whether some other object is "equal to" this Optional.</p>
 
-<ul>
-	<li><strong>元素序列 </strong> - 流以顺序方式提供一组特定类型的元素。流按需获取/计算元素。它从不存储元素。 </li>
-	<li><strong>Source</strong> - Stream将Collections，Arrays或I / O资源作为输入源。</li>
-	<li><strong>聚合操作</strong> - Stream支持聚合操作，如过滤器，映射，限制，减少，查找，匹配等。</li>
-	<li><strong>Pipelining</strong> - 大多数流操作本身返回流，以便它们的结果可以流水线化。这些操作被称为中间操作，它们的功能是接受输入，处理它们并将输出返回给目标。 collect()方法是终端操作，通常在流水线操作结束时出现以标记流的结束。</li>
-	<li><strong>自动迭代</strong> - 流操作通过所提供的源元素在内部执行迭代，与需要显式迭代的集合相反。</li>
-</ul>
+<strong>Optional&lt;T&gt; filter(Predicate&lt;? super &lt;T&gt; predicate)</strong>
+<p>If a value is present and the value matches a given predicate, it returns an Optional describing the value, otherwise returns an empty Optional.</p>
 
-<h5>生成流</h5>
-<p>使用Java 8,  Collection接口有两种方法来生成Stream。</p>
-<ul>
-  <li><strong>stream()</strong> - 返回考虑集合作为源的顺序流。 </li>
-  <li><strong>parallelStream()</strong> - 返回并行流考虑集合作为其源。 </li>
-</ul>
+<strong>&lt;U&gt; Optional&lt;U&gt; flatMap(Function&lt;? super T,Optional&lt;U&gt;&gt; mapper)</strong>
+<p>If a value is present, it applies the provided Optional-bearing mapping function to it, returns that result, otherwise returns an empty Optional.</p>
 
+<strong>T get()</strong>
+<p>If a value is present in this Optional, returns the value, otherwise throws NoSuchElementException.</p>
+
+<strong>int hashCode()</strong>
+<p>Returns the hash code value of the present value, if any, or 0 (zero) if no value is present.</p>
+
+<strong>void ifPresent(Consumer&lt;? super T&gt; consumer)</strong>
+<p>If a value is present, it invokes the specified consumer with the value, otherwise does nothing.</p>
+
+<strong>boolean isPresent()</strong>
+<p>Returns true if there is a value present, otherwise false.
+
+<strong>&lt;U&gt;Optional&lt;U&gt; map(Function&lt;? super T,? extends U&gt; mapper)</strong>
+<p>If a value is present, applies the provided mapping function to it, and if the result is non-null, returns an Optional describing the result.</p>
+
+<strong>static &lt;T&gt; Optional&lt;T&gt; of(T value)</strong>
+<p>Returns an Optional with the specified present non-null value.</p>
+
+<strong>static &lt;T&gt; Optional&lt;T&gt; ofNullable(T value)</strong>
+<p>Returns an Optional describing the specified value, if non-null, otherwise returns an empty Optional.</p>
+
+<strong>T orElse(T other)</strong>
+<p>Returns the value if present, otherwise returns other.</p>
+
+<strong>T orElseGet(Supplier&lt;? extends T&gt; other)</strong>
+<p>Returns the value if present, otherwise invokes other and returns the result of that invocation.</p>
+
+<strong>&lt;X extends Throwable&gt; T orElseThrow(Supplier&lt;? extends X&gt; exceptionSupplier)</strong>
+<p>Returns the contained value, if present, otherwise throws an exception to be created by the provided supplier.</p>
+
+<strong>String toString()</strong>
+<p>Returns a non-empty string representation of this Optional suitable for debugging.</p>
+
+
+
+<h5>例子</h5>
 <pre>
-List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
-List<String> filtered = strings.stream().filter(string -> !string.isEmpty()).collect(Collectors.toList());
-</pre>
+import java.util.Optional;
 
+public class Java8Tester {
 
-
+   public static void main(String args[]) {
+      Java8Tester java8Tester = new Java8Tester();
+      Integer value1 = null;
+      Integer value2 = new Integer(10);
+		
+      //Optional.ofNullable - allows passed parameter to be null.
+      Optional<Integer> a = Optional.ofNullable(value1);
+		
+      //Optional.of - throws NullPointerException if passed parameter is null
+      Optional<Integer> b = Optional.of(value2);
+      System.out.println(java8Tester.sum(a,b));
+   }
+	
+   public Integer sum(Optional<Integer> a, Optional<Integer> b) {
+      //Optional.isPresent - checks the value is present or not
+		
+      System.out.println("First parameter is present: " + a.isPresent());
+      System.out.println("Second parameter is present: " + b.isPresent());
+		
+      //Optional.orElse - returns the value if present otherwise returns
+      //the default value passed.
+      Integer value1 = a.orElse(new Integer(0));
+		
+      //Optional.get - gets the value, value should be present
+      Integer value2 = b.get();
+      return value1 + value2;
+   }
+}
 </pre>
 
 <h5>运行结果</h5>
 <pre>
-
+First parameter is present: false
+Second parameter is present: true
+10
 </pre>
