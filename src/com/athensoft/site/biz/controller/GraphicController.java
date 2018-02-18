@@ -25,6 +25,13 @@ public class GraphicController {
 		return "graphic/graphic";
 	}
 	
+	@RequestMapping("/demo.html")
+	public String gotoGraphicDemo(){
+		logger.info("entering.. /graphic/demo.html");
+		logger.info("exiting.. /graphic/demo.html");
+		return "graphic/demo";
+	}
+	
 	@RequestMapping("/portfolio.html")
 	public String gotoGraphicPortfolio(){
 		logger.info("entering.. /graphic/portfolio.html");

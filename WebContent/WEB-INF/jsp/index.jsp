@@ -211,7 +211,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4">
-							<img class="img-fluid mt-5 appear-animation" src="${img_dir}/local/home/content-1.jpg" alt="layout styles" data-appear-animation="fadeInLeft">
+							<img class="img-fluid mt-5 appear-animation" src="${img_dir}/local/home/content-1.jpg" alt="website design" data-appear-animation="fadeInLeft">
 						</div>
 						<div class="col-lg-7 col-lg-offset-1">
 							<h2 class="mt-5"><strong><spring:message code="index-content-title-1a"/></strong> <spring:message code="index-content-title-1b"/></h2>
@@ -237,7 +237,7 @@
 							</p>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1 mt-5">
-							<img class="img-fluid appear-animation" src="${img_dir}/local/home/content-2.jpg" alt="style switcher" data-appear-animation="fadeInRight">
+							<img class="img-fluid appear-animation" src="${img_dir}/local/home/content-2.jpg" alt="graphic design" data-appear-animation="fadeInRight">
 						</div>
 					</div>
 					
@@ -245,7 +245,7 @@
 					
 					<div class="row">
 						<div class="col-lg-4">
-							<img class="img-fluid mt-5 appear-animation" src="${img_dir}/local/home/content-3.jpg" alt="layout styles" data-appear-animation="fadeInLeft">
+							<img class="img-fluid mt-5 appear-animation" src="${img_dir}/local/home/content-3.jpg" alt="adogo online marketing brand" data-appear-animation="fadeInLeft">
 						</div>
 						<div class="col-lg-7 col-lg-offset-1">
 							<h2 class="mt-5"><strong><spring:message code="index-content-title-3a"/></strong> <spring:message code="index-content-title-3b"/></h2>
@@ -272,7 +272,7 @@
 							</p>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1 mt-5">
-							<img class="img-fluid appear-animation" src="${img_dir}/local/home/content-4.jpg" alt="style switcher" data-appear-animation="fadeInRight">
+							<img class="img-fluid appear-animation" src="${img_dir}/local/home/content-4.jpg" alt="knowledge social media" data-appear-animation="fadeInRight">
 						</div>
 					</div>
 					 
@@ -304,100 +304,7 @@
 				</div>
 				
 				<!-- portfolio -->
-				<!-- 
-				<div class="image-gallery sort-destination full-width mb-0">
-					<div class="isotope-item">
-						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-small-slider.html">
-								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-									<span class="thumb-info-wrapper">
-										<img src="img/projects/project.jpg" class="img-fluid" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Project Title</span>
-											<span class="thumb-info-type">Project Type</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-					</div>
-					<div class="isotope-item">
-						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-small-slider.html">
-								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-									<span class="thumb-info-wrapper">
-										<img src="img/projects/project-2.jpg" class="img-fluid" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Project Title</span>
-											<span class="thumb-info-type">Project Type</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-					</div>
-					<div class="isotope-item">
-						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-small-slider.html">
-								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-									<span class="thumb-info-wrapper">
-										<img src="img/projects/project-4.jpg" class="img-fluid" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Project Title</span>
-											<span class="thumb-info-type">Project Type</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-					</div>
-					<div class="isotope-item">
-						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-small-slider.html">
-								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-									<span class="thumb-info-wrapper">
-										<img src="img/projects/project-5.jpg" class="img-fluid" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Project Title</span>
-											<span class="thumb-info-type">Project Type</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-					</div>
-					<div class="isotope-item">
-						<div class="image-gallery-item mb-0">
-							<a href="portfolio-single-small-slider.html">
-								<span class="thumb-info thumb-info-centered-info thumb-info-no-borders">
-									<span class="thumb-info-wrapper">
-										<img src="img/projects/project-6.jpg" class="img-fluid" alt="">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Project Title</span>
-											<span class="thumb-info-type">Project Type</span>
-										</span>
-										<span class="thumb-info-action">
-											<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-										</span>
-									</span>
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
-				 -->
+				
 				<!-- END portfolio -->
 				
 				<!-- testimonial -->
@@ -410,7 +317,7 @@
 										<div class="col">
 											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
 												<div class="testimonial-author">
-													<img src="${img_dir}/client/client-1.png" class="img-fluid rounded-circle" alt="">
+													<img src="${img_dir}/client/client-1.png" class="img-fluid rounded-circle" alt="client">
 												</div>
 												<blockquote>
 													<p><spring:message code="index-testimonial-quote-1"/></p>
@@ -425,7 +332,7 @@
 										<div class="col">
 											<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
 												<div class="testimonial-author">
-													<img src="${img_dir}/client/client-2.png" class="img-fluid rounded-circle" alt="">
+													<img src="${img_dir}/client/client-2.png" class="img-fluid rounded-circle" alt="client">
 												</div>
 												<blockquote>
 													<p><spring:message code="index-testimonial-quote-2"/></p>
@@ -455,28 +362,28 @@
 					<div class="row text-center mt-5">
 						<div class="owl-carousel owl-theme" data-plugin-options="{'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/csbg-big.jpg" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/csbg-big.jpg" alt="partner">
 							</div>
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/metous-big.jpg" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/metous-big.jpg" alt="partner">
 							</div>
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/muyuyan-big.jpg" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/muyuyan-big.jpg" alt="partner">
 							</div>
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/silvertac-big.jpg" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/silvertac-big.jpg" alt="partner">
 							</div>
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/tongda-big.jpg" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/tongda-big.jpg" alt="partner">
 							</div>
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/vvintlgroup-big.jpg" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/vvintlgroup-big.jpg" alt="partner">
 							</div>
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/xinyueanni-big.jpg" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/xinyueanni-big.jpg" alt="partner">
 							</div>
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/zhenimport-big.jpg" alt="">
+								<img class="img-fluid" src="${img_dir}/partner/zhenimport-big.jpg" alt="partner">
 							</div>
 						</div>
 					</div>

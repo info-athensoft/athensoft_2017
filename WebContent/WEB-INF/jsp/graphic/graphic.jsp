@@ -122,14 +122,14 @@
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
 
-								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
+								<h4 class="heading-primary"><spring:message code="graphic-sidebar-title-nav"/></h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
-									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-1"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/portfolio.html?lang=${loc}"><spring:message code="graphic-sidebar-link-2"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/case.html?lang=${loc}"><spring:message code="graphic-sidebar-link-3"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/pricing.html?lang=${loc}"><spring:message code="graphic-sidebar-link-4"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-5"/></a></li>
+									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-overview"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/demo.html?lang=${loc}"><spring:message code="graphic-sidebar-link-demo"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/pricing.html?lang=${loc}"><spring:message code="graphic-sidebar-link-pricing"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-faq"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -225,7 +225,7 @@
 											<a href="/graphic/service/catalog.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/catalog.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/catalog.jpg" class="img-fluid" alt="catalogue catalog" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -266,7 +266,7 @@
 											<a href="/graphic/service/brochure.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/brochure.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/brochure.jpg" class="img-fluid" alt="brochure tri fold" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -307,7 +307,7 @@
 											<a href="/graphic/service/flyer.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/flyer.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/flyer.jpg" class="img-fluid" alt="flyer" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -348,7 +348,7 @@
 											<a href="/graphic/service/menu.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/menu.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/menu.jpg" class="img-fluid" alt="menu restaurant cafe" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -389,7 +389,7 @@
 											<a href="/graphic/service/coupon.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/coupon.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/coupon.jpg" class="img-fluid" alt="coupon voucher discount" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -429,7 +429,7 @@
 											<a href="/graphic/service/poster.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/poster.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/poster.jpg" class="img-fluid" alt="poster" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -470,7 +470,7 @@
 											<a href="/graphic/service/adbanner.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/adbanner.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/adbanner.jpg" class="img-fluid" alt="ads banner" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -511,7 +511,7 @@
 											<a href="/graphic/service/smbanner.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/smbanner.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/smbanner.jpg" class="img-fluid" alt="social media banner" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -551,7 +551,7 @@
 											<a href="/graphic/service/webpic.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/webpic.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/webpic.jpg" class="img-fluid" alt="web graphic picture" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -590,7 +590,7 @@
 											<a href="/graphic/service/imgicon.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/imgicon.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/imgicon.jpg" class="img-fluid" alt="image icon" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -630,7 +630,7 @@
 											<a href="/graphic/service/fonticon.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/fonticon.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/fonticon.jpg" class="img-fluid" alt="font icon" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -673,7 +673,7 @@
 											<a href="/graphic/service/logo.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/logo.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/logo.jpg" class="img-fluid" alt="logo maker design" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -714,7 +714,7 @@
 											<a href="/graphic/service/bizcard.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/bizcard.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/bizcard.jpg" class="img-fluid" alt="business card" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -754,7 +754,7 @@
 											<a href="/graphic/service/imgprocess.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/imgprocess.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/imgprocess.jpg" class="img-fluid" alt="image processing" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -795,7 +795,7 @@
 											<a href="/graphic/service/wallpaper.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/wallpaper.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/wallpaper.jpg" class="img-fluid" alt="wallpaper" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -835,7 +835,7 @@
 											<a href="/graphic/service/ecalender.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/ecalender.jpg" class="img-fluid" alt="" width="50%">
+														<img src="${img_dir}/graphicservice/ecalendar.jpg" class="img-fluid" alt="calendar wallpaper" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -894,7 +894,7 @@
 									<a href="portfolio-single-small-slider.html">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
 													<span class="thumb-info-inner">Project Title</span>
 													<span class="thumb-info-type">Project Type</span>
@@ -907,7 +907,7 @@
 									<a href="portfolio-single-small-slider.html">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
 													<span class="thumb-info-inner">Project Title</span>
 													<span class="thumb-info-type">Project Type</span>
@@ -920,7 +920,7 @@
 									<a href="portfolio-single-small-slider.html">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
 													<span class="thumb-info-inner">Project Title</span>
 													<span class="thumb-info-type">Project Type</span>

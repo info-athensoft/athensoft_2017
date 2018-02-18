@@ -125,13 +125,6 @@
 								<h4 class="heading-primary"><spring:message code="graphic-sidebar-title-3"/></h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
-									<!-- 
-									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-1"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/portfolio.html?lang=${loc}"><spring:message code="graphic-sidebar-link-2"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/case.html?lang=${loc}"><spring:message code="graphic-sidebar-link-3"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/pricing.html?lang=${loc}"><spring:message code="graphic-sidebar-link-4"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-5"/></a></li>
-									 -->
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-service-catalog"/></a></li> 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/brochure.html?lang=${loc}"><spring:message code="graphic-service-brochure"/></a></li> 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/flyer.html?lang=${loc}"><spring:message code="graphic-service-flyer"/></a></li> 
@@ -139,7 +132,7 @@
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/coupon.html?lang=${loc}"><spring:message code="graphic-service-coupon"/></a></li> 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/poster.html?lang=${loc}"><spring:message code="graphic-service-poster"/></a></li> 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/adbanner.html?lang=${loc}"><spring:message code="graphic-service-adbanner"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/smbanner.html?lang=${loc}"><spring:message code="graphic-service-smbanner"/></a></li> 
+									<li class="nav-item"><a class="nav-link active" href="${webapp_name}/graphic/service/smbanner.html?lang=${loc}"><spring:message code="graphic-service-smbanner"/></a></li> 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/webpic.html?lang=${loc}"><spring:message code="graphic-service-webpic"/></a></li> 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/imgicon.html?lang=${loc}"><spring:message code="graphic-service-imgicon"/></a></li> 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/fonticon.html?lang=${loc}"><spring:message code="graphic-service-fonticon"/></a></li> 
@@ -152,6 +145,17 @@
 
 								<hr class="invisible mt-5 mb-2">
 
+								<h4 class="heading-primary"><spring:message code="graphic-sidebar-title-nav"/></h4>
+								<ul class="nav nav-list flex-column mb-4 sort-source">
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/index.html?lang=${loc}"><spring:message code="graphic-sidebar-link-overview"/></a></li>
+									<li class="nav-item"><a class="nav-link active" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/demo.html?lang=${loc}"><spring:message code="graphic-sidebar-link-demo"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/pricing.html?lang=${loc}"><spring:message code="graphic-sidebar-link-pricing"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-faq"/></a></li>
+								</ul>
+								
+								<hr class="invisible mt-5 mb-2">
+								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
 								<p>Contact us or give us a call to discover how we can help.</p>
 
