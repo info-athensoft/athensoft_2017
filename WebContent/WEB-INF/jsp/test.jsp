@@ -34,7 +34,7 @@
 	<br/>
 	${pageContext.response.locale}
 	
-	<spring:message code="index-feature-title-1"/>
+	
 	
 	<br/>
 	<a href="?lang=zh_CN">Chinese</a><br/>
