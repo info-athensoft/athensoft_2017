@@ -142,7 +142,7 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title"><spring:message code="footer-title-resource"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/></a></li>
+											<li><a class="dropdown-item" href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/> &nbsp;<span class="tip tip-dark">hot</span></a></li>
 											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Big Data</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Artificial Intelligence</a></li>
