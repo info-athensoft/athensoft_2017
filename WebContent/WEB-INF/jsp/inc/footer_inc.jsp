@@ -49,14 +49,21 @@
 					<!-- <p>Please wait...</p> -->
 					<a class="twitter-timeline" 
 						data-width="220" 
-						data-height="240" 
+						data-height="220" 
 						data-theme="dark" 
 						data-chrome="nofooter noborders transparent noheader noscrollbar"
 						href="https://twitter.com/Athensoft?ref_src=twsrc%5Etfw">Tweets by Athensoft</a> 
 						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</div>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-lg-3">
+				<h4><spring:message code="footer-title-followus"/></h4>
+				<ul class="social-icons">
+					<li class="social-icons-facebook"><a href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li class="social-icons-twitter"><a href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+				<hr class="invisible mt-4 mb-3"/>
 				<div class="contact-details">
 					<h4><spring:message code="footer-title-contactus"/></h4>
 					<ul class="contact">
@@ -66,13 +73,16 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-2">
-				<h4><spring:message code="footer-title-followus"/></h4>
-				<ul class="social-icons">
-					<li class="social-icons-facebook"><a href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-					<li class="social-icons-twitter"><a href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-					<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-				</ul>
+			<div class="col-lg-3">
+				<div class="">
+					<h4><spring:message code="footer-title-resource"/></h4>
+					<label><a href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-download"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-developer"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-designer"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-entrepreneur"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-marketer"/></a></label><br/>
+				</div>
 			</div>
 		</div>
 	</div>

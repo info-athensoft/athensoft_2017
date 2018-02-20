@@ -13,6 +13,7 @@ import com.athensoft.site.support.service.SupportService;
 public class WebSaleController {
 private static final Logger logger = Logger.getLogger(WebSaleController.class);
 	
+	@Autowired
 	private SupportService supportService;
 	
 	@Autowired

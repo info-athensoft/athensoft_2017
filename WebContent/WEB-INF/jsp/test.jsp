@@ -27,8 +27,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2 class="mb-2 word-rotator-title">
 
-</h2>
 </body>
 </html>
