@@ -28,18 +28,7 @@
 </head>
 <body>
 <h2 class="mb-2 word-rotator-title">
-	Informatique Athensoft is the <strong>${loc}</strong> <br/>
-	<spring:message code="index-feature-title-1"/><br/>
-	<fmt:message key="index-feature-title-1"/>
-	<br/>
-	${pageContext.response.locale}
-	
-	<spring:message code="index-feature-title-1"/>
-	
-	<br/>
-	<a href="?lang=zh_CN">Chinese</a><br/>
-	<a href="?lang=en_US">English</a><br/>
-	<a href="?lang=fr_CA">French</a><br/>
+
 </h2>
 </body>
 </html>
