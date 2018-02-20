@@ -103,8 +103,6 @@
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Git</a></li>
 											 -->
 										</ul>
-									</div>
-									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">AI and Bigdata</span>
 										<ul class="dropdown-mega-sub-nav">
 											<li><a class="dropdown-item" href="#">Coming soon</a></li>
@@ -119,6 +117,7 @@
 											 -->
 										</ul>
 									</div>
+									
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title">Online Marketing</span>
 										<ul class="dropdown-mega-sub-nav">
@@ -137,6 +136,21 @@
 											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Graphic Design</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Printing</a></li>
+											 -->
+										</ul>
+									</div>
+									<div class="col-lg-3">
+										<span class="dropdown-mega-sub-title"><spring:message code="footer-title-resource"/></span>
+										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/></a></li>
+											<!-- 
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Big Data</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Artificial Intelligence</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Machine Learning</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Python</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Kafka</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Storm</a></li>
+											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Samza</a></li>
 											 -->
 										</ul>
 									</div>

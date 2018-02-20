@@ -17,12 +17,6 @@ import com.athensoft.site.support.service.SupportService;
 public class WebdevController {
 	private static final Logger logger = Logger.getLogger(WebdevController.class);
 	
-	private SupportService supportService;
-	
-	@Autowired
-	public void setSupportService(SupportService supportService) {
-		this.supportService = supportService;
-	}
 	
 	@RequestMapping("/index.html")
 	public String gotoWebdevIndex(){
