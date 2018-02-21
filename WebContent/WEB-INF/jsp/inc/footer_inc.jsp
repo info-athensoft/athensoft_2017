@@ -22,8 +22,26 @@
 			<div class="footer-ribbon">
 				<span>Get in Touch</span>
 			</div>
+			<div class="col-lg-2">
+				<div class="">
+					<h4><spring:message code="footer-title-resource"/></h4>
+					<label><a href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-download"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-developer"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-designer"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-entrepreneur"/></a></label><br/>
+					<label><a href="#"><spring:message code="rsc-marketer"/></a></label><br/>
+				</div>
+			</div>
 			<div class="col-lg-3">
 				<div class="newsletter">
+					<h4><spring:message code="footer-title-followus"/></h4>
+					<ul class="social-icons">
+						<li class="social-icons-facebook"><a href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li class="social-icons-twitter"><a href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+					<hr class="invisible mt-2 mb-2"/>
 					<h4><spring:message code="footer-title-newsletter"/></h4>
 					<p><spring:message code="footer-title-newsletter-content"/></p>
 
@@ -57,13 +75,7 @@
 				</div>
 			</div>
 			<div class="col-lg-3">
-				<h4><spring:message code="footer-title-followus"/></h4>
-				<ul class="social-icons">
-					<li class="social-icons-facebook"><a href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-					<li class="social-icons-twitter"><a href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-					<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-				</ul>
-				<hr class="invisible mt-4 mb-3"/>
+				
 				<div class="contact-details">
 					<h4><spring:message code="footer-title-contactus"/></h4>
 					<ul class="contact">
@@ -71,19 +83,10 @@
 						<li><p><i class="fa fa-phone"></i> <strong><spring:message code="contact-phone-name"/>:</strong> <spring:message code="contact-phone"/></p></li>
 						<li><p><i class="fa fa-envelope"></i> <strong><spring:message code="contact-email-name"/>:</strong> <a href="mailto:info@athensoft.com"><spring:message code="contact-email"/></a></p></li>
 					</ul>
+					<img alt="Informatique Athensoft" src="${img_dir}/logo/qr_code.png" width="40%">
 				</div>
 			</div>
-			<div class="col-lg-3">
-				<div class="">
-					<h4><spring:message code="footer-title-resource"/></h4>
-					<label><a href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/></a></label><br/>
-					<label><a href="#"><spring:message code="rsc-download"/></a></label><br/>
-					<label><a href="#"><spring:message code="rsc-developer"/></a></label><br/>
-					<label><a href="#"><spring:message code="rsc-designer"/></a></label><br/>
-					<label><a href="#"><spring:message code="rsc-entrepreneur"/></a></label><br/>
-					<label><a href="#"><spring:message code="rsc-marketer"/></a></label><br/>
-				</div>
-			</div>
+			
 		</div>
 	</div>
 	<div class="footer-copyright">
