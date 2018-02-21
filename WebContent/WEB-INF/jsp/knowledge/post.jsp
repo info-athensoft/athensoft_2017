@@ -143,7 +143,7 @@
 									<li class="nav-item">
 										<a class="nav-link" href=""><spring:message code="menu-edu"/></a>
 										<ul>
-										<li class="nav-item"><a class="nav-link" href="${webapp_name}/edu/learningpath/webdeveloper/1?lang=${loc}"><spring:message code="edu-leaning_path-webdev"/></a></li>
+										<li class="nav-item"><a class="nav-link" href="${webapp_name}/edu/learningpath/webdeveloper/1?lang=${loc}"><spring:message code="edu-web_developer"/></a></li>
 										</ul>
 									</li> 
 									<li class="nav-item">
@@ -176,13 +176,7 @@
 										</div>
 								</div>
 								<div class="post-content">
-									<h3>Java 8 New Features</h3>
-									<div class="post-meta">
-										<span><i class="fa fa-user"></i><a href="#"> Developers</a> </span>
-										<span><i class="fa fa-tag"></i> <a href="#">Java 8 Programming</a>, <a href="#">Software Developing</a> </span>
-										<span><i class="fa fa-comments"></i> <a href="#">0 Comments</a></span>
-										<span class="d-block d-sm-inline-block float-sm-right mt-3 mt-sm-0"><a href="#" class="btn btn-xs btn-primary">Read more...</a></span>
-									</div>
+									
 								</div>
 								
 								<div class="post-content">

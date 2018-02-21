@@ -127,6 +127,7 @@
 									<li class="nav-item"><strong>Learning Path</strong></li>
 									<li class="nav-item"><a href="/edu/learningpath/webdeveloper/1?lang=${loc}">Web Developer</a></li>
 									<li class="nav-item"><a href="/edu/learningpath/javadeveloper/1?lang=${loc}">Java Developer</a></li>
+									<li class="nav-item"><a href="/edu/learningpath/datascientist/1?lang=${loc}">Data Scientist</a></li>
 								</ul>
 								
 								<!-- 
@@ -164,7 +165,7 @@
 									<!-- <h3>Learning path of Web Developer</h3>  -->
 									<div class="post-meta">
 										<span><i class="fa fa-user"></i><a href="#"> Admin</a> </span>
-										<span><i class="fa fa-tag"></i> <a href="#">Learning path</a>, <a href="#">Web Developer</a> </span>
+										<span><i class="fa fa-tag"></i> <a href="#">Learning path</a> </span>
 										<span><i class="fa fa-comments"></i> <a href="#">0 Comments</a></span>
 										<span class="d-block d-sm-inline-block float-sm-right mt-3 mt-sm-0"><a href="#" class="btn btn-xs btn-primary">Read more...</a></span>
 									</div>
