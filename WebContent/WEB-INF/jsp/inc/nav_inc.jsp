@@ -105,7 +105,7 @@
 										</ul>
 										<span class="dropdown-mega-sub-title"><spring:message code="knw-ai_bigdata"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#">Coming soon</a></li>
+											<li><a class="dropdown-item" href="/knowledge/bigdata/intro_bigdata/1?lang=${loc}">大数据简介 系列</a></li>
 											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Big Data</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Artificial Intelligence</a></li>
