@@ -127,6 +127,7 @@
 									<li class="nav-item"><strong>Learning Path</strong></li>
 									<li class="nav-item"><a href="/edu/learningpath/webdeveloper/1?lang=${loc}">Web Developer</a></li>
 									<li class="nav-item"><a href="/edu/learningpath/javadeveloper/1?lang=${loc}">Java Developer</a></li>
+									<li class="nav-item"><a href="/edu/learningpath/datascientist/1?lang=${loc}">Data Scientist</a></li>
 								</ul>
 								
 								<!-- 

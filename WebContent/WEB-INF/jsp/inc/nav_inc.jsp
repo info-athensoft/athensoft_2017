@@ -140,7 +140,9 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title"><spring:message code="menu-edu"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="/edu/learningpath/webdeveloper/1?lang=${loc}"><spring:message code="edu-leaning_path-webdev"/> &nbsp;<span class="tip">new</span></a></li>
+											<li><a class="dropdown-item" href="/edu/learningpath/webdeveloper/1?lang=${loc}"><spring:message code="edu-web_developer"/> </a></li>
+											<li><a class="dropdown-item" href="/edu/learningpath/javadeveloper/1?lang=${loc}"><spring:message code="edu-java_developer"/> </a></li>
+											<li><a class="dropdown-item" href="/edu/learningpath/datascientist/1?lang=${loc}"><spring:message code="edu-data_scientist"/> </a></li>
 										</ul>
 									</div>
 									<div class="col-lg-3">

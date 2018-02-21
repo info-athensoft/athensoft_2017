@@ -92,7 +92,7 @@
 		
 		<style>
 			.text-sm{
-				font-size:0.8em !important;
+				font-size:0.9em !important;
 			}
 		</style>
 	</head>
