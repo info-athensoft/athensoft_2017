@@ -85,15 +85,15 @@
 				
 				<!-- menu - tour -->
 				<li class="dropdown dropdown-mega">
-					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-edu"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-knowledge"/> </a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class="dropdown-mega-content">
 								<div class="row">
 									<div class="col-lg-3">
-										<span class="dropdown-mega-sub-title">Software Development</span>
+										<span class="dropdown-mega-sub-title"><spring:message code="knw-software_dev"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="/knowledge/dev/java8/1?lang=${loc}">Java 8 &nbsp;<span class="tip tip-dark">new</span></a></li>
+											<li><a class="dropdown-item" href="/knowledge/dev/java8/1?lang=${loc}">Java 8 &nbsp;<span class="tip">new</span></a></li>
 											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Spring</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Design Pattern</a></li>
@@ -103,7 +103,7 @@
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Git</a></li>
 											 -->
 										</ul>
-										<span class="dropdown-mega-sub-title">AI and Bigdata</span>
+										<span class="dropdown-mega-sub-title"><spring:message code="knw-ai_bigdata"/></span>
 										<ul class="dropdown-mega-sub-nav">
 											<li><a class="dropdown-item" href="#">Coming soon</a></li>
 											<!-- 
@@ -119,7 +119,7 @@
 									</div>
 									
 									<div class="col-lg-3">
-										<span class="dropdown-mega-sub-title">Online Marketing</span>
+										<span class="dropdown-mega-sub-title"><spring:message code="knw-int_marketing"/></span>
 										<ul class="dropdown-mega-sub-nav">
 											<li><a class="dropdown-item" href="#">Coming soon</a></li>
 											<!-- 
@@ -128,9 +128,7 @@
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Google AdWords</a></li>
 											 -->
 										</ul>
-									</div>
-									<div class="col-lg-3">
-										<span class="dropdown-mega-sub-title">Design and Media</span>
+										<span class="dropdown-mega-sub-title"><spring:message code="knw-design_media"/></span>
 										<ul class="dropdown-mega-sub-nav">
 											<li><a class="dropdown-item" href="#">Coming soon</a></li>
 											<!-- 
@@ -140,7 +138,13 @@
 										</ul>
 									</div>
 									<div class="col-lg-3">
-										<span class="dropdown-mega-sub-title"><spring:message code="footer-title-resource"/></span>
+										<span class="dropdown-mega-sub-title"><spring:message code="menu-edu"/></span>
+										<ul class="dropdown-mega-sub-nav">
+											<li><a class="dropdown-item" href="/edu/learningpath/webdeveloper/1?lang=${loc}"><spring:message code="edu-leaning_path-webdev"/> &nbsp;<span class="tip">new</span></a></li>
+										</ul>
+									</div>
+									<div class="col-lg-3">
+										<span class="dropdown-mega-sub-title"><spring:message code="menu-resource"/></span>
 										<ul class="dropdown-mega-sub-nav">
 											<li><a class="dropdown-item" href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/> &nbsp;<span class="tip tip-dark">hot</span></a></li>
 											<!-- 
