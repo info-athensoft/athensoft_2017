@@ -1,5 +1,6 @@
 package com.athensoft.site.support.service;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -8,6 +9,7 @@ import com.athensoft.site.support.model.ContactForm;
 
 @Service
 public class SupportService {
+	private static final Logger logger = Logger.getLogger(SupportService.class);
 	
 	private static final String FROM_EMAIL_ADDR = "support@athensoft.com";
 	private static final String TO_EMAIL_ADDR = "athens314@hotmail.com";
@@ -45,6 +47,7 @@ public class SupportService {
 		mailBody.append(senderMessage);
 		
 		String emailBody = mailBody.toString();
+		logger.info("emailBody="+emailBody);
 		
 		//send mail
 		emailService.sendTextMail(FROM_EMAIL_ADDR,TO_EMAIL_ADDR,emailTitle,emailBody);
