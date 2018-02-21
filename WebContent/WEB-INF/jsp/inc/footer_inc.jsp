@@ -22,7 +22,7 @@
 			<div class="footer-ribbon">
 				<span>Get in Touch</span>
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-3">
 				<div class="">
 					<h4><spring:message code="footer-title-resource"/></h4>
 					<label><a href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/></a></label><br/>
