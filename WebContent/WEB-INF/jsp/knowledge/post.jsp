@@ -140,10 +140,18 @@
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}">Java Technology</a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/brochure.html?lang=${loc}">Online Marketing</a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/flyer.html?lang=${loc}">SEO</a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/menu.html?lang=${loc}">Big Data</a></li> 
+									<li class="nav-item">
+										<a class="nav-link" href=""><spring:message code="menu-edu"/></a>
+										<ul>
+										<li class="nav-item"><a class="nav-link" href="${webapp_name}/edu/learningpath/webdeveloper/1?lang=${loc}"><spring:message code="edu-leaning_path-webdev"/></a></li>
+										</ul>
+									</li> 
+									<li class="nav-item">
+										<a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="menu-resource"/></a>
+										<ul>
+										<li class="nav-item"><a class="nav-link" href="${webapp_name}/rsc/siteindexes.html?lang=${loc}"><spring:message code="rsc-siteindex"/></a></li>
+										</ul>
+									</li> 
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">

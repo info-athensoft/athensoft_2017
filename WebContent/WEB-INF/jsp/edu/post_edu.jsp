@@ -11,7 +11,6 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="/images"></c:set>
-<c:set var="pageName" value="webcase"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -42,10 +41,10 @@
 		<!-- Bing tracking -->	
 		<meta name="msvalidate.01" content="A726798BCB4A23B609BF80FE1E7D77D8" />
 		
-		<title><spring:message code="head-title-resource"/></title>
+		<title><spring:message code="head-title-knowledge"/></title>
 
-		<meta name="keywords" content="<spring:message code='seo-keywords-webcase'/>" />
-		<meta name="description" content="<spring:message code='seo-desc-webcase'/>">
+		<meta name="keywords" content="" />
+		<meta name="description" content="">
 		<meta name="author" content="Informatique Athensoft">
 
 		<!-- Favicon -->
@@ -89,12 +88,7 @@
 
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
-		
-		<style>
-			.text-sm{
-				font-size:0.8em !important;
-			}
-		</style>
+
 	</head>
 	<body>
 		<div class="body">
@@ -110,109 +104,96 @@
 							<div class="col">
 								<ul class="breadcrumb">
 									<li><a href="${webapp_name}/index.html?lang=${loc}"><spring:message code="menu-home"/></a></li>
-									<li class="active"><a href="${webapp_name}/rsc/siteindex.html?lang=${loc}"><spring:message code="menu-resource"/></a></li>
+									<li class="active"><a href="${webapp_name}/index.html?lang=${loc}"><spring:message code="menu-knowledge"/></a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-rsc-siteindex"/></h1>
+								<h1><spring:message code="menu-edu"/></h1>
 							</div>
 						</div>
 					</div>
 				</section>
 			
-				
 				<div class="container">
 
 					<div class="row">
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
-								<h4 class="heading-primary"><spring:message code="rsc-sidebar-title-siteindex"/></h4>
-								
-								<form id="siteIndexForm" action="/rsc/siteindexes/create" method="POST">
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="rsc-siteindex-form-url"/> *</label>
-											<input type="text" value="" data-msg-required="website base url" maxlength="100" class="form-control form-control-sm" name="siteUrl" id="siteUrl" required placeholder="www.yourname.com">
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="rsc-siteindex-form-name"/> *</label>
-											<input type="text" value="" data-msg-required="website name" maxlength="100" class="form-control form-control-sm" name="siteName" id="siteName" required placeholder="your website name">
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="rsc-siteindex-form-desc"/> *</label>
-											<textarea maxlength="5000" data-msg-required="Website description" rows="3" class="form-control form-control-sm" name="siteDesc" id="siteDesc" required></textarea>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<input type="submit" value='<spring:message code="rsc-siteindex-form-btn-submit"/>' class="btn btn-primary mb-4" data-loading-text="Submitting...">
+								<h4 class="heading-primary">Table of Contents</h4>
 
-											<div class="alert alert-success d-none" id="contactSuccess">
-												Message has been sent to us.
-											</div>
-
-											<div class="alert alert-danger d-none" id="contactError">
-												Error sending your message.
-											</div>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<input type="hidden" value="${loc}" name="lang"/>
-											<input type="hidden" value="${pageName}" name="pageName"/>
-										</div>
-									</div>
-								</form>
+								<ul class="nav nav-list flex-column mb-4 sort-source">
+									<li class="nav-item"><strong>Learning Path</strong></li>
+									<li class="nav-item"><a href="/edu/learningpath/webdeveloper/1?lang=${loc}">Web Developer</a></li>
+									<li class="nav-item"><a href="/edu/learningpath/javadeveloper/1?lang=${loc}">Java Developer</a></li>
+								</ul>
 								
 								<!-- 
-								<hr class="invisible mt-5 mb-2">
-								
-								<h4 class="heading-primary"><spring:message code="webdev-case-sidebar-filter-title"/></h4>
+								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
-								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value="*"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-0"/></a></li>
-									<li class="nav-item" data-option-value=".onepagesite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-1"/></a></li>
-									<li class="nav-item" data-option-value=".corporatesite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-2"/></a></li>
-									<li class="nav-item" data-option-value=".catalogsite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-3"/></a></li>
-									
+								<ul class="nav nav-list flex-column mb-4 sort-source">
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}">Java Technology</a></li> 
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/brochure.html?lang=${loc}">Online Marketing</a></li> 
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/flyer.html?lang=${loc}">SEO</a></li> 
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/menu.html?lang=${loc}">Big Data</a></li> 
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
 								 -->
-								 
-								<h4 class="heading-primary"><spring:message code="rsc-sidebar-title-nav"/></h4>
-
-								<ul class="nav nav-list flex-column mb-4 sort-source">
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/rsc/siteindexes.html?lang=${loc}" target="_blank"><spring:message code="rsc-sidebar-link-siteindex"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/rsc/siteindexes.html?lang=${loc}" target="_blank"><spring:message code="rsc-sidebar-link-download"/></a></li>
-								</ul>
 							</aside>
 						</div>
 						
-						<!-- case show -->
 						<div class="col-lg-9 order-1 order-lg-2">
-							<div class="toggle toggle-primary toggle-sm" data-plugin-toggle>
-								<c:forEach items="${listSiteIndex}" var="siteindex">
-									<section class="toggle">
-										<label><img alt="" src="${img_dir}/icon/favicon.ico" width="20"/> ${siteindex.siteName} &nbsp;&nbsp;&nbsp;&nbsp; [${siteindex.siteUrl}]</label>
-										<div class="toggle-content">
-											<p class="text-sm"><i class="fa fa-tag"></i>&nbsp;&nbsp;${siteindex.siteKeyword}<br/>${siteindex.siteDesc}</p>
+							
+							<hr class="invisible mt-4 mb-2" id="graphic-service-catalog"/>
+							
+							<!-- main features -->
+							<div class="blog-posts">
+								
+								<div class="post-image">
+										<div class="owl-carousel owl-theme" data-plugin-options="{'items':1}">
+											<div>
+												<div class="img-thumbnail">
+													<img class="img-fluid" src="${img_dir}/edu/${topicClass}/${topicName}/1-1.jpg" alt="${topicName}" height="40%">
+												</div>
+											</div>
 										</div>
-									</section>
-								</c:forEach>
+								</div>
+								<div class="post-content">
+									<!-- <h3>Learning path of Web Developer</h3>  -->
+									<div class="post-meta">
+										<span><i class="fa fa-user"></i><a href="#"> Admin</a> </span>
+										<span><i class="fa fa-tag"></i> <a href="#">Learning path</a>, <a href="#">Web Developer</a> </span>
+										<span><i class="fa fa-comments"></i> <a href="#">0 Comments</a></span>
+										<span class="d-block d-sm-inline-block float-sm-right mt-3 mt-sm-0"><a href="#" class="btn btn-xs btn-primary">Read more...</a></span>
+									</div>
+								</div>
+								
+								<div class="post-content">
+									<p>&nbsp;</p>
+									<jsp:include page="${topicClass}/${topicName}/${chapterNo}.jsp" flush="true"></jsp:include>
+								</div>
 							</div>
+							
+							<!-- END main features -->
+							
+							<hr class="invisible mt-3 mb-2"/>
+							
+							
+							
+							<hr class="invisible mt-3 mb-2"/>
+							
+							<!-- page content -->
+							
+							<!-- END page content -->
+							
+							
 						</div>
-						<!-- END case show -->
 					</div>
 
 				</div>
-				
+			
 			</div>
 			
 			<!-- footer -->
