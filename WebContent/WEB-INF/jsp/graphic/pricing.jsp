@@ -129,14 +129,14 @@
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
 
-								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
+								<h4 class="heading-primary"><spring:message code="graphic-sidebar-title-nav"/></h4>
 
-								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value="*"><a class="nav-link" href="${webapp_name}/graphic/graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-1"/></a></li>
-									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="${webapp_name}/graphic/portfolio.html?lang=${loc}"><spring:message code="graphic-sidebar-link-2"/></a></li>
-									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="${webapp_name}/graphic/case.html?lang=${loc}"><spring:message code="graphic-sidebar-link-3"/></a></li>
-									<li class="nav-item" data-option-value=".brands"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-4"/></a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-5"/></a></li>
+								<ul class="nav nav-list flex-column mb-4 sort-source">
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-overview"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/demo.html?lang=${loc}"><spring:message code="graphic-sidebar-link-demo"/></a></li>
+									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-pricing"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-faq"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
