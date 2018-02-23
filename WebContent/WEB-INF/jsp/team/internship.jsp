@@ -133,6 +133,16 @@
 								</ul>
 								<hr class="invisible mt-2 mb-2">
 								<a href="/team/signout" class="btn btn-primary btn-sm">&nbsp;&nbsp;&nbsp;&nbsp;Sign Out&nbsp;&nbsp;&nbsp;&nbsp;</a>
+								
+								<hr class="invisible mt-4 mb-2">
+								<h4 class="heading-primary"><strong>Important Notice</strong></h4>
+								<strong>2018-02-22 by management</strong>
+								<p>All Internship working related email should be sent to <strong><code>athensoft.com@gmail.com</code></strong>, which applies to attendance email, 
+									working submissions, reports if no special instructions announced.</p>
+								
+								<hr class="short"/>
+								<strong>2018-02-22 by management</strong>
+								<p>Attendance emails and daily report emails should not be postponed to the next day.</p>
 							</aside>
 						</div>
 						
@@ -171,7 +181,7 @@
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Position : </strong></label>
-									<label class="col-lg-3">Java/Web Developer</label>
+									<label class="col-lg-3">Java/Web Developer Lv1</label>
 									<label class="col-lg-3"><strong>Supervisor : </strong></label>
 									<label class="col-lg-3">Athens Zhang</label>
 								</div>
@@ -242,7 +252,7 @@
 									<table class="table table-striped table-bordered">
 										<thead>
 											<tr class="success">
-												<th>SN</th><th>WEEK NO.</th><th>LIST OF TASK</th><th>REPORTED</th><th>TASK STATUS</th><th>ASSESSMENT</th>
+												<th>SN</th><th>WK#</th><th>LIST OF TASK</th><th>ESTIMATED DURATION</th><th>TASK STATUS</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -255,9 +265,8 @@
 														<li>Warm-up practice (ADT and JUnit4)</li>
 													</ul>
 												</td>
-												<td>N</td>
+												<td>10 hours</td>
 												<td>ON</td>
-												<td>N/A</td>
 											</tr>
 										</tbody>
 									</table>
@@ -284,17 +293,36 @@
 										<p><strong>Goals:</strong> <br/>
 										- To review Set, List, Map and all commonly used interfaces and classes.<br/>
 										- To look insight into the ADTs and wisely use them in future projects.<br/>
+										- To test team environment<br/>
+										- To be familiar to working with maven, junit, git, eclipse<br/>
 										- To post to public for content marketing.<br/>
 										</p>
 										
 										<p><strong>Notes:</strong> <br/>
 										- The task of #2 is not necessarily in strict order, you may take control of that at convenience.<br/>
+										- As for the project, it must be created using eclipse, maven, jdk1.8+, built-in git in eclipse, junit4<br/>
+										- It should be shared and push to github<br/>
 										- Declaration, initialization, traversal the ADT classes in various ways are recommended.<br/>
 										- As for the essay you may copy, excerpt, combine, rewrite or composite based-on materials on the Internet or from books.<br/>
 										- Comparison, where-to-use and why-to-use concerns must be elaborated in your essay.<br/>
 										- Do not write the codes in a single huge class, separate them into different files and organized them well<br/>
-										- Using com.athensoft.util.adt as the parent package
 										</p>
+										
+										<p><strong>Project info:</strong><br/>
+										Repository URL: <code>https://github.com/athensedu/javase2018.git</code><br/>
+										Branches: <code>master, dev-ly</code><br/>
+										Java Project Name: <code>javase2018</code><br/>
+										Parent package: <code>com.athensoft.util.adt</code><br/>
+										</p>
+								</div>
+								
+								<h4>Conventions</h4>
+								<div>
+									<ul>
+										<li>Attendant email should be in the title as such <code>[Internship][your name]Attendance-yyyy-mm-dd</code></li>
+										<li>Report email should be in the title as such <code>[Internship][your name]Report-yyyy-mm-dd</code></li>
+										<li>All Internship related email should be sent to <code>athensoft.com@gmail.com</code></li>
+									</ul>
 								</div>
 								
 								<h4>History</h4>
@@ -303,11 +331,12 @@
 									<table class="table table-striped table-bordered">
 										<thead>
 											<tr class="dark">
-												<th>SN</th><th>WEEK NO.</th><th>LIST OF TASK</th><th>REPORTED</th><th>TASK STATUS</th><th>ASSESSMENT</th>
+												<th>SN</th><th>WEEK NO.</th><th>LIST OF TASK</th><th>ESTIMATED DURATION</th><th>REAL DURATION</th><th>TASK STATUS</th><th>ASSESSMENT</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
+												<td>--</td>
 												<td>--</td>
 												<td>--</td>
 												<td>--</td>
