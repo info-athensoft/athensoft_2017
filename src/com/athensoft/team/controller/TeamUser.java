@@ -9,12 +9,12 @@ public class TeamUser {
 	private String teamRole;
 	
 	
-	static final ArrayList<String> internList = new ArrayList<String>(Arrays.asList("yang.liu","athens","admin"));
+	static final ArrayList<String> internList = new ArrayList<String>(Arrays.asList("liuyang","athens","admin"));
 	static final ArrayList<String> memberList = new ArrayList<String>(Arrays.asList("athens","jovy","fangze","admin"));
 	static final ArrayList<String> leaderList = new ArrayList<String>(Arrays.asList("athens","jovy","admin"));
 	
 	static ArrayList<TeamUser> teamUsers = new ArrayList<TeamUser>();
-	static TeamUser u1 = new TeamUser("yangliu","athensoft@330",TeamRole.INTERNSHIP);
+	static TeamUser u1 = new TeamUser("liuyang","athensoft",TeamRole.INTERNSHIP);
 	static TeamUser u2 = new TeamUser("athens","zq314",TeamRole.MEMBER);
 	static TeamUser u3 = new TeamUser("jovy","zq314",TeamRole.MEMBER);
 	static TeamUser u4 = new TeamUser("fangze","fangze888",TeamRole.MEMBER);

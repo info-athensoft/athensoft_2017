@@ -39,8 +39,8 @@ public class SiteIndexController {
 		siteIndex.setSiteUrl(URLHelper.getSiteUrl(siteIndexForm.getSiteUrl()));
 		siteIndex.setSiteName(siteIndexForm.getSiteName());
 		siteIndex.setSiteDesc(siteIndexForm.getSiteDesc());
-		siteIndex.setSiteStatus(1);				//FIXME
-		siteIndex.setSiteReferrer("admin");		//FIXME
+		siteIndex.setSiteStatus(siteIndexForm.getSiteStatus());
+		siteIndex.setSiteReferrer(siteIndexForm.getSiteReferrer());	
 		
 		siteIndexService.createSiteIndex(siteIndex);
 		

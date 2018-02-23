@@ -41,12 +41,35 @@ public class SiteIndexDaoJdbcImpl implements SiteIndexDao {
 		sbf.append("site_desc, ");
 		sbf.append("site_referrer, ");
 		sbf.append("site_status ");
-		sbf.append(" FROM "+TABLE);
+		sbf.append(" FROM "+ TABLE);
 		sbf.append(" ORDER BY global_id DESC");
 		String sql = sbf.toString();
 		logger.info(sql);
 		
 		return jdbc.query(sql,new SiteIndexRowMapper());
+	}
+
+	@Override
+	public List<SiteIndex> findByStatus(int siteStatus) {
+		StringBuffer sbf = new StringBuffer();
+		sbf.append("SELECT ");
+		sbf.append("global_id, ");
+		sbf.append("site_url, ");
+		sbf.append("site_name, ");
+		sbf.append("site_keyword, ");
+		sbf.append("site_desc, ");
+		sbf.append("site_referrer, ");
+		sbf.append("site_status ");
+		sbf.append(" FROM "+ TABLE);
+		sbf.append(" WHERE site_status = :site_status");
+		sbf.append(" ORDER BY global_id DESC");
+		String sql = sbf.toString();
+		logger.info(sql);
+		
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("site_status", siteStatus);
+		
+		return jdbc.query(sql,paramSource,new SiteIndexRowMapper());
 	}
 
 	@Override

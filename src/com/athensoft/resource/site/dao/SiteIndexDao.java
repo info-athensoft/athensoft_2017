@@ -6,6 +6,7 @@ import com.athensoft.resource.site.entity.SiteIndex;
 
 public interface SiteIndexDao {
 	public List<SiteIndex> findAll();
+	public List<SiteIndex> findByStatus(int siteStatus);
 	public List<SiteIndex> findByQuery(String queryString);
 	
 	public SiteIndex findById();

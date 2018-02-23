@@ -14,7 +14,7 @@
 <!-- END page variables -->
 
 <!-- i18n -->
-<c:set var="loc" value="en_US"/>
+<c:set var="loc" value="zh_CN"/>
 <c:if test="${!(empty param.lang)}">
   <c:set var="loc" value="${param.lang}"/>
 </c:if>
@@ -128,10 +128,9 @@
 
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
 									<li class="nav-item" data-option-value="*"><a class="nav-link active" href="#">Show All</a></li>
-									<li class="nav-item" data-option-value=".websites"><a class="nav-link" href="#">Websites</a></li>
-									<li class="nav-item" data-option-value=".logos"><a class="nav-link" href="#">Logos</a></li>
-									<li class="nav-item" data-option-value=".brands"><a class="nav-link" href="#">Brands</a></li>
-									<li class="nav-item" data-option-value=".medias"><a class="nav-link" href="#">Medias</a></li>
+									<li class="nav-item" data-option-value=".catalog"><a class="nav-link" href="#">Catalog</a></li>
+									<li class="nav-item" data-option-value=".brochure"><a class="nav-link" href="#">Brochure</a></li>
+									<li class="nav-item" data-option-value=".menu"><a class="nav-link" href="#">Menu</a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -183,15 +182,15 @@
 						<div class="col-lg-9 order-1 order-lg-2">
 							<div class="sort-destination-loader sort-destination-loader-showing">
 								<div class="row portfolio-list sort-destination image-gallery lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
-									<div class="col-lg-6 isotope-item brands">
+									<div class="col-lg-6 isotope-item catalog">
 										<div class="portfolio-item image-gallery-item">
-											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
+											<a href="${img_dir}/graphic/demo/Catalog-Furniture.jpg" class="lightbox-portfolio">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/graphic/demo/Catalog-Furniture.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">22Presentation</span>
-															<span class="thumb-info-type">Brand</span>
+															<span class="thumb-info-inner">Furniture</span>
+															<span class="thumb-info-type">Catalog</span>
 														</span>
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -201,15 +200,15 @@
 											</a>
 										</div>
 									</div>
-									<div class="col-lg-6 isotope-item brands">
+									<div class="col-lg-6 isotope-item brochure">
 										<div class="portfolio-item image-gallery-item">
-											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
+											<a href="${img_dir}/graphic/demo/RecipeBook-Pastry.jpg" class="lightbox-portfolio">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/graphic/demo/RecipeBook-Pastry.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">22Presentation</span>
-															<span class="thumb-info-type">Brand</span>
+															<span class="thumb-info-inner">Pastry Recipe</span>
+															<span class="thumb-info-type">Brochure</span>
 														</span>
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -219,15 +218,17 @@
 											</a>
 										</div>
 									</div>
-									<div class="col-lg-6 isotope-item brands">
+									
+									  
+									<div class="col-lg-6 isotope-item menu">
 										<div class="portfolio-item image-gallery-item">
-											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
+											<a href="${img_dir}/graphic/demo/Menu-Restaurant.jpg" class="lightbox-portfolio">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
+														<img src="${img_dir}/graphic/demo/Menu-Restaurant.jpg" class="img-fluid" alt="">
 														<span class="thumb-info-title">
-															<span class="thumb-info-inner">22Presentation</span>
-															<span class="thumb-info-type">Brand</span>
+															<span class="thumb-info-inner">Restaurant</span>
+															<span class="thumb-info-type">Menu</span>
 														</span>
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -237,6 +238,7 @@
 											</a>
 										</div>
 									</div>
+									<!--
 									<div class="col-lg-6 isotope-item brands">
 										<div class="portfolio-item image-gallery-item">
 											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
@@ -256,7 +258,7 @@
 										</div>
 									</div>
 									
-									
+									 -->
 								</div>
 							</div>
 

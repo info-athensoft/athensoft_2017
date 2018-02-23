@@ -104,13 +104,13 @@
 							<div class="col">
 								<ul class="breadcrumb">
 									<li><a href="${webapp_name}/index.html?lang=${loc}">HOME</a></li>
-									<li class="active"><a href="#">ATHENSOFT TEAM</a></li>
+									<li class="active"><a href="#">TEAM</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1>ATHENSOFT TEAM</h1>
+								<h1>Welcome to Athensoft</h1>
 							</div>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 									<div class="col-md-6">
 										<div class="featured-box featured-box-primary text-left mt-5">
 											<div class="box-content">
-												<h4 class="heading-primary text-uppercase mb-3">Sign in - Welcome to Athensoft</h4>
+												<h4 class="heading-primary text-uppercase mb-3">Sign in</h4>
 												<form action="/team/signin" id="formSignIn" method="post" name="formSignin">
 												
 													<div class="form-row">

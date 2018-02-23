@@ -4,7 +4,21 @@ public class SiteIndexForm {
 	private String siteUrl;
 	private String siteName;
 	private String siteDesc;
-	
+	private String siteReferrer;
+	private Integer siteStatus;
+
+	public String getSiteReferrer() {
+		return siteReferrer;
+	}
+	public void setSiteReferrer(String siteReferrer) {
+		this.siteReferrer = siteReferrer;
+	}
+	public Integer getSiteStatus() {
+		return siteStatus;
+	}
+	public void setSiteStatus(Integer siteStatus) {
+		this.siteStatus = siteStatus;
+	}
 	public String getSiteUrl() {
 		return siteUrl;
 	}
@@ -25,8 +39,7 @@ public class SiteIndexForm {
 	}
 	@Override
 	public String toString() {
-		return "SiteIndexForm [siteUrl=" + siteUrl + ", siteName=" + siteName + ", siteDesc=" + siteDesc + "]";
+		return "SiteIndexForm [siteUrl=" + siteUrl + ", siteName=" + siteName + ", siteDesc=" + siteDesc
+				+ ", siteReferrer=" + siteReferrer + ", siteStatus=" + siteStatus + "]";
 	}
-	
-	
 }

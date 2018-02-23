@@ -14,7 +14,7 @@
 <!-- END page variables -->
 
 <!-- i18n -->
-<c:set var="loc" value="en_US"/>
+<c:set var="loc" value="zh_CN"/>
 <c:if test="${!(empty param.lang)}">
   <c:set var="loc" value="${param.lang}"/>
 </c:if>
@@ -126,10 +126,13 @@
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
 									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-overview"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/about/comingsoon.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li>
+									<!-- <li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li> -->
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/demo.html?lang=${loc}"><spring:message code="graphic-sidebar-link-demo"/></a></li>
+									<!-- 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/pricing.html?lang=${loc}"><spring:message code="graphic-sidebar-link-pricing"/></a></li>
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/support/faq-graphic.html?lang=${loc}"><spring:message code="graphic-sidebar-link-faq"/></a></li>
+									 -->
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -891,39 +894,39 @@
 							<h3><spring:message code="graphic-title-3-1"/></h3>
 							<div class="row">
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="${webapp_name}/graphic/demo.html?lang=${loc}" target="_blank">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="related work">
+												<img src="${img_dir}/graphic/demo/RecipeBook-Pastry.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
+													<span class="thumb-info-inner">Pastry Recipe</span>
+													<span class="thumb-info-type">Brochure</span>
 												</span>
 											</span>
 										</span>
 									</a>
 								</div>
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="${webapp_name}/graphic/demo.html?lang=${loc}" target="_blank">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="related work">
+												<img src="${img_dir}/graphic/demo/Menu-Restaurant.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
+													<span class="thumb-info-inner">Restaurant</span>
+													<span class="thumb-info-type">Menu</span>
 												</span>
 											</span>
 										</span>
 									</a>
 								</div>
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="${webapp_name}/graphic/demo.html?lang=${loc}" target="_blank">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="related work">
+												<img src="${img_dir}/graphic/demo/Catalog-Furniture.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
+													<span class="thumb-info-inner">Furniture</span>
+													<span class="thumb-info-type">Catalog</span>
 												</span>
 											</span>
 										</span>

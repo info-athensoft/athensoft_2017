@@ -124,22 +124,32 @@
 			
 				
 				<div class="container">
+
 					<div class="row">
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
 								<h4 class="heading-primary"><spring:message code="rsc-sidebar-title-siteindex"/></h4>
 								
 								<form id="siteIndexForm" action="/rsc/siteindexes/create" method="POST">
+									
 									<div class="form-row">
 										<div class="form-group col">
-											<input type="hidden" value="1" name="siteStatus" id="siteStatus">
-											<input type="hidden" value="client" name="siteReferrer" id="siteStatus">
+											<input type="hidden" value="admin" name="siteReferrer" id="siteStatus">
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
 											<label><spring:message code="rsc-siteindex-form-url"/> *</label>
 											<input type="text" value="" data-msg-required="website base url" maxlength="100" class="form-control form-control-sm" name="siteUrl" id="siteUrl" required placeholder="www.yourname.com">
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<label>Privacy Type *</label>
+											<select class="form-control form-control-sm" name="siteStatus">
+												<option value="1" selected>Public</option>
+												<option value="2">Private</option>
+											</select>
 										</div>
 									</div>
 									<div class="form-row">

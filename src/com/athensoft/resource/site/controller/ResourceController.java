@@ -24,7 +24,7 @@ public class ResourceController {
 	@RequestMapping("/siteindexes.html")
 	public ModelAndView gotoSiteIndexes(){
 		
-		List<SiteIndex> listSiteIndex = siteIndexService.getAllSiteIndex();
+		List<SiteIndex> listSiteIndex = siteIndexService.getPublicSiteIndex();
 		
 		ModelAndView mav = new ModelAndView();
 		Map<String,Object> model = mav.getModel();
@@ -32,6 +32,21 @@ public class ResourceController {
 		model.put("listSiteIndex", listSiteIndex);
 		
 		String viewName = "resource/siteindex";
+		mav.setViewName(viewName);
+		return mav;
+	}
+	
+	@RequestMapping("/siteindexes2.html")
+	public ModelAndView gotoSiteIndexes2(){
+		
+		List<SiteIndex> listSiteIndex = siteIndexService.getAllSiteIndex();
+		
+		ModelAndView mav = new ModelAndView();
+		Map<String,Object> model = mav.getModel();
+		
+		model.put("listSiteIndex", listSiteIndex);
+		
+		String viewName = "resource/siteindex_admin";
 		mav.setViewName(viewName);
 		return mav;
 	}

@@ -24,6 +24,10 @@ public class SiteIndexService {
 		return siteIndexDao.findAll();
 	}
 	
+	public List<SiteIndex> getPublicSiteIndex(){
+		return siteIndexDao.findByStatus(1);
+	}
+	
 	public void createSiteIndex(SiteIndex siteIndex){
 		siteIndexDao.create(siteIndex);
 	}

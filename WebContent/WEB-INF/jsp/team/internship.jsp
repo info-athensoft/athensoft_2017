@@ -14,7 +14,7 @@
 <!-- END page variables -->
 
 <!-- i18n -->
-<c:set var="loc" value="en_US"/>
+<c:set var="loc" value="zh_CN"/>
 <c:if test="${!(empty param.lang)}">
   <c:set var="loc" value="${param.lang}"/>
 </c:if>
@@ -118,12 +118,224 @@
 				
 				
 				<div class="container">
-
 					<div class="row">
-						<div class="col">
-							<h3>Basic Information</h3>
+						<div class="col-lg-3 order-2 order-lg-1">
+							<aside class="sidebar">
+								<h4 class="heading-primary">Outline</h4>
+								
+								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
+									<li class="nav-item" data-option-value=".p"><a class="nav-link" href="#">Personal Information</a></li>
+									<li class="nav-item" data-option-value=".w"><a class="nav-link" href="#">Working Information</a></li>
+									<li class="nav-item" data-option-value=".s"><a class="nav-link" href="#">Schedule</a></li>
+									<li class="nav-item" data-option-value=".a"><a class="nav-link" href="#">Assignment</a></li>
+									<li class="nav-item" data-option-value=".h"><a class="nav-link" href="#">History</a></li>
+									<li class="nav-item" data-option-value=".r"><a class="nav-link" href="#">Rules</a></li>
+								</ul>
+								<hr class="invisible mt-2 mb-2">
+								<a href="/team/signout" class="btn btn-primary btn-sm">&nbsp;&nbsp;&nbsp;&nbsp;Sign Out&nbsp;&nbsp;&nbsp;&nbsp;</a>
+							</aside>
+						</div>
+						
+						<div class="col-lg-9 order-1 order-lg-2">
+							<div class="col">
+								<!-- <h3>Internship Program</h3> -->
+								
+								<h4>Personal Information</h4>
+								<div class="row">
+									<label class="col-lg-3"><strong>Trainee Name : </strong></label>
+									<label class="col-lg-3">Liu, Yang</label>
+									<label class="col-lg-3"><strong>Status in Canada : </strong></label>
+									<label class="col-lg-3">Intl. Student</label>
+								</div>
+								
+								<div class="row">
+									<label class="col-lg-3"><strong>School Name : </strong></label>
+									<label class="col-lg-3">La Salle College</label>
+									<label class="col-lg-3"><strong>Academic Status : </strong></label>
+									<label class="col-lg-3">In 2nd Year</label>
+								</div>
+								
+								<div class="row">
+									<label class="col-lg-3"><strong>Primary email : </strong></label>
+									<label class="col-lg-3">leon846666@gmail.com</label>
+									<label class="col-lg-3"><strong>Phone Number : </strong></label>
+									<label class="col-lg-3">N/A</label>
+								</div>
+								
+								<hr class="short"/>
+								
+								<h4>Working Information</h4>
+								<div class="row">
+									<label class="col-lg-3"><strong>Status : </strong></label>
+									<label class="col-lg-3"><span class="badge badge-success badge-sm">ACTIVE</span></label>
+								</div>
+								<div class="row">
+									<label class="col-lg-3"><strong>Position : </strong></label>
+									<label class="col-lg-3">Java/Web Developer</label>
+									<label class="col-lg-3"><strong>Supervisor : </strong></label>
+									<label class="col-lg-3">Athens Zhang</label>
+								</div>
+								<div class="row">
+									<label class="col-lg-3"><strong>Starting date : </strong></label>
+									<label class="col-lg-3">2018-02-23</label>
+									<label class="col-lg-3"><strong>Termination date : </strong></label>
+									<label class="col-lg-3">TBA</label>
+								</div>
+								<div class="row">
+									<label class="col-lg-3"><strong>Attendance Record : </strong></label>
+									<label class="col-lg-3"><strong>REQUIRED</strong></label>
+									<label class="col-lg-3"><strong>Method : </strong></label>
+									<label class="col-lg-3">Email</label>
+								</div>
+								<div class="row">
+									<label class="col-lg-3"><strong>Workload : </strong></label>
+									<label class="col-lg-3">22 hours per week</label>
+									<label class="col-lg-3"><strong>Accumulated Hours : </strong></label>
+									<label class="col-lg-3"><strong>0</strong> hours</label>
+								</div>
+								<div class="row">
+									<label class="col-lg-3"><strong>Work Type : </strong></label>
+									<label class="col-lg-3">Cross-function</label>
+									<label class="col-lg-3"><strong>Work Method : </strong></label>
+									<label class="col-lg-3">Remote and Face-to-Face</label>
+								</div>
+								
+								
+								
+								<hr class="short"/>
+								
+								<h4>Schedule</h4>
+								
+								<div>
+									<table class="table table-striped table-bordered">
+										<thead>
+											<tr class="info">
+												<th>Mon</th><th>Tues</th><th>Wed</th><th>Thurs</th><th>Fri</th><th>Sat</th><th>Sun</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>17:00 - 21:00</td>
+												<td>13:00 - 17:00</td>
+												<td>12:00 - 15:00</td>
+												<td>14:00 - 16:00<br/>20:00 - 21:00</td>
+												<td>10:00 - 12:00<br/>14:00 - 18:00</td>
+												<td>13:00 - 17:00</td>
+												<td>Closed</td>
+											</tr>
+											<tr>
+												<td>2 hours</td>
+												<td>4 hours</td>
+												<td>3 hours</td>
+												<td>3 hours</td>
+												<td>6 hours</td>
+												<td>4 hours</td>
+												<td>--</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								
+								<h4>Assignment</h4>
+								
+								<div>
+									<table class="table table-striped table-bordered">
+										<thead>
+											<tr class="success">
+												<th>SN</th><th>WEEK NO.</th><th>LIST OF TASK</th><th>REPORTED</th><th>TASK STATUS</th><th>ASSESSMENT</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>8</td>
+												<td>
+													<ul>
+														<li>Preparation for work</li>
+														<li>Warm-up practice (ADT and JUnit4)</li>
+													</ul>
+												</td>
+												<td>N</td>
+												<td>ON</td>
+												<td>N/A</td>
+											</tr>
+										</tbody>
+									</table>
+									
+									<hr class="invisible mt-2 mb-2"/>
+									<h5>Description</h5>
+									
+										<strong>1. Preparation work</strong><br/>
+										<ul>
+											<li>1.1 create a dropbox account</li>
+											<li>1.2 create a github account</li>
+											<li>1.3 create a slack account</li>
+										</ul>
+										<p><strong>Notes:</strong> <br/>
+										-When finished, let Supervisor know and wait for invitation
+										</p>
+										
+										<strong>2. Warm-up practice</strong><br/>
+										<ul>
+											<li>2.1 Perform a research and write an essay in summary-style on the subject of Java Collection Framework</li>
+											<li>2.2 Create a Java project and write codes for each ADT (Abstract Data Type) defined in above framework</li>
+											<li>2.3 Write test codes for each unit using JUnit 4</li>
+										</ul>
+										<p><strong>Goals:</strong> <br/>
+										- To review Set, List, Map and all commonly used interfaces and classes.<br/>
+										- To look insight into the ADTs and wisely use them in future projects.<br/>
+										- To post to public for content marketing.<br/>
+										</p>
+										
+										<p><strong>Notes:</strong> <br/>
+										- The task of #2 is not necessarily in strict order, you may take control of that at convenience.<br/>
+										- Declaration, initialization, traversal the ADT classes in various ways are recommended.<br/>
+										- As for the essay you may copy, excerpt, combine, rewrite or composite based-on materials on the Internet or from books.<br/>
+										- Comparison, where-to-use and why-to-use concerns must be elaborated in your essay.<br/>
+										- Do not write the codes in a single huge class, separate them into different files and organized them well<br/>
+										- Using com.athensoft.util.adt as the parent package
+										</p>
+								</div>
+								
+								<h4>History</h4>
+								
+								<div>
+									<table class="table table-striped table-bordered">
+										<thead>
+											<tr class="dark">
+												<th>SN</th><th>WEEK NO.</th><th>LIST OF TASK</th><th>REPORTED</th><th>TASK STATUS</th><th>ASSESSMENT</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								
+								<h4>Rules</h4>
+								<div>
+									<ul>
+										<li>All Practitioners have their obligations to respect the codes, rules, conventions, values of the company.</li>
+										<li>All Practitioners should respect the tasks assigned and deadlines.</li>
+										<li>All Practitioners should respect the confirmed schedules and attendant records.</li>
+										<li>All Practitioners must follow the confidentiality agreement which is presented both in written and in verbal.</li>
+										<li>Informatique Athensoft has the full ownership of all design, codes, documents and all related artifacts which are contributed by practitioners during the days of internship.</li>
+										<li>The management reserves all the rights of interpreting the aforementioned rules.</li>
+									</ul>
+								</div>
+								
+								
+							</div>
 						</div>
 					</div>
+					
 
 				</div>
 				

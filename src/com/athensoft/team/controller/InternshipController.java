@@ -13,14 +13,13 @@ public class InternshipController {
 	@RequestMapping("/internship.html")
 	public String gotoIndex(HttpServletRequest request){
 		HttpSession session = request.getSession();
-		
 		String viewName = "";
 		
 		TeamUser tu = (TeamUser)session.getAttribute("user");
-		if(tu == null){
+		if(tu != null){
 			viewName = "team/internship";
 		}else{
-			viewName = "redirect:/team/signin.html";
+			viewName = "redirect:/team/signin.html?lang=zh_CN";
 		}
 		
 		return viewName;

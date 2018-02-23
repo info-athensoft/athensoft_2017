@@ -14,7 +14,7 @@
 <!-- END page variables -->
 
 <!-- i18n -->
-<c:set var="loc" value="en_US"/>
+<c:set var="loc" value="zh_CN"/>
 <c:if test="${!(empty param.lang)}">
   <c:set var="loc" value="${param.lang}"/>
 </c:if>

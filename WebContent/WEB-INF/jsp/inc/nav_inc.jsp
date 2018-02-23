@@ -9,7 +9,7 @@
 <!-- END page variables -->
 
 <!-- i18n -->
-<c:set var="loc" value="en_US"/>
+<c:set var="loc" value="zh_CN"/>
 <c:if test="${!(empty param.lang)}">
   <c:set var="loc" value="${param.lang}"/>
 </c:if>
@@ -34,23 +34,30 @@
 						<li><a class="dropdown-item" href="/webdev/product.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-5"/> </a></li>
 						<li><a class="dropdown-item" href="/webdev/case.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-6"/> </a></li>
 						<li><a class="dropdown-item" href="/webdev/pricing.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-7"/> </a></li>
+						<!-- 
 						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-8"/> </a></li>
+						 -->
 					</ul></li>
 				
 				
-				<!-- menu - graphic 
+				<!-- menu - graphic -->
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="/graphic/graphic.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-1"/></a></li>
 						<li><a class="dropdown-item" href="/graphic/demo.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-2"/></a></li>
+						<!-- 
 						<li><a class="dropdown-item" href="/graphic/pricing.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-4"/></a></li>
 						<li><a class="dropdown-item" href="/support/faq-graphic.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-5"/></a></li>
+						 
+						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-graphic-4"/></a></li>
+						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-graphic-5"/></a></li>
+						-->
 					</ul>
 				</li>
-				-->
 				
-				<!--  -->
+				
+				<!-- 
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
@@ -61,7 +68,7 @@
 						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-graphic-5"/></a></li>
 					</ul>
 				</li>
-				 
+				  -->
 				
 				<!-- menu - adogo 
 				<li class="dropdown">

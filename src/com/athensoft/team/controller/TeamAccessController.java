@@ -1,12 +1,10 @@
 package com.athensoft.team.controller;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -14,13 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TeamAccessController {
 	
 	@RequestMapping("/")
-	public String gotoIndex(){
+	public String gotoIndex(Model model){
+		model.addAttribute("lang","zh_CN");
 		return "team/signin";
 	}
 	
 	@RequestMapping("/signin.html")
-	public String gotoSignIn(){
-		
+	public String gotoSignIn(Model model){
+		model.addAttribute("lang","zh_CN");
 		return "team/signin";
 	}
 	
@@ -39,12 +38,24 @@ public class TeamAccessController {
 		
 		String viewName = "";
 		if(isValid){
-			viewName = "team/internship.html";
+			viewName = "redirect:/team/internship.html?lang=zh_CN";
 		}else{
-			viewName = 	"redirect:/team/signin.html";
+			viewName = 	"redirect:/team/signin.html?lang=zh_CN";
 		}
 		return viewName;
 	}
+	
+	@RequestMapping("/signout")
+	public String doSignOut(
+				HttpServletRequest request){
+		HttpSession session = request.getSession(false);
+		session.removeAttribute("user");
+		
+		String viewName = "";
+		viewName = 	"redirect:/team/signin.html?lang=zh_CN";
+		return viewName;
+	}
+	
 	
 	
 	private boolean auth(TeamUser user){
