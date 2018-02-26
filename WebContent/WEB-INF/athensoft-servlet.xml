@@ -14,6 +14,7 @@
 	<context:component-scan base-package="com.athensoft.site.**.controller"></context:component-scan>
 	<context:component-scan base-package="com.athensoft.resource.**.controller"></context:component-scan>
 	<context:component-scan base-package="com.athensoft.team.controller"></context:component-scan>
+	<context:component-scan base-package="com.athensoft.blog.controller"></context:component-scan>
 	
 
 	<!-- View Resolver -->
@@ -55,5 +56,6 @@
 	<mvc:resources mapping="/fonts/**" location="fonts/" />
 	<mvc:resources mapping="/vendor/**" location="vendor/" />
 	<mvc:resources mapping="/video/**" location="video/" />
+	<mvc:resources mapping="/resources/**" location="resources/" />
 	<mvc:resources mapping="/sitemap.xml" location="/" />
 </beans>

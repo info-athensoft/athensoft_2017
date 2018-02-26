@@ -117,6 +117,39 @@
 					data-elementdelay="0.05"><spring:message code="slide-p2-titel-2"/></div>
 
 			</li>
+			<li data-transition="fade">
+				<img src="${img_dir}/slides/3.jpg"  
+					alt=""
+					data-bgposition="center center" 
+					data-bgfit="cover" 
+					data-bgrepeat="no-repeat" 
+					class="rev-slidebg">
+
+				<div class="tp-caption featured-label"
+					data-x="center"
+					data-y="center" data-voffset="-45"
+					data-start="500"
+					data-fontsize="['52','52','52','62']"
+					style="z-index: 5"
+					data-transform_in="y:[100%];s:500;"
+					data-transform_out="opacity:0;s:500;"><spring:message code="slide-p3-titel-1"/></div>
+
+				<div class="tp-caption bottom-label"
+					data-x="center"
+					data-y="center" data-voffset="5"
+					data-start="1000"
+					data-fontsize="['23','23','23','30']"
+					data-transform_idle="o:1;"
+					data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:600;e:Power4.easeInOut;"
+					data-transform_out="opacity:0;s:500;"
+					data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+					data-splitin="chars" 
+					data-splitout="none" 
+					data-responsive_offset="on"
+					style="font-size: 23px; line-height: 30px;"
+					data-elementdelay="0.05"><spring:message code="slide-p3-titel-2"/></div>
+
+			</li>
 		</ul>
 	</div>
 </div>
