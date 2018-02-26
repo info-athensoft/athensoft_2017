@@ -136,22 +136,6 @@
 								
 								<hr class="invisible mt-4 mb-2">
 								<h4 class="heading-primary"><strong>Important Notice</strong></h4>
-								<strong>2018-02-26 by management</strong>
-								<p>
-									The Assessment of Week #8 has been issued.<br/>
-								</p>
-								
-								<hr class="short"/>
-								<strong>2018-02-26 by management</strong>
-								<p>
-									Daily reports are supposed to submit into Dropbox.<br/>
-									Essays are supposed to submit into Dropbox.<br/>
-									Section of Assignment is updated.<br/>
-									Section of Conventions is updated.<br/>
-									Section of History is updated.<br/>
-								</p>
-								
-								<hr class="short"/>
 								<strong>2018-02-22 by management</strong>
 								<p>All Internship working related email should be sent to <strong><code>athensoft.com@gmail.com</code></strong>, which applies to attendance email, 
 									working submissions, reports if no special instructions announced.</p>
@@ -217,7 +201,7 @@
 									<label class="col-lg-3"><strong>Workload : </strong></label>
 									<label class="col-lg-3">22 hours per week</label>
 									<label class="col-lg-3"><strong>Accumulated Hours : </strong></label>
-									<label class="col-lg-3"><strong>10</strong> hours</label>
+									<label class="col-lg-3"><strong>0</strong> hours</label>
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Work Type : </strong></label>
@@ -274,14 +258,14 @@
 										<tbody>
 											<tr>
 												<td>1</td>
-												<td>9</td>
+												<td>8</td>
 												<td>
 													<ul>
-														<li>901 Warm-up practice 1</li>
-														<li>902 Warm-up practice 2</li>
+														<li>Preparation for work</li>
+														<li>Warm-up practice (ADT and JUnit4)</li>
 													</ul>
 												</td>
-												<td>22 hours</td>
+												<td>10 hours</td>
 												<td>ON</td>
 											</tr>
 										</tbody>
@@ -290,41 +274,51 @@
 									<hr class="invisible mt-2 mb-2"/>
 									<h5>Description</h5>
 									
-										<strong>901	Warm-up practice 1</strong><br/>
+										<strong>1. Preparation work</strong><br/>
 										<ul>
-											<li>901-1 Continue to write essay on ADT</li>
+											<li>1.1 create a dropbox account</li>
+											<li>1.2 create a github account</li>
+											<li>1.3 create a slack account</li>
 										</ul>
 										<p><strong>Notes:</strong> <br/>
-										- As for the essay you may copy, excerpt, combine, rewrite or composite based-on materials on the Internet or from books.<br/>
-										- Comparison, where-to-use and why-to-use concerns must be elaborated in your essay.<br/>
+										-When finished, let Supervisor know and wait for invitation
 										</p>
 										
-										<strong>902	Warm-up practice 2</strong><br/>
+										<strong>2. Warm-up practice</strong><br/>
 										<ul>
-											<li>902-1 Review Java Generic programming</li>
+											<li>2.1 Perform a research and write an essay in summary-style on the subject of Java Collection Framework</li>
+											<li>2.2 Create a Java project and write codes for each ADT (Abstract Data Type) defined in above framework</li>
+											<li>2.3 Write test codes for each unit using JUnit 4</li>
 										</ul>
+										<p><strong>Goals:</strong> <br/>
+										- To review Set, List, Map and all commonly used interfaces and classes.<br/>
+										- To look insight into the ADTs and wisely use them in future projects.<br/>
+										- To test team environment<br/>
+										- To be familiar to working with maven, junit, git, eclipse<br/>
+										- To post to public for content marketing.<br/>
+										</p>
 										
 										<p><strong>Notes:</strong> <br/>
-										- Perform a research and write an essay in summary-style on the subject of Java Generic Programming<br/>
-										- Internship personnel decide the outline of this topic, and so as to design how many code and how many knowledge points are covered.<br/>
-										- Similar to TASK 901, test case and code should be developed.<br/>
+										- The task of #2 is not necessarily in strict order, you may take control of that at convenience.<br/>
+										- As for the project, it must be created using eclipse, maven, jdk1.8+, built-in git in eclipse, junit4<br/>
+										- It should be shared and push to github<br/>
+										- Declaration, initialization, traversal the ADT classes in various ways are recommended.<br/>
+										- As for the essay you may copy, excerpt, combine, rewrite or composite based-on materials on the Internet or from books.<br/>
+										- Comparison, where-to-use and why-to-use concerns must be elaborated in your essay.<br/>
+										- Do not write the codes in a single huge class, separate them into different files and organized them well<br/>
 										</p>
 										
 										<p><strong>Project info:</strong><br/>
-										Repository URL: <code>https://github.com/edu-athensoft/javase2018.git</code><br/>
+										Repository URL: <code>https://github.com/athensedu/javase2018.git</code><br/>
 										Branches: <code>master, dev-ly</code><br/>
 										Java Project Name: <code>javase2018</code><br/>
 										Parent package: <code>com.athensoft.util.adt</code><br/>
-										Parent package: <code>com.athensoft.util.generic</code><br/>
 										</p>
 								</div>
-								
-								<hr class="short"/>
 								
 								<h4>Conventions</h4>
 								<div>
 									<ul>
-										<li>Essays should be in the title as such <code>[Internship][your name]Essay-[title]-yyyy-mm-dd</code></li>
 										<li>Attendant email should be in the title as such <code>[Internship][your name]Attendance-yyyy-mm-dd</code></li>
 										<li>Report email should be in the title as such <code>[Internship][your name]Report-yyyy-mm-dd</code></li>
 										<li>All Internship related email should be sent to <code>athensoft.com@gmail.com</code></li>
@@ -342,17 +336,13 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td>1</td>
-												<td>8</td>
-												<td><ul>
-														<li>801-Preparation for work</li>
-														<li>802-Warm-up practice<br/>(ADT and JUnit4)</li>
-													</ul>
-												</td>
-												<td>10</td>
-												<td>n/a</td>
-												<td>DELAYED</td>
-												<td><strong>71.4%</strong></td>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
+												<td>--</td>
 											</tr>
 										</tbody>
 									</table>
