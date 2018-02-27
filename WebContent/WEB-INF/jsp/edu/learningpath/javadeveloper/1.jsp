@@ -12,19 +12,19 @@
 <p>Java 开发员, Java 工程师, 学生, 爱好者</p>
 
 <h5>发展路线图如下</h5>
-<img src="${img_path}/1.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/2.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/3.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/4.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/5.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/6.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/7.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/8.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/9.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/10.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/11.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/12.png" alt="web developer learning path" width="100%"/>
-<img src="${img_path}/13.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/1.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/2.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/3.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/4.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/5.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/6.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/7.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/8.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/9.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/10.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/11.png" alt="web developer learning path" width="100%"/>
+<img src="/images/edu/learningpath/javadeveloper/12.png" alt="web developer learning path" width="100%"/>
+<img src="$/images/edu/learningpath/javadeveloper/13.png" alt="web developer learning path" width="100%"/>
 
 
 
