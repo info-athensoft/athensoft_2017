@@ -155,8 +155,40 @@ public class PostDaoJdbcImpl implements PostDao {
 	}
 
 	@Override
-	public int update(Post post) {
-		return 0;
+	public int update(Post x) {
+		StringBuffer sbf = new StringBuffer();
+		sbf.append("UPDATE ").append(TABLE).append(" SET ");
+		sbf.append("channel_no=:channel_no, ");
+		sbf.append("topic_class_no=:topic_class_no, ");
+		sbf.append("topic_name=:topic_name, ");
+		sbf.append("post_title=:post_title, ");
+		sbf.append("post_author=:post_author, ");
+		sbf.append("post_tags=:post_tags, ");
+		sbf.append("post_date=:post_date, ");
+		sbf.append("original_author=:original_author, ");
+		sbf.append("original_link=:original_link, ");
+		sbf.append("post_status=:post_status ");
+		
+		sbf.append(" WHERE post_uuid=:post_uuid");
+		String sql = sbf.toString();
+		
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("post_uuid", x.getPostUUID());
+		paramSource.addValue("channel_no", x.getChannelNo());
+		paramSource.addValue("topic_class_no", x.getTopicClassNo());
+		paramSource.addValue("topic_name", x.getTopicName());
+		
+		paramSource.addValue("post_title", x.getPostTitle());
+		paramSource.addValue("post_author", x.getPostAuthor());
+		paramSource.addValue("post_tags", x.getPostTags());
+		paramSource.addValue("post_date", x.getPostDate());
+		paramSource.addValue("original_author", x.getOriginalAuthor());
+		paramSource.addValue("original_link", x.getOriginalLink());
+		paramSource.addValue("post_status", x.getPostStatus());
+		
+		//paramSource.addValue("post_content", x.getPostContent().getPostContent());
+		
+		return jdbc.update(sql,paramSource);
 	}
 
 	@Override

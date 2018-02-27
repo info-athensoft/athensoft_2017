@@ -4,7 +4,7 @@ public class PostContent {
 	private Long globalId;
 	private Long postUUID;
 	private String postContent;
-	private int postStatus;
+	private Integer postStatus;
 	
 	public Long getGlobalId() {
 		return globalId;
@@ -12,10 +12,10 @@ public class PostContent {
 	public void setGlobalId(Long globalId) {
 		this.globalId = globalId;
 	}
-	public int getPostStatus() {
+	public Integer getPostStatus() {
 		return postStatus;
 	}
-	public void setPostStatus(int postStatus) {
+	public void setPostStatus(Integer postStatus) {
 		this.postStatus = postStatus;
 	}
 	public Long getPostUUID() {

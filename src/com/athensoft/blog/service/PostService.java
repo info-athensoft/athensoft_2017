@@ -61,6 +61,12 @@ public class PostService {
 		postContentDao.create(newPost.getPostContent());
 	}
 	
+	@Transactional
+	public void updatePost(Post newPost){
+		postDao.update(newPost);
+		postContentDao.update(newPost.getPostContent());
+	}
+	
 	public List<Post> search(String queryString){
 		if(queryString==null || queryString.isEmpty()){
 			queryString = "";
@@ -70,4 +76,7 @@ public class PostService {
 					+ " OR post_tags LIKE '%"+queryString+"%' ";
 		return postDao.findByQuery(queryString);
 	}
+	
+	
+	
 }

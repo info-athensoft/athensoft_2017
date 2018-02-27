@@ -149,17 +149,22 @@
 									<div class="col-md-12">
 										<div class="featured-box featured-box-primary text-left mt-5">
 											<div class="box-content">
-												<h4 class="heading-primary text-uppercase mb-3">Creating a Post</h4>
-												<form action="/blog/create" id="formSignIn" method="post" name="postForm">
-												
+												<h4 class="heading-primary text-uppercase mb-3">Editing a Post</h4>
+												<form action="/blog/update" id="formSignIn" method="post" name="postForm">
+													
+													<div class="form-row">
+														<input type="hidden" name="postUUID" value="${post.postUUID}"/>
+														<input type="hidden" name="postStatus" value="${post.postStatus}"/>
+													</div>
+													
 													<div class="form-row">
 														<div class="form-group col-lg-2 mt-2">
 															<label class="float-right">Channel</label>
 														</div>
 														<div class="form-group col-lg-6">
-															<select class="form-control" name="channelNo" onchange="selectChannel();" id="channelNo">
-																<option value="1" selected>1: Knowledge</option>
-																<option value="2">2: Education</option>
+															<select class="form-control" name="channelNo" id="channelNo">
+																<option value="1" ${post.channelNo == 1 ? 'selected' : ''}>1: Knowledge</option>
+																<option value="2" ${post.channelNo == 2 ? 'selected' : ''}>2: Education</option>
 															</select>
 														</div>
 													</div>
@@ -170,13 +175,14 @@
 														</div>
 														<div class="form-group col-lg-6">
 															<select class="form-control" name="topicClassNo" id="topicClassNo">
-																<option value="0">-- Choose a topic class --</option>
-																<option value="1">1: Software Development</option>
-																<option value="2">2: Quality Assurance (QA)</option>
-																<option value="3">3: Artificial Intelligence (AI)</option>
-																<option value="4">4: Big Data and Machine Learning (ML)</option>
-																<option value="5">5: Digital Marketing</option>
-																<option value="6">6: Graphic Design</option>
+																<!-- 
+																<option value="1" ${post.topicClassNo == 1 ? 'selected' : ''}>1: Software Development</option>
+																<option value="2" ${post.topicClassNo == 2 ? 'selected' : ''}>2: Quality Assurance (QA)</option>
+																<option value="3" ${post.topicClassNo == 3 ? 'selected' : ''}>3: Artificial Intelligence (AI)</option>
+																<option value="4" ${post.topicClassNo == 4 ? 'selected' : ''}>4: Big Data and Machine Learning (ML)</option>
+																<option value="5" ${post.topicClassNo == 5 ? 'selected' : ''}>5: Digital Marketing</option>
+																<option value="6" ${post.topicClassNo == 6 ? 'selected' : ''}>6: Graphic Design</option>
+																-->
 															</select>
 														</div>
 													</div>
@@ -186,7 +192,7 @@
 															<label class="float-right">Topic</label>
 														</div>
 														<div class="form-group col-lg-6">
-															<input type="text" value="" class="form-control" name="topicName">
+															<input type="text" value="${post.topicName}" class="form-control" name="topicName">
 														</div>
 													</div>
 													
@@ -195,7 +201,7 @@
 															<label class="float-right">Post Title</label>
 														</div>
 														<div class="form-group col-lg-6">
-															<input type="text" value="" class="form-control" name="postTitle">
+															<input type="text" value="${post.postTitle}" class="form-control" name="postTitle">
 														</div>
 													</div>
 													
@@ -204,7 +210,7 @@
 															<label class="float-right">Author</label>
 														</div>
 														<div class="form-group col-lg-6">
-															<input type="text" value="admin" class="form-control" name="postAuthor">
+															<input type="text" value="${post.postAuthor}" class="form-control" name="postAuthor">
 														</div>
 													</div>
 													
@@ -213,7 +219,7 @@
 															<label class="float-right">Tags</label>
 														</div>
 														<div class="form-group col-lg-6">
-															<input type="text" value="" class="form-control" name="postTags">
+															<input type="text" value="${post.postTags}" class="form-control" name="postTags">
 														</div>
 													</div>
 													
@@ -222,7 +228,7 @@
 															<label class="float-right">Original Author</label>
 														</div>
 														<div class="form-group col-lg-6">
-															<input type="text" value="Internet" class="form-control" name="originalAuthor">
+															<input type="text" value="${post.originalAuthor}" class="form-control" name="originalAuthor">
 														</div>
 													</div>
 													
@@ -231,7 +237,7 @@
 															<label class="float-right">Original Link</label>
 														</div>
 														<div class="form-group col-lg-10">
-															<input type="text" value="Internet" class="form-control" name="originalLink">
+															<input type="text" value="${post.originalLink}" class="form-control" name="originalLink">
 														</div>
 													</div>
 													
@@ -251,7 +257,7 @@
 															<label class="float-right">Content</label>
 														</div>
 														<div class="form-group col-lg-10">
-															<textarea rows="5" class="form-control" name="content"></textarea>
+															<textarea rows="5" class="form-control" name="content">${post.postContent.postContent}</textarea>
 														</div>
 													</div>
 												 	
@@ -260,7 +266,7 @@
 															<label class="float-right"></label>
 														</div>
 														<div class="form-group col-lg-6">
-															<input type="submit" value="Create" class="btn btn-primary mb-5" data-loading-text="Loading...">
+															<input type="submit" value="Update" class="btn btn-primary mb-5" data-loading-text="Loading...">
 															<!-- 
 															<input type="submit" value="Login" class="btn btn-primary float-right mb-5" data-loading-text="Loading...">
 															 -->
@@ -330,6 +336,48 @@
 		 -->
 		
 		<script>
+			$(document).ready(function(){
+				selectInit();
+			});
+		
+			function selectInit(){
+				var channelNo = '${post.channelNo}';
+				var topicClassNo = '${post.topicClassNo}';
+				
+				//alert(channelNo+":"+topicClassNo);
+				
+				if(channelNo=='1'){
+					//alert(channel_no);
+					$('#topicClassNo option').remove();
+					$('#topicClassNo').append('<option value="0">-- Choose a topic class --</option>');
+					$('#topicClassNo').append('<option value="1">1: Software Development</option>');
+					$('#topicClassNo').append('<option value="2">2: Quality Assurance (QA)</option>');
+					$('#topicClassNo').append('<option value="3">3: Artificial Intelligence (AI)</option>');
+					$('#topicClassNo').append('<option value="4">4: Big Data and Machine Learning (ML)</option>');
+					$('#topicClassNo').append('<option value="5">5: Digital Marketing</option>');
+					$('#topicClassNo').append('<option value="6">6: Graphic Design</option>');
+					
+					$('#channelNo option[value='+channelNo+']').attr("selected","selected");
+					$('#topicClassNo option[value='+topicClassNo+']').attr("selected","selected");
+					
+				}else if(channelNo=='2'){
+					//alert(channel_no);
+					$('#topicClassNo option').remove();
+					$('#topicClassNo').append('<option value="0">-- Choose a topic class --</option>');
+					$('#topicClassNo').append('<option value="1">1: Web Developer</option>');
+					$('#topicClassNo').append('<option value="2">2: Java Developer</option>');
+					$('#topicClassNo').append('<option value="3">3: QA</option>');
+					$('#topicClassNo').append('<option value="4">4: Big Data Engineer</option>');
+					$('#topicClassNo').append('<option value="5">5: Graphic Designer</option>');
+					
+					$('#channelNo option[value='+channelNo+']').attr("selected","selected");
+					$('#topicClassNo option[value='+topicClassNo+']').attr("selected","selected");
+				}else{
+					alert("[ERROR] selectChannel()");
+				}
+			}
+		
+		
 			function selectChannel(){
 				var channelNo = $("#channelNo").val();
 				
@@ -343,6 +391,9 @@
 					$('#topicClassNo').append('<option value="4">4: Big Data and Machine Learning (ML)</option>');
 					$('#topicClassNo').append('<option value="5">5: Digital Marketing</option>');
 					$('#topicClassNo').append('<option value="6">6: Graphic Design</option>');
+					
+					$('#channelNo option[value='+topicClassNo+']').attr("selected","selected");
+					
 				}else if(channelNo=='2'){
 					//alert(channel_no);
 					$('#topicClassNo option').remove();
@@ -352,6 +403,8 @@
 					$('#topicClassNo').append('<option value="3">3: QA</option>');
 					$('#topicClassNo').append('<option value="4">4: Big Data Engineer</option>');
 					$('#topicClassNo').append('<option value="5">5: Graphic Designer</option>');
+					
+					$('#channelNo option[value='+topicClassNo+']').attr("selected","selected");
 				}else{
 					alert("[ERROR] selectChannel()");
 				}

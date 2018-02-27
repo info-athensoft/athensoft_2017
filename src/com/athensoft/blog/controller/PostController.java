@@ -174,15 +174,6 @@ public class PostController {
 		newPost.setCreateDate(new Date());
 		newPost.setViewNum(0);
 		newPost.setPostStatus(PostState.CREATED);
-//		StringBuffer postContentUrl = new StringBuffer();
-//		postContentUrl.append("/")
-//					.append(postForm.getChannelNo())
-//					.append("/")
-//					.append(postForm.getTopicClassNo())
-//					.append("/")
-//					.append(postForm.getPostUUID())
-//					.append(".jsp");
-//		newPost.setPostContentUrl(postContentUrl.toString());
 		
 		PostContent pcontent = new PostContent();
 		pcontent.setPostContent(postForm.getContent());
@@ -205,6 +196,51 @@ public class PostController {
 		mav.setViewName(viewName);
 		return mav;
 	}
+	
+	
+	@RequestMapping(value="/update.html")
+	public ModelAndView gotoUpdatePost(@RequestParam long postUUID){
+		
+		Post post = postService.getPostById(postUUID);
+		
+		ModelAndView mav = new ModelAndView();
+		
+		Map<String, Object> model = mav.getModel();
+		model.put("post", post);
+		
+		String viewName = "blog/post_update";
+		mav.setViewName(viewName);
+		
+		return mav;
+	}
+	
+	@RequestMapping(value="/update")
+	public ModelAndView updatePost(final Post postForm){
+		
+		Post newPost = new Post();
+		newPost = postForm;
+		newPost.setPostDate(new Date());
+		newPost.setPostStatus(PostState.CREATED);
+		
+		PostContent pcontent = new PostContent();
+		pcontent.setPostContent(postForm.getContent());
+		pcontent.setPostUUID(postForm.getPostUUID());
+		pcontent.setPostStatus(PostState.CREATED);
+		newPost.setPostContent(pcontent);
+		
+		postService.updatePost(newPost);
+		List<Post> listPost = postService.getAllPost();
+		
+		ModelAndView mav = new ModelAndView();
+		
+		Map<String, Object> model = mav.getModel();
+		model.put("listPost", listPost);
+		
+		String viewName = "redirect:/blog/list?lang=zh_CN";
+		mav.setViewName(viewName);
+		return mav;
+	}
+	
 	
 	@RequestMapping("/search")
 	public ModelAndView search(@RequestParam String queryString){

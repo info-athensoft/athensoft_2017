@@ -166,7 +166,7 @@
 							<thead>
 								<tr class="info">
 									<!-- <th>Topic No.</th>  -->
-									<th>Post ID</th><th>Topic Name</th><th>Post Title</th><th>Tags</th><th>Create Date</th>
+									<th>Post ID</th><th>Topic Name</th><th>Post Title</th><th>Tags</th><th>Create Date</th><th>Action</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -177,6 +177,7 @@
 								<td><a href="/blog/channel/${post.channelNo}/topic/${post.topicClassNo}/post/${post.postUUID}">${post.postTitle}</a></td>
 								<td>${post.postTags}</td>
 								<td width="14%"><fmt:formatDate value="${post.createDate}" pattern="yyyy-MM-dd"/></td>
+								<td><a href="/blog/update.html?postUUID=${post.postUUID}">Edit</a></td>
 							</tr>
 							</c:forEach>
 							</tbody>

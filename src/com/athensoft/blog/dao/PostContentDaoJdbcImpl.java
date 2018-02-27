@@ -96,6 +96,7 @@ public class PostContentDaoJdbcImpl implements PostContentDao{
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("post_content", postContent.getPostContent());
 		paramSource.addValue("post_uuid", postContent.getPostUUID());
+		paramSource.addValue("post_status", postContent.getPostStatus());
 		return jdbc.update(sql,paramSource);
 	}
 

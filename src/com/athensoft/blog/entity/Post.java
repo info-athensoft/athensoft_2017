@@ -15,13 +15,7 @@ public class Post {
 	private String	postAuthor;
 	private String	postTags;
 	private Integer	postStatus;
-	private String	content;
-	public String getContent() {
-		return content;
-	}
-	public void setContent(String content) {
-		this.content = content;
-	}
+	private String	content;	
 	private String	postContentUrl;
 	private Integer	viewNum;
 	private String	originalAuthor;
@@ -29,6 +23,12 @@ public class Post {
 	
 	private PostContent postContent;
 	
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
 	public PostContent getPostContent() {
 		return postContent;
 	}

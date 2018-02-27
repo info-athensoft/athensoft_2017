@@ -186,9 +186,9 @@
 							
 							<!-- END main features -->
 							
-							<hr class="short"/>
 							
-							By: ${post.originalAuthor} &nbsp;&nbsp; From: ${post.originalLink}
+							
+							By: ${post.originalAuthor} &nbsp;&nbsp; From: ${post.originalLink} 
 							
 						</div>
 					</div>
