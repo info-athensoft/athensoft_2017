@@ -18,7 +18,7 @@ import com.athensoft.blog.entity.Post;
 import com.athensoft.blog.entity.PostContent;
 import com.athensoft.blog.entity.PostState;
 import com.athensoft.blog.service.PostService;
-import com.athensoft.util.id.UUIDHelper;
+import com.athensoft.util.id.GeneralIDHelper;
 
 
 @Controller
@@ -86,7 +86,7 @@ public class PostController {
 		return mav;
 	}
 	
-	@RequestMapping("/channel/{channelNo}/topic/{topicClassNo}")
+	@RequestMapping("/channel/{channelNo}/topic_class/{topicClassNo}")
 	public ModelAndView getPostByTopicClass(
 			@PathVariable("channelNo") int channelNo,
 			@PathVariable("topicClassNo") int topicClassNo){
@@ -99,6 +99,23 @@ public class PostController {
 		model.put("listPost", listPost);
 		//model.put("channelName", mapChannel.get(channelNo));
 		//model.put("topicClassName", mapTopicClass.get(topicClassNo));
+		
+		String viewName = "blog/post_list";
+		mav.setViewName(viewName);
+		return mav;
+	}
+	
+	@RequestMapping("/channel/{channelNo}/topic/{topicNo}")
+	public ModelAndView getPostByTopicNo(
+			@PathVariable("channelNo") int channelNo,
+			@PathVariable("topicNo") String topicNo){
+		
+		List<Post> listPost = postService.getPostByTopicNo(topicNo);
+		
+		ModelAndView mav = new ModelAndView();
+		
+		Map<String, Object> model = mav.getModel();
+		model.put("listPost", listPost);
 		
 		String viewName = "blog/post_list";
 		mav.setViewName(viewName);
@@ -122,7 +139,7 @@ public class PostController {
 		return mav;
 	}
 
-	@RequestMapping("/channel/{channelNo}/topic/{topicClassNo}/post/{postUUID}")
+	@RequestMapping("/channel/{channelNo}/topic_class/{topicClassNo}/post/{postUUID}")
 	public ModelAndView getPost(
 			@PathVariable("channelNo") int channelNo,
 			@PathVariable("topicClassNo") int topicClassNo,
@@ -152,6 +169,8 @@ public class PostController {
 		
 		Map<String, Object> model = mav.getModel();
 		model.put("post", post);
+		model.put("channelName", mapChannel.get(post.getChannelNo()));
+		model.put("topicClassName", mapTopicClass.get(post.getTopicClassNo()));
 		
 		String viewName = "blog/post";
 		mav.setViewName(viewName);
@@ -169,8 +188,10 @@ public class PostController {
 		
 		Post newPost = new Post();
 		newPost = postForm;
-		long puuid = UUIDHelper.getUniqueLongIdUUID();
+		long puuid = GeneralIDHelper.generateLong();
 		newPost.setPostUUID(puuid);
+		String topicNo = postService.getTopicNo(newPost.getTopicName());
+		newPost.setTopicNo(topicNo);
 		newPost.setCreateDate(new Date());
 		newPost.setViewNum(0);
 		newPost.setPostStatus(PostState.CREATED);
@@ -189,7 +210,6 @@ public class PostController {
 		ModelAndView mav = new ModelAndView();
 		
 		Map<String, Object> model = mav.getModel();
-		//model.put("newPost", newPost);
 		model.put("listPost", listPost);
 		
 		String viewName = "redirect:/blog/list?lang=zh_CN";

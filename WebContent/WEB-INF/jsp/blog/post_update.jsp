@@ -155,6 +155,7 @@
 													<div class="form-row">
 														<input type="hidden" name="postUUID" value="${post.postUUID}"/>
 														<input type="hidden" name="postStatus" value="${post.postStatus}"/>
+														<input type="hidden" name="topicNo" value="${post.topicNo}"/>
 													</div>
 													
 													<div class="form-row">

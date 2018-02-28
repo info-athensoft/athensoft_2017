@@ -43,6 +43,7 @@ public class PostDaoJdbcImpl implements PostDao {
 		FIELDS.append("post_uuid, ");
 		FIELDS.append("channel_no, ");
 		FIELDS.append("topic_class_no, ");
+		FIELDS.append("topic_no, ");
 		FIELDS.append("topic_name, ");
 		FIELDS.append("lang_no, ");
 		FIELDS.append("post_title, ");
@@ -60,6 +61,7 @@ public class PostDaoJdbcImpl implements PostDao {
 		CREATE_PARAM.append(":post_uuid, ");
 		CREATE_PARAM.append(":channel_no, ");
 		CREATE_PARAM.append(":topic_class_no, ");
+		CREATE_PARAM.append(":topic_no, ");
 		CREATE_PARAM.append(":topic_name, ");
 		CREATE_PARAM.append(":lang_no, ");
 		CREATE_PARAM.append(":post_title, ");
@@ -135,6 +137,7 @@ public class PostDaoJdbcImpl implements PostDao {
 		paramSource.addValue("post_uuid", x.getPostUUID());
 		paramSource.addValue("channel_no", x.getChannelNo());
 		paramSource.addValue("topic_class_no", x.getTopicClassNo());
+		paramSource.addValue("topic_no", x.getTopicNo());
 		paramSource.addValue("topic_name", x.getTopicName());
 		paramSource.addValue("lang_no", x.getLangNo());
 		
@@ -160,6 +163,7 @@ public class PostDaoJdbcImpl implements PostDao {
 		sbf.append("UPDATE ").append(TABLE).append(" SET ");
 		sbf.append("channel_no=:channel_no, ");
 		sbf.append("topic_class_no=:topic_class_no, ");
+		sbf.append("topic_no=:topic_no, ");
 		sbf.append("topic_name=:topic_name, ");
 		sbf.append("post_title=:post_title, ");
 		sbf.append("post_author=:post_author, ");
@@ -176,6 +180,7 @@ public class PostDaoJdbcImpl implements PostDao {
 		paramSource.addValue("post_uuid", x.getPostUUID());
 		paramSource.addValue("channel_no", x.getChannelNo());
 		paramSource.addValue("topic_class_no", x.getTopicClassNo());
+		paramSource.addValue("topic_no", x.getTopicNo());
 		paramSource.addValue("topic_name", x.getTopicName());
 		
 		paramSource.addValue("post_title", x.getPostTitle());
@@ -205,6 +210,7 @@ public class PostDaoJdbcImpl implements PostDao {
 			x.setPostUUID(rs.getLong("post_uuid"));
 			x.setChannelNo(rs.getInt("channel_no"));
 			x.setTopicClassNo(rs.getInt("topic_class_no"));
+			x.setTopicNo(rs.getString("topic_no"));
 			x.setTopicName(rs.getString("topic_name"));
 			x.setLangNo(rs.getInt("lang_no"));
 			x.setPostTitle(rs.getString("post_title"));

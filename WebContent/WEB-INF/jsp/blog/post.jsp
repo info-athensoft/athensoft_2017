@@ -147,9 +147,9 @@
 								<div class="col">
 									<ul class="breadcrumb">
 										<li><a href="/blog/list?lang=zh_CN">All</a> &nbsp;&gt;&nbsp;</li>
-										<li><a href="/blog/channel/${post.channelNo}"><c:out value="${channelName}"/></a> &nbsp;&gt;&nbsp;</li>
-										<li><a href="/blog/channel/${post.channelNo}/topic/${post.topicClassNo}"><c:out value="${topicClassName}"/></a> &nbsp;&gt;&nbsp;</li>
-										<li><a href="/blog/channel/${post.channelNo}/topic_name/${post.topicName}"><c:out value="${post.topicName}"/></a> </li>
+										<li><a href="/blog/channel/${post.channelNo}?lang=${loc}"><c:out value="${channelName}"/></a> &nbsp;&gt;&nbsp;</li>
+										<li><a href="/blog/channel/${post.channelNo}/topic_class/${post.topicClassNo}?lang=${loc}"><c:out value="${topicClassName}"/></a> &nbsp;&gt;&nbsp;</li>
+										<li><a href="/blog/channel/${post.channelNo}/topic/${post.topicNo}?lang=${loc}"><c:out value="${post.topicName}"/></a> </li>
 									</ul>
 								</div>
 							</div>

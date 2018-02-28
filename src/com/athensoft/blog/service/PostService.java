@@ -9,7 +9,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.athensoft.blog.dao.PostContentDao;
 import com.athensoft.blog.dao.PostDao;
+import com.athensoft.blog.dao.PostTopicDao;
 import com.athensoft.blog.entity.Post;
+import com.athensoft.blog.entity.PostTopic;
+import com.athensoft.util.id.GeneralIDHelper;
 
 @Service
 public class PostService {
@@ -28,6 +31,14 @@ public class PostService {
 	public void setPostContentDao(PostContentDao postContentDao) {
 		this.postContentDao = postContentDao;
 	}
+	
+	@Autowired
+	@Qualifier("postTopicDaoJdbcImpl")
+	private PostTopicDao postTopicDao;
+
+	public void setPostTopicDao(PostTopicDao postTopicDao) {
+		this.postTopicDao = postTopicDao;
+	}
 
 	public List<Post> getAllPost(){
 		return postDao.findAll();
@@ -45,6 +56,11 @@ public class PostService {
 	
 	public List<Post> getPostByTopicName(String topicName){
 		String queryString = " AND topic_name = '"+topicName+"'";
+		return postDao.findByQuery(queryString);
+	}
+	
+	public List<Post> getPostByTopicNo(String topicNo){
+		String queryString = " AND topic_no = '"+topicNo+"'";
 		return postDao.findByQuery(queryString);
 	}
 	
@@ -77,6 +93,15 @@ public class PostService {
 		return postDao.findByQuery(queryString);
 	}
 	
-	
+	public String getTopicNo(String topicName){
+		List<PostTopic> pt = postTopicDao.findByName(topicName);
+		String topicNo = "";
+		if(pt.size()==0){
+			topicNo = GeneralIDHelper.generate();
+		}else{
+			topicNo = pt.get(0).getTopicNo();
+		}
+		return topicNo;
+	}
 	
 }

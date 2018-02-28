@@ -173,8 +173,8 @@
 							<c:forEach items="${listPost}" var="post">
 							<tr>
 								<td width="11%">${post.postUUID}</td>
-								<td><a href="/blog/channel/${post.channelNo}/topic_name/${post.topicName}">${post.topicName}</a></td>
-								<td><a href="/blog/channel/${post.channelNo}/topic/${post.topicClassNo}/post/${post.postUUID}">${post.postTitle}</a></td>
+								<td><a href="/blog/channel/${post.channelNo}/topic/${post.topicNo}">${post.topicName}</a></td>
+								<td><a href="/blog/channel/${post.channelNo}/topic_class/${post.topicClassNo}/post/${post.postUUID}">${post.postTitle}</a></td>
 								<td>${post.postTags}</td>
 								<td width="14%"><fmt:formatDate value="${post.createDate}" pattern="yyyy-MM-dd"/></td>
 								<td><a href="/blog/update.html?postUUID=${post.postUUID}">Edit</a></td>

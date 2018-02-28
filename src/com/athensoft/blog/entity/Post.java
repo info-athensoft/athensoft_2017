@@ -7,6 +7,7 @@ public class Post {
 	private Long 	postUUID;
 	private Integer channelNo;
 	private Integer topicClassNo;
+	private String 	topicNo;
 	private String	topicName;
 	private Integer langNo;
 	private String 	postTitle;
@@ -138,14 +139,20 @@ public class Post {
 	public void setOriginalLink(String originalLink) {
 		this.originalLink = originalLink;
 	}
+	public String getTopicNo() {
+		return topicNo;
+	}
+	public void setTopicNo(String topicNo) {
+		this.topicNo = topicNo;
+	}
 	@Override
 	public String toString() {
 		return "Post [globalId=" + globalId + ", postUUID=" + postUUID + ", channelNo=" + channelNo + ", topicClassNo="
-				+ topicClassNo + ", topicName=" + topicName + ", langNo=" + langNo + ", postTitle=" + postTitle
-				+ ", postDate=" + postDate + ", createDate=" + createDate + ", postAuthor=" + postAuthor + ", postTags="
-				+ postTags + ", postStatus=" + postStatus + ", postContentUrl=" + postContentUrl + ", viewNum="
-				+ viewNum + ", originalAuthor=" + originalAuthor + ", originalLink=" + originalLink + ", postContent="
-				+ postContent + "]";
+				+ topicClassNo + ", topicNo=" + topicNo + ", topicName=" + topicName + ", langNo=" + langNo
+				+ ", postTitle=" + postTitle + ", postDate=" + postDate + ", createDate=" + createDate + ", postAuthor="
+				+ postAuthor + ", postTags=" + postTags + ", postStatus=" + postStatus + ", content=" + content
+				+ ", postContentUrl=" + postContentUrl + ", viewNum=" + viewNum + ", originalAuthor=" + originalAuthor
+				+ ", originalLink=" + originalLink + ", postContent=" + postContent + "]";
 	}
 	
 }

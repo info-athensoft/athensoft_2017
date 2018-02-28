@@ -131,6 +131,7 @@
 									<li class="nav-item" data-option-value=".catalog"><a class="nav-link" href="#">Catalog</a></li>
 									<li class="nav-item" data-option-value=".brochure"><a class="nav-link" href="#">Brochure</a></li>
 									<li class="nav-item" data-option-value=".menu"><a class="nav-link" href="#">Menu</a></li>
+									<li class="nav-item" data-option-value=".logo"><a class="nav-link" href="#">Logo</a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -200,6 +201,7 @@
 											</a>
 										</div>
 									</div>
+									
 									<div class="col-lg-6 isotope-item brochure">
 										<div class="portfolio-item image-gallery-item">
 											<a href="${img_dir}/graphic/demo/RecipeBook-Pastry.jpg" class="lightbox-portfolio">
@@ -219,7 +221,6 @@
 										</div>
 									</div>
 									
-									  
 									<div class="col-lg-6 isotope-item menu">
 										<div class="portfolio-item image-gallery-item">
 											<a href="${img_dir}/graphic/demo/Menu-Restaurant.jpg" class="lightbox-portfolio">
@@ -238,6 +239,102 @@
 											</a>
 										</div>
 									</div>
+									
+									<div class="col-lg-6 isotope-item logo">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/logo-rivalgames.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/logo-rivalgames.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Rival Games</span>
+															<span class="thumb-info-type">Logo</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item brochure">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/brochure-f1.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/brochure-f1.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Auto</span>
+															<span class="thumb-info-type">Brochure</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item brochure">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/brochure-f2.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/brochure-f2.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Auto</span>
+															<span class="thumb-info-type">Brochure</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item catalog">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/catalog-zhenimport1.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/catalog-zhenimport1.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Zhenimport</span>
+															<span class="thumb-info-type">Catalog</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item catalog">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/catalog-zhenimport2.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/catalog-zhenimport2.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Zhenimport</span>
+															<span class="thumb-info-type">Catalog</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
 									<!--
 									<div class="col-lg-6 isotope-item brands">
 										<div class="portfolio-item image-gallery-item">
