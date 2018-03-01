@@ -26,4 +26,10 @@ public class EduController {
 		mav.setViewName(viewName);
 		return mav;
 	}
+	
+	
+	@RequestMapping("/robotics.html")
+	public String gotoRoboticsLego(){
+		return "edu/robotics_kid";
+	}
 }

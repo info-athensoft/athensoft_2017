@@ -150,6 +150,7 @@
 											<li><a class="dropdown-item" href="/edu/learningpath/webdeveloper/1?lang=${loc}"><spring:message code="edu-web_developer"/> </a></li>
 											<li><a class="dropdown-item" href="/edu/learningpath/javadeveloper/1?lang=${loc}"><spring:message code="edu-java_developer"/> </a></li>
 											<li><a class="dropdown-item" href="/edu/learningpath/datascientist/1?lang=${loc}"><spring:message code="edu-data_scientist"/> </a></li>
+											<li><a class="dropdown-item" href="/edu/robotics.html?lang=${loc}"><spring:message code="edu-robotics_kid"/> </a></li>
 										</ul>
 									</div>
 									<div class="col-lg-3">
