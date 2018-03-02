@@ -126,10 +126,14 @@
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
 									<li class="nav-item"><a class="nav-link" href="#"><spring:message code="robotics-title-2"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="#"><spring:message code="robotics-title-9"/></a></li>
 									<li class="nav-item"><a class="nav-link" href="#"><spring:message code="robotics-title-3"/></a></li>
 									<li class="nav-item"><a class="nav-link" href="#"><spring:message code="robotics-title-4"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="#"><spring:message code="robotics-title-5"/></a></li>
-									
+									<li class="nav-item"><a class="nav-link" href="/edu/robotics/tutorial/1.html?lang=${loc}"><spring:message code="robotics-title-5"/> - 1</a></li>
+									<li class="nav-item"><a class="nav-link" href="/edu/robotics/tutorial/2.html?lang=${loc}"><spring:message code="robotics-title-5"/> - 2</a></li>
+									<li class="nav-item"><a class="nav-link" href="#"><spring:message code="robotics-title-8"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="#"><spring:message code="robotics-title-6"/></a></li>
+									<li class="nav-item"><a class="nav-link" href="#"><spring:message code="robotics-title-7"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -157,7 +161,7 @@
 										<a href="#graphic-service-coupon"><spring:message code="graphic-service-coupon"/></a>,&nbsp;&nbsp;
 									</p>
 									 -->
-									<iframe width="854" height="480" src="https://www.youtube.com/embed/jh9u_B42ILo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+									
 								</div>
 							</div>
 
@@ -167,6 +171,40 @@
 							<hr class="invisible mt-6 mb-4" id=""/>
 							
 							<h3><spring:message code="robotics-title-2"/></h3>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<!-- <iframe src="https://youtu.be/HsLqiShzP0k" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/jh9u_B42ILo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											
+											<div>
+												<label><strong>Lego EV3 Introduction</strong></label>
+												<label>New Planet School, Published on Sep 29, 2013</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/uw99QcYdRXY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											<div>
+												<label><strong>Lego EV3 Brick</strong></label>
+												<label>New Planet School, Published on Oct 7, 2013</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+									
+								</div>
+							</div>
+							
+							
 							<!-- 1 -->
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -202,40 +240,6 @@
 							</div>
 							
 							<!-- 2 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-brochure"/>
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-6">
-										<article class="">
-											<div class="post-video">
-												<iframe width="854" height="480" src="https://www.youtube.com/embed/CeCM_Z46Ys4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-											</div>
-											
-											<div>
-												<label><strong>LEGO EV3 Programming Basics</strong></label>
-												<label>Mr. Hauser's Science and Technology Classes, Published on Sep 18, 2013</label>
-												<p></p>
-											</div> 
-										</article>
-									</div>
-									<div class="col-lg-6">
-										<article class="">
-											<div class="post-video">
-												<iframe width="854" height="480" src="https://www.youtube.com/embed/CeCM_Z46Ys4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-											</div>
-											
-											<div>
-												<label><strong>LEGO EV3 Programming Basics</strong></label>
-												<label>Mr. Hauser's Science and Technology Classes, Published on Sep 18, 2013</label>
-												<p></p>
-											</div> 
-										</article>
-									</div>
-								</div>
-							</div>
-							
-							
-							<!-- 3 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-brochure"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -303,12 +307,43 @@
 							</div>
 							
 							
-							<hr class="invisible mt-4 mb-2" id="graphic-service-brochure"/>
-							
+							<hr class="invisible mt-4 mb-2" id=""/>
 														
-							<!-- END service list -->
+							<!-- connections -->
+							<h3><spring:message code="robotics-title-9"/></h3>
+							<!-- 1 -->
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/nAUwe5fRsLw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											<div>
+												<label><strong>Tutorial on Connecting LEGO Mindstorms EV3 to WiFi</strong></label>
+												<label>Christoph Bartneck, Published on Jun 2, 2016</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+									
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/4RlJ2gwM610" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											<div>
+												<label><strong>EV3 Bluetooth Tutorial</strong></label>
+												<label>educationtutorials, Published on Feb 18, 2016</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+								</div>
+							</div>
 							
-							
+							<hr class="invisible mt-4 mb-2" id=""/>
+														
 							<!-- sensors -->
 							<h3><spring:message code="robotics-title-3"/></h3>
 							<!-- 1 -->
@@ -413,6 +448,7 @@
 								</div>
 							</div>
 							
+							<hr class="invisible mt-4 mb-2" id=""/>
 							
 							<!-- components -->
 							<h3><spring:message code="robotics-title-4"/></h3>
@@ -451,6 +487,107 @@
 							</div>
 							
 							
+							<hr class="short" id=""/>
+							
+							<!-- basic programming -->
+							<h3><spring:message code="robotics-title-8"/></h3>
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/CeCM_Z46Ys4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											
+											<div>
+												<label><strong>LEGO EV3 Programming Basics</strong></label>
+												<label>Mr. Hauser's Science and Technology Classes, Published on Sep 18, 2013</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/CeCM_Z46Ys4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											
+											<div>
+												<label><strong>LEGO EV3 Programming Basics</strong></label>
+												<label>Mr. Hauser's Science and Technology Classes, Published on Sep 18, 2013</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+								</div>
+							</div>
+							
+							
+							<hr class="short" id=""/>
+							
+							<!-- advanced programming -->
+							<h3><spring:message code="robotics-title-6"/></h3>
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/kyfbYv6eZQQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											<div>
+												<label><strong>Programming Lego Mindstorms robots with Python</strong></label>
+												<label>PyCon Australia, Published on Aug 6, 2017</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+									
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/c1OvHQfrgls" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											<div>
+												<label><strong>Ev3 with python | Part 1</strong></label>
+												<label>Firestone Productions, Published on Aug 21, 2017</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/hYd_62rD6VE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											<div>
+												<label><strong>LeJOS Java Programming - LEGO Mindstorm EV3 (Part One)</strong></label>
+												<label>Justin Fischer, Published on May 26, 2015</label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+									
+									<div class="col-lg-6">
+										<article class="">
+											<div class="post-video">
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/ycOA4wnvAyM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											</div>
+											<div>
+												<label><strong>leJOS Tutorial 1 - Installing leJOS framework and Eclipse</strong></label>
+												<label></label>
+												<p></p>
+											</div> 
+										</article>
+									</div>
+								</div>
+							</div>
+							
+							
 							<!-- tutorials -->
 							<h3><spring:message code="robotics-title-5"/></h3>
 							
@@ -468,7 +605,9 @@
 										<div>
 											<label><strong>Lego Mindstorms EV3 Robotics Lesson 1 - Sorting out the kit</strong></label>
 											<label>Magic Monk, Published on Dec 13, 2014</label>
-											<p></p>
+											<div>
+												<a href="/edu/robotics/tutorial/1.html?lang=${loc}" target="_blank" class="btn btn-primary">View All</a>
+											</div>
 										</div> 
 									</article>
 								</div>
@@ -478,7 +617,7 @@
 								<div class="col-lg-5">
 									<article class="">
 										<div class="post-video">
-											<iframe width="1289" height="735" src="https://www.youtube.com/embed/rWSeTtSOy68?list=PLzr5fRV1AGV8UIx66V7IYhbQPNkYrJnj7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+											<iframe width="854" height="480" src="https://www.youtube.com/embed/IuHaIE-auLQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 										</div>
 									</article>
 								</div>
@@ -486,173 +625,17 @@
 								<div class="col-lg-7">
 									<article class="">
 										<div>
-											<label><strong>Lego Mindstorms EV3 Robotics Lesson 2 - Explanation of input and output</strong></label>
-											<label>Magic Monk, Published on Dec 14, 2014</label>
-											<p></p>
+											<label><strong>Mindstorms EV3 Tutorial #1: Getting your robot to move</strong></label>
+											<label></label>
+											<div>
+												<a href="/edu/robotics/tutorial/2.html?lang=${loc}" target="_blank" class="btn btn-primary">View All</a>
+											</div>
 										</div> 
 									</article>
 								</div>
 							</div>
 							
-							<div class="row">
-								<div class="col-lg-5">
-									<article class="">
-										<div class="post-video">
-											<iframe width="854" height="480" src="https://www.youtube.com/embed/6e2Z87KAzMw?list=PLzr5fRV1AGV8UIx66V7IYhbQPNkYrJnj7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-lg-7">
-									<article class="">
-										<div>
-											<label><strong>Lego Mindstorms EV3 Robotics Lesson 3 - On-brick programming - Move block / Wait for x seconds block</strong></label>
-											<label>Magic Monk, Published on Dec 14, 2014</label>
-											<p></p>
-										</div> 
-									</article>
-								</div>
-							</div>
 							
-							<div class="row">
-								<div class="col-lg-5">
-									<article class="">
-										<div class="post-video">
-											<iframe width="854" height="480" src="https://www.youtube.com/embed/60U4DfwhELs?list=PLzr5fRV1AGV8UIx66V7IYhbQPNkYrJnj7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-lg-7">
-									<article class="">
-										<div>
-											<label><strong>Lego Mindstorms EV3 Robotics Lesson 4 - Build a robot in 5 minutes</strong></label>
-											<label>Magic Monk, Published on Dec 15, 2014</label>
-											<p></p>
-										</div> 
-									</article>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-lg-5">
-									<article class="">
-										<div class="post-video">
-											<iframe width="854" height="480" src="https://www.youtube.com/embed/PpQhir1d4zY?list=PLzr5fRV1AGV8UIx66V7IYhbQPNkYrJnj7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-lg-7">
-									<article class="">
-										<div>
-											<label><strong>Lego Mindstorms EV3 Robotics Lesson 5 - Transfer a simple program from PC to robot</strong></label>
-											<label>Magic Monk, Published on Dec 15, 2014</label>
-											<p></p>
-										</div> 
-									</article>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-lg-5">
-									<article class="">
-										<div class="post-video">
-											<iframe width="854" height="480" src="https://www.youtube.com/embed/aNro_0R4854?list=PLzr5fRV1AGV8UIx66V7IYhbQPNkYrJnj7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-lg-7">
-									<article class="">
-										<div>
-											<label><strong>Lego Mindstorms EV3 Robotics Lesson 6 - Loops</strong></label>
-											<label>Magic Monk, Published on Dec 16, 2014</label>
-											<p></p>
-										</div> 
-									</article>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-lg-5">
-									<article class="">
-										<div class="post-video">
-											<iframe width="854" height="480" src="https://www.youtube.com/embed/OYGykxZUsu4?list=PLzr5fRV1AGV8UIx66V7IYhbQPNkYrJnj7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-lg-7">
-									<article class="">
-										<div>
-											<label><strong>Lego Mindstorms EV3 Robotics Lesson 7 - Wait Until block and Ultrasonic sensor</strong></label>
-											<label>Magic Monk, Published on Dec 16, 2014</label>
-											<p></p>
-										</div> 
-									</article>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-lg-5">
-									<article class="">
-										<div class="post-video">
-											
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-lg-7">
-									<article class="">
-										<div>
-											<label><strong></strong></label>
-											<label>Magic Monk, Published on Dec 14, 2014</label>
-											<p></p>
-										</div> 
-									</article>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-lg-5">
-									<article class="">
-										<div class="post-video">
-											<iframe width="854" height="480" src="https://www.youtube.com/embed/33LIXpEI5E0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-lg-7">
-									<article class="">
-										<div>
-											<label><strong>Lego Mindstorms EV3 Robotics Lesson 11 - Line following robot</strong></label>
-											<label>Magic Monk, Published on Feb 27, 2015</label>
-											<p></p>
-										</div> 
-									</article>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-lg-5">
-									<article class="">
-										<div class="post-video">
-											<iframe width="854" height="480" src="https://www.youtube.com/embed/jCZPEDZjYA8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-										</div>
-									</article>
-								</div>
-								
-								<div class="col-lg-7">
-									<article class="">
-										<div>
-											<label><strong>Lego Mindstorms EV3 Robotics Lesson 12 - Switch inside switch</strong></label>
-											<label>Magic Monk, Published on Feb 27, 2015</label>
-											<p></p>
-										</div> 
-									</article>
-								</div>
-							</div>
 							
 							
 							<hr class="invisible mt-2 mb-4">
