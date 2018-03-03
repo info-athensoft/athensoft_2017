@@ -215,9 +215,9 @@
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Workload : </strong></label>
-									<label class="col-lg-3">20 hours per week</label>
+									<label class="col-lg-3">22 hours per week</label>
 									<label class="col-lg-3"><strong>Accumulated Hours : </strong></label>
-									<label class="col-lg-3"><strong>32</strong> hours</label>
+									<label class="col-lg-3"><strong>10</strong> hours</label>
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Work Type : </strong></label>
@@ -246,7 +246,7 @@
 												<td>12:00 - 15:00</td>
 												<td>14:00 - 16:00<br/>20:00 - 21:00</td>
 												<td>10:00 - 12:00<br/>14:00 - 18:00</td>
-												<td>13:00 - 17:00 (old)<br/>15:00 - 17:00 (new)</td>
+												<td>13:00 - 17:00</td>
 												<td>Closed</td>
 											</tr>
 											<tr>
@@ -255,7 +255,7 @@
 												<td>3 hours</td>
 												<td>3 hours</td>
 												<td>6 hours</td>
-												<td>2 hours</td>
+												<td>4 hours</td>
 												<td>--</td>
 											</tr>
 										</tbody>
@@ -277,12 +277,11 @@
 												<td>9</td>
 												<td>
 													<ul>
-														<li>1001 i18n implementation using spring mvc</li>
-														<li>1002 Warm-up practice 2</li>
-														<li>1003 Warm-up practice 1</li>
+														<li>901 Warm-up practice 1</li>
+														<li>902 Warm-up practice 2</li>
 													</ul>
 												</td>
-												<td>20 hours</td>
+												<td>22 hours</td>
 												<td>ON</td>
 											</tr>
 										</tbody>
@@ -291,58 +290,33 @@
 									<hr class="invisible mt-2 mb-2"/>
 									<h5>Description</h5>
 									
-										<strong>1001		i18n implementation using spring mvc</strong><br/>
+										<strong>901	Warm-up practice 1</strong><br/>
 										<ul>
-											<li>1001-1		Research on i18n/multi-language problem</li>
-											<li>1001-2		Compose a system requirement document</li>
-											<li>1001-3		Write Design decision for each case listed in the 'Requirement' document</li>
-											<li>1001-4		Implement in a Dynamic Web Project using Spring MVC technology</li>
-											<li>1001-5		Write test cases for testing and demonstration</li>
+											<li>901-1 Continue to write essay on ADT</li>
 										</ul>
 										<p><strong>Notes:</strong> <br/>
-										- Document template should be used.<br/>
-										- Requirement document and Design Decision must be in separated ones.<br/>
-										- There are 3 preset git repositories for the task in case that there are multiple scenarios for i18n implementation.<br/>
-										- If it's not enough, just contact admin to create more; in opposite, let the ones blank if there are not as many cases as expected.<br/>
-										- Using Maven<br/>
+										- As for the essay you may copy, excerpt, combine, rewrite or composite based-on materials on the Internet or from books.<br/>
+										- Comparison, where-to-use and why-to-use concerns must be elaborated in your essay.<br/>
+										</p>
+										
+										<strong>902	Warm-up practice 2</strong><br/>
+										<ul>
+											<li>902-1 Review Java Generic programming</li>
+										</ul>
+										
+										<p><strong>Notes:</strong> <br/>
+										- Perform a research and write an essay in summary-style on the subject of Java Generic Programming<br/>
+										- Internship personnel decide the outline of this topic, and so as to design how many code and how many knowledge points are covered.<br/>
+										- Similar to TASK 901, test case and code should be developed.<br/>
 										</p>
 										
 										<p><strong>Project info:</strong><br/>
-										Repository URL: <code>https://github.com/edu-athensoft/spring_i18n_1.git</code><br/>
-										Repository URL: <code>https://github.com/edu-athensoft/spring_i18n_2.git</code><br/>
-										Repository URL: <code>https://github.com/edu-athensoft/spring_i18n_3.git</code><br/>
+										Repository URL: <code>https://github.com/edu-athensoft/javase2018.git</code><br/>
 										Branches: <code>master, dev-ly</code><br/>
-										Project Name: <code>spring_i18n_1</code><br/>
-										Project Name: <code>spring_i18n_2</code><br/>
-										Project Name: <code>spring_i18n_3</code><br/>
-										Parent package: <code>com.athensoft.i18n</code><br/>
+										Java Project Name: <code>javase2018</code><br/>
+										Parent package: <code>com.athensoft.util.adt</code><br/>
+										Parent package: <code>com.athensoft.util.generic</code><br/>
 										</p>
-										
-										<hr class="short"/>
-										
-										<strong>1002		Warm-up practice 2</strong><br/>
-										<ul>
-											<li>1002-1		Polish essay 2 based on comment log week 9</li>
-										</ul>
-										
-										<p><strong>Notes:</strong> <br/>
-										- Read carefully the Comment Log Week #9 and polish the essay on 'Generic Programming in Java'<br/>
-										- Considering meeting on March 3, 2018 13:00 - 14:00 via phone<br/>
-										</p>
-										
-										<hr class="short"/>
-										
-										<strong>1003		Warm-up practice 1</strong><br/>
-										<ul>
-											<li>1003-1		Polish essay 1 based on comment log week 8</li>
-										</ul>
-										
-										<p><strong>Notes:</strong> <br/>
-										- Read carefully the Comment Log Week #8 and polish the essay on 'ADTs in Java'<br/>
-										- Considering meeting on March 3, 2018 13:00 - 14:00 via phone<br/>
-										</p>
-										
-										
 								</div>
 								
 								<hr class="short"/>
@@ -358,49 +332,15 @@
 								</div>
 								
 								<h4>History</h4>
-															
+								
 								<div>
 									<table class="table table-striped table-bordered">
 										<thead>
 											<tr class="dark">
-												<th width="5%">SN</th>
-												<th width="5%">WEEK NO.</th>
-												<th width="58%">LIST OF TASK</th>
-												<th width="8%">ESTIMATED DURATION</th>
-												<th width="8%">REAL DURATION</th>
-												<th width="8%">TASK STATUS</th>
-												<th width="8%">GRADE</th>
+												<th>SN</th><th>WEEK NO.</th><th>LIST OF TASK</th><th>ESTIMATED DURATION</th><th>REAL DURATION</th><th>TASK STATUS</th><th>ASSESSMENT</th>
 											</tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td>3</td>
-												<td>9</td>
-												<td><ul>
-														<li>Meeting</li>
-													</ul>
-												</td>
-												<td>1</td>
-												<td>1</td>
-												<td>DONE</td>
-												<td><strong>--</strong></td>
-											</tr>
-										
-											<tr>
-												<td>2</td>
-												<td>9</td>
-												<td><ul>
-														<li>901-Warm-up practice1</li>
-														<li>902-Warm-up practice2<br/>(Generic)</li>
-													</ul>
-												</td>
-												<td>22</td>
-												<td>21</td>
-												<td>ON SCHEDULE</td>
-												<td><strong>80%</strong></td>
-											</tr>
-										
-										
 											<tr>
 												<td>1</td>
 												<td>8</td>
@@ -410,7 +350,7 @@
 													</ul>
 												</td>
 												<td>10</td>
-												<td>10</td>
+												<td>n/a</td>
 												<td>DELAYED</td>
 												<td><strong>71.4%</strong></td>
 											</tr>
