@@ -131,7 +131,7 @@
 					<div class="row">
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
-								<!-- 
+								 
 								<form action="/blog/search" method="get">
 									<div class="input-group input-group-4">
 										<input class="form-control" placeholder="Search..." name="queryString" id="s" type="text">
@@ -143,7 +143,7 @@
 								
 								 
 								<hr class="invisible mt-3 mb-2"/>
-								 -->
+								
 								<div class="row">
 									<div class="col-lg-12">
 										<a href="/blog/create.html?lang=zh_CN" class="btn btn-primary mb-2">+ &nbsp;&nbsp;&nbsp; Add a post &nbsp;&nbsp;&nbsp;</a>
@@ -189,7 +189,8 @@
 							<tr>
 								<td width="10%">${post.postUUID}</td>
 								<td width="15%"><a href="/blog/channel/${post.channelNo}/topic/${post.topicNo}">${post.topicName}</a></td>
-								<td width="20%"><a href="/blog/channel/${post.channelNo}/topic_class/${post.topicClassNo}/post/${post.postUUID}">${post.postTitle}</a></td>
+								<!-- <td width="20%"><a href="/blog/channel/${post.channelNo}/topic_class/${post.topicClassNo}/post/${post.postUUID}">${post.postTitle}</a></td> -->
+								<td width="20%"><a href="/blog/post/${post.postUUID}">${post.postTitle}</a></td>
 								<td width="15%">${post.postTags}</td>
 								<td width="10%"><fmt:formatDate value="${post.createDate}" pattern="yyyy-MM-dd"/></td>
 								<td width="6%"><a href="/blog/update.html?postUUID=${post.postUUID}">Edit</a></td>

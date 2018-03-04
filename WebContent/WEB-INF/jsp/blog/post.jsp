@@ -126,17 +126,10 @@
 								<h4 class="heading-primary">目录</h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
-									<li class="nav-item"><strong>Java 8  新特性简明教程</strong></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/1?lang=${loc}">Java 8  新特性概述</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/2?lang=${loc}">Lambda 表达式</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/3?lang=${loc}">方法引用</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/4?lang=${loc}">函数接口</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/5?lang=${loc}">Default 方法</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/6?lang=${loc}">Stream 流</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/7?lang=${loc}">Optional 类</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/8?lang=${loc}">Nashorn JavaScript</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/9?lang=${loc}">新 日期/时间 API</a></li>
-									<li class="nav-item"><a href="/knowledge/dev/java8/10?lang=${loc}">Base64</a></li>
+									<li class="nav-item"><strong>${post.topicName}</strong></li>
+									<c:forEach items="${sameTopicPostList}" var="post">
+										<li class="nav-item"><a href="/blog/post/${post.postUUID}?lang=${loc}">${post.postTitle}</a></li>
+									</c:forEach>
 								</ul>
 							</aside>
 						</div>

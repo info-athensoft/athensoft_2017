@@ -165,12 +165,17 @@ public class PostController {
 		
 		Post post = postService.getPostById(postUUID);
 		
+		//for articles in the same topic
+		List<Post> sameTopicPostList = postService.getPostByTopicNo(post.getTopicNo());
+		
 		ModelAndView mav = new ModelAndView();
 		
 		Map<String, Object> model = mav.getModel();
 		model.put("post", post);
 		model.put("channelName", mapChannel.get(post.getChannelNo()));
 		model.put("topicClassName", mapTopicClass.get(post.getTopicClassNo()));
+		
+		model.put("sameTopicPostList", sameTopicPostList);
 		
 		String viewName = "blog/post";
 		mav.setViewName(viewName);
