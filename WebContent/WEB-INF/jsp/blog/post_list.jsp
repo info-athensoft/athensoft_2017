@@ -82,13 +82,23 @@
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="${webapp_name}/css/skins/default.css"> 
-
+		
+		<!-- Add-on Data-Tables plug-ins -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css"/>
+		
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="${webapp_name}/css/custom.css">
+		
 
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
-
+		
+		<!-- Page Level CSS -->
+		<style>
+			table tr td{
+				font-size: 0.9em;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="body">
@@ -121,6 +131,7 @@
 					<div class="row">
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
+								<!-- 
 								<form action="/blog/search" method="get">
 									<div class="input-group input-group-4">
 										<input class="form-control" placeholder="Search..." name="queryString" id="s" type="text">
@@ -130,9 +141,17 @@
 									</div>
 								</form>
 								
+								 
+								<hr class="invisible mt-3 mb-2"/>
+								 -->
+								<div class="row">
+									<div class="col-lg-12">
+										<a href="/blog/create.html?lang=zh_CN" class="btn btn-primary mb-2">+ &nbsp;&nbsp;&nbsp; Add a post &nbsp;&nbsp;&nbsp;</a>
+									</div>
+								</div>
+								
 								<hr class="invisible mt-3 mb-2"/>
 								<!-- <h4 class="heading-primary">博客分类</h4>  -->
-
 								<ul class="nav nav-list flex-column mb-4 sort-source">
 									<li class="nav-item"><strong>教育培训频道</strong></li>
 									<li class="nav-item"><a href="#">Java Developer</a></li>
@@ -156,13 +175,9 @@
 						</div>
 						
 						<div class="col-lg-9 order-1 order-lg-2">
-							<div class="row">
-								<div class="col-lg-12">
-									<a href="/blog/create.html?lang=zh_CN" class="btn btn-primary float-right mb-2">+ Add a post </a>
-								</div>
-							</div>
 							
-							<table class="table table-striped table-bordered">
+							
+							<table id="example" class="table table-striped table-bordered">
 							<thead>
 								<tr class="info">
 									<!-- <th>Topic No.</th>  -->
@@ -172,12 +187,12 @@
 							<tbody>
 							<c:forEach items="${listPost}" var="post">
 							<tr>
-								<td width="11%">${post.postUUID}</td>
-								<td><a href="/blog/channel/${post.channelNo}/topic/${post.topicNo}">${post.topicName}</a></td>
-								<td><a href="/blog/channel/${post.channelNo}/topic_class/${post.topicClassNo}/post/${post.postUUID}">${post.postTitle}</a></td>
-								<td>${post.postTags}</td>
-								<td width="14%"><fmt:formatDate value="${post.createDate}" pattern="yyyy-MM-dd"/></td>
-								<td><a href="/blog/update.html?postUUID=${post.postUUID}">Edit</a></td>
+								<td width="10%">${post.postUUID}</td>
+								<td width="15%"><a href="/blog/channel/${post.channelNo}/topic/${post.topicNo}">${post.topicName}</a></td>
+								<td width="20%"><a href="/blog/channel/${post.channelNo}/topic_class/${post.topicClassNo}/post/${post.postUUID}">${post.postTitle}</a></td>
+								<td width="15%">${post.postTags}</td>
+								<td width="10%"><fmt:formatDate value="${post.createDate}" pattern="yyyy-MM-dd"/></td>
+								<td width="6%"><a href="/blog/update.html?postUUID=${post.postUUID}">Edit</a></td>
 							</tr>
 							</c:forEach>
 							</tbody>
@@ -233,6 +248,11 @@
 		
 		<!-- Theme Initialization Files -->
 		<script src="${webapp_name}/js/theme.init.js"></script>
+		
+		<!-- Add-on Data-Tables plug-ins -->
+		<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+		
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
@@ -245,6 +265,16 @@
 			ga('send', 'pageview');
 		</script>
 		 -->
+		 
+		 <script>
+		 $(document).ready(function() {
+			    $('#example').DataTable( {
+			        "lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]]
+			    } );
+			    
+			    $('#example').removeStyle('display').addClass("table table-striped table-bordered");
+			} );
+		 </script>
 
 	</body>
 </html>

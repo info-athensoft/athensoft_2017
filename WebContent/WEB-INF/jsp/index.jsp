@@ -371,10 +371,19 @@
 								<a href="https://www.fengyun365.com/"><img class="img-fluid" src="${img_dir}/partner/fengyun365-big.jpg" alt="partner"></a>
 							</div>
 							<div>
-								<img class="img-fluid" src="${img_dir}/partner/muyuyan-big.jpg" alt="partner">
+								<a href="https://www.zhenimport.com/"><img class="img-fluid" src="${img_dir}/partner/zhenimport-big.jpg" alt="partner"></a>
+							</div>
+							<div>
+								<img class="img-fluid" src="${img_dir}/partner/jdesignstudio-big.jpg" alt="partner">
 							</div>
 							<div>
 								<img class="img-fluid" src="${img_dir}/partner/silvertac-big.jpg" alt="partner">
+							</div>
+							<div>
+								<img class="img-fluid" src="${img_dir}/partner/petmuyuyan-big.jpg" alt="partner">
+							</div>
+							<div>
+								<img class="img-fluid" src="${img_dir}/partner/muyuyan-big.jpg" alt="partner">
 							</div>
 							<div>
 								<img class="img-fluid" src="${img_dir}/partner/tongda-big.jpg" alt="partner">
@@ -384,9 +393,6 @@
 							</div>
 							<div>
 								<img class="img-fluid" src="${img_dir}/partner/xinyueanni-big.jpg" alt="partner">
-							</div>
-							<div>
-								<a href="https://www.zhenimport.com/"><img class="img-fluid" src="${img_dir}/partner/zhenimport-big.jpg" alt="partner"></a>
 							</div>
 						</div>
 					</div>

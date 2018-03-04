@@ -175,7 +175,7 @@
 								        	<a href="#"><c:out value="${tag}"/></a>&nbsp;&nbsp;
 								      	</c:forTokens>
 									</span>
-									<span><i class="fa fa-comments"></i> <a href="#">${post.viewNum} Views</a></span>
+									<!-- <span><i class="fa fa-comments"></i> <a href="#">${post.viewNum} Views</a></span>  -->
 									<span class="d-block d-sm-inline-block float-sm-right mt-3 mt-sm-0"><fmt:formatDate value="${post.createDate}" pattern="yyyy-MM-dd"/></span>
 								</div>
 								<hr class="short"/>

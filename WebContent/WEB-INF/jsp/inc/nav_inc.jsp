@@ -100,7 +100,7 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title"><spring:message code="knw-software_dev"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="/knowledge/dev/java8/1?lang=${loc}">Java 8 &nbsp;<span class="tip">new</span></a></li>
+											<li><a class="dropdown-item" href="/blog/post/371434458460318498?lang=${loc}">Java 8 &nbsp;<span class="tip">new</span></a></li>
 											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Spring</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Design Pattern</a></li>
@@ -112,7 +112,7 @@
 										</ul>
 										<span class="dropdown-mega-sub-title"><spring:message code="knw-ai_bigdata"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="/knowledge/bigdata/intro_bigdata/1?lang=${loc}">Introduction of Big Data</a></li>
+											<li><a class="dropdown-item" href="/blog/post/371434460086498878?lang=${loc}">Introduction of Big Data</a></li>
 											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Big Data</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Artificial Intelligence</a></li>
@@ -128,7 +128,7 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title"><spring:message code="knw-int_marketing"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#">Coming soon</a></li>
+											<li><a class="dropdown-item" href="/blog/post/1259433881863865818?lang=${loc}">SEO Tips</a></li>
 											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Social Media</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Google Analytics</a></li>
@@ -137,7 +137,7 @@
 										</ul>
 										<span class="dropdown-mega-sub-title"><spring:message code="knw-design_media"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#">Coming soon</a></li>
+											<li><a class="dropdown-item" href="/blog/post/1261644284795524215?lang=${loc}">Thinking in design</a></li>
 											<!-- 
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Graphic Design</a></li>
 											<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}">Printing</a></li>
@@ -147,9 +147,9 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title"><spring:message code="menu-edu"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="/edu/learningpath/webdeveloper/1?lang=${loc}"><spring:message code="edu-web_developer"/> </a></li>
-											<li><a class="dropdown-item" href="/edu/learningpath/javadeveloper/1?lang=${loc}"><spring:message code="edu-java_developer"/> </a></li>
-											<li><a class="dropdown-item" href="/edu/learningpath/datascientist/1?lang=${loc}"><spring:message code="edu-data_scientist"/> </a></li>
+											<li><a class="dropdown-item" href="/blog/post/371434460137590675?lang=${loc}"><spring:message code="edu-web_developer"/> </a></li>
+											<li><a class="dropdown-item" href="/blog/post/371434460188331722?lang=${loc}"><spring:message code="edu-java_developer"/> </a></li>
+											<li><a class="dropdown-item" href="/blog/post/371434460230674170?lang=${loc}"><spring:message code="edu-data_scientist"/> </a></li>
 											<li><a class="dropdown-item" href="/edu/robotics.html?lang=${loc}"><spring:message code="edu-robotics_kid"/> </a></li>
 										</ul>
 									</div>

@@ -11,6 +11,7 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="../images"></c:set>
+<c:set var="pageName" value="graphicdemo"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -124,49 +125,51 @@
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
 
-								<h4 class="heading-primary"><strong>Filter</strong> By</h4>
+								<h4 class="heading-primary"><spring:message code="graphic-demo-sidebar-title-nav"/></h4>
 
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value="*"><a class="nav-link active" href="#">Show All</a></li>
-									<li class="nav-item" data-option-value=".catalog"><a class="nav-link" href="#">Catalog</a></li>
-									<li class="nav-item" data-option-value=".brochure"><a class="nav-link" href="#">Brochure</a></li>
-									<li class="nav-item" data-option-value=".menu"><a class="nav-link" href="#">Menu</a></li>
-									<li class="nav-item" data-option-value=".logo"><a class="nav-link" href="#">Logo</a></li>
+									<li class="nav-item" data-option-value="*"><a class="nav-link active" href="#"><spring:message code="graphic-demo-sidebar-link-all"/></a></li>
+									<li class="nav-item" data-option-value=".catalog"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-catalog"/></a></li>
+									<li class="nav-item" data-option-value=".brochure"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-brochure"/></a></li>
+									<li class="nav-item" data-option-value=".menu"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-menu"/></a></li>
+									<li class="nav-item" data-option-value=".logo"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-logo"/></a></li>
+									<li class="nav-item" data-option-value=".package"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-package"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
 
-								<h4 class="heading-primary">Contact <strong>Us</strong></h4>
-								<p>Contact us or give us a call to discover how we can help.</p>
+								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
+								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
+									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
 
-								<form id="contactForm" action="php/contact-form.php" method="POST">
+								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your name *</label>
+											<label><spring:message code="contactus-form-clientname"/> *</label>
 											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your email address *</label>
+											<label><spring:message code="contactus-form-clientemail"/> *</label>
 											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Subject</label>
+											<label><spring:message code="contactus-form-subject"/></label>
 											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Message *</label>
+											<label><spring:message code="contactus-form-message"/> *</label>
 											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<input type="submit" value="Send Message" class="btn btn-primary mb-4" data-loading-text="Loading...">
+											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
 
 											<div class="alert alert-success d-none" id="contactSuccess">
 												Message has been sent to us.
@@ -175,6 +178,12 @@
 											<div class="alert alert-danger d-none" id="contactError">
 												Error sending your message.
 											</div>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<input type="hidden" value="${loc}" name="lang"/>
+											<input type="hidden" value="${pageName}" name="pageName"/>
 										</div>
 									</div>
 								</form>
@@ -334,6 +343,84 @@
 											</a>
 										</div>
 									</div>
+									
+									<div class="col-lg-6 isotope-item package">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/noodle-allflavor.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/noodle-allflavor.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Instant Noodle</span>
+															<span class="thumb-info-type">Package</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item package">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/noodle-chicken.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/noodle-chicken.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Instant Noodle</span>
+															<span class="thumb-info-type">Package</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item package">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/noodle-seafood.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/noodle-seafood.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Instant Noodle</span>
+															<span class="thumb-info-type">Package</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item package">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/noodle-veggie.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/noodle-veggie.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Instant Noodle</span>
+															<span class="thumb-info-type">Package</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									
 									
 									<!--
 									<div class="col-lg-6 isotope-item brands">

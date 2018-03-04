@@ -104,7 +104,7 @@
 							<div class="col">
 								<ul class="breadcrumb">
 									<li><a href="${webapp_name}/index.html?lang=${loc}"><spring:message code="menu-home"/></a></li>
-									<li class="active"><a href="${webapp_name}/graphic/graphic.html?lang=${loc}"><spring:message code="menu-graphic"/></a></li>
+									<li class="active"><a href="#"><spring:message code="menu-edu"/></a></li>
 								</ul>
 							</div>
 						</div>
