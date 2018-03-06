@@ -192,6 +192,65 @@
 						<div class="col-lg-9 order-1 order-lg-2">
 							<div class="sort-destination-loader sort-destination-loader-showing">
 								<div class="row portfolio-list sort-destination image-gallery lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
+									
+									<div class="col-lg-6 isotope-item brochure">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/TypeSpecimen-Optima1.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/TypeSpecimen-Optima1.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Optima</span>
+															<span class="thumb-info-type">Type Specimen</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item brochure">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/TypeSpecimen-Optima2.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/TypeSpecimen-Optima2.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Optima</span>
+															<span class="thumb-info-type">Type Specimen</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item brochure">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/TypeSpecimen-Optima3.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/TypeSpecimen-Optima3.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Optima</span>
+															<span class="thumb-info-type">Type Specimen</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									
 									<div class="col-lg-6 isotope-item catalog">
 										<div class="portfolio-item image-gallery-item">
 											<a href="${img_dir}/graphic/demo/Catalog-Furniture.jpg" class="lightbox-portfolio">
@@ -419,7 +478,6 @@
 											</a>
 										</div>
 									</div>
-									
 									
 									
 									<!--
