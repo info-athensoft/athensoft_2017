@@ -232,6 +232,7 @@
 							<hr class="invisible mt-3 mb-2"/>
 							
 							<!-- pricing table -->
+							<!-- 
 							<hr class="long"/>
 							<div class="post-content">
 								<h3><spring:message code="grahpic-service-catalog-price_table-title"/></h3>
@@ -251,7 +252,7 @@
 										<tr><td>7</td><td>28 pages</td><td>$780</td><td>$640</td></tr>
 									</tbody>
 								</table>
-							</div>
+							</div>  -->
 							<!-- END pricing table -->
 							
 							<hr class="invisible mt-3 mb-4"/>
@@ -335,6 +336,7 @@
 							
 							
 							<!-- latest work -->
+							<!--  
 							<h3><spring:message code="graphic-title-3-1"/></h3>
 							<div class="row">
 								<div class="col-lg-4">
@@ -377,6 +379,7 @@
 									</a>
 								</div>
 							</div>
+							-->
 							
 						</div>
 					</div>

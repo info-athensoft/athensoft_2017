@@ -251,24 +251,145 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
+											
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_1"/></label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
+												<label class="col-lg-2 control-label text-lg-right pt-2">制作类型</label>
+												<div class="form-group col-lg-3">
+													<select class="form-control form-control-sm">
+														<option value="0" selected>不限</option>
+														<option value="1">Express Design</option>
+														<option value="2">Intensive Design</option>
+														<option value="3">Recovery work</option>
+													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_3"/></label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
+												<label class="col-lg-2 control-label text-lg-right pt-2">用途</label>
+												<div class="form-group col-lg-3">
+													<select class="form-control form-control-sm">
+														<option value="0" selected>不限</option>
+														<option value="1">Web</option>
+														<option value="2">Print</option>
+														<option value="3">All purpose</option>
+													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2">Comment</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">Logo 造型</label>
+												<div class="col-lg-9">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg1" id="biz-goal-0">
+															纯文字
+														</label>
+													</div>
+						
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg2" id="biz-goal-1">
+															图标
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg3" id="biz-goal-2">
+															文字和图标
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg4" id="biz-goal-3">
+															首字母缩写
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg5" id="biz-goal-4">
+															徽章
+														</label>
+													</div>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">Logo 风格偏好</label>
+												<div class="form-group col-lg-10">
+													<select>
+														<option value="0" selected>不限</option>
+														<option value="1">现代</option>
+														<option value="2">复古</option>
+													</select>
+													<select>
+														<option value="0" selected>不限</option>
+														<option value="1">抽象</option>
+														<option value="2">具体</option>
+													</select>
+													<select>
+														<option value="0" selected>不限</option>
+														<option value="1">简约</option>
+														<option value="2">精细</option>
+													</select>
+													<select>
+														<option value="0" selected>不限</option>
+														<option value="1">粗犷</option>
+														<option value="2">优雅</option>
+													</select>
+													<select>
+														<option value="0" selected>不限</option>
+														<option value="1">扁平</option>
+														<option value="2">立体</option>
+													</select>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">Logo 配色</label>
+												<div class="form-group col-lg-3">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg4" id="biz-goal-3">
+															无偏好颜色
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="bg5" id="biz-goal-4">
+															有偏好颜色
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<input type="text" class="form-control form-control-sm mt-2" id="" placeholder="请输入颜色值 或 名称">
+													</div>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">制作周期</label>
+												<div class="form-group col-lg-3">
+													<div class="checkbox">
+														<input type="text" class="form-control form-control-sm mt-2" id="" placeholder="请输入期望完成时间">
+													</div>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">参考例子</label>
 												<div class="form-group col-lg-8">
-													<textarea rows="5" class="form-control form-control-sm mt-2" id=""></textarea>
+													<input type="text" class="form-control form-control-sm mt-2" id="qtyImage" placeholder="请输入参考网页链接">
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">其它说明与要求</label>
+												<div class="form-group col-lg-8">
+													<textarea rows="5" class="form-control form-control-sm mt-2" id="" placeholder="请输入其它要求"></textarea>
 												</div>
 											</div>
 											
@@ -301,7 +422,14 @@
 							<hr class="long"/>
 							<div class="post-content">
 								<h3><spring:message code="grahpic-service-catalog-client_instruction-title"/></h3>
-								<p><spring:message code="grahpic-service-catalog-client_instruction-content"/></p>
+								<ul>
+									<li>Express Design	快速设计服务提供三种成型设计方案，客户选择一个作为最终设计方案。客户可以提出一次小的修改要求，但不可推翻主体设计。</li>
+									<li>Intensive Design 精细设计服务提供三种概念设计方案，客户最终选择其中一个进行正式设计。客户可以在规定的期限内提供不多于三次的修改要求，但不可推翻主体设计。</li>
+									<li>精细设计需先预付订金。若客户不满意所有概念设计方案，则合同终止或再次协商。</li>
+									<li>Recovery Work 仅适用于LOGO设计原文件丢失的需要还原的情形。该项服务不包含在原设计上的再加工、再设计的任何工作；若有修改需要按LOGO设计的价格收取相应服务费用。</li>
+									<li>用户提供使用的文字，图片等资料均不可侵犯他人的知识产权、肖像权等相关权益；若有违反，由客户自己承担一切相关法律责任和后果。</li>
+									<li>客户须及时回复设计确认请求，否则造成的延期后果由客户自己承担。</li>
+								</ul>
 							</div>
 							<!-- END instruction -->
 							
@@ -325,6 +453,7 @@
 							
 							
 							<!-- latest work -->
+							<!-- 
 							<h3><spring:message code="graphic-title-3-1"/></h3>
 							<div class="row">
 								<div class="col-lg-4">
@@ -367,7 +496,9 @@
 									</a>
 								</div>
 							</div>
-							
+							 -->
+							 
+							 
 						</div>
 					</div>
 
