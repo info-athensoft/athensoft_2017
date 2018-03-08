@@ -237,8 +237,6 @@
 							<!--  
 							<hr class="long"/>
 							<div class="post-content">
-								<h3><spring:message code="grahpic-service-catalog-price_table-title"/></h3>
-								
 							</div>
 							-->
 							<!-- END pricing table -->
@@ -247,7 +245,7 @@
 							
 							<!-- quote form -->
 							<div class="post-content">
-								<h3><spring:message code="grahpic-service-catalog-quote_form-title"/></h3>
+								<h3><spring:message code="graphic-service-catalog-quote_form-title"/></h3>
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
@@ -421,15 +419,19 @@
 							<!-- instruction -->
 							<hr class="long"/>
 							<div class="post-content">
-								<h3><spring:message code="grahpic-service-catalog-client_instruction-title"/></h3>
-								<ul>
-									<li>Express Design	快速设计服务提供三种成型设计方案，客户选择一个作为最终设计方案。客户可以提出一次小的修改要求，但不可推翻主体设计。</li>
-									<li>Intensive Design 精细设计服务提供三种概念设计方案，客户最终选择其中一个进行正式设计。客户可以在规定的期限内提供不多于三次的修改要求，但不可推翻主体设计。</li>
-									<li>精细设计需先预付订金。若客户不满意所有概念设计方案，则合同终止或再次协商。</li>
-									<li>Recovery Work 仅适用于LOGO设计原文件丢失的需要还原的情形。该项服务不包含在原设计上的再加工、再设计的任何工作；若有修改需要按LOGO设计的价格收取相应服务费用。</li>
-									<li>用户提供使用的文字，图片等资料均不可侵犯他人的知识产权、肖像权等相关权益；若有违反，由客户自己承担一切相关法律责任和后果。</li>
-									<li>客户须及时回复设计确认请求，否则造成的延期后果由客户自己承担。</li>
-								</ul>
+								<h3><spring:message code="graphic-service-policy-title"/></h3>
+								<div class="row">
+									<div class="col-lg-12">
+										<ol class="list list-ordened list-ordened-style-3">
+											<li><spring:message code="graphic-service-policy-logo-1"/></li>
+											<li><spring:message code="graphic-service-policy-logo-2"/></li>
+											<li><spring:message code="graphic-service-policy-logo-3"/></li>
+											<li><spring:message code="graphic-service-policy-logo-4"/></li>
+											<li><spring:message code="graphic-service-policy-common-2"/></li>
+											<li><spring:message code="graphic-service-policy-common-1"/></li>
+										</ol>
+									</div>
+								</div>
 							</div>
 							<!-- END instruction -->
 							
@@ -453,7 +455,7 @@
 							
 							
 							<!-- latest work -->
-							<!-- 
+							
 							<h3><spring:message code="graphic-title-3-1"/></h3>
 							<div class="row">
 								<div class="col-lg-4">
@@ -496,7 +498,7 @@
 									</a>
 								</div>
 							</div>
-							 -->
+							
 							 
 							 
 						</div>

@@ -331,7 +331,6 @@
 										<li><spring:message code="webdev-webplan-policy-4-1_9"/></li>
 										<li><spring:message code="webdev-webplan-policy-4-1_10"/></li>
 										<li><spring:message code="webdev-webplan-policy-4-1_11"/></li>
-										
 									</ol>
 								</div>
 							</div>

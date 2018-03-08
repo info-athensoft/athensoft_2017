@@ -236,8 +236,6 @@
 							<!--  
 							<hr class="long"/>
 							<div class="post-content">
-								<h3><spring:message code="grahpic-service-catalog-price_table-title"/></h3>
-								
 							</div>
 							-->
 							<!-- END pricing table -->
@@ -246,7 +244,7 @@
 							
 							<!-- quote form -->
 							<div class="post-content">
-								<h3><spring:message code="grahpic-service-catalog-quote_form-title"/></h3>
+								<h3><spring:message code="graphic-service-catalog-quote_form-title"/></h3>
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
@@ -299,8 +297,20 @@
 							<!-- instruction -->
 							<hr class="long"/>
 							<div class="post-content">
-								<h3><spring:message code="grahpic-service-catalog-client_instruction-title"/></h3>
-								<p><spring:message code="grahpic-service-catalog-client_instruction-content"/></p>
+								<h3><spring:message code="graphic-service-policy-title"/></h3>
+								<div class="row">
+									<div class="col-lg-12">
+										<ol class="list list-ordened list-ordened-style-3">
+											<li><spring:message code="graphic-service-policy-common-3"/></li>
+											<li><spring:message code="graphic-service-policy-common-4"/></li>
+											<li><spring:message code="graphic-service-policy-common-5"/></li>
+											<li><spring:message code="graphic-service-policy-common-7"/></li>
+											<li><spring:message code="graphic-service-policy-common-6"/></li>
+											<li><spring:message code="graphic-service-policy-common-2"/></li>
+											<li><spring:message code="graphic-service-policy-common-1"/></li>
+										</ol>
+									</div>
+								</div>
 							</div>
 							<!-- END instruction -->
 							
