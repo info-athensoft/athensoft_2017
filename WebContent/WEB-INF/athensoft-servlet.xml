@@ -30,6 +30,7 @@
 		<property name="basenames">
 			<list>
 				<value>com/athensoft/site/resources/site</value>
+				<value>com/athensoft/site/resources/graphic</value>
 				<value>com/athensoft/site/resources/seo</value>
 				<value>com/athensoft/site/resources/errorcodes</value>
 			</list>

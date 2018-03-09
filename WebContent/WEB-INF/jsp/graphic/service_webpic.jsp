@@ -244,7 +244,7 @@
 							
 							<!-- quote form -->
 							<div class="post-content">
-								<h3><spring:message code="graphic-service-catalog-quote_form-title"/></h3>
+								<h3><spring:message code="graphic-service-quoteform-title"/></h3>
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
@@ -261,8 +261,6 @@
 													<input type="text" value="不限" class="form-control form-control-sm mt-2" id="qtyImage" placeholder="">
 												</div>
 											</div>
-											
-											
 											
 											<div class="form-row">
 												<label class="col-lg-2 control-label text-lg-right pt-2">其它说明</label>

@@ -260,7 +260,7 @@
 							
 							<!-- page content -->
 							<div class="post-content">
-								<h3><spring:message code="graphic-service-catalog-quote_form-title"/></h3>
+								<h3><spring:message code="graphic-service-quoteform-title"/></h3>
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
