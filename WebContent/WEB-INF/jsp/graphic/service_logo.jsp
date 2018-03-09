@@ -316,7 +316,7 @@
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">Logo 风格偏好</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">风格偏好</label>
 												<div class="form-group col-lg-10">
 													<select>
 														<option value="0" selected>不限</option>
@@ -347,7 +347,7 @@
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">Logo 配色</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">配色偏好</label>
 												<div class="form-group col-lg-3">
 													<div class="checkbox">
 														<label>
