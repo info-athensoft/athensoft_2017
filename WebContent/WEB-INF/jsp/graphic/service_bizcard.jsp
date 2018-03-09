@@ -251,23 +251,70 @@
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_1"/></label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
+												<label class="col-lg-2 control-label text-lg-right pt-2">设计类型</label>
+												<div class="form-group col-lg-3">
+													<select class="form-control form-control-sm mt-1">
+														<option value="1" selected>Express Design</option>
+														<option value="2">Intensive Design</option>
+													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_3"/></label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
+												<label class="col-lg-2 control-label text-lg-right pt-2">名片方向</label>
+												<div class="form-group col-lg-3">
+													<select class="form-control form-control-sm mt-1">
+														<option value="1" selected>Horizontal</option>
+														<option value="2">Vertical</option>
+													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2">Comment</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">尺寸样式</label>
+												<div class="form-group col-lg-3">
+													<select class="form-control form-control-sm mt-1">
+														<option value="1" selected>Standard 3.5"x2"</option>
+														<option value="2">Rounded corner 3.5"x2"</option>
+														<option value="3">Square 2.5"x2.5"</option>
+														<option value="4">Slim 1.75"x3.5"</option>
+														<option value="5">Folded 3.5"x4"</option>
+													</select>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">单双面</label>
+												<div class="form-group col-lg-3">
+													<select class="form-control form-control-sm mt-1">
+														<option value="1" selected>双面</option>
+														<option value="2">单面</option>
+													</select>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">色彩</label>
+												<div class="form-group col-lg-3">
+													<select class="form-control form-control-sm mt-1">
+														<option value="1" selected>单色</option>
+														<option value="2">双色</option>
+														<option value="3">多色</option>
+													</select>
+												</div>
+											</div>
+										
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">指定色彩</label>
+												<div class="form-group col-lg-3">
+													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder="无指定色彩请不填">
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">其它说明</label>
 												<div class="form-group col-lg-8">
-													<textarea rows="5" class="form-control form-control-sm mt-2" id=""></textarea>
+													<textarea rows="6" class="form-control form-control-sm mt-2" id=""></textarea>
 												</div>
 											</div>
 											

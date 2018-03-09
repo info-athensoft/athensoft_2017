@@ -250,22 +250,29 @@
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_1"/></label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="5" class="form-control form-control-sm mt-2" id="qtyWebpage">
+												<label class="col-lg-2 control-label text-lg-right pt-2">主题</label>
+												<div class="form-group col-lg-6">
+													<input type="text" value="不限" class="form-control form-control-sm mt-2" id="qtyWebpage">
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2"><spring:message code="pricing-form-section-item-2_3"/></label>
-												<div class="form-group col-lg-1">
-													<input type="text" value="20" class="form-control form-control-sm mt-2" id="qtyImage">
+												<label class="col-lg-2 control-label text-lg-right pt-2">尺寸</label>
+												<div class="form-group col-lg-6">
+													<input type="text" class="form-control form-control-sm mt-2" id="qtyImage" placeholder="可输入多个">
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-3 control-label text-lg-right pt-2">Comment</label>
-												<div class="form-group col-lg-8">
+												<label class="col-lg-2 control-label text-lg-right pt-2">字体</label>
+												<div class="form-group col-lg-6">
+													<input type="text" class="form-control form-control-sm mt-2" id="qtyImage" placeholder="">
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">其它说明</label>
+												<div class="form-group col-lg-6">
 													<textarea rows="5" class="form-control form-control-sm mt-2" id=""></textarea>
 												</div>
 											</div>
