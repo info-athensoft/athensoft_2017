@@ -107,6 +107,54 @@ public class SupportController {
 			case "graphicdemo":
 				returnURL = "redirect:/graphic/demo.html?lang="+lang;
 				break;
+			case "graphic_adbanner":
+				returnURL = "redirect:/graphic/service/adbanner.html?lang="+lang;
+				break;
+			case "graphic_bizcard":
+				returnURL = "redirect:/graphic/service/bizcard.html?lang="+lang;
+				break;
+			case "graphic_brochure":
+				returnURL = "redirect:/graphic/service/brochure.html?lang="+lang;
+				break;
+			case "graphic_catalog":
+				returnURL = "redirect:/graphic/service/catalog.html?lang="+lang;
+				break;
+			case "graphic_coupon":
+				returnURL = "redirect:/graphic/service/coupon.html?lang="+lang;
+				break;
+			case "graphic_ecalender":
+				returnURL = "redirect:/graphic/service/ecalender.html?lang="+lang;
+				break;
+			case "graphic_flyer":
+				returnURL = "redirect:/graphic/service/flyer.html?lang="+lang;
+				break;
+			case "graphic_fonticon":
+				returnURL = "redirect:/graphic/service/fonticon.html?lang="+lang;
+				break;
+			case "graphic_imgicon":
+				returnURL = "redirect:/graphic/service/imgicon.html?lang="+lang;
+				break;
+			case "graphic_imgprocess":
+				returnURL = "redirect:/graphic/service/imgprocess.html?lang="+lang;
+				break;
+			case "graphic_logo":
+				returnURL = "redirect:/graphic/service/logo.html?lang="+lang;
+				break;
+			case "graphic_menu":
+				returnURL = "redirect:/graphic/service/menu.html?lang="+lang;
+				break;
+			case "graphic_poster":
+				returnURL = "redirect:/graphic/service/poster.html?lang="+lang;
+				break;
+			case "graphic_smbanner":
+				returnURL = "redirect:/graphic/service/smbanner.html?lang="+lang;
+				break;
+			case "graphic_wallpaper":
+				returnURL = "redirect:/graphic/service/wallpaper.html?lang="+lang;
+				break;
+			case "graphic_webpic":
+				returnURL = "redirect:/graphic/service/webpic.html?lang="+lang;
+				break;
 			default:
 				break;
 				

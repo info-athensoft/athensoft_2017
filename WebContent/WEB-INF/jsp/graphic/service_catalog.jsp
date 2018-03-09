@@ -11,6 +11,7 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="/images"></c:set>
+<c:set var="pageName" value="graphic_catalog"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -349,11 +350,11 @@
 							
 							
 							<!-- latest work -->
-							<!--  
+							 
 							<h3><spring:message code="graphic-title-3-1"/></h3>
 							<div class="row">
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="#">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
@@ -366,7 +367,7 @@
 									</a>
 								</div>
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="#">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
@@ -379,7 +380,7 @@
 									</a>
 								</div>
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="#">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
@@ -392,7 +393,7 @@
 									</a>
 								</div>
 							</div>
-							-->
+							
 							
 						</div>
 					</div>

@@ -193,6 +193,64 @@
 							<div class="sort-destination-loader sort-destination-loader-showing">
 								<div class="row portfolio-list sort-destination image-gallery lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 									
+									<div class="col-lg-6 isotope-item logo">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/logo-babycarrot1.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/logo-babycarrot1.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Baby Carrot</span>
+															<span class="thumb-info-type">Logo</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item logo">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/logo-babycarrot2.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/logo-babycarrot2.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Baby Carrot</span>
+															<span class="thumb-info-type">Logo</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item logo">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/logo-babycarrot3.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/logo-babycarrot3.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Baby Carrot</span>
+															<span class="thumb-info-type">Logo</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									
 									<div class="col-lg-6 isotope-item brochure">
 										<div class="portfolio-item image-gallery-item">
 											<a href="${img_dir}/graphic/demo/TypeSpecimen-Optima1.jpg" class="lightbox-portfolio">
