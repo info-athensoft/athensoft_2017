@@ -251,35 +251,57 @@
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">用途</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-purpose"/>
+												</label>
 												<div class="form-group col-lg-3">
-													<select class="form-control form-control-sm mt-1">
-														<option value="1">用于印刷</option>
-														<option value="2" selected>用于网页</option>
-													</select>
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-forweb"/>
+														</label>
+													</div>
+						
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-forprint"/>
+														</label>
+													</div>
+													
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-fordigital"/>
+														</label>
+													</div>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">尺寸</label>
-												<div class="form-group col-lg-3">
-													<input type="text" class="form-control form-control-sm mt-2" id="qtyImage" placeholder="产品目录最终尺寸">
-												</div>
-											</div>
-											
-											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">指定配色</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-dimension"/>
+												</label>
 												<div class="form-group col-lg-6">
-													<input type="text" value="不限" class="form-control form-control-sm mt-2" id="qtyImage" placeholder="">
+													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-dimension"/>'/>
 												</div>
 											</div>
 											
-											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-color"/>
+												</label>
+												<div class="form-group col-lg-6">
+													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-preferredcolor"/>'>
+												</div>
+											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">其它说明</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-comment"/>
+												</label>
 												<div class="form-group col-lg-6">
-													<textarea rows="5" class="form-control form-control-sm mt-2" id=""></textarea>
+													<textarea rows="5" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-comment"/>'></textarea>
 												</div>
 											</div>
 											

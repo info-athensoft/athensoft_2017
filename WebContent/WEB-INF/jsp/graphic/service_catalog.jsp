@@ -264,12 +264,15 @@
 								<div class="col-sm-12">
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
+											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">设计类型</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-designlevel"/>
+												</label>
 												<div class="form-group col-lg-3">
 													<select class="form-control form-control-sm mt-1">
-														<option value="1" selected>Standard Design</option>
-														<option value="2">Intensive Design</option>
+														<option value="1" selected><spring:message code="graphic-quoteform-fieldvalue-standardlevel"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-intensive"/></option>
 													</select>
 												</div>
 											</div>

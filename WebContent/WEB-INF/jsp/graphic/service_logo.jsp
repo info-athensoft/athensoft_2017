@@ -252,143 +252,156 @@
 										<div class="box-content">
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">制作类型</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-designlevel"/>
+												</label>
 												<div class="form-group col-lg-3">
-													<select class="form-control form-control-sm">
-														<option value="0" selected>不限</option>
-														<option value="1">Express Design</option>
-														<option value="2">Intensive Design</option>
-														<option value="3">Recovery work</option>
+													<select class="form-control form-control-sm mt-1">
+														<option value="1" selected><spring:message code="graphic-quoteform-fieldvalue-express"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-intensive"/></option>
+														<option value="3"><spring:message code="graphic-quoteform-fieldvalue-filerecovery"/></option>
 													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">用途</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-purpose"/>
+												</label>
 												<div class="form-group col-lg-3">
-													<select class="form-control form-control-sm">
-														<option value="0" selected>不限</option>
-														<option value="1">Web</option>
-														<option value="2">Print</option>
-														<option value="3">All purpose</option>
-													</select>
-												</div>
-											</div>
-											
-											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">Logo 造型</label>
-												<div class="col-lg-9">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg1" id="biz-goal-0">
-															纯文字
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-forweb"/>
 														</label>
 													</div>
 						
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg2" id="biz-goal-1">
-															图标
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-forprint"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg3" id="biz-goal-2">
-															文字和图标
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="bg4" id="biz-goal-3">
-															首字母缩写
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="bg5" id="biz-goal-4">
-															徽章
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-fordigital"/>
 														</label>
 													</div>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">风格偏好</label>
-												<div class="form-group col-lg-10">
-													<select>
-														<option value="0" selected>不限</option>
-														<option value="1">现代</option>
-														<option value="2">复古</option>
-													</select>
-													<select>
-														<option value="0" selected>不限</option>
-														<option value="1">抽象</option>
-														<option value="2">具体</option>
-													</select>
-													<select>
-														<option value="0" selected>不限</option>
-														<option value="1">简约</option>
-														<option value="2">精细</option>
-													</select>
-													<select>
-														<option value="0" selected>不限</option>
-														<option value="1">粗犷</option>
-														<option value="2">优雅</option>
-													</select>
-													<select>
-														<option value="0" selected>不限</option>
-														<option value="1">扁平</option>
-														<option value="2">立体</option>
-													</select>
-												</div>
-											</div>
-											
-											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">配色偏好</label>
-												<div class="form-group col-lg-3">
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-model"/>
+												</label>
+												<div class="col-lg-8">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg4" id="biz-goal-3">
-															无偏好颜色
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-text"/>
+														</label>
+													</div>
+						
+													<div class="checkbox">
+														<label>
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-icon"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg5" id="biz-goal-4">
-															有偏好颜色
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-texticon"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
-														<input type="text" class="form-control form-control-sm mt-2" id="" placeholder="请输入颜色值 或 名称">
+														<label>
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-initial"/>
+														</label>
 													</div>
-												</div>
-											</div>
-											
-											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">制作周期</label>
-												<div class="form-group col-lg-3">
+													
 													<div class="checkbox">
-														<input type="text" class="form-control form-control-sm mt-2" id="" placeholder="请输入期望完成时间">
+														<label>
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-badge"/>
+														</label>
 													</div>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">参考例子</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-style"/>
+												</label>
 												<div class="form-group col-lg-8">
-													<input type="text" class="form-control form-control-sm mt-2" id="qtyImage" placeholder="请输入参考网页链接">
+													<select>
+														<option value="0" selected><spring:message code="graphic-quoteform-fieldvalue-nolimit"/></option>
+														<option value="1"><spring:message code="graphic-quoteform-fieldvalue-modern"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-retro"/></option>
+													</select>
+													<select>
+														<option value="0" selected><spring:message code="graphic-quoteform-fieldvalue-nolimit"/></option>
+														<option value="1"><spring:message code="graphic-quoteform-fieldvalue-abstract"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-concrete"/></option>
+													</select>
+													<select>
+														<option value="0" selected><spring:message code="graphic-quoteform-fieldvalue-nolimit"/></option>
+														<option value="1"><spring:message code="graphic-quoteform-fieldvalue-simple"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-fine"/></option>
+													</select>
+													<select>
+														<option value="0" selected><spring:message code="graphic-quoteform-fieldvalue-nolimit"/></option>
+														<option value="1"><spring:message code="graphic-quoteform-fieldvalue-rough"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-elegant"/></option>
+													</select>
+													<select>
+														<option value="0" selected><spring:message code="graphic-quoteform-fieldvalue-nolimit"/></option>
+														<option value="1"><spring:message code="graphic-quoteform-fieldvalue-flat"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-3d"/></option>
+													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">其它说明与要求</label>
-												<div class="form-group col-lg-8">
-													<textarea rows="5" class="form-control form-control-sm mt-2" id="" placeholder="请输入其它要求"></textarea>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-color"/>
+												</label>
+												<div class="form-group col-lg-6">
+													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-preferredcolor"/>'/>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-duration"/>
+												</label>
+												<div class="form-group col-lg-6">
+													<div class="checkbox">
+														<input type="text" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-duration"/>'/>
+													</div>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-sample"/>
+												</label>
+												<div class="form-group col-lg-6">
+													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-link"/>'>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-comment"/>
+												</label>
+												<div class="form-group col-lg-6">
+													<textarea rows="5" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-comment"/>'></textarea>
 												</div>
 											</div>
 											

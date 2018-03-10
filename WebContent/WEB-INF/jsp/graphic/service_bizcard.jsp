@@ -251,70 +251,84 @@
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">设计类型</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-designlevel"/>
+												</label>
 												<div class="form-group col-lg-3">
 													<select class="form-control form-control-sm mt-1">
-														<option value="1" selected>Express Design</option>
-														<option value="2">Intensive Design</option>
+														<option value="1" selected><spring:message code="graphic-quoteform-fieldvalue-express"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-intensive"/></option>
 													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">名片方向</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-orientation"/>
+												</label>
 												<div class="form-group col-lg-3">
 													<select class="form-control form-control-sm mt-1">
-														<option value="1" selected>Horizontal</option>
-														<option value="2">Vertical</option>
+														<option value="1" selected><spring:message code="graphic-quoteform-fieldvalue-horizontal"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-vertical"/></option>
 													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">尺寸样式</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-dimension"/>
+												</label>
 												<div class="form-group col-lg-3">
 													<select class="form-control form-control-sm mt-1">
-														<option value="1" selected>Standard 3.5"x2"</option>
-														<option value="2">Rounded corner 3.5"x2"</option>
-														<option value="3">Square 2.5"x2.5"</option>
-														<option value="4">Slim 1.75"x3.5"</option>
-														<option value="5">Folded 3.5"x4"</option>
+														<option value="1" selected><spring:message code="graphic-quoteform-fieldvalue-standard"/> 3.5"x2"</option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-roundedcorner"/> 3.5"x2"</option>
+														<option value="3"><spring:message code="graphic-quoteform-fieldvalue-square"/> 2.5"x2.5"</option>
+														<option value="4"><spring:message code="graphic-quoteform-fieldvalue-slim"/> 1.75"x3.5"</option>
+														<option value="5"><spring:message code="graphic-quoteform-fieldvalue-folded"/> 3.5"x4"</option>
 													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">单双面</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-side"/>
+												</label>
 												<div class="form-group col-lg-3">
 													<select class="form-control form-control-sm mt-1">
-														<option value="1" selected>双面</option>
-														<option value="2">单面</option>
+														<option value="1" selected><spring:message code="graphic-quoteform-fieldvalue-singleside"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-doubleside"/></option>
 													</select>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">色彩</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-colortype"/>
+												</label>
 												<div class="form-group col-lg-3">
 													<select class="form-control form-control-sm mt-1">
-														<option value="1" selected>单色</option>
-														<option value="2">双色</option>
-														<option value="3">多色</option>
+														<option value="1" selected><spring:message code="graphic-quoteform-fieldvalue-colormono"/></option>
+														<option value="2"><spring:message code="graphic-quoteform-fieldvalue-colordouble"/></option>
+														<option value="3"><spring:message code="graphic-quoteform-fieldvalue-colorful"/></option>
 													</select>
 												</div>
 											</div>
 										
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">指定色彩</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-color"/>
+												</label>
 												<div class="form-group col-lg-3">
-													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder="无指定色彩请不填">
+													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-preferredcolor"/>'>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">其它说明</label>
-												<div class="form-group col-lg-8">
-													<textarea rows="6" class="form-control form-control-sm mt-2" id=""></textarea>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-comment"/>
+												</label>
+												<div class="form-group col-lg-6">
+													<textarea rows="5" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-comment"/>'></textarea>
 												</div>
 											</div>
 											
