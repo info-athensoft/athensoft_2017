@@ -125,24 +125,7 @@
 
 								<h4 class="heading-primary"><spring:message code="graphic-sidebar-title-3"/></h4>
 
-								<ul class="nav nav-list flex-column mb-4 sort-source">
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-service-catalog"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/brochure.html?lang=${loc}"><spring:message code="graphic-service-brochure"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/flyer.html?lang=${loc}"><spring:message code="graphic-service-flyer"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/menu.html?lang=${loc}"><spring:message code="graphic-service-menu"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/coupon.html?lang=${loc}"><spring:message code="graphic-service-coupon"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/poster.html?lang=${loc}"><spring:message code="graphic-service-poster"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/adbanner.html?lang=${loc}"><spring:message code="graphic-service-adbanner"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/smbanner.html?lang=${loc}"><spring:message code="graphic-service-smbanner"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/webpic.html?lang=${loc}"><spring:message code="graphic-service-webpic"/></a></li> 
-									<li class="nav-item"><a class="nav-link active" href="${webapp_name}/graphic/service/imgicon.html?lang=${loc}"><spring:message code="graphic-service-imgicon"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/fonticon.html?lang=${loc}"><spring:message code="graphic-service-fonticon"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/logo.html?lang=${loc}"><spring:message code="graphic-service-logo"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/bizcard.html?lang=${loc}"><spring:message code="graphic-service-bizcard"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/imgprocess.html?lang=${loc}"><spring:message code="graphic-service-imgprocess"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/wallpaper.html?lang=${loc}"><spring:message code="graphic-service-wallpaper"/></a></li> 
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/ecalender.html?lang=${loc}"><spring:message code="graphic-service-ecalender"/></a></li> 
-								</ul>
+								<jsp:include page="sidebar-graphic-service-list.jsp"/>
 
 								<hr class="invisible mt-5 mb-2">
 								
@@ -158,44 +141,51 @@
 								<hr class="invisible mt-5 mb-2">
 								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
-								<p>Contact us or give us a call to discover how we can help.</p>
-
-								<form id="contactForm" action="#" method="POST">
+								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
+									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
+								
+								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your name *</label>
+											<label><spring:message code="contactus-form-clientname"/> *</label>
 											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your email address *</label>
+											<label><spring:message code="contactus-form-clientemail"/> *</label>
 											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Subject</label>
+											<label><spring:message code="contactus-form-subject"/></label>
 											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Message *</label>
+											<label><spring:message code="contactus-form-message"/> *</label>
 											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<input type="submit" value="Send Message" class="btn btn-primary mb-4" data-loading-text="Loading...">
-
+											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
+								
 											<div class="alert alert-success d-none" id="contactSuccess">
 												Message has been sent to us.
 											</div>
-
+								
 											<div class="alert alert-danger d-none" id="contactError">
 												Error sending your message.
 											</div>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<input type="hidden" value="${loc}" name="lang"/>
+											<input type="hidden" value="${pageName}" name="pageName"/>
 										</div>
 									</div>
 								</form>
@@ -250,68 +240,84 @@
 									<div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
 										<div class="box-content">
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">图标样式</label>
-												<div class="form-group col-lg-3">
-													<select class="form-control form-control-sm mt-1">
-														<option value="0" selected>--- 请选择 ---</option>
-														<option value="1">线条样式</option>
-														<option value="2">2D</option>
-														<option value="3">3D</option>
-													</select>
-												</div>
-											</div>
-											
-											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">最大尺寸</label>
-												<div class="form-group col-lg-3">
-													<input type="text" class="form-control form-control-sm mt-2" id="qtyImage" placeholder="">
-												</div>
-											</div>
-											
-											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">输出格式</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-style"/>
+												</label>
 												<div class="form-group col-lg-3">
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg1" id="biz-goal-0">
-															PNG
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-line"/>
 														</label>
 													</div>
 						
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg2" id="biz-goal-1">
-															GIF
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-2d"/>
 														</label>
 													</div>
 													
 													<div class="checkbox">
 														<label>
-															<input type="checkbox" value="bg3" id="biz-goal-2">
-															JPG
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="bg4" id="biz-goal-3">
-															SVG
-														</label>
-													</div>
-													
-													<div class="checkbox">
-														<label>
-															<input type="checkbox" value="bg4" id="biz-goal-3">
-															EPS
+															<input type="checkbox" value="" id="">
+															<spring:message code="graphic-quoteform-fieldvalue-3d"/>
 														</label>
 													</div>
 												</div>
 											</div>
 											
 											<div class="form-row">
-												<label class="col-lg-2 control-label text-lg-right pt-2">其它说明</label>
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-dimension"/>
+												</label>
 												<div class="form-group col-lg-6">
-													<textarea rows="5" class="form-control form-control-sm mt-2" id=""></textarea>
+													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-dimension"/>'/>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-imgcount"/>
+												</label>
+												<div class="form-group col-lg-6">
+													<input type="text" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-imgcount"/>'>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-expformat"/>
+												</label>
+												<div class="form-group col-lg-3">
+													<div class="checkbox">
+														<label><input type="checkbox" value="" id="">PNG</label>
+													</div>
+						
+													<div class="checkbox">
+														<label><input type="checkbox" value="" id="">GIF</label>
+													</div>
+													
+													<div class="checkbox">
+														<label><input type="checkbox" value="" id="">JPG</label>
+													</div>
+													
+													<div class="checkbox">
+														<label><input type="checkbox" value="" id="">SVG</label>
+													</div>
+													
+													<div class="checkbox">
+														<label><input type="checkbox" value="bg4" id="">EPS</label>
+													</div>
+												</div>
+											</div>
+											
+											<div class="form-row">
+												<label class="col-lg-2 control-label text-lg-right pt-2">
+													<spring:message code="graphic-quoteform-fieldname-comment"/>
+												</label>
+												<div class="form-group col-lg-6">
+													<textarea rows="5" class="form-control form-control-sm mt-2" id="" placeholder='<spring:message code="graphic-quoteform-placeholder-comment"/>'></textarea>
 												</div>
 											</div>
 											

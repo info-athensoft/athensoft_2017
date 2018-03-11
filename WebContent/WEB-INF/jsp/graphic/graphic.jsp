@@ -10,7 +10,8 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="/images"></c:set>
+<c:set var="img_dir" value="/images"/>
+<c:set var="pageName" value="graphic"/>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -126,8 +127,8 @@
 
 								<ul class="nav nav-list flex-column mb-4 sort-source">
 									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-overview"/></a></li>
-									<li class="nav-item"><a class="nav-link" href="${webapp_name}/about/comingsoon.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li>
-									<!-- <li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li> -->
+									<!--  <li class="nav-item"><a class="nav-link" href="${webapp_name}/about/comingsoon.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li> -->
+									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li> 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/demo.html?lang=${loc}"><spring:message code="graphic-sidebar-link-demo"/></a></li>
 									<!-- 
 									<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/pricing.html?lang=${loc}"><spring:message code="graphic-sidebar-link-pricing"/></a></li>
@@ -136,49 +137,57 @@
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
-
+								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
-								<p>Contact us or give us a call to discover how we can help.</p>
-
-								<form id="contactForm" action="php/contact-form.php" method="POST">
+								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
+									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
+								
+								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your name *</label>
+											<label><spring:message code="contactus-form-clientname"/> *</label>
 											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Your email address *</label>
+											<label><spring:message code="contactus-form-clientemail"/> *</label>
 											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Subject</label>
+											<label><spring:message code="contactus-form-subject"/></label>
 											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<label>Message *</label>
+											<label><spring:message code="contactus-form-message"/> *</label>
 											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
-											<input type="submit" value="Send Message" class="btn btn-primary mb-4" data-loading-text="Loading...">
-
+											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
+								
 											<div class="alert alert-success d-none" id="contactSuccess">
 												Message has been sent to us.
 											</div>
-
+								
 											<div class="alert alert-danger d-none" id="contactError">
 												Error sending your message.
 											</div>
 										</div>
 									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<input type="hidden" value="${loc}" name="lang"/>
+											<input type="hidden" value="${pageName}" name="pageName"/>
+										</div>
+									</div>
 								</form>
+								
 							</aside>
 						</div>
 						
@@ -199,6 +208,7 @@
 										<a href="#graphic-service-flyer"><spring:message code="graphic-service-flyer"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-menu"><spring:message code="graphic-service-menu"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-coupon"><spring:message code="graphic-service-coupon"/></a>,&nbsp;&nbsp;
+										<a href="#graphic-service-poster"><spring:message code="graphic-service-poster"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-adbanner"><spring:message code="graphic-service-adbanner"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-smbanner"><spring:message code="graphic-service-smbanner"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-webpic"><spring:message code="graphic-service-webpic"/></a>,&nbsp;&nbsp;
@@ -208,7 +218,7 @@
 										<a href="#graphic-service-bizcard"><spring:message code="graphic-service-bizcard"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-imgprocess"><spring:message code="graphic-service-imgprocess"/></a>,&nbsp;&nbsp;
 										<a href="#graphic-service-wallpaper"><spring:message code="graphic-service-wallpaper"/></a>,&nbsp;&nbsp;
-										<a href="#graphic-service-ecalender"><spring:message code="graphic-service-ecalender"/></a>,&nbsp;&nbsp;
+										<a href="#graphic-service-ecalender"><spring:message code="graphic-service-ecalender"/></a>&nbsp;&nbsp;
 									</p>
 								</div>
 							</div>

@@ -141,7 +141,7 @@
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
 								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
 									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
-
+								
 								<form id="contactForm" action="/support/mailInquiry" method="POST">
 									<div class="form-row">
 										<div class="form-group col">
@@ -170,11 +170,11 @@
 									<div class="form-row">
 										<div class="form-group col">
 											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
-
+								
 											<div class="alert alert-success d-none" id="contactSuccess">
 												Message has been sent to us.
 											</div>
-
+								
 											<div class="alert alert-danger d-none" id="contactError">
 												Error sending your message.
 											</div>
@@ -192,6 +192,82 @@
 						<div class="col-lg-9 order-1 order-lg-2">
 							<div class="sort-destination-loader sort-destination-loader-showing">
 								<div class="row portfolio-list sort-destination image-gallery lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
+									
+									<div class="col-lg-6 isotope-item logo">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/logo-workshop-box.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/logo-workshop-box.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Box</span>
+															<span class="thumb-info-type">Logo</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item logo">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/logo-workshop-mug.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/logo-workshop-mug.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Mug</span>
+															<span class="thumb-info-type">Logo</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item logo">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/logo-workshop-plate.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/logo-workshop-plate.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Plate</span>
+															<span class="thumb-info-type">Logo</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item logo">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/logo-workshop-tshirt.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/logo-workshop-tshirt.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">T-Shirt</span>
+															<span class="thumb-info-type">Logo</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
 									
 									<div class="col-lg-6 isotope-item brochure">
 										<div class="portfolio-item image-gallery-item">

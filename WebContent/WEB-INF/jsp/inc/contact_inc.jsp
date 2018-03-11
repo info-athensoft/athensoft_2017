@@ -39,20 +39,19 @@
 				</a>
 			</li>
 			
-			<!-- 
+			<!--  
 			<li class="nav-item dropdown">
 				<a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<img src="${img_dir}/language/canada.gif" class="flag flag-us" alt="English" /> English
+					<img src="/img/blank.gif" class="flag flag-ca" alt="English" /> English
 					<i class="fa fa-angle-down"></i>
 				</a>
 				<div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-					<a class="dropdown-item" href="#"><img src="${img_dir}/language/canada.gif"  alt="English" /> English</a>
-					<a class="dropdown-item" href="#"><img src="${img_dir}/language/french.gif"  alt="French" /> Fran\u00e7aise</a>
-					<a class="dropdown-item" href="#"><img src="${img_dir}/language/chineseS.gif"  alt="ChineseS" /> \u7b80\u4f53\u4e2d\u6587</a>
-					<a class="dropdown-item" href="#"><img src="${img_dir}/language/chineseT.gif"  alt="ChineseT" /> \u7e41\u4f53\u4e2d\u6587</a>
+					<a class="dropdown-item" href="#"><img src="/img/blank.gif" class="flag flag-ca" alt="English" /> English</a>
+					<a class="dropdown-item" href="#"><img src="/img/blank.gif" class="flag flag-ca" alt="English" /> Française</a>
+					<a class="dropdown-item" href="#"><img src="/img/blank.gif" class="flag flag-cn" alt="English" /> 中文</a>
 				</div>
-			</li> -->
-			
+			</li>
+			-->
 		</ul>
 	</nav>
 	<div class="header-search d-none d-md-block">
