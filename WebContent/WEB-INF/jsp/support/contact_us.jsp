@@ -200,7 +200,6 @@
 								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
 								<li class="social-icons-youtube"><a href="http://www.youtube.com/" target="_blank" title="youtube"><i class="fa fa-youtube"></i></a></li>
 							</ul>
-
 						</div>
 
 					</div>
