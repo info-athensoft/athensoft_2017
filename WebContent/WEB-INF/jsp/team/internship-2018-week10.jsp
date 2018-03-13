@@ -217,7 +217,7 @@
 									<label class="col-lg-3"><strong>Workload : </strong></label>
 									<label class="col-lg-3">20 hours per week</label>
 									<label class="col-lg-3"><strong>Accumulated Hours : </strong></label>
-									<label class="col-lg-3"><strong>52</strong> hours</label>
+									<label class="col-lg-3"><strong>32</strong> hours</label>
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Work Type : </strong></label>
@@ -273,79 +273,8 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td>2</td>
-												<td>11</td>
-												<td>
-													<ul>
-														<li>1101 1001 Continued (80%)</li>
-														<li>1102 Write document on Environment and Configurations (10%)</li>
-														<li>1103 Essay on the topic of i18n (10%)</li>
-													</ul>
-												</td>
-												<td>20 hours</td>
-												<td>ON</td>
-											</tr>
-										</tbody>
-									</table>
-									
-									<hr class="invisible mt-2 mb-2"/>
-										
-										<strong>1101		1001 continued</strong><br/>
-										<ul>
-											<li>1001		i18n implementation using spring mvc</li>
-											<li>1001-1		Research on i18n/multi-language problem</li>
-											<li>1001-2		Compose a system requirement document</li>
-											<li>1001-3		Write Design decision for each case listed in the 'Requirement' document</li>
-											<li>1001-4		Implement in a Dynamic Web Project using Spring MVC technology</li>
-											<li>1001-5		Write test cases for testing and demonstration</li>
-										</ul>
-										<p><strong>Description:</strong> <br/>
-											Continue to finish the legacy tasks from 1001-3 to the end<br/>
-										</p>
-										<p><strong>Notes:</strong> <br/>
-										- Refer to the notes in the last assignment description<br/>
-										</p>
-										
-										<hr class="short"/>
-										
-										<strong>1102		Write document on Environment and Configurations</strong><br/>
-										<ul>
-											<li>1002-1		Write document on Environment and Configurations</li>
-										</ul>
-										<p><strong>Description:</strong> <br/>
-											Continue to finish the legacy tasks from 1001-3 to the end<br/>
-										</p>
-										<p><strong>Notes:</strong> <br/>
-										- Read carefully the Comment Log Week #9 and polish the essay on 'Generic Programming in Java'<br/>
-										- Considering meeting on March 3, 2018 13:00 - 14:00 via phone<br/>
-										</p>
-										
-										<hr class="short"/>
-										
-										<strong>1103	Essay on the topic of i18n</strong><br/>
-										<ul>
-											<li>1103-1	Write an essay on the topic of i18n</li>
-										</ul>
-										<p><strong>Description:</strong> <br/>
-											Briefly summarize in aspects of problems, solutions, techniques based on your previous research<br/>
-										</p>
-										<p><strong>Notes:</strong> <br/>
-										- Not limited to those applied into your current project<br/>
-										</p>
-										
-								
-									<hr class="long"/>
-								
-									<table class="table table-striped table-bordered">
-										<thead>
-											<tr class="success">
-												<th>SN</th><th>WK#</th><th>LIST OF TASK</th><th>ESTIMATED DURATION</th><th>TASK STATUS</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
 												<td>1</td>
-												<td>10</td>
+												<td>9</td>
 												<td>
 													<ul>
 														<li>1001 i18n implementation using spring mvc</li>
@@ -421,9 +350,9 @@
 								<h4>Conventions</h4>
 								<div>
 									<ul>
-										<li>Essays should be in the title as such <code>[Internship]_[your name]Essay-[title]-yyyy-mm-dd</code></li>
-										<li>Attendant email should be in the title as such <code>[Internship]_[your name]Attendance-yyyy-mm-dd</code></li>
-										<li>Report email should be in the title as such <code>[Internship]_[your name]Report-yyyy-mm-dd</code></li>
+										<li>Essays should be in the title as such <code>[Internship][your name]Essay-[title]-yyyy-mm-dd</code></li>
+										<li>Attendant email should be in the title as such <code>[Internship][your name]Attendance-yyyy-mm-dd</code></li>
+										<li>Report email should be in the title as such <code>[Internship][your name]Report-yyyy-mm-dd</code></li>
 										<li>All Internship related email should be sent to <code>athensoft.com@gmail.com</code></li>
 									</ul>
 								</div>
@@ -444,32 +373,6 @@
 											</tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td>5</td>
-												<td>10</td>
-												<td><ul>
-														<li>1001 i18n implementation using spring mvc (90%)</li>
-														<li>1002 Warm-up practice 2 (5%)</li>
-														<li>1003 Warm-up practice 1 (5%)</li>
-													</ul>
-												</td>
-												<td>20</td>
-												<td>20+</td>
-												<td>DELAYED</td>
-												<td><strong>62.5%</strong></td>
-											</tr>
-											<tr>
-												<td>4</td>
-												<td>10</td>
-												<td><ul>
-														<li>Meeting</li>
-													</ul>
-												</td>
-												<td>5</td>
-												<td>5</td>
-												<td>DONE</td>
-												<td><strong>--</strong></td>
-											</tr>
 											<tr>
 												<td>3</td>
 												<td>9</td>
