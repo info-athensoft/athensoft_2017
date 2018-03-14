@@ -295,8 +295,8 @@
 											
 										</div>
 									</div>
-								</div>
 							</div>
+							
 							<!-- END quote form -->
 							
 							<hr class="invisible mt-3 mb-2"/>

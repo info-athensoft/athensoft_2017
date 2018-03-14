@@ -754,6 +754,38 @@
 									
 								</div>
 							</div>
+							
+							<!-- announcement -->
+							<hr class="long"/>
+							<div class="post-content">
+								<h3><spring:message code="graphic-demo-title-declaration"/></h3>
+								<div class="row">
+									<div class="col-lg-12">
+										<ol class="list list-ordened list-ordened-style-3">
+											<li><spring:message code="graphic-demo-title-declaration-content"/></li>
+										</ol>
+									</div>
+								</div>
+							</div>
+							<!-- END announcement -->
+							
+							
+							<hr class="invisible mt-4 mb-4">
+							
+							<!-- call-to-action -->
+							<section class="call-to-action featured featured-primary mb-5">
+								<div class="col-sm-9 col-lg-9">
+									<div class="call-to-action-content">
+										<p class="mb-0"><spring:message code="common-cta-title-2"/></p>
+									</div>
+								</div>
+								<div class="col-sm-3 col-lg-3">
+									<div class="call-to-action-btn">
+										<a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-lg btn-primary"><spring:message code="common-cta-btn-2"/></a>
+									</div>
+								</div>
+							</section>
+							<!-- END call-to-action -->
 
 						</div>
 					</div>
