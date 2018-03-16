@@ -130,10 +130,12 @@
 									<li class="nav-item" data-option-value=".onepagesite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-1"/></a></li>
 									<li class="nav-item" data-option-value=".corporatesite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-2"/></a></li>
 									<li class="nav-item" data-option-value=".catalogsite"><a class="nav-link" href="#"><spring:message code="webdev-case-sidebar-filter-item-3"/></a></li>
-									
 								</ul>
-
-								<hr class="invisible mt-5 mb-2">
+								
+								<hr class="invisible mt-3 mb-2">
+								<a href="/webdev/livedemo.html?lang=${loc}" class="btn btn-primary"><i class="icon-action-redo"> View Live Demos </i></a>
+								
+								<hr class="invisible mt-3 mb-2">
 								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
 
