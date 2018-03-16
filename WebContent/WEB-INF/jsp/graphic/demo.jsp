@@ -134,6 +134,7 @@
 									<li class="nav-item" data-option-value=".menu"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-menu"/></a></li>
 									<li class="nav-item" data-option-value=".logo"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-logo"/></a></li>
 									<li class="nav-item" data-option-value=".package"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-package"/></a></li>
+									<li class="nav-item" data-option-value=".magazine"><a class="nav-link" href="#"><spring:message code="graphic-demo-sidebar-link-magazine"/></a></li>
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
@@ -192,6 +193,103 @@
 						<div class="col-lg-9 order-1 order-lg-2">
 							<div class="sort-destination-loader sort-destination-loader-showing">
 								<div class="row portfolio-list sort-destination image-gallery lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
+									
+									<div class="col-lg-6 isotope-item magazine">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/magazine1.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/magazine1.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Celebrity Interview</span>
+															<span class="thumb-info-type">Magazine</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item magazine">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/magazine2.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/magazine2.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Celebrity Interview</span>
+															<span class="thumb-info-type">Magazine</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item magazine">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/magazine3.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/magazine3.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Celebrity Interview</span>
+															<span class="thumb-info-type">Magazine</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item magazine">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/magazine4.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/magazine4.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Celebrity Interview</span>
+															<span class="thumb-info-type">Magazine</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item magazine">
+										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/magazine5.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/magazine5.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Celebrity Interview</span>
+															<span class="thumb-info-type">Magazine</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									
 									
 									<div class="col-lg-6 isotope-item logo">
 										<div class="portfolio-item image-gallery-item">
@@ -654,29 +752,40 @@
 									</div>
 									
 									
-									<!--
-									<div class="col-lg-6 isotope-item brands">
-										<div class="portfolio-item image-gallery-item">
-											<a href="${img_dir}/graphic/portfolio/project-1.jpg" class="lightbox-portfolio">
-												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphic/portfolio/project.jpg" class="img-fluid" alt="">
-														<span class="thumb-info-title">
-															<span class="thumb-info-inner">22Presentation</span>
-															<span class="thumb-info-type">Brand</span>
-														</span>
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									
-									 -->
 								</div>
 							</div>
+							
+							<!-- announcement -->
+							<hr class="long"/>
+							<div class="post-content">
+								<h3><spring:message code="graphic-demo-title-declaration"/></h3>
+								<div class="row">
+									<div class="col-lg-12">
+										<ol class="list list-ordened list-ordened-style-3">
+											<li><spring:message code="graphic-demo-title-declaration-content"/></li>
+										</ol>
+									</div>
+								</div>
+							</div>
+							<!-- END announcement -->
+							
+							
+							<hr class="invisible mt-4 mb-4">
+							
+							<!-- call-to-action -->
+							<section class="call-to-action featured featured-primary mb-5">
+								<div class="col-sm-9 col-lg-9">
+									<div class="call-to-action-content">
+										<p class="mb-0"><spring:message code="common-cta-title-2"/></p>
+									</div>
+								</div>
+								<div class="col-sm-3 col-lg-3">
+									<div class="call-to-action-btn">
+										<a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-lg btn-primary"><spring:message code="common-cta-btn-2"/></a>
+									</div>
+								</div>
+							</section>
+							<!-- END call-to-action -->
 
 						</div>
 					</div>
