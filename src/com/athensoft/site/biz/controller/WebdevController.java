@@ -67,6 +67,13 @@ public class WebdevController {
 		return "webdev/case";
 	}
 	
+	@RequestMapping("/livedemo.html")
+	public String gotoWebdevLivedemo(){
+		logger.info("entering.. /webdev/livedemo.html");
+		logger.info("exiting.. /webdev/livedemo.html");
+		return "webdev/livedemo";
+	}
+	
 	@RequestMapping("/pricing.html")
 	public String gotoWebdevPricing(){
 		logger.info("entering.. /webdev/pricing.html");

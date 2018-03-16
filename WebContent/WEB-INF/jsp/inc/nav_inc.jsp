@@ -34,6 +34,7 @@
 						<li><a class="dropdown-item" href="/webdev/product.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-5"/> </a></li>
 						<li><a class="dropdown-item" href="/webdev/case.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-6"/> </a></li>
 						<li><a class="dropdown-item" href="/webdev/pricing.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-7"/> </a></li>
+						<li><a class="dropdown-item" href="/webdev/livedemo.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-livedemo"/> </a></li>
 						<!-- 
 						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}" target="_blank"> <spring:message code="menu-web-8"/> </a></li>
 						 -->
