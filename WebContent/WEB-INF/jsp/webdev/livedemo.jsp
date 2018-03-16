@@ -286,20 +286,33 @@
 							</div>
 						</div>
 					</div>
-					
 				</section>
 				
+				<hr class="invisible mt-5 mb-2"/>
 				
+								
+				<section class="section section-custom-map">
+					<section class="section section-default section-footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-9 col-lg-10">
+									<div class="call-to-action-content content-align-center">
+										<h3>Athensoft is <strong>everything</strong> you need to create an <strong>awesome</strong> website!</h3>
+										<p class="mb-0">We are building up <strong>stunning</strong>, <strong>powerful</strong>, <strong>stable</strong> sites for you!</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-lg-2">
+									<div class="call-to-action-content">
+										<p>&nbsp;</p>
+										<a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-lg btn-primary">Talk to us now!</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
 				
-				
-				<div class="row">
-					<div class="col-lg-12 text-center mt-0">
-						<hr class="invisible mt-0 mb-0">
-						<img class="img-fluid d-inline-block mt-5" src="/img/map.png" title="Map">
-					</div>
-				</div>
-				
-
+				<!-- 
 				<section class="call-to-action call-to-action-default content-align-center call-to-action-in-footer">
 					<div class="container">
 						<div class="row">
@@ -318,6 +331,7 @@
 						</div>
 					</div>
 				</section>
+				 -->
 
 			</div>
 			
