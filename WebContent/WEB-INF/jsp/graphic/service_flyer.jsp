@@ -404,51 +404,50 @@
 							</section>
 							<!-- END call-to-action -->
 							
-							
 							<!-- latest work -->
 							<h3><spring:message code="graphic-title-3-1"/></h3>
 							<div class="row">
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="${webapp_name}/graphic/demo.html?lang=${loc}" target="_blank">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<img src="${img_dir}/graphic/demo/RecipeBook-Pastry.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
+													<span class="thumb-info-inner">Pastry Recipe</span>
+													<span class="thumb-info-type">Brochure</span>
 												</span>
 											</span>
 										</span>
 									</a>
 								</div>
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="${webapp_name}/graphic/demo.html?lang=${loc}" target="_blank">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<img src="${img_dir}/graphic/demo/Menu-Restaurant.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
+													<span class="thumb-info-inner">Restaurant</span>
+													<span class="thumb-info-type">Menu</span>
 												</span>
 											</span>
 										</span>
 									</a>
 								</div>
 								<div class="col-lg-4">
-									<a href="portfolio-single-small-slider.html">
+									<a href="${webapp_name}/graphic/demo.html?lang=${loc}" target="_blank">
 										<span class="thumb-info thumb-info-lighten thumb-info-centered-info thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+												<img src="${img_dir}/graphic/demo/Catalog-Furniture.jpg" class="img-fluid" alt="related work">
 												<span class="thumb-info-title">
-													<span class="thumb-info-inner">Project Title</span>
-													<span class="thumb-info-type">Project Type</span>
+													<span class="thumb-info-inner">Furniture</span>
+													<span class="thumb-info-type">Catalog</span>
 												</span>
 											</span>
 										</span>
 									</a>
 								</div>
 							</div>
-							
+							<!-- END of latest work -->
 						</div>
 					</div>
 

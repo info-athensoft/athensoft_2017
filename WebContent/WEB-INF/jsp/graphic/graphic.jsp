@@ -353,128 +353,6 @@
 							</div>
 							
 							<!-- 4 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-menu"/>
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="portfolio-item">
-											<a href="/graphic/service/menu.html?lang=${loc}">
-												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/menu.jpg" class="img-fluid" alt="menu restaurant cafe" width="50%">
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-8">
-										<div class="portfolio-info">
-											<div class="row">
-												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-menu"/></h4>	
-												</div>
-												<div class="col-md-3 text-center text-md-right">
-													<a href="${webapp_name}/graphic/service/menu.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
-												</div>
-											</div>
-										</div>
-
-										<p class="mt-0"><spring:message code="graphic-service-menu-desc"/></p>
-										
-										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							
-							<!-- 5 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-coupon"/>
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="portfolio-item">
-											<a href="/graphic/service/coupon.html?lang=${loc}">
-												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/coupon.jpg" class="img-fluid" alt="coupon voucher discount" width="50%">
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-8">
-										<div class="portfolio-info">
-											<div class="row">
-												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-coupon"/></h4>	
-												</div>
-												<div class="col-md-3 text-center text-md-right">
-													<a href="${webapp_name}/graphic/service/coupon.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
-												</div>
-											</div>
-										</div>
-
-										<p class="mt-0"><spring:message code="graphic-service-coupon-desc"/></p>
-										
-										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							
-							<!-- 6 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-poster"/>
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="portfolio-item">
-											<a href="/graphic/service/poster.html?lang=${loc}">
-												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/poster.jpg" class="img-fluid" alt="poster" width="50%">
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-8">
-										<div class="portfolio-info">
-											<div class="row">
-												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-poster"/></h4>	
-												</div>
-												<div class="col-md-3 text-center text-md-right">
-													<a href="${webapp_name}/graphic/service/poster.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
-												</div>
-											</div>
-										</div>
-
-										<p class="mt-0"><spring:message code="graphic-service-poster-desc"/></p>
-										
-										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							
-							<!-- 7 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-adbanner"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -515,7 +393,128 @@
 								</div>
 							</div>
 							
-							<!-- 8 -->
+							<!-- 5 -->
+							<hr class="invisible mt-4 mb-2" id="graphic-service-imgprocess"/>
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="/graphic/service/imgprocess.html?lang=${loc}">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphicservice/imgprocess.jpg" class="img-fluid" alt="image processing" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="graphic-service-imgprocess"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="${webapp_name}/graphic/service/imgprocess.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-0"><spring:message code="graphic-service-imgprocess-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<!-- 6 -->
+							<hr class="invisible mt-4 mb-2" id="graphic-service-logo"/>
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="/graphic/service/logo.html?lang=${loc}">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphicservice/logo.jpg" class="img-fluid" alt="logo maker design" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="graphic-service-logo"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="${webapp_name}/graphic/service/logo.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-0"><spring:message code="graphic-service-logo-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<!-- 9 -->
+							<hr class="invisible mt-4 mb-2" id="graphic-service-webpic"/>
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="/graphic/service/webpic.html?lang=${loc}">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphicservice/webpic.jpg" class="img-fluid" alt="web graphic picture" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="graphic-service-webpic"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="${webapp_name}/graphic/service/webpic.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-0"><spring:message code="graphic-service-webpic-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<!-- 10 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-smbanner"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -556,15 +555,15 @@
 							</div>
 							
 							<!-- 9 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-webpic"/>
+							<hr class="invisible mt-4 mb-2" id="graphic-service-poster"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
 									<div class="col-lg-4">
 										<div class="portfolio-item">
-											<a href="/graphic/service/webpic.html?lang=${loc}">
+											<a href="/graphic/service/poster.html?lang=${loc}">
 												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/webpic.jpg" class="img-fluid" alt="web graphic picture" width="50%">
+														<img src="${img_dir}/graphicservice/poster.jpg" class="img-fluid" alt="poster" width="50%">
 														<span class="thumb-info-action">
 															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 														</span>
@@ -577,18 +576,141 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-webpic"/></h4>	
+													<h4 class="heading-primary"><spring:message code="graphic-service-poster"/></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
-													<a href="${webapp_name}/graphic/service/webpic.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
+													<a href="${webapp_name}/graphic/service/poster.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
 												</div>
 											</div>
 										</div>
 
-										<p class="mt-0"><spring:message code="graphic-service-webpic-desc"/></p>
+										<p class="mt-0"><spring:message code="graphic-service-poster-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<!-- 14 -->
+							<hr class="invisible mt-4 mb-2" id="graphic-service-bizcard"/>
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="/graphic/service/bizcard.html?lang=${loc}">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphicservice/bizcard.jpg" class="img-fluid" alt="business card" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="graphic-service-bizcard"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="${webapp_name}/graphic/service/bizcard.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-0"><spring:message code="graphic-service-bizcard-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<!-- 7 -->
+							<hr class="invisible mt-4 mb-2" id="graphic-service-menu"/>
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="/graphic/service/menu.html?lang=${loc}">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphicservice/menu.jpg" class="img-fluid" alt="menu restaurant cafe" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="graphic-service-menu"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="${webapp_name}/graphic/service/menu.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-0"><spring:message code="graphic-service-menu-desc"/></p>
+										
+										<ul class="list list-inline list-icons">
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<!-- 8 -->
+							<hr class="invisible mt-4 mb-2" id="graphic-service-coupon"/>
+							<div class="col-lg-12 isotope-item mt-4 brands">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="portfolio-item">
+											<a href="/graphic/service/coupon.html?lang=${loc}">
+												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphicservice/coupon.jpg" class="img-fluid" alt="coupon voucher discount" width="50%">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="portfolio-info">
+											<div class="row">
+												<div class="col-md-9">
+													<h4 class="heading-primary"><spring:message code="graphic-service-coupon"/></h4>	
+												</div>
+												<div class="col-md-3 text-center text-md-right">
+													<a href="${webapp_name}/graphic/service/coupon.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
+												</div>
+											</div>
+										</div>
+
+										<p class="mt-0"><spring:message code="graphic-service-coupon-desc"/></p>
 										
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
+											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -669,131 +791,6 @@
 										<ul class="list list-inline list-icons">
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
 											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							
-							<!-- 12 -->
-							
-							
-							<!-- 13 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-logo"/>
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="portfolio-item">
-											<a href="/graphic/service/logo.html?lang=${loc}">
-												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/logo.jpg" class="img-fluid" alt="logo maker design" width="50%">
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-8">
-										<div class="portfolio-info">
-											<div class="row">
-												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-logo"/></h4>	
-												</div>
-												<div class="col-md-3 text-center text-md-right">
-													<a href="${webapp_name}/graphic/service/logo.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
-												</div>
-											</div>
-										</div>
-
-										<p class="mt-0"><spring:message code="graphic-service-logo-desc"/></p>
-										
-										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							
-							<!-- 14 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-bizcard"/>
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="portfolio-item">
-											<a href="/graphic/service/bizcard.html?lang=${loc}">
-												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/bizcard.jpg" class="img-fluid" alt="business card" width="50%">
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-8">
-										<div class="portfolio-info">
-											<div class="row">
-												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-bizcard"/></h4>	
-												</div>
-												<div class="col-md-3 text-center text-md-right">
-													<a href="${webapp_name}/graphic/service/bizcard.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
-												</div>
-											</div>
-										</div>
-
-										<p class="mt-0"><spring:message code="graphic-service-bizcard-desc"/></p>
-										
-										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							
-							<!-- 15 -->
-							<hr class="invisible mt-4 mb-2" id="graphic-service-imgprocess"/>
-							<div class="col-lg-12 isotope-item mt-4 brands">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="portfolio-item">
-											<a href="/graphic/service/imgprocess.html?lang=${loc}">
-												<span class="thumb-info thumb-info-no-zoom thumb-info-lighten thumb-info-no-borders">
-													<span class="thumb-info-wrapper">
-														<img src="${img_dir}/graphicservice/imgprocess.jpg" class="img-fluid" alt="image processing" width="50%">
-														<span class="thumb-info-action">
-															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-														</span>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-lg-8">
-										<div class="portfolio-info">
-											<div class="row">
-												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-imgprocess"/></h4>	
-												</div>
-												<div class="col-md-3 text-center text-md-right">
-													<a href="${webapp_name}/graphic/service/imgprocess.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
-												</div>
-											</div>
-										</div>
-
-										<p class="mt-0"><spring:message code="graphic-service-imgprocess-desc"/></p>
-										
-										<ul class="list list-inline list-icons">
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-digital"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-web"/></li>
-											<li class="list-inline-item"><i class="fa fa-check-circle"></i> <spring:message code="graphic-service-type-printing"/></li>
 										</ul>
 									</div>
 								</div>
@@ -943,6 +940,7 @@
 									</a>
 								</div>
 							</div>
+							<!-- END of latest work -->
 							
 						</div>
 					</div>
