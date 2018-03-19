@@ -136,17 +136,29 @@
 								
 								<hr class="invisible mt-4 mb-2">
 								<h4 class="heading-primary"><strong>Important Notice</strong></h4>
-								<strong>2018-03-19 by management</strong>
+								<strong>2018-02-26 by management</strong>
 								<p>
-									The Assessment of Week #11 has been issued.<br/>
+									The Assessment of Week #8 has been issued.<br/>
 								</p>
 								
 								<hr class="short"/>
-								<strong>2018-03-19 by management</strong>
+								<strong>2018-02-26 by management</strong>
 								<p>
-									Task plan for week #12 has been issued.<br/>
+									Daily reports are supposed to submit into Dropbox.<br/>
+									Essays are supposed to submit into Dropbox.<br/>
+									Section of Assignment is updated.<br/>
+									Section of Conventions is updated.<br/>
+									Section of History is updated.<br/>
 								</p>
 								
+								<hr class="short"/>
+								<strong>2018-02-22 by management</strong>
+								<p>All Internship working related email should be sent to <strong><code>athensoft.com@gmail.com</code></strong>, which applies to attendance email, 
+									working submissions, reports if no special instructions announced.</p>
+								
+								<hr class="short"/>
+								<strong>2018-02-22 by management</strong>
+								<p>Attendance emails and daily report emails should not be postponed to the next day.</p>
 							</aside>
 						</div>
 						
@@ -173,7 +185,7 @@
 									<label class="col-lg-3"><strong>Primary email : </strong></label>
 									<label class="col-lg-3">leon846666@gmail.com</label>
 									<label class="col-lg-3"><strong>Phone Number : </strong></label>
-									<label class="col-lg-3">514-550-9440</label>
+									<label class="col-lg-3">N/A</label>
 								</div>
 								
 								<hr class="short"/>
@@ -205,7 +217,7 @@
 									<label class="col-lg-3"><strong>Workload : </strong></label>
 									<label class="col-lg-3">20 hours per week</label>
 									<label class="col-lg-3"><strong>Accumulated Hours : </strong></label>
-									<label class="col-lg-3"><strong>72</strong> hours</label>
+									<label class="col-lg-3"><strong>52</strong> hours</label>
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Work Type : </strong></label>
@@ -261,14 +273,13 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td>1</td>
-												<td>12</td>
+												<td>2</td>
+												<td>11</td>
 												<td>
 													<ul>
-														<li>1201 Continue to polish Design Decision work(40%)</li>
-														<li>1202 Continue to write the essay on the topic of i18n (10%)</li>
-														<li>1203 Post a blog on the topic of Solutions of i18n problems with Java technology based on your essay 1202  (5%)</li>
-														<li>1204 Draw a Class Diagram for i18n project (45%)</li>
+														<li>1101 1001 Continued (80%)</li>
+														<li>1102 Write document on Environment and Configurations (10%)</li>
+														<li>1103 Essay on the topic of i18n (10%)</li>
 													</ul>
 												</td>
 												<td>20 hours</td>
@@ -279,69 +290,129 @@
 									
 									<hr class="invisible mt-2 mb-2"/>
 										
-										<h4><strong>Goals:</strong> </h4>
+										<strong>1101		1001 continued</strong><br/>
 										<ul>
-											<li>To learn how iteration works</li>
-											<li>Focus on analysis and design phases of SDLC</li>
-											<li>To learn that ideas, documents, code, knowledge base and all related artifacts are in union</li>
-											<li>To cultivate self-learning ability</li>
-											<li>To practice Time management</li>
-										</ul>
-										
-										<hr class="short"/>
-										
-										<strong>1201		Continue to polish Design Decision work</strong><br/>
-										<ul>
-											<li>1201-1 	Read comments carefully on week #11</li>
-											<li>1201-2 	Revise design decision as version 5 and resolve every comments and instructions</li>
+											<li>1001		i18n implementation using spring mvc</li>
+											<li>1001-1		Research on i18n/multi-language problem</li>
+											<li>1001-2		Compose a system requirement document</li>
+											<li>1001-3		Write Design decision for each case listed in the 'Requirement' document</li>
+											<li>1001-4		Implement in a Dynamic Web Project using Spring MVC technology</li>
+											<li>1001-5		Write test cases for testing and demonstration</li>
 										</ul>
 										<p><strong>Description:</strong> <br/>
-											n/a<br/>
+											Continue to finish the legacy tasks from 1001-3 to the end<br/>
 										</p>
 										<p><strong>Notes:</strong> <br/>
-										- Good formatting and layout of document is required<br/>
-										- Detail-oriented<br/>
+										- Refer to the notes in the last assignment description<br/>
 										</p>
 										
 										<hr class="short"/>
 										
-										<strong>1202		Continue to write the essay on the topic of i18n</strong><br/>
+										<strong>1102		Write document on Environment and Configurations</strong><br/>
+										<ul>
+											<li>1002-1		Write document on Environment and Configurations</li>
+										</ul>
+										<p><strong>Description:</strong> <br/>
+											Continue to finish the legacy tasks from 1001-3 to the end<br/>
+										</p>
+										<p><strong>Notes:</strong> <br/>
+										- Read carefully the Comment Log Week #9 and polish the essay on 'Generic Programming in Java'<br/>
+										- Considering meeting on March 3, 2018 13:00 - 14:00 via phone<br/>
+										</p>
 										
+										<hr class="short"/>
+										
+										<strong>1103	Essay on the topic of i18n</strong><br/>
+										<ul>
+											<li>1103-1	Write an essay on the topic of i18n</li>
+										</ul>
 										<p><strong>Description:</strong> <br/>
 											Briefly summarize in aspects of problems, solutions, techniques based on your previous research<br/>
 										</p>
 										<p><strong>Notes:</strong> <br/>
-										- in MS Word format<br/>
+										- Not limited to those applied into your current project<br/>
+										</p>
+										
+								
+									<hr class="long"/>
+								
+									<table class="table table-striped table-bordered">
+										<thead>
+											<tr class="success">
+												<th>SN</th><th>WK#</th><th>LIST OF TASK</th><th>ESTIMATED DURATION</th><th>TASK STATUS</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>10</td>
+												<td>
+													<ul>
+														<li>1001 i18n implementation using spring mvc</li>
+														<li>1002 Warm-up practice 2</li>
+														<li>1003 Warm-up practice 1</li>
+													</ul>
+												</td>
+												<td>20 hours</td>
+												<td>ON</td>
+											</tr>
+										</tbody>
+									</table>
+									
+									<hr class="invisible mt-2 mb-2"/>
+									<h5>Description</h5>
+									
+										<strong>1001		i18n implementation using spring mvc</strong><br/>
+										<ul>
+											<li>1001-1		Research on i18n/multi-language problem</li>
+											<li>1001-2		Compose a system requirement document</li>
+											<li>1001-3		Write Design decision for each case listed in the 'Requirement' document</li>
+											<li>1001-4		Implement in a Dynamic Web Project using Spring MVC technology</li>
+											<li>1001-5		Write test cases for testing and demonstration</li>
+										</ul>
+										<p><strong>Notes:</strong> <br/>
+										- Document template should be used.<br/>
+										- Requirement document and Design Decision must be in separated ones.<br/>
+										- There are 3 preset git repositories for the task in case that there are multiple scenarios for i18n implementation.<br/>
+										- If it's not enough, just contact admin to create more; in opposite, let the ones blank if there are not as many cases as expected.<br/>
+										- Using Maven<br/>
+										</p>
+										
+										<p><strong>Project info:</strong><br/>
+										Repository URL: <code>https://github.com/edu-athensoft/spring_i18n_1.git</code><br/>
+										Repository URL: <code>https://github.com/edu-athensoft/spring_i18n_2.git</code><br/>
+										Repository URL: <code>https://github.com/edu-athensoft/spring_i18n_3.git</code><br/>
+										Branches: <code>master, dev-ly</code><br/>
+										Project Name: <code>spring_i18n_1</code><br/>
+										Project Name: <code>spring_i18n_2</code><br/>
+										Project Name: <code>spring_i18n_3</code><br/>
+										Parent package: <code>com.athensoft.i18n</code><br/>
 										</p>
 										
 										<hr class="short"/>
 										
-										<strong>1203		Post a blog on the topic of i18n</strong><br/>
+										<strong>1002		Warm-up practice 2</strong><br/>
+										<ul>
+											<li>1002-1		Polish essay 2 based on comment log week 9</li>
+										</ul>
 										
-										<p><strong>Description:</strong> <br/>
-											Post a blog at www.athensoft.com/blog/<br/>
-											Access 'Add a post' button<br/>
-											<br/>
-											Topic :  	Internationalization of multi-language<br/>
-											Post Tile: 	Solutions of i18n and multi-language with Java technologies<br/>
-											Content: 	<i>covert to HTML based for good layout with html elements</i><br/>
-											Author:	 	<i>your name, could be your nick name, English name or what so ever</i><br/>
-											
-										</p>
 										<p><strong>Notes:</strong> <br/>
-										n/a<br/>
+										- Read carefully the Comment Log Week #9 and polish the essay on 'Generic Programming in Java'<br/>
+										- Considering meeting on March 3, 2018 13:00 - 14:00 via phone<br/>
 										</p>
 										
 										<hr class="short"/>
 										
-										<strong>1204		Draw a Class Diagram for i18n project</strong><br/>
+										<strong>1003		Warm-up practice 1</strong><br/>
+										<ul>
+											<li>1003-1		Polish essay 1 based on comment log week 8</li>
+										</ul>
 										
-										<p><strong>Description:</strong> <br/>
-											Conduct a technical study/research independently on Class Diagram.<br/>
-										</p>
 										<p><strong>Notes:</strong> <br/>
-										- A study note in written is required in the same format of essay documents.<br/>
+										- Read carefully the Comment Log Week #8 and polish the essay on 'ADTs in Java'<br/>
+										- Considering meeting on March 3, 2018 13:00 - 14:00 via phone<br/>
 										</p>
+										
 										
 								</div>
 								
@@ -373,20 +444,6 @@
 											</tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td>6</td>
-												<td>11</td>
-												<td><ul>
-														<li>1101 1001 Continued (80%)</li>
-														<li>1102 Write document on Environment and Configurations (10%)</li>
-														<li>1103 Essay on the topic of i18n (10%)</li>
-													</ul>
-												</td>
-												<td>20</td>
-												<td>20+</td>
-												<td>DELAYED</td>
-												<td><strong>62.5%</strong></td>
-											</tr>
 											<tr>
 												<td>5</td>
 												<td>10</td>
