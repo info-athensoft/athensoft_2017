@@ -18,6 +18,9 @@
 <c:set var="livedemo_path_21" value="/livedemos/ecommerce/1/"/>
 <c:set var="livedemo_path_22" value="/livedemos/ecommerce/1/"/>
 <c:set var="livedemo_path_23" value="/livedemos/ecommerce/1/"/>
+<c:set var="livedemo_path_31" value="/livedemos/general/1/"/>
+<c:set var="livedemo_path_32" value="/livedemos/general/1/"/>
+<c:set var="livedemo_path_33" value="/livedemos/general/1/"/>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -286,6 +289,66 @@
 							</div>
 						</div>
 					</div>
+					
+					<hr class="invisible mt-5 mb-2"/>
+					
+					<div class="container-fluid sample-item-container">
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<h2 class="mt-2 mb-0"><strong>General</strong> site demos</h2>
+								<p class="lead">General sites include Business Image site, Company site, Personal site and other sites <span class="alternative-font text-4">... all live demos included!</span></p>
+								<!-- 
+								<a class="open-demo-options btn btn-3d btn-xl btn-quaternary mt-3 mb-2" href="#mainDemos">VIEW MAIN DEMO <i class="ml-3 fa fa-long-arrow-right"></i></a>
+								 -->
+							</div>
+						</div>
+				
+						<div class="row mt-0 pt-4 sample-item-list" id="sampleItemList3">
+				
+							<div class="col-md-6 col-lg-4 isotope-item text-center">
+								<div class="sample-item">
+									<a href="${livedemo_path_31}" target="_blank">
+										<span class="sample-item-image-wrapper">
+											<span class="sample-item-image" data-original="${img_dir}/demos/coming-soon.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+											<i class="fa fa-spinner fa-spin fa-fw"></i>
+										</span>
+										<span class="sample-item-description">
+											<h5>Resume 1</h5>
+										</span>
+									</a>
+								</div>
+							</div>
+				
+							<div class="col-md-6 col-lg-4 isotope-item text-center">
+								<div class="sample-item">
+									<a href="${livedemo_path_32}" target="_blank">
+										<span class="sample-item-image-wrapper">
+											<span class="sample-item-image" data-original="${img_dir}/demos/coming-soon.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+											<i class="fa fa-spinner fa-spin fa-fw"></i>
+										</span>
+										<span class="sample-item-description">
+											<h5>Business image 1</h5>
+										</span>
+									</a>
+								</div>
+							</div>
+				
+							<div class="col-md-6 col-lg-4 isotope-item text-center">
+								<div class="sample-item">
+									<a href="${livedemo_path_33}" target="_blank">
+										<span class="sample-item-image-wrapper">
+											<span class="sample-item-image" data-original="${img_dir}/demos/coming-soon.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+											<i class="fa fa-spinner fa-spin fa-fw"></i>
+										</span>
+										<span class="sample-item-description">
+											<h5>Company image 1</h5>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
 				</section>
 				
 				<hr class="invisible mt-5 mb-2"/>
@@ -375,6 +438,7 @@
 		<!-- Examples -->
 		<script src="${webapp_name}/js/examples/examples.demos.js"></script>
 		<script src="${webapp_name}/js/examples/examples.demos2.js"></script>
+		<script src="${webapp_name}/js/examples/examples.demos3.js"></script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
