@@ -188,7 +188,7 @@
 								<div class="sample-item">
 									<a href="${livedemo_path_11}" target="_blank">
 										<span class="sample-item-image-wrapper">
-											<span class="sample-item-image" data-original="${img_dir}/demos/coming-soon.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+											<span class="sample-item-image" data-original="${img_dir}/livedemo/ecommerce-1.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
 											<i class="fa fa-spinner fa-spin fa-fw"></i>
 										</span>
 										<span class="sample-item-description">
