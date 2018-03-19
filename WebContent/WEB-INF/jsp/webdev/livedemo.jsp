@@ -313,7 +313,7 @@
 											<i class="fa fa-spinner fa-spin fa-fw"></i>
 										</span>
 										<span class="sample-item-description">
-											<h5>Resume 1</h5>
+											<h5>Resume one-page site 1</h5>
 										</span>
 									</a>
 								</div>
@@ -327,7 +327,7 @@
 											<i class="fa fa-spinner fa-spin fa-fw"></i>
 										</span>
 										<span class="sample-item-description">
-											<h5>Business image 1</h5>
+											<h5>Business site 1</h5>
 										</span>
 									</a>
 								</div>
@@ -341,7 +341,7 @@
 											<i class="fa fa-spinner fa-spin fa-fw"></i>
 										</span>
 										<span class="sample-item-description">
-											<h5>Company image 1</h5>
+											<h5>Company site 1</h5>
 										</span>
 									</a>
 								</div>
