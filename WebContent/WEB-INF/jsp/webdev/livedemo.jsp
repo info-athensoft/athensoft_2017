@@ -12,15 +12,15 @@
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="demo_img_dir" value="/images/livedemo"/>
 <c:set var="img_dir" value="/images"/>
-<c:set var="livedemo_path_11" value="/livedemos/ecommerce/1/"/>
-<c:set var="livedemo_path_12" value="/livedemos/ecommerce/1/"/>
-<c:set var="livedemo_path_13" value="/livedemos/ecommerce/1/"/>
-<c:set var="livedemo_path_21" value="/livedemos/ecommerce/1/"/>
-<c:set var="livedemo_path_22" value="/livedemos/ecommerce/1/"/>
-<c:set var="livedemo_path_23" value="/livedemos/ecommerce/1/"/>
-<c:set var="livedemo_path_31" value="/livedemos/general/1/"/>
-<c:set var="livedemo_path_32" value="/livedemos/general/1/"/>
-<c:set var="livedemo_path_33" value="/livedemos/general/1/"/>
+<c:set var="livedemo_path_11" value="/livedemos-ecommerce-1/"/>
+<c:set var="livedemo_path_12" value="/livedemos-ecommerce-1/"/>
+<c:set var="livedemo_path_13" value="/livedemos-ecommerce-1/"/>
+<c:set var="livedemo_path_21" value="/livedemos-ecommerce-1/"/>
+<c:set var="livedemo_path_22" value="/livedemos-ecommerce-1/"/>
+<c:set var="livedemo_path_23" value="/livedemos-ecommerce-1/"/>
+<c:set var="livedemo_path_31" value="/livedemos-general-1/"/>
+<c:set var="livedemo_path_32" value="/livedemos-general-1/"/>
+<c:set var="livedemo_path_33" value="/livedemos-general-1/"/>
 <!-- END page variables -->
 
 <!-- i18n -->
