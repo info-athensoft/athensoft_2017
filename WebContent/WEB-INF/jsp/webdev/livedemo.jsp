@@ -18,9 +18,9 @@
 <c:set var="livedemo_path_21" value="/livedemos-ecommerce-1/"/>
 <c:set var="livedemo_path_22" value="/livedemos-ecommerce-1/"/>
 <c:set var="livedemo_path_23" value="/livedemos-ecommerce-1/"/>
-<c:set var="livedemo_path_31" value="/livedemos-general-1/"/>
+<c:set var="livedemo_path_31" value="/livedemos-general-1/j"/>
 <c:set var="livedemo_path_32" value="/livedemos-general-1/"/>
-<c:set var="livedemo_path_33" value="/livedemos-general-1/"/>
+<c:set var="livedemo_path_33" value="http://www.sanjiaschool.org"/>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -309,7 +309,7 @@
 								<div class="sample-item">
 									<a href="${livedemo_path_31}" target="_blank">
 										<span class="sample-item-image-wrapper">
-											<span class="sample-item-image" data-original="${img_dir}/demos/coming-soon.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+											<span class="sample-item-image" data-original="${demo_img_dir}/cv-1.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
 											<i class="fa fa-spinner fa-spin fa-fw"></i>
 										</span>
 										<span class="sample-item-description">
@@ -337,7 +337,7 @@
 								<div class="sample-item">
 									<a href="${livedemo_path_33}" target="_blank">
 										<span class="sample-item-image-wrapper">
-											<span class="sample-item-image" data-original="${img_dir}/demos/coming-soon.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
+											<span class="sample-item-image" data-original="${img_dir}/livedemo/company-1.jpg" data-plugin-lazyload data-plugin-options="{'appearEffect': 'animated fadeIn'}"></span>
 											<i class="fa fa-spinner fa-spin fa-fw"></i>
 										</span>
 										<span class="sample-item-description">
