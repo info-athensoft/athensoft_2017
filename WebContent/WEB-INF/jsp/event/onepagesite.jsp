@@ -133,8 +133,9 @@
 							<div class="col-sm-7 py-4">
 								<h1>欢迎参加 <strong>Athensoft 三周年庆系列活动</strong></h1>
 								<p class="lead">我们在活动期间倾情为新老顾客和朋友提供各种免费和打折服务礼包，借此感谢大家一直以来对我们的关心和支持。</p>
-								<!-- <a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-light btn-lg mb-5">现在联系</a> -->
-								<img src="${img_dir}/logo/wechat-qr.jpg" alt="wechat qrcode" width="15%"/>
+								<!--  <a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-light btn-lg mb-5">现在联系</a> -->
+								<a href="/index.html?lang=${loc}" target="_blank" class="btn btn-light btn-lg mb-5">返回首页</a>
+								
 							</div>
 							<!--
 							<div class="col-sm-5 align-items-end justify-content-end d-flex">
@@ -203,6 +204,7 @@
 									微信：Athens314 &nbsp;&nbsp;&nbsp;&nbsp;邮箱：info@athensoft.com<br/>
 								 	活动首页：www.athensoft.com/event/onepage.html<br/>
 									官网：www.athensoft.com</p>
+								<img src="${img_dir}/logo/wechat-qr.jpg" alt="wechat qrcode" width="10%"/>
 	 						</div>
  						</div>
  						
