@@ -14,7 +14,9 @@ public class SiteController {
 	public String gotoIndex(){
 		logger.info("entering	.. /");
 		logger.info("exiting.. /");
-		return "index";
+//		String viewName = "index";
+		String viewName = "event/onepagesite";
+		return viewName;
 	}
 	
 	@RequestMapping("/index.html")

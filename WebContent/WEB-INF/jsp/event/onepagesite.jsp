@@ -12,15 +12,7 @@
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="demo_img_dir" value="/images/event"/>
 <c:set var="img_dir" value="/images"/>
-<c:set var="livedemo_path_11" value="/livedemos-ecommerce-1/"/>
-<c:set var="livedemo_path_12" value="/livedemos-ecommerce-1/"/>
-<c:set var="livedemo_path_13" value="/livedemos-ecommerce-1/"/>
-<c:set var="livedemo_path_21" value="/livedemos-ecommerce-1/"/>
-<c:set var="livedemo_path_22" value="/livedemos-ecommerce-1/"/>
-<c:set var="livedemo_path_23" value="/livedemos-ecommerce-1/"/>
-<c:set var="livedemo_path_31" value="/livedemos-general-1/"/>
-<c:set var="livedemo_path_32" value="/livedemos-general-1/"/>
-<c:set var="livedemo_path_33" value="/livedemos-general-1/"/>
+
 
 <c:set var="theme1" value="arone-classic"/>
 <c:set var="theme2" value="arone-innovative"/>
@@ -141,7 +133,8 @@
 							<div class="col-sm-7 py-4">
 								<h1>欢迎参加 <strong>Athensoft 三周年庆系列活动</strong></h1>
 								<p class="lead">我们在活动期间倾情为新老顾客和朋友提供各种免费和打折服务礼包，借此感谢大家一直以来对我们的关心和支持。</p>
-								<a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-light btn-lg mb-5">现在联系</a>
+								<!-- <a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-light btn-lg mb-5">现在联系</a> -->
+								<img src="${img_dir}/logo/wechat-qr.jpg" alt="wechat qrcode" width="15%"/>
 							</div>
 							<!--
 							<div class="col-sm-5 align-items-end justify-content-end d-flex">
@@ -162,26 +155,26 @@
  						<div class="alert alert-info alert-lg">
  							<p>活动时间：2018-4-2至 2018-4-15 23:59:59</p>
  							<p>活动价格：只要$179+tx   （原价$359+tx）</p>
+ 							<p><strong>附赠礼包：</strong></p>
+							<p>免费响应式精美设计12选1</p>
+							<p>首年免费发布（第二年起CAD$10/月）</p>
+							<p>赠送价值CAD$180维护服务优惠券</p>
+							
  						</div>
 						
  						<div class="row">
  							<div class="col-lg-3 text-left"></div>
  							<div class="col-lg-3 text-left">
 							
-							<p><strong>附赠礼包：</strong></p>
-							<ul class="list list-icons">
-								<li><i class="fa fa-caret-right"></i>免费响应式精美设计12选1</li>
-								<li><i class="fa fa-caret-right"></i>首年免费发布（第二年起CAD$10/月）</li>
-								<li><i class="fa fa-caret-right"></i>赠送价值CAD$180维护服务优惠券</li>
-							</ul>
+							
 							<p><strong>活动流程：</strong></p>
 							<ul class="list list-icons">
 								<li><i class="fa fa-caret-right"></i>微信或邮件报名</li>
 								<li><i class="fa fa-caret-right"></i>注明标题"参加周年庆活动2"</li>
 								<li><i class="fa fa-caret-right"></i>明确选择模板</li>
 								<li><i class="fa fa-caret-right"></i>接收确认信</li>
-								<li><i class="fa fa-caret-right"></i>付款</li>
-								<li><i class="fa fa-caret-right"></i>提交完整的文字和图片</li>
+								<li><i class="fa fa-caret-right"></i>在线付款</li>
+								<li><i class="fa fa-caret-right"></i>电邮提交完整的文字和图片</li>
 								<li><i class="fa fa-caret-right"></i>等待制作</li>
 								<li><i class="fa fa-caret-right"></i>交付使用</li>
 							</ul>
@@ -198,16 +191,22 @@
 								<li><i class="fa fa-caret-right"></i>最长制作时间48小时</li>
 								<li><i class="fa fa-caret-right"></i>我们保留一切对此项活动解释权</li>
 							</ul>
-							<p><strong>联系我们：</strong></p>
-							<ul class="list list-icons">
-								<li>微信：Athens314</li>
-								<li>邮箱：info@athensoft.com</li>
-								<li>官网：www.athensoft.com</li>
-								<li>活动首页：www.athensoft.com/event/onepage.html</li>
-							</ul>
+							
 						</div>
 						
  						<div class="col-lg-3 text-left"></div>
+ 						
+ 						<div class="col-lg-12 text-center">
+	 						<div class="alert alert-info">
+	 							<p><strong>联系我们：</strong></p>
+								<p>
+									微信：Athens314 &nbsp;&nbsp;&nbsp;&nbsp;邮箱：info@athensoft.com<br/>
+								 	活动首页：www.athensoft.com/event/onepage.html<br/>
+									官网：www.athensoft.com</p>
+	 						</div>
+ 						</div>
+ 						
+ 						
  					</div>
 						
 					</div>
@@ -228,7 +227,7 @@
 						<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a href="http://localhost:8080${demo_img_dir}/theme/big/${theme1}.jpg">
+									<a href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme1}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme1}.jpg" class="img-fluid" alt="">
@@ -248,7 +247,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme2}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme2}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme2}.jpg" class="img-fluid" alt="">
@@ -267,7 +266,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme3}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme3}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme3}.jpg" class="img-fluid" alt="">
@@ -287,7 +286,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme4}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme4}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme4}.jpg" class="img-fluid" alt="">
@@ -307,7 +306,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme5}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme5}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme5}.jpg" class="img-fluid" alt="">
@@ -327,7 +326,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme6}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme6}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme6}.jpg" class="img-fluid" alt="">
@@ -347,7 +346,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme7}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme7}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme7}.jpg" class="img-fluid" alt="">
@@ -367,7 +366,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme8}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme8}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme8}.jpg" class="img-fluid" alt="">
@@ -387,7 +386,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme9}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme9}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme9}.jpg" class="img-fluid" alt="">
@@ -407,7 +406,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme10}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme10}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme10}.jpg" class="img-fluid" alt="">
@@ -427,7 +426,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme11}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme11}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme11}.jpg" class="img-fluid" alt="">
@@ -446,7 +445,7 @@
 							
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
-									<a target="_blank" href="http://localhost:8080${demo_img_dir}/theme/big/${theme12}.jpg">
+									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme12}.jpg">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
 												<img src="${demo_img_dir}/theme/${theme12}.jpg" class="img-fluid" alt="">

@@ -33,7 +33,7 @@ public class GeneralIDHelper {
 	public static void main(String[] args){
 		//System.out.println(generate());
 		
-		for(int i=0; i<16; i++){
+		for(int i=0; i<100; i++){
 			System.out.println(generateLong());
 		}
 	}
@@ -41,7 +41,7 @@ public class GeneralIDHelper {
 	final public synchronized static long generateLong() {
 		long t = System.nanoTime();
 		int r = (int) (Math.floor(Math.random() * 1000));
-		System.out.print(t+"\t");
+		//System.out.print(t+"\t");
 		return t*1000+r;
 	}
 	
