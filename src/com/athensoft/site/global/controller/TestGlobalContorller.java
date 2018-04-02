@@ -23,9 +23,12 @@ public class TestGlobalContorller {
 		return mav;
 	}
 
-
 	@RequestMapping("/test/aboutus.html")
 	public String gotoAboutus(){
 		return "test/test-aboutus";
 	}
+	
+	
+	
+	
 }
