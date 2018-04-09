@@ -136,15 +136,15 @@
 								
 								<hr class="invisible mt-4 mb-2">
 								<h4 class="heading-primary"><strong>Important Notice</strong></h4>
-								<strong>2018-04-09 by management</strong>
+								<strong>2018-03-19 by management</strong>
 								<p>
-									The Schedule of Week #15 has been issued.<br/>
+									The Assessment of Week #11 has been issued.<br/>
 								</p>
 								
 								<hr class="short"/>
-								<strong>2018-04-09 by management</strong>
+								<strong>2018-03-19 by management</strong>
 								<p>
-									Task plan for week #14,#13 has been issued.<br/>
+									Task plan for week #12 has been issued.<br/>
 								</p>
 								
 							</aside>
@@ -185,7 +185,7 @@
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Position : </strong></label>
-									<label class="col-lg-3">Java/Web Programmer Lv1</label>
+									<label class="col-lg-3">Java/Web Developer Lv1</label>
 									<label class="col-lg-3"><strong>Supervisor : </strong></label>
 									<label class="col-lg-3">Athens Zhang</label>
 								</div>
@@ -193,7 +193,7 @@
 									<label class="col-lg-3"><strong>Starting date : </strong></label>
 									<label class="col-lg-3">2018-02-23</label>
 									<label class="col-lg-3"><strong>Termination date : </strong></label>
-									<label class="col-lg-3">2018-06-2</label>
+									<label class="col-lg-3">TBA</label>
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Attendance Record : </strong></label>
@@ -205,7 +205,7 @@
 									<label class="col-lg-3"><strong>Workload : </strong></label>
 									<label class="col-lg-3">20 hours per week</label>
 									<label class="col-lg-3"><strong>Accumulated Hours : </strong></label>
-									<label class="col-lg-3"><strong>102</strong> hours</label>
+									<label class="col-lg-3"><strong>72</strong> hours</label>
 								</div>
 								<div class="row">
 									<label class="col-lg-3"><strong>Work Type : </strong></label>
@@ -251,105 +251,6 @@
 								</div>
 								
 								<h4>Assignment</h4>
-								<div>
-									<table class="table table-striped table-bordered">
-										<thead>
-											<tr class="success">
-												<th>SN</th><th>WK#</th><th>LIST OF TASK</th><th>ESTIMATED DURATION</th><th>TASK STATUS</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>3</td>
-												<td>15</td>
-												<td>
-													<ul>
-														<li>1501 Developing project 2 athensoft_acp_product (2/4)</li>
-													</ul>
-												</td>
-												<td>20 hours</td>
-												<td>CONTINUED</td>
-											</tr>
-										</tbody>
-									</table>
-									
-									<hr class="invisible mt-2 mb-2"/>
-										
-										<h4><strong>Goals:</strong> </h4>
-										<ul>
-											<li>Practice on real projects for demonstration at interview</li>
-											<li>Sharpen technical skills</li>
-										</ul>
-										
-										<hr class="short"/>
-										
-										<strong>1501		Developing project 2 athensoft_acp_product</strong><br/>
-										<ul>
-											<li>1501-1 	Item CRUD</li>
-											<li>1501-2 	Category CRUD</li>
-											<li>1501-3 	Item - Category Relationship Management</li>
-											<li>1501-4 	Create data dictionary document in writing</li>
-											<li>1501-5 	Correspondent front-end</li>
-										</ul>
-										<p><strong>Description:</strong> <br/>
-											n/a<br/>
-										</p>
-										<p><strong>Notes:</strong> <br/>
-										- Principles of software engineering should be taken into consideration<br/>
-										- A template of Data Dictionary is given, and use it
-										</p>
-										
-								</div>
-								
-								
-								<div>
-									<table class="table table-striped table-bordered">
-										<thead>
-											<tr class="success">
-												<th>SN</th><th>WK#</th><th>LIST OF TASK</th><th>ESTIMATED DURATION</th><th>TASK STATUS</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>2</td>
-												<td>14</td>
-												<td>
-													<ul>
-														<li>1401 Initiate project 2 athensoft_acp_product (1/4)</li>
-													</ul>
-												</td>
-												<td>20 hours</td>
-												<td>CONTINUED</td>
-											</tr>
-										</tbody>
-									</table>
-									
-									<hr class="invisible mt-2 mb-2"/>
-										
-										<h4><strong>Goals:</strong> </h4>
-										<ul>
-											<li>Practice on real projects for demonstration at interview</li>
-											<li>Sharpen technical skills</li>
-										</ul>
-										
-										<hr class="short"/>
-										
-										<strong>1401		Initiate project 2 athensoft_acp_product</strong><br/>
-										<ul>
-											<li>1401-1 	Confirm business goals and requirement</li>
-											<li>1401-2 	Establish development environment</li>
-											<li>1401-3 	Study data model</li>
-										</ul>
-										<p><strong>Description:</strong> <br/>
-											n/a<br/>
-										</p>
-										<p><strong>Notes:</strong> <br/>
-										- Principles of software engineering should be taken into consideration<br/>
-										</p>
-										
-								</div>
-								
-								<hr class="short"/>
 								
 								<div>
 									<table class="table table-striped table-bordered">
@@ -361,14 +262,17 @@
 										<tbody>
 											<tr>
 												<td>1</td>
-												<td>13</td>
+												<td>12</td>
 												<td>
 													<ul>
-														<li>1301 Prepare study plan (100%)</li>
+														<li>1201 Continue to polish Design Decision work(40%)</li>
+														<li>1202 Continue to write the essay on the topic of i18n (10%)</li>
+														<li>1203 Post a blog on the topic of Solutions of i18n problems with Java technology based on your essay 1202  (5%)</li>
+														<li>1204 Draw a Class Diagram for i18n project (45%)</li>
 													</ul>
 												</td>
-												<td>10 hours</td>
-												<td>CONTINUED</td>
+												<td>20 hours</td>
+												<td>ON</td>
 											</tr>
 										</tbody>
 									</table>
@@ -377,23 +281,66 @@
 										
 										<h4><strong>Goals:</strong> </h4>
 										<ul>
-											<li>Prepare for job hunting</li>
-											<li>Sharpen technical skills</li>
+											<li>To learn how iteration works</li>
+											<li>Focus on analysis and design phases of SDLC</li>
+											<li>To learn that ideas, documents, code, knowledge base and all related artifacts are in union</li>
+											<li>To cultivate self-learning ability</li>
+											<li>To practice Time management</li>
 										</ul>
 										
 										<hr class="short"/>
 										
-										<strong>1301		Prepare study plan</strong><br/>
+										<strong>1201		Continue to polish Design Decision work</strong><br/>
 										<ul>
-											<li>1301-1 	Search on internet for job description</li>
-											<li>1301-2 	Select target technologies which are popular and required by employers currently</li>
+											<li>1201-1 	Read comments carefully on week #11</li>
+											<li>1201-2 	Revise design decision as version 5 and resolve every comments and instructions</li>
 										</ul>
 										<p><strong>Description:</strong> <br/>
 											n/a<br/>
 										</p>
 										<p><strong>Notes:</strong> <br/>
-										- A writing plan is required<br/>
-										- References are required to list in the plan<br/>
+										- Good formatting and layout of document is required<br/>
+										- Detail-oriented<br/>
+										</p>
+										
+										<hr class="short"/>
+										
+										<strong>1202		Continue to write the essay on the topic of i18n</strong><br/>
+										
+										<p><strong>Description:</strong> <br/>
+											Briefly summarize in aspects of problems, solutions, techniques based on your previous research<br/>
+										</p>
+										<p><strong>Notes:</strong> <br/>
+										- in MS Word format<br/>
+										</p>
+										
+										<hr class="short"/>
+										
+										<strong>1203		Post a blog on the topic of i18n</strong><br/>
+										
+										<p><strong>Description:</strong> <br/>
+											Post a blog at www.athensoft.com/blog/<br/>
+											Access 'Add a post' button<br/>
+											<br/>
+											Topic :  	Internationalization of multi-language<br/>
+											Post Tile: 	Solutions of i18n and multi-language with Java technologies<br/>
+											Content: 	<i>covert to HTML based for good layout with html elements</i><br/>
+											Author:	 	<i>your name, could be your nick name, English name or what so ever</i><br/>
+											
+										</p>
+										<p><strong>Notes:</strong> <br/>
+										n/a<br/>
+										</p>
+										
+										<hr class="short"/>
+										
+										<strong>1204		Draw a Class Diagram for i18n project</strong><br/>
+										
+										<p><strong>Description:</strong> <br/>
+											Conduct a technical study/research independently on Class Diagram.<br/>
+										</p>
+										<p><strong>Notes:</strong> <br/>
+										- A study note in written is required in the same format of essay documents.<br/>
 										</p>
 										
 								</div>
@@ -426,45 +373,6 @@
 											</tr>
 										</thead>
 										<tbody>
-											<tr>
-												<td>9</td>
-												<td>14</td>
-												<td><ul>
-														<li>1401 Project 2 Athensoft ACP Product Module 1/4</li>
-													</ul>
-												</td>
-												<td>20</td>
-												<td>20</td>
-												<td>DONE</td>
-												<td><strong>TBA</strong></td>
-											</tr>
-											<tr>
-												<td>8</td>
-												<td>13</td>
-												<td><ul>
-														<li>1301 Prepare study plan (100%)</li>
-													</ul>
-												</td>
-												<td>10</td>
-												<td>10</td>
-												<td>DONE</td>
-												<td><strong>TBA</strong></td>
-											</tr>
-											<tr>
-												<td>7</td>
-												<td>12</td>
-												<td><ul>
-														<li>1201 Continue to polish Design Decision work(40%)</li>
-														<li>1202 Continue to write the essay on the topic of i18n (10%)</li>
-														<li>1203 Post a blog on the topic of Solutions of i18n problems with Java technology based on your essay 1202 (5%)</li>
-														<li>1204 Draw a Class Diagram for i18n project (45%)</li>
-													</ul>
-												</td>
-												<td>20</td>
-												<td>20</td>
-												<td>DONE</td>
-												<td><strong>TBA</strong></td>
-											</tr>
 											<tr>
 												<td>6</td>
 												<td>11</td>
