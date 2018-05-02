@@ -27,7 +27,6 @@ public class SiteController {
 	}
 	
 	
-	
 	@RequestMapping("/about/aboutus.html")
 	public String gotoAboutus(){
 		logger.info("entering.. /about/aboutus.html");
