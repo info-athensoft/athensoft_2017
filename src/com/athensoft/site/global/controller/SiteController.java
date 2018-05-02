@@ -14,8 +14,8 @@ public class SiteController {
 	public String gotoIndex(){
 		logger.info("entering	.. /");
 		logger.info("exiting.. /");
-//		String viewName = "index";
-		String viewName = "event/onepagesite";
+		String viewName = "index";
+//		String viewName = "event/onepagesite";
 		return viewName;
 	}
 	
