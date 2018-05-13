@@ -10,7 +10,7 @@
 <!-- END page variables -->
 
 <!-- i18n -->
-<c:set var="loc" value="en_US"/>
+<c:set var="loc" value="zh_CN"/>
 <c:if test="${!(empty param.lang)}">
   <c:set var="loc" value="${param.lang}"/>
 </c:if>
@@ -26,32 +26,34 @@
 				</a>
 			</li>
 			
+			<!-- 
 			<li class="nav-item d-none d-sm-block">
-				<!-- <a class="nav-link" href="/support/support.html?lang=${loc}"> -->
 				<a class="nav-link" href="/about/comingsoon.html?lang=${loc}">
 					<i class="fa fa-angle-right"></i> <spring:message code="link-support"/>
 				</a>
-			</li>
+			</li> -->
 			
-			<li class="nav-item">
+			<li class="nav-item d-none d-sm-block">
 				<a class="nav-link" href="/support/contactus.html?lang=${loc}">
 					<i class="fa fa-angle-right"></i> <spring:message code="link-contact"/>
 				</a>
 			</li>
 			
-			<!--  
 			<li class="nav-item dropdown">
 				<a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<img src="/img/blank.gif" class="flag flag-ca" alt="English" /> English
+					<img id="lang_flag" src="/img/blank.gif" class="flag flag-ca" alt="Language" /> <span id="lang_current">English</span>
 					<i class="fa fa-angle-down"></i>
 				</a>
 				<div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-					<a class="dropdown-item" href="#"><img src="/img/blank.gif" class="flag flag-ca" alt="English" /> English</a>
-					<a class="dropdown-item" href="#"><img src="/img/blank.gif" class="flag flag-ca" alt="English" /> Française</a>
-					<a class="dropdown-item" href="#"><img src="/img/blank.gif" class="flag flag-cn" alt="English" /> 中文</a>
+					<a class="dropdown-item" href="/index.html?lang=en_US"><img src="/img/blank.gif" class="flag flag-ca" alt="English" /> <span id="lang_en"><spring:message code="lang_en"/></span> </a>
+					<a class="dropdown-item" href="/index.html?lang=fr_CA"><img src="/img/blank.gif" class="flag flag-ca" alt="English" /> <span id="lang_fr"><spring:message code="lang_fr"/></span> </a>
+					<a class="dropdown-item" href="/index.html?lang=zh_CN"><img src="/img/blank.gif" class="flag flag-cn" alt="English" /> <span id="lang_chs"><spring:message code="lang_chs"/></span> </a>
 				</div>
 			</li>
-			-->
+			
+			
+			
+			
 		</ul>
 	</nav>
 	<div class="header-search d-none d-md-block">
@@ -68,3 +70,4 @@
 		</form>
 	</div>
 </div>
+

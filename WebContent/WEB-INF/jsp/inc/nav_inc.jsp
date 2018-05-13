@@ -178,30 +178,40 @@
 				</li>
 				
  				<!-- menu - language -->
+ 				<!-- 
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="#"> <spring:message code="menu-lang"/> </a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="/index.html?lang=en_US"><img alt="English" src="${img_dir}/language/canada.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_en"/></a></li>
 						<li><a class="dropdown-item" href="/index.html?lang=fr_CA"><img alt="French" src="${img_dir}/language/french.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_fr"/></a></li>
 						<li><a class="dropdown-item" href="/index.html?lang=zh_CN"><img alt="Chinese Simplied" src="${img_dir}/language/chineseS.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_chs"/></a></li>
-						<!-- 
+						 
 						<li><a class="dropdown-item" href="/index.html?lang=zh_CN"><img alt="Chinese Traditional" src="${img_dir}/language/chineseS.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="lang_cht"/></a></li>
-						 -->
+						
 					</ul>
 				</li>
+				 -->
+				 
+				<li class="dropdown">
+					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="link-support"/> </a>
+					<ul class="dropdown-menu">
+						<!-- <a class="nav-link" href="/support/support.html?lang=${loc}"> -->
+						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="link-support"/></a></li>
+						<li><a class="dropdown-item" href="/about/aboutus.html?lang=${loc}"><spring:message code="link-about"/></a></li>
+						<li><a class="dropdown-item" href="/support/contactus.html?lang=${loc}"><spring:message code="link-contact"/></a></li>
+					</ul>
+				</li> 
+				 
 			</ul>
 		</nav>
 	</div>
 	<ul class="header-social-icons social-icons d-none d-sm-block">
 		<li class="social-icons-facebook"><a
-			href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i
-				class="fa fa-facebook"></i></a></li>
+			href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 		<li class="social-icons-twitter"><a
-			href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i
-				class="fa fa-twitter"></i></a></li>
+			href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 		<li class="social-icons-linkedin"><a
-			href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i
-				class="fa fa-linkedin"></i></a></li>
+			href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
 	</ul>
 	<button class="btn header-btn-collapse-nav" data-toggle="collapse"
 		data-target=".header-nav-main nav">

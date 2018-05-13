@@ -467,5 +467,32 @@
 			ga('send', 'pageview');
 		</script>
 		 -->
+		 
+		 <!-- language switching -->
+		<script>
+			$(document).ready(function(){
+				
+				var lc = "${loc}";
+				var lc2 = $("#lang_current").text();
+				//alert("wo cao:"+lc+" ,"+lc2);
+				
+				var langName = "";			
+				
+				if(lc =="en_US"){
+					langName = "English";
+					$("#lang_flag").removeClass("flag-ca").addClass("flag-ca");
+				}else if(lc == "fr_CA"){
+					langName = "Français";
+					$("#lang_flag").removeClass("flag-ca").addClass("flag-ca");
+				}else if(lc == "zh_CN"){
+					langName = "中文";
+					$("#lang_flag").removeClass("flag-cn").addClass("flag-cn");
+				}
+				
+				$("#lang_current").text(langName);
+				
+				//lang_flag
+			});
+		</script>
 	</body>
 </html>
