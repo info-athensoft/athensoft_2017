@@ -104,9 +104,6 @@ public class SupportController {
 			case "webpricing":
 				returnURL = "redirect:/webdev/pricing.html?lang="+lang;
 				break;
-			case "graphic":
-				returnURL = "redirect:/graphic/graphic.html?lang="+lang;
-				break;
 			case "graphicdemo":
 				returnURL = "redirect:/graphic/demo.html?lang="+lang;
 				break;
