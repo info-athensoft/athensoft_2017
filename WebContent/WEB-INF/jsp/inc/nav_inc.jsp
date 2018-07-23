@@ -46,7 +46,8 @@
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="/graphic/graphic.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-1"/></a></li>
-						<li><a class="dropdown-item" href="/graphic/service/catalog.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-6"/></a></li>
+						<!-- <li><a class="dropdown-item" href="/graphic/service/catalog.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-6"/></a></li>
+						 -->
 						<li><a class="dropdown-item" href="/graphic/demo.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-2"/></a></li>
 						
 						<!-- 

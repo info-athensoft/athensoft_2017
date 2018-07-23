@@ -94,7 +94,7 @@
 			<div class="row">
 				<div class="col-lg-2">
 					<a href="index.html" class="logo">
-						<img alt="Informatique Athensoft" class="img-fluid" src="${img_dir}/logo/logo-grey.png" width="80%">
+						<img alt="Informatique Athensoft" class="img-fluid" src="${img_dir}/logo/athensoft-logo-grey.png" width="80%">
 					</a>
 				</div>
 				<div class="col-lg-6">

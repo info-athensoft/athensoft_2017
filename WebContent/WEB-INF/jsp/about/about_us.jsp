@@ -128,7 +128,13 @@
 					<div class="row align-items-center">
 						<div class="col-lg-10">
 							<p class="lead">
-								<spring:message code="aboutus-section-1"/>
+								<spring:message code="aboutus-section-1a"/>
+							</p>
+							<p class="lead">
+								<spring:message code="aboutus-section-1c"/>
+							</p>
+							<p class="lead">
+								<spring:message code="aboutus-section-1b"/>
 							</p>
 						</div>
 						<div class="col-lg-2">
@@ -191,7 +197,10 @@
 									<div class="featured-box">
 										<div class="box-content">
 											<h4 class="heading-primary"><strong>2018</strong></h4>
-											<p><spring:message code="aboutus-history-1"/></p>
+											<p><spring:message code="aboutus-history-2018-1"/></p>
+											<p><spring:message code="aboutus-history-2018-4"/></p>
+											<p><spring:message code="aboutus-history-2018-2"/></p>
+											<p><spring:message code="aboutus-history-2018-3"/></p>
 										</div>
 									</div>
 								</li>
