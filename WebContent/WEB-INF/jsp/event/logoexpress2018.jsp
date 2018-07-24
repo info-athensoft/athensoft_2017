@@ -605,19 +605,19 @@
 										<div class="form-group row">
 											<label class="col-lg-3 control-label text-lg-right pt-2" for="targetMarket">目标市场</label>
 											<div class="col-lg-3">
-												<input type="text" class="form-control" id="targetMarket" name="targetMarket">
+												<input type="text" class="form-control" id="targetMarket" name="targetMarket" placeholder="省，市">
 											</div>
 											
 											<label class="col-lg-3 control-label text-lg-right pt-2" for="targetCustomer">目标客户</label>
 											<div class="col-lg-3">
-												<input type="text" class="form-control" id="targetCustomer" name="targetCustomer">
+												<input type="text" class="form-control" id="targetCustomer" name="targetCustomer" placeholder="年龄，职业，性别，语种等">
 											</div>
 										</div>
 										
 										<div class="form-group row">
 											<label class="col-lg-3 control-label text-lg-right pt-2" for="briefDesc">简明业务描述</label>
 											<div class="col-lg-9">
-												<textarea class="form-control" id="briefDesc" name="briefDesc"></textarea>
+												<textarea class="form-control" id="briefDesc" name="briefDesc" placeholder="可简要描述经营理念，产品或服务范围"></textarea>
 											</div>
 										</div>
 								</div>
@@ -633,19 +633,19 @@
 								<div class="card-body">
 								
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-0">用途</label>
+											<label class="col-lg-3 control-label text-lg-right pt-0">Logo 用途</label>
 											<div class="col-lg-6">
 												<div class="checkbox">
 													<label>
 														<input type="checkbox" value="web">
-														Web/Digital &nbsp;&nbsp;&nbsp;(JPG, PNG, default size: 800 X 800 px ,  72dpi)
+														电子/网页/移动端 &nbsp;&nbsp;&nbsp;<br/>(JPG, PNG, default size: 800 X 800 px ,  72dpi)
 													</label>
 												</div>
 					
 												<div class="checkbox">
 													<label>
 														<input type="checkbox" value="printing">
-														Printing &nbsp;&nbsp;&nbsp;(PDF, default size: 2550X 2550 px , 300dpi)
+														印刷品 &nbsp;&nbsp;&nbsp;<br/>(PDF, default size: 2550X 2550 px , 300dpi)
 													</label>
 												</div>
 											</div>
@@ -814,7 +814,15 @@
 											<label class="col-lg-3 control-label text-lg-right pt-2" for="favorColor">偏好颜色</label>
 											<div class="col-lg-6">
 												<input type="text" class="form-control" id="favorColor" name="favorColor" placeholder="例子：#ff9933,#452345,#e6e6e6,...">
-												<span class="help-block"><a href="https://htmlcolorcodes.com/color-picker/" target="_blank">提示：请输入偏好颜色值，多个用逗号隔开，点击使用颜色提取器 Color Picker，&nbsp;复制粘贴 HEX 值</a></span>
+												<span class="help-block">提示：点击使用颜色提取器 <a href="https://htmlcolorcodes.com/color-picker/" target="_blank"> Color Picker</a>，&nbsp;复制粘贴 HEX 值，逗号分隔</span>
+											</div>
+										</div>
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="logoTypeRefUrl">寓意内涵</label>
+											<div class="col-lg-6">
+												<input type="text" class="form-control" id="logoTypeRefUrl" name="logoTypeRefUrl">
+												<span class="help-block">提示：如果有，可以输入希望包含的寓意与内涵</span>
 											</div>
 										</div>
 										
@@ -827,9 +835,9 @@
 										
 										<div class="row">
 											<div class="col-lg-12 text-center">
-												<br/><br/>
-												<a href="#" class="btn btn-xl btn-secondary">&nbsp;&nbsp;&nbsp;现在点击报名&nbsp;&nbsp;&nbsp;</a>
 												<br/>
+												<a href="#" class="btn btn-xl btn-secondary">&nbsp;&nbsp;&nbsp;现在点击报名&nbsp;&nbsp;&nbsp;</a>
+												<br/><br/>
 											</div>
 										</div>
 										
@@ -837,17 +845,33 @@
 						</form>
 					</section>
 					</div>
-					
-					
-
 					<hr class="tall">
-					 
 				</div>
 
 			</div>
 			
+			<!-- call to action -->
+					<section class="call-to-action call-to-action-dark mb-0">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-9 col-lg-9">
+									<div class="call-to-action-content">
+										<h3><strong>5到10个工作日可交付</strong> </h3>
+										<p class="mb-0">联系人: Jocelyne 女士 &nbsp;&nbsp; 邮件：design@athensoft.com &nbsp;&nbsp; 短信：(514)746-9188</p>
+									</div>
+								</div>
+								<div class="col-sm-3 col-lg-3">
+									<div class="call-to-action-btn">
+										<!-- <a href="#" class="btn btn-lg btn-primary" data-hash data-hash-offset="120">欢迎联系</a>  -->
+										<img src="/images/logo/qr_code.png" width="30%"/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 			
-				<hr class="invisible mt-5 mb-2"/>
+			
+			<!-- 	<hr class="invisible mt-5 mb-2"/>  -->
 				
 				
 				<section class="section section-no-border section-default m-0 pt-5" id="demos">
