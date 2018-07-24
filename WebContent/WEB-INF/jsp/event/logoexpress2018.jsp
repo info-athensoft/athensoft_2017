@@ -594,13 +594,307 @@
 									</div>
 								</div>
 							</div>
-							
-							
-							
 						</div>
 					</div>
 				</section>
 				
+				
+				<hr class="invisible mt-5 mb-2"/>
+				
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 class="mt-2 mb-0"> 免费试稿  <strong></strong></h2>
+							<p class="lead">提交所需信息，立即开始试稿</p>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col">
+							<section class="card card-admin">
+								<form class="form-horizontal form-bordered" method="get">
+							
+								<header class="card-header">
+									<div class="card-actions">
+										<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+										<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+									</div>
+									<h3 class="card-title">联系信息</h3>
+								</header>
+								<div class="card-body">
+										<!-- 
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="requestDate">Request Date</label>
+											<div class="col-lg-6">
+												<input type="text" class="form-control" id="requestDate" name="requestDate">
+											</div>
+										</div> -->
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="bizName">Business Name</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="bizName" name="bizName">
+											</div>
+											
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="contactPerson">Contact Person</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="contactPerson" name="contactPerson">
+											</div>
+										</div>
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="phone1">Phone #1</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="phone1" name="phone1">
+											</div>
+										
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="phone2">Phone #2</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="phone2" name="phone2">
+											</div>
+										</div>
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="email">Email</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="email" name="email">
+											</div>
+											
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="others">Other contact info</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="others" name="others">
+											</div>
+										</div>
+								</div>
+								
+								<header class="card-header">
+									<div class="card-actions">
+										<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+										<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+									</div>
+									<h3 class="card-title">业务背景</h3>
+								</header>
+								<div class="card-body">
+										<!-- 
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="requestDate">Request Date</label>
+											<div class="col-lg-6">
+												<input type="text" class="form-control" id="requestDate" name="requestDate">
+											</div>
+										</div> -->
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="industry">Industry</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="industry" name="industry">
+											</div>
+											
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="bizType">Business Type</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="bizType" name="bizType">
+											</div>
+										</div>
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="targetMarket">Target Market</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="targetMarket" name="targetMarket">
+											</div>
+											
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="targetCustomer">Target Customer</label>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" id="targetCustomer" name="targetCustomer">
+											</div>
+										</div>
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="briefDesc">Brief Business Description</label>
+											<div class="col-lg-9">
+												<textarea class="form-control" id="briefDesc" name="briefDesc"></textarea>
+											</div>
+										</div>
+								</div>
+								
+								
+								<header class="card-header">
+									<div class="card-actions">
+										<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+										<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+									</div>
+									<h3 class="card-title">客户要求与偏好</h3>
+								</header>
+								<div class="card-body">
+								
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-0">Purpose</label>
+											<div class="col-lg-6">
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="web">
+														Web/Digital &nbsp;&nbsp;&nbsp;(JPG, PNG, default size: 800 X 800 px ,  72dpi)
+													</label>
+												</div>
+					
+												<div class="checkbox">
+													<label>
+														<input type="checkbox" value="printing">
+														Printing &nbsp;&nbsp;&nbsp;(PDF, default size: 2550X 2550 px , 300dpi)
+													</label>
+												</div>
+											</div>
+										</div>
+
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-0">Logo Type</label>
+											<div class="col-lg-6">
+												<div class="radio">
+													<label>
+														<input type="radio" name="logoType" id="optionsRadios1" value="iconlogo">
+														Symbol/Icon	图标logo
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" name="logoType" id="optionsRadios2" value="wordlogo">
+														Wordmark	文字logo
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" name="logoType" id="optionsRadios3" value="combinationlogo">
+														Combination Mark	图文结合logo
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" name="logoType" id="optionsRadios4" value="letterlogo">
+														Letter Mark	首字母logo
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" name="logoType" id="optionsRadios5" value="emblemlogo">
+														Emblem	徽标logo
+													</label>
+												</div>
+					
+											</div>
+										</div>
+										
+										
+										
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-0">Styles</label>
+											<div class="row">
+												<div class="col-lg-6">
+													<div class="radio">
+														<label>
+															<input type="radio" name="styleType1" id="optionsRadios11" value="st11" checked="checked">
+															不限
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;
+														<label>
+															<input type="radio" name="styleType1" id="optionsRadios12" value="st12">
+															现代
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;
+														<label>
+															<input type="radio" name="styleType1" id="optionsRadios13" value="st13">
+															复古
+														</label>
+													</div>
+												</div>
+											
+												<div class="col-lg-6">
+													<div class="radio">
+														<label>
+															<input type="radio" name="styleType2" id="optionsRadios21" value="st21"  checked="checked">
+															不限
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;
+														<label>
+															<input type="radio" name="styleType2" id="optionsRadios22" value="st22">
+															具体
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;
+														<label>
+															<input type="radio" name="styleType2" id="optionsRadios23" value="st23">
+															抽象
+														</label>
+													</div>
+												</div>
+											
+												<div class="col-lg-6">
+													<div class="radio">
+														<label>
+															<input type="radio" name="styleType3" id="optionsRadios31" value="st31"  checked="checked">
+															不限
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;
+														<label>
+															<input type="radio" name="styleType3" id="optionsRadios32" value="st32">
+															简约
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;
+														<label>
+															<input type="radio" name="styleType3" id="optionsRadios33" value="st33">
+															精细
+														</label>
+													</div>
+												</div>
+												
+												<div class="col-lg-6">
+													<div class="radio">
+														<label>
+															<input type="radio" name="styleType4" id="optionsRadios41" value="st41" checked="checked">
+															不限
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;
+														<label>
+															<input type="radio" name="styleType4" id="optionsRadios42" value="st42">
+															粗犷
+														</label>
+														&nbsp;&nbsp;&nbsp;&nbsp;
+														<label>
+															<input type="radio" name="styleType4" id="optionsRadios43" value="st43">
+															优雅
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="logoTypeRefUrl">Style Reference URL</label>
+											<div class="col-lg-6">
+												<input type="text" class="form-control" id="logoTypeRefUrl" name="logoTypeRefUrl">
+												<span class="help-block">提示：请输入参考图片链接</span>
+											</div>
+										</div>
+								
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="favorColor">Favorite Colors</label>
+											<div class="col-lg-6">
+												<input type="text" class="form-control" id="favorColor" name="favorColor" placeholder="请输入偏好颜色值，多个用逗号隔开">
+												<span class="help-block"><a href="https://htmlcolorcodes.com/color-picker/" target="_blank">提示：点击使用颜色提取器 Color Picker，&nbsp;复制粘贴 HEX 值</a></span>
+											</div>
+											
+												
+											
+										</div>
+								</div>
+						</form>
+					</section>
+					</div>
+					
+					
+
+					<hr class="tall">
+					 
+				</div>
 				
 				
 				
