@@ -138,7 +138,7 @@
 					<div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 800, 'gridheight': 700, 'responsiveLevels': [4096,1200,992,500]}">
 						<ul>
 							<li data-transition="fade">
-								<img src="/img/slides/landing-page-slide-1.jpg"  
+								<img src="${demo_img_dir}/logoexpress/eventbanner-01.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
@@ -184,7 +184,7 @@
 									style="z-index: 5"
 									data-transform_in="y:[100%];opacity:0;s:500;">${slide_title_3}</div>
 
-								<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
+								<a class="tp-caption btn btn-lg btn-light btn-slider-action"
 									data-hash
 									data-hash-offset="85"
 									href="#event-flow"
@@ -848,7 +848,7 @@
 				
 
 			</div>
-			
+			</div>
 			
 			<section class="call-to-action call-to-action-default with-button-arrow call-to-action-in-footer">
 				<div class="container">
