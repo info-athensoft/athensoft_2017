@@ -14,9 +14,9 @@
 <c:set var="img_dir" value="/images"/>
 
 <!-- logo concept -->
-<c:set var="theme1" value="arone-classic"/>
-<c:set var="theme2" value="arone-innovative"/>
-<c:set var="theme3" value="arone-partical"/>
+<c:set var="company1" value="athensoftlogomockup"/>
+<c:set var="company2" value="athensoftlogomockup"/>
+<c:set var="company3" value="athensoftlogomockup"/>
 
 <!-- logo case -->
 <c:set var="case1" value="N.S.T. Immigration"/>
@@ -25,11 +25,28 @@
 
 
 
-<c:set var="slide_title_1" value="LOGO 免费试稿"/>
+<c:set var="slide_title_1" value="LOGO EXPRESS 免费试稿"/>
 <c:set var="slide_title_2" value="品质LOGO  伴您成功 "/>
 <c:set var="slide_title_3" value="手工设计，私人定制，2018夏季 6折特惠"/>
 <c:set var="slide_btn_1" value="了解详情"/>
 
+<c:set var="detail_1_1" value="我们的设计师根据您提出的要求，手工绘出3个概念设计稿，然后分别用黑白、您指定的偏好颜色进行配色，总共制作6枚LOGO供您选择！"/>
+<c:set var="detail_1_2" value="市场上一般人工制作仅提供3枚供选。"/>
+<c:set var="detail_1_3" value="说明：按成品的质量展现，并非草稿"/>
+
+<c:set var="detail_2_1" value="如果6枚概念设计稿中有您看中的，就可以联系下单了(C$235+tx)，随后进入精细设计环节"/>
+<c:set var="detail_2_2" value="如果没有看中的LOGO，可以选择结束试稿，结束活动"/>
+<c:set var="detail_2_3" value="如果您需要继续尝试额外的概念设计稿，每套2枚LOGO，一个黑白配色、一个您偏好的配色，仅按每套C$50+tx收取部分人工成本费。"/>
+<c:set var="detail_2_4" value="市场上一般人工制作先收定金再试稿。"/>
+
+<c:set var="detail_3_1" value="精细设计是设计师根据您明确指定的概念设计稿，进行布局调整、字体变换、配色调整等方面的细化工作。设计师会呈现给您3组LOGO精细设计，每组6枚，总共18枚精细设计稿。"/>
+<c:set var="detail_3_2" value="如果其中有您看中的设计，则指定成为最终稿，后续工作基于该稿。"/>
+<c:set var="detail_3_3" value="如果您需要继续尝试额外的精细设计稿，可以免费进行2次改稿；更多额外的改稿仅按每组（6枚）C$20+tx收取部分人工成本费。"/>
+<c:set var="detail_3_4" value="您也有在此环节终止合作的权力，将会从您的预付款中返还C$75+tx。"/>
+
+<c:set var="detail_4_1" value="设计师将根据您指定的最终稿，输出成您可以立即使用的格式文档。电子文档和网站中可以用的JPG，PNG格式，打印输出所需的PDF格式等等。"/>
+<c:set var="detail_4_2" value="其中JPG, PNG默认尺寸为800X800 72dpi，您也可以指定一种输出尺寸；支持打印的PDF默认尺寸为2550 X 2550 300dpi。"/>
+<c:set var="detail_4_3" value="另外我们还一并免费制作LOGO说明书。"/>
 
 
 <!-- END page variables -->
@@ -296,9 +313,9 @@
 								<div class="project-image">
 									<div id="fcSlideshow" class="fc-slideshow">
 										<ul class="fc-slides">
-											<li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="/img/projects/project-home-1.jpg" alt="" /></a></li>
-											<li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="/img/projects/project-home-2.jpg" alt="" /></a></li>
-											<li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="/img/projects/project-home-3.jpg" alt="" /></a></li>
+											<li><a href="#"><img class="img-responsive" src="${demo_img_dir}/logoexpress/flow/freetrial338x338.jpg" alt="" /></a></li>
+											<li><a href="#"><img class="img-responsive" src="${demo_img_dir}/logoexpress/flow/freetrial338x338.jpg" alt="" /></a></li>
+											<li><a href="#"><img class="img-responsive" src="${demo_img_dir}/logoexpress/flow/freetrial338x338.jpg" alt="" /></a></li>
 										</ul>
 									</div>
 									<strong class="our-work">免费试稿</strong>
@@ -306,19 +323,19 @@
 							</div>
 							<div class="col-lg-2 ml-lg-auto">
 								<div class="process-image">
-									<img src="/img/home-concept-item-1.png" alt="" />
+									<img src="${demo_img_dir}/logoexpress/flow/order145x145.jpg" alt="" />
 									<strong>满意下单</strong>
 								</div>
 							</div>
 							<div class="col-lg-2">
 								<div class="process-image">
-									<img src="/img/home-concept-item-2.png" alt="" />
+									<img src="${demo_img_dir}/logoexpress/flow/finedesign145x145.jpg" alt="" />
 									<strong>精细设计</strong>
 								</div>
 							</div>
 							<div class="col-lg-2">
 								<div class="process-image">
-									<img src="/img/home-concept-item-3.png" alt="" />
+									<img src="${demo_img_dir}/logoexpress/flow/jiaofu145x145.jpg" alt="" />
 									<strong>交付使用</strong>
 								</div>
 							</div>
@@ -341,7 +358,7 @@
 							</div>
 							<div class="col-sm-3 col-lg-3">
 								<div class="call-to-action-btn">
-									<a href="#register" class="btn btn-lg btn-primary" data-hash data-hash-offset="120">立刻报名&nbsp;^o^</a>
+									<a href="#detail" class="btn btn-lg btn-primary" data-hash data-hash-offset="120">了解细节&nbsp;^o^</a>
 								</div>
 							</div>
 						</div>
@@ -354,17 +371,16 @@
 				<!-- <hr class="short"> -->
 				<div class="container">
 				
-					<div class="row">
+					<div class="row" id="detail">
 						<div class="col-lg-4">
-							<img class="img-fluid mt-5 appear-animation" src="${img_dir}/local/home/content-1.jpg" alt="website design" data-appear-animation="fadeInLeft">
+							<img class="img-fluid mt-5 appear-animation" src="${demo_img_dir}/logoexpress/detail/shigao.jpg" alt="free trail" data-appear-animation="fadeInLeft">
 						</div>
 						<div class="col-lg-7 col-lg-offset-1">
-							<h2 class="mt-5"><strong>免费试稿</strong> 3套6种LOGO可选</h2>
+							<h2 class="mt-5"><strong>免费试稿</strong> 3套6枚LOGO可选方案</h2>
 							<p class="lead">
-								<spring:message code="index-content-1a"/>
-							</p>
-							<p>
-								<a href="/webdev/webdev.html?lang=${loc}"><spring:message code="index-content-1b"/></a>
+								${detail_1_1}<br/><br/>
+								${detail_1_2}<br/><br/>
+								${detail_1_3}
 							</p>
 						</div>
 					</div>
@@ -375,14 +391,14 @@
 						<div class="col-lg-7">
 							<h2 class="mt-5"><strong>满意下单</strong> 放心服务</h2>
 							<p class="lead">
-								 <spring:message code="index-content-2a"/>
-							</p>
-							<p>
-								<a href="/graphic/graphic.html?lang=${loc}"><spring:message code="index-content-2b"/></a>
+								${detail_2_1}<br/><br/>
+								${detail_2_2}<br/><br/>
+								${detail_2_3}<br/><br/>
+								${detail_2_4}
 							</p>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1 mt-5">
-							<img class="img-fluid appear-animation" src="${img_dir}/local/home/content-2.jpg" alt="graphic design" data-appear-animation="fadeInRight">
+							<img class="img-fluid appear-animation" src="${demo_img_dir}/logoexpress/detail/fukuan.jpg" alt="placeorder" data-appear-animation="fadeInRight">
 						</div>
 					</div>
 					
@@ -390,16 +406,15 @@
 					
 					<div class="row">
 						<div class="col-lg-4">
-							<img class="img-fluid mt-5 appear-animation" src="${img_dir}/local/home/content-3.jpg" alt="adogo online marketing brand" data-appear-animation="fadeInLeft">
+							<img class="img-fluid mt-5 appear-animation" src="${demo_img_dir}/logoexpress/detail/jingxi.jpg" alt="fine work" data-appear-animation="fadeInLeft">
 						</div>
 						<div class="col-lg-7 col-lg-offset-1">
-							<h2 class="mt-5"><strong>精细设计</strong> 3组18种可选方案</h2>
+							<h2 class="mt-5"><strong>精细设计</strong> 3组18枚可选LOGO方案</h2>
 							<p class="lead">
-								<spring:message code="index-content-3a"/>
-							</p>
-							<p>
-								<!-- <a href="/adogo/adogo.html?lang=${loc}"><spring:message code="index-content-3b"/></a>  -->
-								<a href="/about/comingsoon.html?lang=${loc}"><spring:message code="index-content-3b"/></a>
+								${detail_3_1}<br/><br/>
+								${detail_3_2}<br/><br/>
+								${detail_3_3}<br/><br/>
+								${detail_3_4}
 							</p>
 						</div>
 					</div>
@@ -410,14 +425,13 @@
 						<div class="col-lg-7">
 							<h2 class="mt-5"><strong>交付使用</strong> 多种格式，任意指定尺寸</h2>
 							<p class="lead">
-								 <spring:message code="index-content-4a"/>
-							</p>
-							<p>
-								<a href="/about/comingsoon.html?lang=${loc}"><spring:message code="index-content-4b"/></a>
+								 ${detail_4_1}<br/><br/>
+								${detail_4_2}<br/><br/>
+								${detail_4_3}
 							</p>
 						</div>
 						<div class="col-lg-4 col-lg-offset-1 mt-5">
-							<img class="img-fluid appear-animation" src="${img_dir}/local/home/content-4.jpg" alt="knowledge social media" data-appear-animation="fadeInRight">
+							<img class="img-fluid appear-animation" src="${demo_img_dir}/logoexpress/detail/jiaofu.jpg" alt="deliver" data-appear-animation="fadeInRight">
 						</div>
 					</div>
 					 
@@ -437,83 +451,27 @@
 				
 				
 				
+				
+				
 				<hr class="invisible mt-5 mb-2"/>
-				
-				
-				<section class="section section-no-border section-default m-0 pt-5" id="demos">
-					<div class="container-fluid sample-item-container">
+				<!-- call to action -->
+				<section class="call-to-action call-to-action-dark mb-5">
+					<div class="container">
 						<div class="row">
-							<div class="col-lg-12 text-center">
-								<h2 class="mt-2 mb-0"> 成功案例 <strong></strong></h2>
-								<p class="lead">正在使用中</p>
-							</div>
-						</div>
-				
-						<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
-							<div class="col-lg-4 isotope-item corporatesite">
-								<div class="portfolio-item">
-									<a href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme1}.jpg">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-											<span class="thumb-info-wrapper">
-												<img src="${demo_img_dir}/theme/${theme1}.jpg" class="img-fluid" alt="">
-												
-												<span class="thumb-info-action">
-													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</span>
-										</span>
-									</a>
-									<div style="text-align:center;">
-										<p></p>
-										<span class="sample-item-description"><h5>${case1}</h5></span>
-									</div>
+							<div class="col-sm-9 col-lg-9">
+								<div class="call-to-action-content">
+									<h3><strong>全程可与设计师直接沟通!</strong> </h3>
+									<p class="mb-0">倾听您的想法，明晰您的需求，提供专业设计建议</p>
 								</div>
 							</div>
-							
-							<div class="col-lg-4 isotope-item corporatesite">
-								<div class="portfolio-item">
-									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme2}.jpg">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-											<span class="thumb-info-wrapper">
-												<img src="${demo_img_dir}/theme/${theme2}.jpg" class="img-fluid" alt="">
-												<span class="thumb-info-action">
-													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</span>
-										</span>
-									</a>
-									<div style="text-align:center;">
-										<p></p>
-										<span class="sample-item-description"><h5>${case2}</h5></span>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-lg-4 isotope-item corporatesite">
-								<div class="portfolio-item">
-									<a target="_blank" href="http://www.athensoft.com${demo_img_dir}/theme/big/${theme3}.jpg">
-										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
-											<span class="thumb-info-wrapper">
-												<img src="${demo_img_dir}/theme/${theme3}.jpg" class="img-fluid" alt="">
-												<span class="thumb-info-action">
-													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-												</span>
-											</span>
-										</span>
-									</a>
-									<div style="text-align:center;">
-										<p></p>
-										<span class="sample-item-description"><h5>${case3}</h5></span>
-									</div>
+							<div class="col-sm-3 col-lg-3">
+								<div class="call-to-action-btn">
+									<a href="#register" class="btn btn-lg btn-primary" data-hash data-hash-offset="120">立刻报名&nbsp;^o^</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				
-				
-				<hr class="invisible mt-5 mb-2"/>
-				
 				
 				<div class="container"  id="register">
 					<div class="row">
@@ -659,44 +617,65 @@
 										</div>
 
 										
+										
+										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-0">Logo Type</label>
-											<div class="col-lg-6">
-												<div class="radio">
-													<label>
-														<input type="radio" name="logoType" id="optionsRadios1" value="iconlogo">
-														Symbol/Icon	图标logo
-													</label>
+											<label class="col-lg-3 control-label text-lg-right pt-0">Logo 类型</label>
+											<div class="col-lg-9">
+												<div class="row">
+													<div class="col-lg-2">
+														<img src="${demo_img_dir}/logoexpress/logotype/logotypesample_Artboard1.jpg" width="95%" alt=""/>
+														<div class="radio">
+															<label>&nbsp;&nbsp;&nbsp;
+																<input type="radio" name="logoType" id="optionsRadios1" value="iconlogo">
+																图标型
+															</label>
+														</div>
+													</div>
+													
+													
+													<div class="col-lg-2">
+														<img src="${demo_img_dir}/logoexpress/logotype/logotypesample_Artboard2.jpg" width="95%" alt=""/>
+														<div class="radio">
+															<label>&nbsp;&nbsp;&nbsp;
+																<input type="radio" name="logoType" id="optionsRadios2" value="wordlogo">
+																文字型
+															</label>
+														</div>
+													</div>
+													
+													<div class="col-lg-2">
+														<img src="${demo_img_dir}/logoexpress/logotype/logotypesample_Artboard3.jpg" width="95%" alt=""/>
+														<div class="radio">
+															<label>&nbsp;
+																<input type="radio" name="logoType" id="optionsRadios3" value="combinationlogo">
+																图文结合型
+															</label>
+														</div>
+													</div>
+													
+													<div class="col-lg-2">
+														<img src="${demo_img_dir}/logoexpress/logotype/logotypesample_Artboard4.jpg" width="95%" alt=""/>
+														<div class="radio">
+															<label>&nbsp;&nbsp;&nbsp;
+																<input type="radio" name="logoType" id="optionsRadios4" value="letterlogo">
+																首字母型
+															</label>
+														</div>
+													</div>
+													
+													<div class="col-lg-2">
+														<img src="${demo_img_dir}/logoexpress/logotype/logotypesample_Artboard5.jpg" width="95%" alt=""/>
+														<div class="radio">
+															<label>&nbsp;&nbsp;&nbsp;
+																<input type="radio" name="logoType" id="optionsRadios5" value="emblemlogo">
+																徽标型
+															</label>
+														</div>
+													</div>
 												</div>
-												<div class="radio">
-													<label>
-														<input type="radio" name="logoType" id="optionsRadios2" value="wordlogo">
-														Wordmark	文字logo
-													</label>
-												</div>
-												<div class="radio">
-													<label>
-														<input type="radio" name="logoType" id="optionsRadios3" value="combinationlogo">
-														Combination Mark	图文结合logo
-													</label>
-												</div>
-												<div class="radio">
-													<label>
-														<input type="radio" name="logoType" id="optionsRadios4" value="letterlogo">
-														Letter Mark	首字母logo
-													</label>
-												</div>
-												<div class="radio">
-													<label>
-														<input type="radio" name="logoType" id="optionsRadios5" value="emblemlogo">
-														Emblem	徽标logo
-													</label>
-												</div>
-					
 											</div>
 										</div>
-										
-										
 										
 										
 										<div class="form-group row">
@@ -794,10 +773,16 @@
 												<input type="text" class="form-control" id="favorColor" name="favorColor" placeholder="请输入偏好颜色值，多个用逗号隔开">
 												<span class="help-block"><a href="https://htmlcolorcodes.com/color-picker/" target="_blank">提示：点击使用颜色提取器 Color Picker，&nbsp;复制粘贴 HEX 值</a></span>
 											</div>
-											
-												
-											
 										</div>
+										
+										<div class="row">
+											<div class="col-lg-12 text-center">
+												<br/><br/>
+												<a href="#" class="btn btn-xl btn-secondary">&nbsp;&nbsp;&nbsp;现在点击报名&nbsp;&nbsp;&nbsp;</a>
+												<br/>
+											</div>
+										</div>
+										
 								</div>
 						</form>
 					</section>
@@ -808,8 +793,83 @@
 					<hr class="tall">
 					 
 				</div>
+
+			</div>
+			
+			
+				<hr class="invisible mt-5 mb-2"/>
 				
 				
+				<section class="section section-no-border section-default m-0 pt-5" id="demos">
+					<div class="container-fluid sample-item-container">
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<h2 class="mt-2 mb-0"> 成功案例 <strong></strong></h2>
+								<p class="lead">正在使用中, MOCKUP效果图</p>
+							</div>
+						</div>
+				
+						<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
+							<div class="col-lg-4 isotope-item corporatesite">
+								<div class="portfolio-item">
+									<a href="#">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+											<span class="thumb-info-wrapper">
+												<img src="${demo_img_dir}/logoexpress/case/${company1}.jpg" class="img-fluid" alt="">
+												
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</a>
+									<div style="text-align:center;">
+										<p></p>
+										<span class="sample-item-description"><h5>${case1}</h5></span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-lg-4 isotope-item corporatesite">
+								<div class="portfolio-item">
+									<a href="#">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+											<span class="thumb-info-wrapper">
+												<img src="${demo_img_dir}/logoexpress/case/${company2}.jpg" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</a>
+									<div style="text-align:center;">
+										<p></p>
+										<span class="sample-item-description"><h5>${case2}</h5></span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-lg-4 isotope-item corporatesite">
+								<div class="portfolio-item">
+									<a href="#">
+										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+											<span class="thumb-info-wrapper">
+												<img src="${demo_img_dir}/logoexpress/case/${company1}.jpg" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</a>
+									<div style="text-align:center;">
+										<p></p>
+										<span class="sample-item-description"><h5>${case3}</h5></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 				
 				<div class="row mt-5 counters counters-text-dark">
 					<div class="col-lg-3 col-sm-6">
@@ -845,9 +905,8 @@
 						</div>
 					</div>
 				</div>
-				
-
-			</div>
+			
+			
 			</div>
 			
 			<section class="call-to-action call-to-action-default with-button-arrow call-to-action-in-footer">
