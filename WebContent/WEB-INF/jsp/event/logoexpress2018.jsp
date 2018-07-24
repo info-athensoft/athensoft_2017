@@ -14,8 +14,8 @@
 <c:set var="img_dir" value="/images"/>
 
 <!-- logo concept -->
-<c:set var="company1" value="athensoftlogomockup"/>
-<c:set var="company2" value="athensoftlogomockup"/>
+<c:set var="company1" value="nstlogomockup"/>
+<c:set var="company2" value="invicarelogomockup"/>
 <c:set var="company3" value="athensoftlogomockup"/>
 
 <!-- logo case -->
@@ -25,9 +25,10 @@
 
 
 
-<c:set var="slide_title_1" value="LOGO EXPRESS 免费试稿"/>
+<c:set var="slide_title_1" value="LOGO 免费试稿"/>
 <c:set var="slide_title_2" value="品质LOGO  伴您成功 "/>
-<c:set var="slide_title_3" value="手工设计，私人定制，2018夏季 6折特惠"/>
+<c:set var="slide_title_3" value="手工设计，私人定制，可与设计师全程沟通"/>
+<c:set var="slide_title_4" value="2018夏季 6折特惠&nbsp;&nbsp; 7.25 - 8.25"/>
 <c:set var="slide_btn_1" value="了解详情"/>
 
 <c:set var="detail_1_1" value="我们的设计师根据您提出的要求，手工绘出3个概念设计稿，然后分别用黑白、您指定的偏好颜色进行配色，总共制作6枚LOGO供您选择！"/>
@@ -200,13 +201,21 @@
 									data-fontsize="['20','20','20','30']"
 									style="z-index: 5"
 									data-transform_in="y:[100%];opacity:0;s:500;">${slide_title_3}</div>
+									
+								<div class="tp-caption bottom-label"
+									data-x="center" data-hoffset="0"
+									data-y="center" data-voffset="55"
+									data-start="2000"
+									data-fontsize="['20','20','20','30']"
+									style="z-index: 5"
+									data-transform_in="y:[100%];opacity:0;s:500;">${slide_title_4}</div>
 
 								<a class="tp-caption btn btn-lg btn-light btn-slider-action"
 									data-hash
 									data-hash-offset="85"
 									href="#event-flow"
 									data-x="center" data-hoffset="0"
-									data-y="center" data-voffset="100"
+									data-y="center" data-voffset="120"
 									data-start="2200"
 									data-whitespace="nowrap"	
 									data-fontsize="['18','18','18','28']"					 
@@ -477,7 +486,7 @@
 					<div class="row">
 						<div class="col-lg-12 text-center">
 							<h2 class="mt-2 mb-0"> 免费试稿  <strong></strong></h2>
-							<p class="lead">提交所需信息，立即开始试稿</p>
+							<p class="lead">提交所需信息，越明确越效率</p>
 						</div>
 					</div>
 					
@@ -491,7 +500,7 @@
 										<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
 										<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
 									</div>
-									<h3 class="card-title">联系信息</h3>
+									<h4 class="card-title">联系信息</h4>
 								</header>
 								<div class="card-body">
 										<!-- 
@@ -503,36 +512,36 @@
 										</div> -->
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="bizName">Business Name</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="bizName">生意名</label>
 											<div class="col-lg-3">
 												<input type="text" class="form-control" id="bizName" name="bizName">
 											</div>
 											
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="contactPerson">Contact Person</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="contactPerson">联系人</label>
 											<div class="col-lg-3">
 												<input type="text" class="form-control" id="contactPerson" name="contactPerson">
 											</div>
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="phone1">Phone #1</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="phone1">电话 #1</label>
 											<div class="col-lg-3">
 												<input type="text" class="form-control" id="phone1" name="phone1">
 											</div>
 										
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="phone2">Phone #2</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="phone2">电话 #2</label>
 											<div class="col-lg-3">
 												<input type="text" class="form-control" id="phone2" name="phone2">
 											</div>
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="email">Email</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="email">电子邮件</label>
 											<div class="col-lg-3">
 												<input type="text" class="form-control" id="email" name="email">
 											</div>
 											
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="others">Other contact info</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="others">其它方式</label>
 											<div class="col-lg-3">
 												<input type="text" class="form-control" id="others" name="others">
 											</div>
@@ -544,7 +553,7 @@
 										<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
 										<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
 									</div>
-									<h3 class="card-title">业务背景</h3>
+									<h4 class="card-title">业务背景</h4>
 								</header>
 								<div class="card-body">
 										<!-- 
@@ -556,31 +565,57 @@
 										</div> -->
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="industry">Industry</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="industry">行业</label>
 											<div class="col-lg-3">
-												<input type="text" class="form-control" id="industry" name="industry">
+												<!-- <input type="text" class="form-control" id="industry" name="industry">  -->
+												<select class="form-control mb-3" id="industry" name="industry">
+													<option>--- 请选择  ---</option>
+													<option>金融/理财/保险/虚拟经济</option>
+													<option>房地产/置业/生意咨询</option>
+													<option>机动车/维修/租赁</option>
+													<option>生意服务/会计/法律</option>
+													<option>专业服务/网站设计/软件开发</option>
+													<option>广告/平面设计/印刷</option>
+													<option>餐饮/食品</option>
+													<option>移民/留学</option>
+													<option>通讯/互联网</option>
+													<option>物流/快递</option>
+													<option>电子/设备/仪器</option>
+													<option>批发/零售/贸易</option>
+													<option>教育/培训</option>
+													<option>医疗/卫生/保健</option>
+													<option>健身/运动</option>
+													<option>休闲/娱乐</option>
+													<option>非盈利组织/机构</option>
+													<option>其它行业</option>
+												</select>
 											</div>
 											
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="bizType">Business Type</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="bizRegion">业务地域</label>
 											<div class="col-lg-3">
-												<input type="text" class="form-control" id="bizType" name="bizType">
+												<!-- <input type="text" class="form-control" id="bizRegion" name="bizRegion"> -->
+												<select class="form-control mb-3" id="bizRegion" name="bizRegion">
+													<option>加拿大省内</option>
+													<option>加拿大全境</option>
+													<option>国际</option>
+												</select>
 											</div>
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="targetMarket">Target Market</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="targetMarket">目标市场</label>
 											<div class="col-lg-3">
 												<input type="text" class="form-control" id="targetMarket" name="targetMarket">
 											</div>
 											
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="targetCustomer">Target Customer</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="targetCustomer">目标客户</label>
 											<div class="col-lg-3">
 												<input type="text" class="form-control" id="targetCustomer" name="targetCustomer">
 											</div>
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="briefDesc">Brief Business Description</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="briefDesc">简明业务描述</label>
 											<div class="col-lg-9">
 												<textarea class="form-control" id="briefDesc" name="briefDesc"></textarea>
 											</div>
@@ -593,12 +628,12 @@
 										<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
 										<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
 									</div>
-									<h3 class="card-title">客户要求与偏好</h3>
+									<h4 class="card-title">客户要求与偏好</h4>
 								</header>
 								<div class="card-body">
 								
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-0">Purpose</label>
+											<label class="col-lg-3 control-label text-lg-right pt-0">用途</label>
 											<div class="col-lg-6">
 												<div class="checkbox">
 													<label>
@@ -677,9 +712,17 @@
 											</div>
 										</div>
 										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="logoTypeRefUrl">Logo文字</label>
+											<div class="col-lg-6">
+												<input type="text" class="form-control" id="logoTypeRefUrl" name="logoTypeRefUrl" placeholder="例子：Business Name,  BN, ...">
+												<span class="help-block">提示：请填写需要制作在LOGO中的文字，没有可以不写</span>
+											</div>
+										</div>
+										
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-0">Styles</label>
+											<label class="col-lg-3 control-label text-lg-right pt-0">Logo 风格</label>
 											<div class="row">
 												<div class="col-lg-6">
 													<div class="radio">
@@ -760,18 +803,25 @@
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="logoTypeRefUrl">Style Reference URL</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="logoTypeRefUrl">参考链接</label>
 											<div class="col-lg-6">
-												<input type="text" class="form-control" id="logoTypeRefUrl" name="logoTypeRefUrl">
+												<input type="text" class="form-control" id="logoTypeRefUrl" name="logoTypeRefUrl" placeholder="例子：http://www.your-reference-url.com">
 												<span class="help-block">提示：请输入参考图片链接</span>
 											</div>
 										</div>
 								
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="favorColor">Favorite Colors</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="favorColor">偏好颜色</label>
 											<div class="col-lg-6">
-												<input type="text" class="form-control" id="favorColor" name="favorColor" placeholder="请输入偏好颜色值，多个用逗号隔开">
-												<span class="help-block"><a href="https://htmlcolorcodes.com/color-picker/" target="_blank">提示：点击使用颜色提取器 Color Picker，&nbsp;复制粘贴 HEX 值</a></span>
+												<input type="text" class="form-control" id="favorColor" name="favorColor" placeholder="例子：#ff9933,#452345,#e6e6e6,...">
+												<span class="help-block"><a href="https://htmlcolorcodes.com/color-picker/" target="_blank">提示：请输入偏好颜色值，多个用逗号隔开，点击使用颜色提取器 Color Picker，&nbsp;复制粘贴 HEX 值</a></span>
+											</div>
+										</div>
+										
+										<div class="form-group row">
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="message">其它要求</label>
+											<div class="col-lg-6">
+												<textarea class="form-control" id="message" name="message"></textarea>
 											</div>
 										</div>
 										
@@ -854,7 +904,7 @@
 									<a href="#">
 										<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 											<span class="thumb-info-wrapper">
-												<img src="${demo_img_dir}/logoexpress/case/${company1}.jpg" class="img-fluid" alt="">
+												<img src="${demo_img_dir}/logoexpress/case/${company3}.jpg" class="img-fluid" alt="">
 												<span class="thumb-info-action">
 													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 												</span>
@@ -920,7 +970,7 @@
 						</div>
 						<div class="col-sm-3 col-lg-3">
 							<div class="call-to-action-btn">
-								<a href="#" target="_blank" class="btn btn-lg btn-primary">Contact Now!</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="left: 110%; top: -40px;"></span>
+								<a href="#" class="btn btn-lg btn-primary">Contact Now!</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="left: 110%; top: -40px;"></span>
 							</div>
 						</div>
 					</div>
