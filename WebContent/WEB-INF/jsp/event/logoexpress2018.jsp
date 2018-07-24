@@ -283,94 +283,7 @@
 					</div>
 				</div>
 				
-				<!-- 	
-				<section class="page-header custom-product">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-7 py-4">
-								<h1>欢迎报名 <strong>Logo免费试稿 夏日特惠活动</strong></h1>
-								<p class="lead">我们在活动期间倾情为新老顾客和朋友提供各种免费和打折服务礼包，借此感谢大家一直以来对我们的关心和支持。</p>
-								 <a href="/support/contactus.html?lang=${loc}" target="_blank" class="btn btn-light btn-lg mb-5">现在联系</a> 
-								<a href="/index.html?lang=${loc}" target="_blank" class="btn btn-light btn-lg mb-5">返回首页</a>
-								
-							</div>
-							
-						</div>
-					</div>
-				</section>  -->
 				
-				
-				<!--
-				<hr class="invisible mt-5 mb-2"/> 
-			
-			 
-			
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="mt-2 mb-0">活动第二波 <strong>超值精美单页形象网站</strong> </h2>
-						<p class="lead"> 5折优惠  + 附赠礼包
- 						</p>
- 						<div class="alert alert-info alert-lg">
- 							<p>活动时间：2018-4-2至 2018-4-15 23:59:59</p>
- 							<p>活动价格：只要$179+tx   （原价$359+tx）</p>
- 							<p><strong>附赠礼包：</strong></p>
-							<p>免费响应式精美设计12选1</p>
-							<p>首年免费发布（第二年起CAD$10/月）</p>
-							<p>赠送价值CAD$180维护服务优惠券</p>
-							
- 						</div>
-						
- 						<div class="row">
- 							<div class="col-lg-3 text-left"></div>
- 							<div class="col-lg-3 text-left">
-							
-							
-							<p><strong>活动流程：</strong></p>
-							<ul class="list list-icons">
-								<li><i class="fa fa-caret-right"></i>微信或邮件报名</li>
-								<li><i class="fa fa-caret-right"></i>注明标题"参加周年庆活动2"</li>
-								<li><i class="fa fa-caret-right"></i>明确选择模板</li>
-								<li><i class="fa fa-caret-right"></i>接收确认信</li>
-								<li><i class="fa fa-caret-right"></i>在线付款</li>
-								<li><i class="fa fa-caret-right"></i>电邮提交完整的文字和图片</li>
-								<li><i class="fa fa-caret-right"></i>等待制作</li>
-								<li><i class="fa fa-caret-right"></i>交付使用</li>
-							</ul>
-							
-						</div>
-						
-						<div class="col-lg-3 text-left">
-							<p><strong>活动说明：</strong></p>
-							<ul class="list list-icons">
-								<li><i class="fa fa-caret-right"></i>顾客须提交完整的文字内容和相关图片</li>
-								<li><i class="fa fa-caret-right"></i>顾客须保证所提交文字内容完全正确</li>
-								<li><i class="fa fa-caret-right"></i>顾客自行负责文案、翻译及校对</li>
-								<li><i class="fa fa-caret-right"></i>内容或图片不足引起的延时不计算制作时间内</li>
-								<li><i class="fa fa-caret-right"></i>最长制作时间48小时</li>
-								<li><i class="fa fa-caret-right"></i>我们保留一切对此项活动解释权</li>
-							</ul>
-							
-						</div>
-						
- 						<div class="col-lg-3 text-left"></div>
- 						
- 						<div class="col-lg-12 text-center">
-	 						<div class="alert alert-info">
-	 							<p><strong>联系我们：</strong></p>
-								<p>
-									微信：Athens314 &nbsp;&nbsp;&nbsp;&nbsp;邮箱：info@athensoft.com<br/>
-								 	活动首页：www.athensoft.com/event/onepage.html<br/>
-									官网：www.athensoft.com</p>
-								<img src="${img_dir}/logo/wechat-qr.jpg" alt="wechat qrcode" width="10%"/>
-	 						</div>
- 						</div>
- 						
- 						
- 					</div>
-						
-					</div>
-				</div>
-				 -->
 				
 				
 				<div class="home-concept mt-5"  id="event-flow">
@@ -428,7 +341,7 @@
 							</div>
 							<div class="col-sm-3 col-lg-3">
 								<div class="call-to-action-btn">
-									<a href="#" target="_blank" class="btn btn-lg btn-primary">立刻报名&nbsp;^o^</a>
+									<a href="#register" class="btn btn-lg btn-primary" data-hash data-hash-offset="120">立刻报名&nbsp;^o^</a>
 								</div>
 							</div>
 						</div>
@@ -602,7 +515,7 @@
 				<hr class="invisible mt-5 mb-2"/>
 				
 				
-				<div class="container">
+				<div class="container"  id="register">
 					<div class="row">
 						<div class="col-lg-12 text-center">
 							<h2 class="mt-2 mb-0"> 免费试稿  <strong></strong></h2>
