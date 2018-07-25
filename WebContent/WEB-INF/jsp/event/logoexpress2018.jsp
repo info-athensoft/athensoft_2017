@@ -493,7 +493,7 @@
 					<div class="row">
 						<div class="col">
 							<section class="card card-admin">
-								<form class="form-horizontal form-bordered" method="get">
+								<form class="form-horizontal form-bordered" method="get" name="logoRequestForm" action="${webapp_name}/event/logorequest">
 							
 								<header class="card-header">
 									<div class="card-actions">
@@ -569,25 +569,30 @@
 											<div class="col-lg-3">
 												<!-- <input type="text" class="form-control" id="industry" name="industry">  -->
 												<select class="form-control mb-3" id="industry" name="industry">
-													<option>--- 请选择  ---</option>
-													<option>金融/理财/保险/虚拟经济</option>
-													<option>房地产/置业/生意咨询</option>
-													<option>机动车/维修/租赁</option>
-													<option>生意服务/会计/法律</option>
-													<option>专业服务/网站设计/软件开发</option>
-													<option>广告/平面设计/印刷</option>
-													<option>餐饮/食品</option>
-													<option>移民/留学</option>
-													<option>通讯/互联网</option>
-													<option>物流/快递</option>
-													<option>电子/设备/仪器</option>
-													<option>批发/零售/贸易</option>
-													<option>教育/培训</option>
-													<option>医疗/卫生/保健</option>
-													<option>健身/运动</option>
-													<option>休闲/娱乐</option>
-													<option>非盈利组织/机构</option>
-													<option>其它行业</option>
+													<option value="none">--- 请选择  ---</option>
+													<option value="finance">金融/理财/保险/虚拟经济</option>
+													<option value="reality">房地产/置业/生意咨询</option>
+													<option value="auto">机动车/维修/租赁</option>
+													<option value="accountinglegel">生意服务/会计/法律</option>
+													<option value="software">专业服务/网站设计/软件开发</option>
+													<option value="ad">广告/平面设计/印刷</option>
+													<option value="fooddrink">餐饮/食品</option>
+													<option value="clothes">服装/鞋帽/箱包</option>
+													<option value="wearing">珠宝/首饰</option>
+													<option value="oversea">移民/留学</option>
+													<option value="telecomm">通讯/互联网</option>
+													<option value="logistics">物流/快递</option>
+													<option value="electronic">电子/设备/仪器</option>
+													<option value="saletrade">批发/零售/贸易</option>
+													<option value="home">居家/园艺/装修/厨卫</option>
+													<option value="gift">装饰/礼品/婚庆/活动</option>
+													<option value="education">教育/培训</option>
+													<option value="health">医疗/卫生/保健</option>
+													<option value="sport">健身/运动</option>
+													<option value="baby">母婴/护理/亲子/玩具</option>
+													<option value="entertainment">休闲/娱乐</option>
+													<option value="nonprofit">非盈利组织/机构</option>
+													<option value="other">其它行业</option>
 												</select>
 											</div>
 											
@@ -615,9 +620,9 @@
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="briefDesc">简明业务描述</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="briefBizDesc">简明业务描述</label>
 											<div class="col-lg-9">
-												<textarea class="form-control" id="briefDesc" name="briefDesc" placeholder="可简要描述经营理念，产品或服务范围"></textarea>
+												<textarea class="form-control" id="briefBizDesc" name="briefBizDesc" placeholder="可简要描述经营理念，产品或服务范围"></textarea>
 											</div>
 										</div>
 								</div>
@@ -637,14 +642,14 @@
 											<div class="col-lg-6">
 												<div class="checkbox">
 													<label>
-														<input type="checkbox" value="web">
+														<input type="checkbox" value="web" name="purpose">
 														电子/网页/移动端 &nbsp;&nbsp;&nbsp;<br/>(JPG, PNG, default size: 800 X 800 px ,  72dpi)
 													</label>
 												</div>
 					
 												<div class="checkbox">
 													<label>
-														<input type="checkbox" value="printing">
+														<input type="checkbox" value="printing" name="purpose">
 														印刷品 &nbsp;&nbsp;&nbsp;<br/>(PDF, default size: 2550X 2550 px , 300dpi)
 													</label>
 												</div>
@@ -713,9 +718,9 @@
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="logoTypeRefUrl">Logo文字</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="logoText">Logo文字</label>
 											<div class="col-lg-6">
-												<input type="text" class="form-control" id="logoTypeRefUrl" name="logoTypeRefUrl" placeholder="例子：Business Name,  BN, ...">
+												<input type="text" class="form-control" id="logoText" name="logoText" placeholder="例子：Business Name,  BN, ...">
 												<span class="help-block">提示：请填写需要制作在LOGO中的文字，没有可以不写</span>
 											</div>
 										</div>
@@ -727,17 +732,17 @@
 												<div class="col-lg-6">
 													<div class="radio">
 														<label>
-															<input type="radio" name="styleType1" id="optionsRadios11" value="st11" checked="checked">
+															<input type="radio" name="styleType1" id="optionsRadios11" value="none" checked="checked">
 															不限
 														</label>
 														&nbsp;&nbsp;&nbsp;&nbsp;
 														<label>
-															<input type="radio" name="styleType1" id="optionsRadios12" value="st12">
+															<input type="radio" name="styleType1" id="optionsRadios12" value="morden">
 															现代
 														</label>
 														&nbsp;&nbsp;&nbsp;&nbsp;
 														<label>
-															<input type="radio" name="styleType1" id="optionsRadios13" value="st13">
+															<input type="radio" name="styleType1" id="optionsRadios13" value="retro">
 															复古
 														</label>
 													</div>
@@ -746,17 +751,17 @@
 												<div class="col-lg-6">
 													<div class="radio">
 														<label>
-															<input type="radio" name="styleType2" id="optionsRadios21" value="st21"  checked="checked">
+															<input type="radio" name="styleType2" id="optionsRadios21" value="none"  checked="checked">
 															不限
 														</label>
 														&nbsp;&nbsp;&nbsp;&nbsp;
 														<label>
-															<input type="radio" name="styleType2" id="optionsRadios22" value="st22">
+															<input type="radio" name="styleType2" id="optionsRadios22" value="concrete">
 															具体
 														</label>
 														&nbsp;&nbsp;&nbsp;&nbsp;
 														<label>
-															<input type="radio" name="styleType2" id="optionsRadios23" value="st23">
+															<input type="radio" name="styleType2" id="optionsRadios23" value="abstract">
 															抽象
 														</label>
 													</div>
@@ -765,17 +770,17 @@
 												<div class="col-lg-6">
 													<div class="radio">
 														<label>
-															<input type="radio" name="styleType3" id="optionsRadios31" value="st31"  checked="checked">
+															<input type="radio" name="styleType3" id="optionsRadios31" value="none"  checked="checked">
 															不限
 														</label>
 														&nbsp;&nbsp;&nbsp;&nbsp;
 														<label>
-															<input type="radio" name="styleType3" id="optionsRadios32" value="st32">
+															<input type="radio" name="styleType3" id="optionsRadios32" value="simple">
 															简约
 														</label>
 														&nbsp;&nbsp;&nbsp;&nbsp;
 														<label>
-															<input type="radio" name="styleType3" id="optionsRadios33" value="st33">
+															<input type="radio" name="styleType3" id="optionsRadios33" value="fine">
 															精细
 														</label>
 													</div>
@@ -784,17 +789,17 @@
 												<div class="col-lg-6">
 													<div class="radio">
 														<label>
-															<input type="radio" name="styleType4" id="optionsRadios41" value="st41" checked="checked">
+															<input type="radio" name="styleType4" id="optionsRadios41" value="none" checked="checked">
 															不限
 														</label>
 														&nbsp;&nbsp;&nbsp;&nbsp;
 														<label>
-															<input type="radio" name="styleType4" id="optionsRadios42" value="st42">
+															<input type="radio" name="styleType4" id="optionsRadios42" value="rough">
 															粗犷
 														</label>
 														&nbsp;&nbsp;&nbsp;&nbsp;
 														<label>
-															<input type="radio" name="styleType4" id="optionsRadios43" value="st43">
+															<input type="radio" name="styleType4" id="optionsRadios43" value="elegant">
 															优雅
 														</label>
 													</div>
@@ -819,24 +824,25 @@
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="logoTypeRefUrl">寓意内涵</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="meaning">寓意内涵</label>
 											<div class="col-lg-6">
-												<input type="text" class="form-control" id="logoTypeRefUrl" name="logoTypeRefUrl">
+												<input type="text" class="form-control" id="meaning" name="meaning">
 												<span class="help-block">提示：如果有，可以输入希望包含的寓意与内涵</span>
 											</div>
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-3 control-label text-lg-right pt-2" for="message">其它要求</label>
+											<label class="col-lg-3 control-label text-lg-right pt-2" for="otherRequest">其它要求</label>
 											<div class="col-lg-6">
-												<textarea class="form-control" id="message" name="message"></textarea>
+												<textarea class="form-control" id="message" name="otherRequest"></textarea>
 											</div>
 										</div>
 										
 										<div class="row">
 											<div class="col-lg-12 text-center">
 												<br/>
-												<a href="#" class="btn btn-xl btn-secondary">&nbsp;&nbsp;&nbsp;现在点击报名&nbsp;&nbsp;&nbsp;</a>
+												<!-- <a href="#" class="btn btn-xl btn-secondary">&nbsp;&nbsp;&nbsp;现在点击报名&nbsp;&nbsp;&nbsp;</a> -->
+												<input type="submit" class="btn btn-xl btn-secondary" value="&nbsp;&nbsp;&nbsp;现在点击报名&nbsp;&nbsp;&nbsp;" onclick="javascript:alert('确定报名');"></input>
 												<br/><br/>
 											</div>
 										</div>
