@@ -15,12 +15,12 @@
 
 <!-- logo concept -->
 <c:set var="company1" value="nstlogomockup"/>
-<c:set var="company2" value="invicarelogomockup"/>
+<c:set var="company2" value="elegantlogomockup"/>
 <c:set var="company3" value="athensoftlogomockup"/>
 
 <!-- logo case -->
 <c:set var="case1" value="N.S.T. Immigration"/>
-<c:set var="case2" value="Invicare Inc"/>
+<c:set var="case2" value="Elegant Workshop"/>
 <c:set var="case3" value="Informatique Athensoft"/>
 
 
@@ -857,39 +857,39 @@
 			</div>
 			
 			<!-- call to action -->
-					<section class="call-to-action call-to-action-dark mb-0">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-9 col-lg-9">
-									<div class="call-to-action-content">
-										<h3><strong>5到10个工作日可交付</strong> </h3>
-										<p class="mb-0">联系人: Jocelyne 女士 &nbsp;&nbsp; 邮件：design@athensoft.com &nbsp;&nbsp; 短信：(514)746-9188</p>
-									</div>
-								</div>
-								<div class="col-sm-3 col-lg-3">
-									<div class="call-to-action-btn">
-										<!-- <a href="#" class="btn btn-lg btn-primary" data-hash data-hash-offset="120">欢迎联系</a>  -->
-										<img src="/images/logo/qr_code.png" width="30%"/>
-									</div>
-								</div>
+			<section class="call-to-action call-to-action-dark mb-0">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-9 col-lg-9">
+							<div class="call-to-action-content">
+								<h3><strong>5到10个工作日可交付</strong> </h3>
+								<p class="mb-0">联系人: Jocelyne 女士 &nbsp;&nbsp; 邮件：design@athensoft.com &nbsp;&nbsp; 短信：(514)746-9188</p>
 							</div>
 						</div>
-					</section>
+						<div class="col-sm-3 col-lg-3">
+							<div class="call-to-action-btn">
+								<!-- <a href="#" class="btn btn-lg btn-primary" data-hash data-hash-offset="120">欢迎联系</a>  -->
+								<img src="/images/logo/qr_code.png" width="30%"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			
 			
 			<!-- 	<hr class="invisible mt-5 mb-2"/>  -->
 				
 				
-				<section class="section section-no-border section-default m-0 pt-5" id="demos">
-					<div class="container-fluid sample-item-container">
-						<div class="row">
+			<section class="section section-no-border section-default m-0 pt-5" id="demos">
+				<div class="container-fluid sample-item-container">
+					<div class="row">
 							<div class="col-lg-12 text-center">
 								<h2 class="mt-2 mb-0"> 成功案例 <strong></strong></h2>
 								<p class="lead">正在使用中, MOCKUP效果图</p>
 							</div>
 						</div>
 				
-						<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
+					<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
 							<div class="col-lg-4 isotope-item corporatesite">
 								<div class="portfolio-item">
 									<a href="#">
@@ -948,10 +948,32 @@
 								</div>
 							</div>
 						</div>
+				</div>
+			</section>
+			
+			<!-- call to action -->
+			<section class="call-to-action call-to-action-dark mb-0">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-lg-8">
+							<div class="call-to-action-content">
+								<h3><strong></strong> </h3>
+								<p class="mb-0">本次活动由J Design Studio 与  Informatique Athenosft 联合主办，保留活动所有最终解释权</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-lg-4">
+							<div class="call-to-action-btn">
+								<!-- <a href="#" class="btn btn-lg btn-primary" data-hash data-hash-offset="120">欢迎联系</a>  -->
+								<img src="${webapp_name}/images/logo/jdesign-logo.png" width="27%"/>
+								&nbsp;&nbsp;&nbsp;
+								<img src="${webapp_name}/images/logo/athensoft-logo-grey.png" width="50%"/>
+							</div>
+						</div>
 					</div>
-				</section>
+				</div>
+			</section>
 				
-				<div class="row mt-5 counters counters-text-dark">
+			<div class="row mt-5 counters counters-text-dark">
 					<div class="col-lg-3 col-sm-6">
 						<div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 							<i class="fa fa-user"></i>
