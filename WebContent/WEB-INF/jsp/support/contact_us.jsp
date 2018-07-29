@@ -89,6 +89,8 @@
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
 
+		<!-- Google No reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
 		<div class="body">
@@ -158,6 +160,11 @@
 								</div>
 								<div class="form-row">
 									<div class="form-group col">
+										<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6"></div>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
 										<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary btn-lg" data-loading-text="Loading...">
 									</div>
 								</div>
@@ -166,6 +173,8 @@
 										<input type="hidden" value="${loc}" name="lang"/>
 									</div>
 								</div>
+								
+								
 							</form>
 						</div>
 						<div class="col-lg-6">
