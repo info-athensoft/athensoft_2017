@@ -16,11 +16,6 @@ private static final Logger logger = Logger.getLogger(WebSaleController.class);
 	@Autowired
 	private SupportService supportService;
 	
-	@Autowired
-	public void setSupportService(SupportService supportService) {
-		this.supportService = supportService;
-	}
-	
 	
 	@RequestMapping("/webcustom/quote")
 	public String quote(@RequestParam("quoteStr") String quoteStr,

@@ -104,221 +104,149 @@
 							<div class="col">
 								<ul class="breadcrumb">
 									<li><a href="${webapp_name}/index.html?lang=${loc}"><spring:message code="menu-home"/></a></li>
-									<li class="active"><a href="${webapp_name}/support/aboutus.html?lang=${loc}"><spring:message code="link-about"/></a></li>
+									<li class="active"><a href="${webapp_name}/support/aboutus.html?lang=${loc}"><spring:message code="menu-graphic"/></a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col">
-								<h1><spring:message code="page-title-aboutus"/></h1>
+								<h1><spring:message code="page-title-jdesign"/></h1>
 							</div>
 						</div>
 					</div>
 				</section>
 			
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 10}">
+								<div>
+									<span class="img-thumbnail d-block">
+										<img alt="" height="300" class="img-fluid" src="/img/team/team-3.jpg">
+									</span>
+								</div>
+								<div>
+									<span class="img-thumbnail d-block">
+										<img alt="" height="300" class="img-fluid" src="/img/team/team-9.jpg">
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8">
+
+							<h2 class="mb-0"><strong><spring:message code="graphic-jdesign-title-1"/></strong></h2>
+							<h4 class="heading-primary"></h4>
+
+							<hr class="solid">
+
+							<p><spring:message code="graphic-jdesign-content-1"/></p>
+
+							<ul class="list list-icons">
+								<li><i class="fa fa-check"></i> Fusce sit amet orci quis arcu vestibulum vestibulum sed ut felis.</li>
+								<li><i class="fa fa-check"></i> Phasellus in risus quis lectus iaculis vulputate id quis nisl.</li>
+								<li><i class="fa fa-check"></i> Iaculis vulputate id quis nisl.</li>
+							</ul>
+							<a href="${webapp_name}/graphic/service/graphic.html?lang=${loc}" class="btn btn-primary btn-lg"><spring:message code="graphic-service-btn-view_detail"/></a>
+							<a href="${webapp_name}/graphic/service/graphic.html?lang=${loc}" class="btn btn-primary btn-lg"><spring:message code="index-btnlink-quote-1"/></a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<hr class="solid">
+						</div>
+					</div>
+					
+				</div>
+				
+				
+				
+				
+
 				<div class="container">
 					<div class="row">
 						<div class="col">
-							<h2 class="word-rotator-title">
-								<spring:message code="aboutus-section-title-1"/>
-							</h2>
-						</div>
-					</div>
 
-					<div class="row align-items-center">
-						<div class="col-lg-10">
-							<p class="lead">
-								<spring:message code="aboutus-section-1a"/>
-							</p>
-							<p class="lead">
-								<spring:message code="aboutus-section-1c"/>
-							</p>
-							<p class="lead">
-								<spring:message code="aboutus-section-1b"/>
-							</p>
-						</div>
-						<div class="col-lg-2">
-							<!-- <a href="#" class="btn btn-lg btn-primary">Join Our Team!</a>  -->
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col">
-							<hr class="tall">
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-lg-10 col-xl-10">
-							<h3 class="heading-primary"><spring:message code="aboutus-section-title-2"/></h3>
-							<p><spring:message code="aboutus-section-2"/></p>
-							<p>&nbsp;</p>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-lg-10 col-xl-10">
-							<h3 class="heading-primary"><spring:message code="aboutus-section-title-3"/></h3>
-							<p><spring:message code="aboutus-section-3"/></p>
-							<p>&nbsp;</p>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-lg-10 col-xl-10">
-							<h3 class="heading-primary"><spring:message code="aboutus-section-title-4"/></h3>
-							<p><spring:message code="aboutus-section-4"/></p>
-							<p>&nbsp;</p>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-lg-10 col-xl-10">
-							<h3 class="heading-primary"><spring:message code="aboutus-section-title-5"/></h3>
-							<p><spring:message code="aboutus-section-5"/></p>
-						</div>
-					</div>
-					
-					
-					<div class="row">
-						<div class="col">
-							<hr class="short">
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col">
-							<h3 class="heading-primary mt-5"><spring:message code="aboutus-history-title"/></h3>
-							<ul class="history">
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/4.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2018</strong></h4>
-											<p><spring:message code="aboutus-history-2018-1"/></p>
-											<p><spring:message code="aboutus-history-2018-4"/></p>
-											<p><spring:message code="aboutus-history-2018-2"/></p>
-											<p><spring:message code="aboutus-history-2018-3"/></p>
-										</div>
+							<h4 class="mt-5 mb-0 text-uppercase">Our <strong>Work</strong></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								
+							<ul class="row portfolio-list">
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="portfolio-single-small-slider.html">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="/img/projects/project.jpg" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Presentation</span>
+														<span class="thumb-info-type">Brand</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
 									</div>
 								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/3.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2017</strong></h4>
-											<p><spring:message code="aboutus-history-2"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/2.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2016</strong></h4>
-											<p><spring:message code="aboutus-history-3"/></p>
-										</div>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="portfolio-single-small-slider.html">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Identity</span>
+														<span class="thumb-info-type">Logo</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
 									</div>
 								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/1.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2015</strong></h4>
-											<p><spring:message code="aboutus-history-4"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/4.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2014</strong></h4>
-											<p><spring:message code="aboutus-history-5"/></p>
-										</div>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="portfolio-single-small-slider.html">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="/img/projects/project-3.jpg" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Watch Mockup</span>
+														<span class="thumb-info-type">Brand</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
 									</div>
 								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/3.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2011</strong></h4>
-											<p><spring:message code="aboutus-history-6"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/2.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2010</strong></h4>
-											<p><spring:message code="aboutus-history-7"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/1.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2008</strong></h4>
-											<p><spring:message code="aboutus-history-8"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/3.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2006</strong></h4>
-											<p><spring:message code="aboutus-history-9"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/2.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2005</strong></h4>
-											<p><spring:message code="aboutus-history-10"/></p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="${img_dir}/about/2.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>2004</strong></h4>
-											<p><spring:message code="aboutus-history-11"/></p>
-										</div>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="portfolio-single-small-slider.html">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="/img/projects/project-4.jpg" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Three Bottles</span>
+														<span class="thumb-info-type">Logo</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
 									</div>
 								</li>
 							</ul>
 
 						</div>
 					</div>
-
 				</div>
 				
 			

@@ -45,14 +45,13 @@
 				<li class="dropdown">
 					<a class="dropdown-item dropdown-toggle" href="/graphic/index.html?lang=${loc}"> <spring:message code="menu-graphic"/> </a>
 					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/graphic/jdesign.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-7"/></a></li>
 						<li><a class="dropdown-item" href="/graphic/graphic.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-1"/></a></li>
-						<li><a class="dropdown-item" href="/graphic/service/catalog.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-6"/></a></li>
 						<li><a class="dropdown-item" href="/graphic/demo.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-2"/></a></li>
-						
+						<li><a class="dropdown-item" href="/event/logoexpress2018.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-8"/></a></li>
 						<!-- 
 						<li><a class="dropdown-item" href="/graphic/pricing.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-4"/></a></li>
 						<li><a class="dropdown-item" href="/support/faq-graphic.html?lang=${loc}" target="_blank"><spring:message code="menu-graphic-5"/></a></li>
-						 
 						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-graphic-4"/></a></li>
 						<li><a class="dropdown-item" href="/about/comingsoon.html?lang=${loc}"><spring:message code="menu-graphic-5"/></a></li>
 						-->
@@ -95,7 +94,7 @@
 				
 				<!-- menu - tour -->
 				<li class="dropdown dropdown-mega">
-					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-knowledge"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-edu"/> </a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class="dropdown-mega-content">

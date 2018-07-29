@@ -15,7 +15,7 @@ public class GraphicController {
 	public String gotoGraphicIndex(){
 		logger.info("entering.. /graphic.html");
 		logger.info("exiting.. /graphic.html");
-		return "graphic/graphic";
+		return "event/logoexpress2018";
 	}
 	
 	@RequestMapping("/graphic.html")
@@ -23,6 +23,13 @@ public class GraphicController {
 		logger.info("entering.. /graphic.html");
 		logger.info("exiting.. /graphic.html");
 		return "graphic/graphic";
+	}
+	
+	@RequestMapping("/jdesign.html")
+	public String gotoJdesign(){
+		logger.info("entering.. /graphic/jdesign.html");
+		logger.info("exiting.. /graphic/jdesign.html");
+		return "graphic/jdesign";
 	}
 	
 	@RequestMapping("/demo.html")
