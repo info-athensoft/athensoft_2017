@@ -1016,13 +1016,13 @@
 					<div class="row">
 						<div class="col-sm-9 col-lg-9">
 							<div class="call-to-action-content">
-								<h3>J Design Studio is <strong>everything</strong> you need to create a <strong>Logo!</strong></h3>
+								<h3>J Design Studio is <strong>everything</strong> you need for <strong>design services!</strong></h3>
 								<p class="mb-0">The <strong>trustworthy</strong> 1-to-1 design service</p>
 							</div>
 						</div>
 						<div class="col-sm-3 col-lg-3">
 							<div class="call-to-action-btn">
-								<a href="#" class="btn btn-lg btn-primary">Contact Now!</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="left: 110%; top: -40px;"></span>
+								<a href="/graphic/graphic.html?lang=${loc}" class="btn btn-lg btn-primary">Explore</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="left: 110%; top: -40px;"></span>
 							</div>
 						</div>
 					</div>

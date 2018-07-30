@@ -10,7 +10,14 @@
 
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
-<c:set var="img_dir" value="../images"></c:set>
+<c:set var="img_dir" value="/images"/>
+<c:set var="work1" value="logo-workshop-mug.jpg"/>
+<c:set var="work2" value="Catalog-Furniture.jpg"/>
+<c:set var="work4" value="magazine2.jpg"/>
+<c:set var="work3" value="Menu-Restaurant.jpg"/>
+<c:set var="banner1" value="logorgb20180723-04.jpg"/>
+<c:set var="banner2" value="logorgb20180723-03.jpg"/>
+
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -123,12 +130,12 @@
 							<div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 10}">
 								<div>
 									<span class="img-thumbnail d-block">
-										<img alt="" height="300" class="img-fluid" src="/img/team/team-3.jpg">
+										<img alt="" height="300" class="img-fluid" src="${img_dir}/graphic/jdesign/${banner1}">
 									</span>
 								</div>
 								<div>
 									<span class="img-thumbnail d-block">
-										<img alt="" height="300" class="img-fluid" src="/img/team/team-9.jpg">
+										<img alt="" height="300" class="img-fluid" src="${img_dir}/graphic/jdesign/${banner2}">
 									</span>
 								</div>
 							</div>
@@ -141,14 +148,20 @@
 							<hr class="solid">
 
 							<p><spring:message code="graphic-jdesign-content-1"/></p>
-
+							<p><spring:message code="graphic-jdesign-content-2"/></p>
+							
+							<!-- 
 							<ul class="list list-icons">
 								<li><i class="fa fa-check"></i> Fusce sit amet orci quis arcu vestibulum vestibulum sed ut felis.</li>
 								<li><i class="fa fa-check"></i> Phasellus in risus quis lectus iaculis vulputate id quis nisl.</li>
 								<li><i class="fa fa-check"></i> Iaculis vulputate id quis nisl.</li>
 							</ul>
-							<a href="${webapp_name}/graphic/service/graphic.html?lang=${loc}" class="btn btn-primary btn-lg"><spring:message code="graphic-service-btn-view_detail"/></a>
-							<a href="${webapp_name}/graphic/service/graphic.html?lang=${loc}" class="btn btn-primary btn-lg"><spring:message code="index-btnlink-quote-1"/></a>
+							 -->
+							 <br/><br/>
+							<a href="${webapp_name}/graphic/graphic.html?lang=${loc}"  target="_blank" class="btn btn-primary btn-lg"><spring:message code="graphic-service-btn-view_detail"/></a>
+							<!-- 
+							<a href="${webapp_name}/graphic/graphic.html?lang=${loc}" class="btn btn-primary btn-lg"><spring:message code="index-btnlink-quote-1"/></a>
+							 -->
 						</div>
 					</div>
 					<div class="row">
@@ -158,45 +171,23 @@
 					</div>
 					
 				</div>
-				
-				
-				
-				
 
 				<div class="container">
 					<div class="row">
 						<div class="col">
 
-							<h4 class="mt-5 mb-0 text-uppercase">Our <strong>Work</strong></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<h4 class="mt-5 mb-0 text-uppercase"><strong><spring:message code="graphic-jdesign-title-2"/></strong></h4>
+							<p></p>
 								
 							<ul class="row portfolio-list">
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="portfolio-single-small-slider.html">
+										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
-													<img src="/img/projects/project.jpg" class="img-fluid" alt="">
+													<img src="${img_dir}/graphic/demo/${work1}" class="img-fluid" alt="">
 													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Presentation</span>
-														<span class="thumb-info-type">Brand</span>
-													</span>
-													<span class="thumb-info-action">
-														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</li>
-								<li class="col-12 col-sm-6 col-lg-3">
-									<div class="portfolio-item">
-										<a href="portfolio-single-small-slider.html">
-											<span class="thumb-info thumb-info-lighten">
-												<span class="thumb-info-wrapper">
-													<img src="/img/projects/project-2.jpg" class="img-fluid" alt="">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Identity</span>
+														<span class="thumb-info-inner">Mug</span>
 														<span class="thumb-info-type">Logo</span>
 													</span>
 													<span class="thumb-info-action">
@@ -209,13 +200,13 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="portfolio-single-small-slider.html">
+										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
-													<img src="/img/projects/project-3.jpg" class="img-fluid" alt="">
+													<img src="${img_dir}/graphic/demo/${work2}" class="img-fluid" alt="">
 													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Watch Mockup</span>
-														<span class="thumb-info-type">Brand</span>
+														<span class="thumb-info-inner">Furniture</span>
+														<span class="thumb-info-type">Catalog</span>
 													</span>
 													<span class="thumb-info-action">
 														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -227,13 +218,31 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="portfolio-single-small-slider.html">
+										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
-													<img src="/img/projects/project-4.jpg" class="img-fluid" alt="">
+													<img src="${img_dir}/graphic/demo/${work3}" class="img-fluid" alt="">
 													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Three Bottles</span>
-														<span class="thumb-info-type">Logo</span>
+														<span class="thumb-info-inner">Restaurant</span>
+														<span class="thumb-info-type">Menu</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}/graphic/demo/${work4}" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Celebrity Interview</span>
+														<span class="thumb-info-type">Magazine</span>
 													</span>
 													<span class="thumb-info-action">
 														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
