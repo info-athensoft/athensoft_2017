@@ -160,12 +160,17 @@
 								</div>
 								<div class="form-row">
 									<div class="form-group col">
-										<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6"></div>
+										<!-- production code -->
+										<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6" data-callback="recaptchaCallback"></div>
+										
+										<!-- local test code 
+										<div class="g-recaptcha" data-sitekey="6LfmVWcUAAAAAMWNCPNWK0kfrACYYQmgBNVYgRgG" data-callback="recaptchaCallback"></div>
+										-->
 									</div>
 								</div>
 								<div class="form-row">
 									<div class="form-group col">
-										<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary btn-lg" data-loading-text="Loading...">
+										<input type="submit" id="btnSubmit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary btn-lg" data-loading-text="Loading..." disabled="disabled">
 									</div>
 								</div>
 								<div class="form-row">
@@ -279,7 +284,14 @@
 		})();
 		</script>
 		<!--End of Tawk.to Script-->
-		 
+		
+		<!-- google reCAPTCHA -->
+		<script>
+		function recaptchaCallback(){
+			//alert("verified");
+			$("#btnSubmit").removeAttr("disabled");
+		}
+		</script>
 
 	</body>
 </html>
