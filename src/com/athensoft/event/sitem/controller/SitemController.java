@@ -11,4 +11,9 @@ public class SitemController {
 	public String gotoIndex(){
 		return "sitem/index";
 	}
+	
+	@RequestMapping("/test")
+	public String gotoIndex2(){
+		return "sitem/index-old";
+	}
 }

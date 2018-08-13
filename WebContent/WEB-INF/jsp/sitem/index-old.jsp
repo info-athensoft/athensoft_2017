@@ -1,4 +1,4 @@
-﻿<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
@@ -92,7 +92,6 @@
 <!-- venue -->
 <c:set var="venue_1" value="/images/sitem/venue/venue_cjendg.jpg"/>
 
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -105,7 +104,7 @@
 		
 		  gtag('config', 'UA-113930092-1');
 		</script>
-
+		
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
@@ -171,6 +170,7 @@
 							<div class="header-logo">
 								<a href="demo-event.html">
 									<img alt="Porto" width="102" height="40" src="/images/sitem/logo/sitem-logo.png">
+									<!-- <img alt="Porto" width="102" height="40" src="/img/demos/event/logo-event.png">  -->
 								</a>
 							</div>
 						</div>
@@ -211,18 +211,12 @@
 													Venue
 												</a>
 											</li>
-											<li>
-												<a class="nav-link font-weight-semibold" data-hash data-hash-offset="80" href="#venue">
-													Contact
-												</a>
-											</li>
 										</ul>
 									</nav>
 								</div>
-								<!-- 
 								<div class="buy-tickets">
 									<a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-bold text-color-light text-uppercase outline-none ml-4" href="">Buy Tickets <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
-								</div>  -->
+								</div>
 								<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
 									<i class="fa fa-bars"></i>
 								</button>
@@ -236,7 +230,7 @@
 
 	<main role="main">
 
-				
+
 				<div class="slider-container rev_slider_wrapper" style="height: 100vh;">
 					<div id="revolutionSlider" class="slider rev_slider manual">
 						<ul>
@@ -877,7 +871,7 @@
 						</div>
 					</div>
 				</section>
-				
+
 				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 				<div id="googlemaps" class="google-map m-0"></div>
 
@@ -888,25 +882,26 @@
 				<div class="row mb-5 pb-5">
 					<div class="col-lg-5">
 						<div class="mb-4">
-							<h4 class="text-color-light font-weight-light mb-2">Porto Event - July 17 &amp; 18, 2017 in NYC</h4>
-							<p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-0">New York Plaza - New Work - NY</p>
+							<h4 class="text-color-light font-weight-light mb-2">SITEM Forum Event</h4>
+							<p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-0">August 18 &amp; September 1, 2018 in Montreal QC</p>
 						</div>
 						<a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Buy Tickets <i class="custom-long-arrow-right ml-3" aria-hidden="true"></i></a>
 					</div>
 					<div class="col-lg-3">
 						<div class="contact-details">
-							<h4 class="text-color-light font-weight-light mb-4 pb-1">Contact Us</h4>
+							<h4 class="text-color-light font-weight-light mb-4 pb-1">Reach Us</h4>
 							<div class="mb-3">
 								<strong class="font-weight-light text-color-light">Address:</strong>
-								<span class="font-weight-light">1234 Street Name, City Name, United States</span>
+								<span class="font-weight-light">6380 Rue Sherbrooke Ouest, Montreal, QC  &nbsp;&nbsp;&nbsp;H4B 1N1</span>
 							</div>
+							<!-- 
 							<div class="mb-3">
 								<strong class="font-weight-light text-color-light">Phone:</strong>
 								<a href="tel:1234567890" class="text-decoration-none font-weight-light">(123) 456-7890</a>
-							</div>
+							</div> -->
 							<div>
 								<strong class="font-weight-light text-color-light">Email:</strong>
-								<a href="mailto:mail@example.com" class="text-decoration-none font-weight-light">mail@example.com</a>
+								<a href="mailto:mail@example.com" class="text-decoration-none font-weight-light">siteminfo.ca@gmail.com</a>
 							</div>
 						</div>
 					</div>
@@ -939,7 +934,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="footer-border text-center pt-5">
-							<p class="font-weight-normal mb-0">© Copyright 2017. All Rights Reserved.</p>
+							<p class="font-weight-normal mb-0">&copy; Copyright 2018. SITEM FORUM All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
@@ -956,7 +951,7 @@
 		<script src="/vendor/common/common.min.js"></script>
 		<script src="/vendor/jquery.validation/jquery.validation.min.js"></script>
 		<script src="/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
-		<script src="/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="/vendor/jquery.gmap/jquery.gmap.js"></script> 
 		<script src="/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
 		<script src="/vendor/isotope/jquery.isotope.min.js"></script>
 		<script src="/vendor/owl.carousel/owl.carousel.min.js"></script>
@@ -982,7 +977,7 @@
 		<script src="/js/theme.init.js"></script>
 
 
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ak25SLOdgskXHhchf5gIDG1prLfKD4w"></script>
+		<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ak25SLOdgskXHhchf5gIDG1prLfKD4w" type="text/javascript"></script>
 		<script>
 
 			/*
@@ -1005,8 +1000,8 @@
 			}];
 
 			// Map Initial Location
-			var initLatitude = 45.4650385;
-			var initLongitude = -73.6280845;
+			var initLatitude = 40.75198;
+			var initLongitude = -73.96978;
 
 			// Map Extended Settings
 			var mapSettings = {
@@ -1022,7 +1017,7 @@
 				markers: mapMarkers,
 				latitude: initLatitude,
 				longitude: initLongitude,
-				zoom: 17
+				zoom: 14
 			};
 
 			var map = $('#googlemaps').gMap(mapSettings),
