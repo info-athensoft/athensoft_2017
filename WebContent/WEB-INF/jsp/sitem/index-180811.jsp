@@ -51,60 +51,13 @@
 <c:set var="speaker_desc_4_2" value=""/>
 <c:set var="speaker_desc_4_3" value=""/>
 
-<!-- schedule 1 -->
-<c:set var="day_1_date" value="Aug. 18"/>
-<c:set var="day_1_section_1_time" value="1:30 PM"/>
-<c:set var="day_1_section_1_activity" value="Reception &amp; Welcome"/>
-<c:set var="day_1_section_2_time" value="1:45 PM"/>
-<c:set var="day_1_section_2_activity" value="How to become a Data Scientist or a Data Engineer"/>
-<c:set var="day_1_section_2_speaker" value="Dr. Yimin Nie"/> 
-<c:set var="day_1_section_3_time" value="3:00 PM"/>
-<c:set var="day_1_section_3_activity" value="CLOSE"/>
 
-<!-- schedule 2 -->
-<c:set var="day_2_date" value="Sept. 1"/>
-<c:set var="day_2_section_1_time" value="1:30 PM"/>
-<c:set var="day_2_section_1_activity" value="Reception &amp; Welcome"/>
-<c:set var="day_2_section_2_time" value="1:45 PM"/>
-<c:set var="day_2_section_2_activity" value="Explore Computer Vision"/>
-<c:set var="day_2_section_2_speaker" value="Dr. Cheng Zhang"/> 
-<c:set var="day_2_section_3_time" value="3:00 PM"/>
-<c:set var="day_2_section_3_activity" value="CLOSE"/>
-
-
-<!-- sponsor -->
-<c:set var="sponsor_1_big" value="/images/sitem/sponsor/sponsor_cjendg.jpg"/>
-<c:set var="sponsor_1_sm" value="/images/sitem/sponsor/sponsor_cjendg_sm.jpg"/>
-<c:set var="sponsor_1_name" value="CJE-NDG &nbsp; Carrefour Jeunesse Emploi NDG"/>
-
-<c:set var="sponsor_2_big" value="/images/sitem/sponsor/sponsor_jdesign.jpg"/>
-<c:set var="sponsor_2_sm" value="/images/sitem/sponsor/sponsor_jdesign_sm.jpg"/>
-<c:set var="sponsor_2_name" value="J Design Studio QC"/>
-
-<c:set var="sponsor_3_big" value="/images/sitem/sponsor/sponsor_athensoft.jpg"/>
-<c:set var="sponsor_3_sm" value="/images/sitem/sponsor/sponsor_athensoft_sm.jpg"/>
-<c:set var="sponsor_3_name" value="Informatique Athensoft QC"/>
-
-<c:set var="sponsor_4_big" value="/images/sitem/sponsor/sponsor_candata.jpg"/>
-<c:set var="sponsor_4_sm" value="/images/sitem/sponsor/sponsor_candata_sm.jpg"/>
-<c:set var="sponsor_4_name" value="CANDATA QC"/>
-
-<!-- venue -->
 <c:set var="venue_1" value="/images/sitem/venue/venue_cjendg.jpg"/>
 
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113930092-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		
-		  gtag('config', 'UA-113930092-1');
-		</script>
-		
+
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
@@ -273,7 +226,7 @@
 									data-paddingleft="['0', '0', '0', '0']"
 									data-fontsize="26"
 									style="z-index: 5;"
-									data-transform_in="y:[-300%];opacity:0;s:500;">August 18th &amp; September 1st, 2018 in Montreal QC</div>
+									data-transform_in="y:[-300%];opacity:0;s:500;">August 11 &amp; 18, 2018 in Montreal QC</div>
 
 								<div class="tp-caption text-uppercase"
 									data-x="['left','left','left','left']"
@@ -607,27 +560,27 @@
 									<div class="circle-dotted">
 										<div class="circle-center">
 											<span class="custom-font-size-6 text-color-light font-weight-bold text-uppercase mb-0">Day-1</span>
-											<span class="text-color-light font-weight-normal">${day_1_date}</span>
+											<span class="text-color-light font-weight-normal">August-11</span>
 										</div>
 									</div>
 								</div>
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
-										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_1_section_1_time}</span>
+										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">1:30 PM</span>
 										<div class="time-dot background-color-light"></div>
 									</div>
 									<div class="balloon-cell appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0">
 										<div class="balloon-content balloon-shadow background-color-light text-color-quaternary p-3">
 											<span class="balloon-arrow background-color-light"></span>
 											<div class="balloon-description p-2">
-												<h5 class="text-color-dark text-uppercase font-weight-bold m-0">${day_1_section_1_activity}</h5>
+												<h5 class="text-color-dark text-uppercase font-weight-bold m-0">Reception &amp; Welcome</h5>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
-										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_1_section_2_time}</span>
+										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">1:50 PM</span>
 										<div class="time-dot background-color-light"></div>
 									</div>
 									<div class="balloon-cell appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0">
@@ -635,26 +588,26 @@
 											<span class="balloon-arrow background-color-light"></span>
 											<div class="balloon-photo">
 												<div class="photo-radius">
-													<img src="${speaker_pic_2}" class="img-fluid" alt="John Doe">
+													<img src="/img/demos/event/speakers/speaker-01.jpg" class="img-fluid" alt="John Doe">
 												</div>
 											</div>
 											<div class="balloon-description pl-4">
-												<h5 class="text-color-dark text-uppercase font-weight-bold pt-1 mb-2">${day_1_section_2_activity}</h5>
-												<p class="font-weight-normal custom-font-size-3 mb-1">${day_1_section_2_speaker}</p>
+												<h5 class="text-color-dark text-uppercase font-weight-bold pt-1 mb-2">How to become a Data Scientist or a Data Engineer</h5>
+												<p class="font-weight-normal custom-font-size-3 mb-1">Dr. Yimin Nie</p>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
-										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_1_section_3_time}</span>
+										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">3:00 PM</span>
 										<div class="time-dot background-color-light"></div>
 									</div>
 									<div class="balloon-cell appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0">
 										<div class="balloon-content balloon-shadow background-color-light text-color-quaternary p-3">
 											<span class="balloon-arrow background-color-light"></span>
 											<div class="balloon-description p-2">
-												<h5 class="text-color-dark text-uppercase font-weight-bold m-0">${day_1_section_3_activity}</h5>
+												<h5 class="text-color-dark text-uppercase font-weight-bold m-0">CLOSE</h5>
 											</div>
 										</div>
 									</div>
@@ -666,27 +619,27 @@
 									<div class="circle-dotted">
 										<div class="circle-center">
 											<span class="custom-font-size-6 text-color-dark font-weight-bold text-uppercase mb-0">Day-2</span>
-											<span class="text-color-dark font-weight-normal">${day_2_date}</span>
+											<span class="text-color-dark font-weight-normal">August-18</span>
 										</div>
 									</div>
 								</div>
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
-										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_2_section_1_time}</span>
+										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">1:30 PM</span>
 										<div class="time-dot background-color-light"></div>
 									</div>
 									<div class="balloon-cell appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0">
 										<div class="balloon-content balloon-shadow background-color-light text-color-quaternary p-3">
 											<span class="balloon-arrow background-color-light"></span>
 											<div class="balloon-description p-2">
-												<h5 class="text-color-dark text-uppercase font-weight-bold m-0">${day_2_section_1_activity}</h5>
+												<h5 class="text-color-dark text-uppercase font-weight-bold m-0">Reception &amp; Welcome</h5>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
-										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_2_section_2_time}</span>
+										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">1:50 PM</span>
 										<div class="time-dot background-color-light"></div>
 									</div>
 									<div class="balloon-cell appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0">
@@ -694,12 +647,12 @@
 											<span class="balloon-arrow background-color-light"></span>
 											<div class="balloon-photo">
 												<div class="photo-radius">
-													<img src="${speaker_pic_3}" class="img-fluid" alt="">
+													<img src="/img/demos/event/speakers/speaker-01.jpg" class="img-fluid" alt="John Doe">
 												</div>
 											</div>
 											<div class="balloon-description pl-4">
-												<h5 class="text-color-dark text-uppercase font-weight-bold pt-1 mb-2">${day_2_section_2_activity}</h5>
-												<p class="font-weight-normal custom-font-size-3 mb-1">${day_2_section_2_speaker}</p>
+												<h5 class="text-color-dark text-uppercase font-weight-bold pt-1 mb-2">How to become a Data Scientist or a Data Engineer</h5>
+												<p class="font-weight-normal custom-font-size-3 mb-1">Dr. Yimin Nie</p>
 											</div>
 										</div>
 									</div>
@@ -707,14 +660,14 @@
 								
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
-										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_2_section_3_time}</span>
+										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">3:00 PM</span>
 										<div class="time-dot background-color-light"></div>
 									</div>
 									<div class="balloon-cell appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0">
 										<div class="balloon-content balloon-shadow background-color-light text-color-quaternary p-3">
 											<span class="balloon-arrow background-color-light"></span>
 											<div class="balloon-description p-2">
-												<h5 class="text-color-dark text-uppercase font-weight-bold m-0">${day_2_section_3_activity}</h5>
+												<h5 class="text-color-dark text-uppercase font-weight-bold m-0">CLOSE</h5>
 											</div>
 										</div>
 									</div>
@@ -781,57 +734,160 @@
 								<div class="owl-carousel owl-theme custom-dots-style-1 custom-dots-color-primary mb-0" data-plugin-options="{'items': 4, 'margin': 0, 'loop': false}">
 									<div class="carousel-logo-item background-color-light">
 										<div class="carousel-logo-pannel carousel-logo-pb text-center">
-											<img src="${sponsor_1_big}" class="img-fluid" alt="">
+											<img src="/img/demos/event/sponsors/sponsor-logo-1.png" class="img-fluid" alt="">
 										</div>
 										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
 											<div class="mb-4">
-												<img src="${sponsor_1_sm}" class="img-fluid" alt="">
+												<img src="/img/demos/event/sponsors/themeforest-logo-color.png" class="img-fluid" alt="">
 											</div>
 											<p class="carousel-logo-description font-weight-normal">
-												${sponsor_1_name}
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
 											</p>
 										</div>
 									</div>
 									<div class="carousel-logo-item background-color-light">
 										<div class="carousel-logo-pannel carousel-logo-pb text-center">
-											<img src="${sponsor_2_big}" class="img-fluid" alt="">
+											<img src="/img/demos/event/sponsors/sponsor-logo-2.png" class="img-fluid" alt="">
 										</div>
 										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
 											<div class="mb-4">
-												<img src="${sponsor_2_sm}" class="img-fluid" alt="">
+												<img src="/img/demos/event/sponsors/photodune-logo-color.png" class="img-fluid" alt="">
 											</div>
 											<p class="carousel-logo-description font-weight-normal">
-												${sponsor_2_name}
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
 											</p>
 										</div>
 									</div>
 									<div class="carousel-logo-item background-color-light">
 										<div class="carousel-logo-pannel carousel-logo-pb text-center">
-											<img src="${sponsor_3_big}" class="img-fluid" alt="">
+											<img src="/img/demos/event/sponsors/sponsor-logo-3.png" class="img-fluid" alt="">
 										</div>
 										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
 											<div class="mb-4">
-												<img src="${sponsor_3_sm}" class="img-fluid" alt="">
+												<img src="/img/demos/event/sponsors/graphicriver-logo-color.png" class="img-fluid" alt="">
 											</div>
 											<p class="carousel-logo-description font-weight-normal">
-												${sponsor_3_name}
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
 											</p>
 										</div>
 									</div>
 									<div class="carousel-logo-item background-color-light">
 										<div class="carousel-logo-pannel carousel-logo-pb text-center">
-											<img src="${sponsor_4_big}" class="img-fluid" alt="">
+											<img src="/img/demos/event/sponsors/sponsor-logo-4.png" class="img-fluid" alt="">
 										</div>
 										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
 											<div class="mb-4">
-												<img src="${sponsor_4_sm}" class="img-fluid" alt="">
+												<img src="/img/demos/event/sponsors/audiojungle-logo-color.png" class="img-fluid" alt="">
 											</div>
 											<p class="carousel-logo-description font-weight-normal">
-												${sponsor_4_name}
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
 											</p>
 										</div>
 									</div>
-									
+									<div class="carousel-logo-item background-color-light">
+										<div class="carousel-logo-pannel carousel-logo-pb text-center">
+											<img src="/img/demos/event/sponsors/sponsor-logo-1.png" class="img-fluid" alt="">
+										</div>
+										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
+											<div class="mb-4">
+												<img src="/img/demos/event/sponsors/themeforest-logo-color.png" class="img-fluid" alt="">
+											</div>
+											<p class="carousel-logo-description font-weight-normal">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
+											</p>
+										</div>
+									</div>
+									<div class="carousel-logo-item background-color-light">
+										<div class="carousel-logo-pannel carousel-logo-pb text-center">
+											<img src="/img/demos/event/sponsors/sponsor-logo-2.png" class="img-fluid" alt="">
+										</div>
+										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
+											<div class="mb-4">
+												<img src="/img/demos/event/sponsors/photodune-logo-color.png" class="img-fluid" alt="">
+											</div>
+											<p class="carousel-logo-description font-weight-normal">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
+											</p>
+										</div>
+									</div>
+									<div class="carousel-logo-item background-color-light">
+										<div class="carousel-logo-pannel carousel-logo-pb text-center">
+											<img src="/img/demos/event/sponsors/sponsor-logo-3.png" class="img-fluid" alt="">
+										</div>
+										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
+											<div class="mb-4">
+												<img src="/img/demos/event/sponsors/graphicriver-logo-color.png" class="img-fluid" alt="">
+											</div>
+											<p class="carousel-logo-description font-weight-normal">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
+											</p>
+										</div>
+									</div>
+									<div class="carousel-logo-item background-color-light">
+										<div class="carousel-logo-pannel carousel-logo-pb text-center">
+											<img src="/img/demos/event/sponsors/sponsor-logo-4.png" class="img-fluid" alt="">
+										</div>
+										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
+											<div class="mb-4">
+												<img src="/img/demos/event/sponsors/audiojungle-logo-color.png" class="img-fluid" alt="">
+											</div>
+											<p class="carousel-logo-description font-weight-normal">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
+											</p>
+										</div>
+									</div>
+									<div class="carousel-logo-item background-color-light">
+										<div class="carousel-logo-pannel carousel-logo-pb text-center">
+											<img src="/img/demos/event/sponsors/sponsor-logo-1.png" class="img-fluid" alt="">
+										</div>
+										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
+											<div class="mb-4">
+												<img src="/img/demos/event/sponsors/themeforest-logo-color.png" class="img-fluid" alt="">
+											</div>
+											<p class="carousel-logo-description font-weight-normal">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
+											</p>
+										</div>
+									</div>
+									<div class="carousel-logo-item background-color-light">
+										<div class="carousel-logo-pannel carousel-logo-pb text-center">
+											<img src="/img/demos/event/sponsors/sponsor-logo-2.png" class="img-fluid" alt="">
+										</div>
+										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
+											<div class="mb-4">
+												<img src="/img/demos/event/sponsors/photodune-logo-color.png" class="img-fluid" alt="">
+											</div>
+											<p class="carousel-logo-description font-weight-normal">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
+											</p>
+										</div>
+									</div>
+									<div class="carousel-logo-item background-color-light">
+										<div class="carousel-logo-pannel carousel-logo-pb text-center">
+											<img src="/img/demos/event/sponsors/sponsor-logo-3.png" class="img-fluid" alt="">
+										</div>
+										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
+											<div class="mb-4">
+												<img src="/img/demos/event/sponsors/graphicriver-logo-color.png" class="img-fluid" alt="">
+											</div>
+											<p class="carousel-logo-description font-weight-normal">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
+											</p>
+										</div>
+									</div>
+									<div class="carousel-logo-item background-color-light">
+										<div class="carousel-logo-pannel carousel-logo-pb text-center">
+											<img src="/img/demos/event/sponsors/sponsor-logo-4.png" class="img-fluid" alt="">
+										</div>
+										<div class="carousel-logo-pannel carousel-logo-hover pt-4 pl-3 pr-3 pb-2 ">
+											<div class="mb-4">
+												<img src="/img/demos/event/sponsors/audiojungle-logo-color.png" class="img-fluid" alt="">
+											</div>
+											<p class="carousel-logo-description font-weight-normal">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veniam. Ratione doloremque quibusdam, delectus placeat.
+											</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -853,7 +909,7 @@
 									<div class="col-md-6 p-5">
 										<div class="p-2">
 											<div class="text-color-dark font-weight-bold text-uppercase mb-3">CJE-NDG</div>
-											<p class="font-weight-normal mb-0"><strong>Address:</strong> 6380 Rue Sherbrooke Ouest <br/>Montreal, QC &nbsp;&nbsp;&nbsp;H4B 1N1</p>
+											<p class="font-weight-normal mb-0"><strong>Address:</strong> 6380 Rue Sherbrooke Ouest, Montreal, QC</p>
 											
 											
 											<p class="font-weight-normal mb-4">
@@ -883,7 +939,7 @@
 					<div class="col-lg-5">
 						<div class="mb-4">
 							<h4 class="text-color-light font-weight-light mb-2">SITEM Forum Event</h4>
-							<p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-0">August 18 &amp; September 1, 2018 in Montreal QC</p>
+							<p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-0">August 11 &amp; 18, 2018 in Montreal QC</p>
 						</div>
 						<a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Buy Tickets <i class="custom-long-arrow-right ml-3" aria-hidden="true"></i></a>
 					</div>
@@ -892,7 +948,7 @@
 							<h4 class="text-color-light font-weight-light mb-4 pb-1">Reach Us</h4>
 							<div class="mb-3">
 								<strong class="font-weight-light text-color-light">Address:</strong>
-								<span class="font-weight-light">6380 Rue Sherbrooke Ouest, Montreal, QC  &nbsp;&nbsp;&nbsp;H4B 1N1</span>
+								<span class="font-weight-light">6380 Rue Sherbrooke Ouest, Montreal, QC</span>
 							</div>
 							<!-- 
 							<div class="mb-3">
@@ -951,7 +1007,7 @@
 		<script src="/vendor/common/common.min.js"></script>
 		<script src="/vendor/jquery.validation/jquery.validation.min.js"></script>
 		<script src="/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
-		<script src="/vendor/jquery.gmap/jquery.gmap.js"></script> 
+		<!-- <script src="/vendor/jquery.gmap/jquery.gmap.min.js"></script>  -->
 		<script src="/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
 		<script src="/vendor/isotope/jquery.isotope.min.js"></script>
 		<script src="/vendor/owl.carousel/owl.carousel.min.js"></script>
@@ -977,7 +1033,7 @@
 		<script src="/js/theme.init.js"></script>
 
 
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ak25SLOdgskXHhchf5gIDG1prLfKD4w" type="text/javascript"></script>
+		<!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>  -->
 		<script>
 
 			/*
@@ -991,7 +1047,7 @@
 
 			// Map Markers
 			var mapMarkers = [{
-				address: "6380 Rue Sherbrook Ouest, Montreal Quebec H4B 1N1",
+				address: "New York, NY 10017",
 				icon: {
 					image: "/img/demos/event/venue/map-pin.png",
 					iconsize: [36, 48],
