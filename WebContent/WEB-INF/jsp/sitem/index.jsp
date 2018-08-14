@@ -868,7 +868,7 @@
 													siteminfo.ca@gmail.com
 												</a>
 											</p> 
-											<a href="http://maps.google.com" target="_blank" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Get Direction <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
+											<a href="#" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Get Direction <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
 										</div>
 									</div>
 									<span class="custom-arrow background-color-light"></span>
@@ -882,31 +882,33 @@
 				<div id="googlemaps" class="google-map m-0"></div>
 
 		</main>
-
+		
+		
 		<footer id="footer" class="background-color-quaternary m-0 pb-5">
 			<div class="container pt-5 pb-5">
 				<div class="row mb-5 pb-5">
 					<div class="col-lg-5">
 						<div class="mb-4">
-							<h4 class="text-color-light font-weight-light mb-2">Porto Event - July 17 &amp; 18, 2017 in NYC</h4>
-							<p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-0">New York Plaza - New Work - NY</p>
+							<h4 class="text-color-light font-weight-light mb-2">SITEM Forum Event</h4>
+							<p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-0">August 18 &amp; September 1, 2018 in Montreal QC</p>
 						</div>
 						<a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Buy Tickets <i class="custom-long-arrow-right ml-3" aria-hidden="true"></i></a>
 					</div>
 					<div class="col-lg-3">
 						<div class="contact-details">
-							<h4 class="text-color-light font-weight-light mb-4 pb-1">Contact Us</h4>
+							<h4 class="text-color-light font-weight-light mb-4 pb-1">Reach Us</h4>
 							<div class="mb-3">
 								<strong class="font-weight-light text-color-light">Address:</strong>
-								<span class="font-weight-light">1234 Street Name, City Name, United States</span>
+								<span class="font-weight-light">6380 Rue Sherbrooke Ouest, Montreal, QC  &nbsp;&nbsp;&nbsp;H4B 1N1</span>
 							</div>
+							<!-- 
 							<div class="mb-3">
 								<strong class="font-weight-light text-color-light">Phone:</strong>
 								<a href="tel:1234567890" class="text-decoration-none font-weight-light">(123) 456-7890</a>
-							</div>
+							</div> -->
 							<div>
 								<strong class="font-weight-light text-color-light">Email:</strong>
-								<a href="mailto:mail@example.com" class="text-decoration-none font-weight-light">mail@example.com</a>
+								<a href="mailto:mail@example.com" class="text-decoration-none font-weight-light">siteminfo.ca@gmail.com</a>
 							</div>
 						</div>
 					</div>
@@ -939,13 +941,14 @@
 				<div class="row">
 					<div class="col">
 						<div class="footer-border text-center pt-5">
-							<p class="font-weight-normal mb-0">© Copyright 2017. All Rights Reserved.</p>
+							<p class="font-weight-normal mb-0">&copy; Copyright 2018. SITEM FORUM All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
-
+		
+		
 		<!-- Vendor -->
 		<script src="/vendor/jquery/jquery.min.js"></script>
 		<script src="/vendor/jquery.appear/jquery.appear.min.js"></script>
