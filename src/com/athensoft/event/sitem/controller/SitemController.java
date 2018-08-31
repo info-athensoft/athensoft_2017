@@ -16,4 +16,9 @@ public class SitemController {
 	public String gotoIndex2(){
 		return "sitem/index-old";
 	}
+	
+	@RequestMapping("/booklist")
+	public String gotoBookList(){
+		return "sitem/bookticket-list";
+	}
 }

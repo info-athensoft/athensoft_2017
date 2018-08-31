@@ -219,10 +219,10 @@
 										</ul>
 									</nav>
 								</div>
-								<!-- 
+								
 								<div class="buy-tickets">
-									<a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-bold text-color-light text-uppercase outline-none ml-4" href="">Buy Tickets <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
-								</div>  -->
+									<a href="/sitem/booklist" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-bold text-color-light text-uppercase outline-none ml-4" href="">Check my seat <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
+								</div> 
 								<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
 									<i class="fa fa-bars"></i>
 								</button>
