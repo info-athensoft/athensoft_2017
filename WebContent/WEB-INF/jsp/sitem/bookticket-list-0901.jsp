@@ -124,7 +124,7 @@
 								<h4 class="heading-primary">Upcoming Events</h4>
 								
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value=".p"><a class="nav-link" href="#">09.15 Secrets of running an IT/Software company</a></li>
+									<li class="nav-item" data-option-value=".p"><a class="nav-link" href="#">09.15 Secrets to run an IT company</a></li>
 									<li class="nav-item" data-option-value=".w"><a class="nav-link" href="#">09.29 TBA</a></li>
 								</ul>
 								<hr class="invisible mt-2 mb-2">
@@ -132,7 +132,6 @@
 								<h4 class="heading-primary">Previous Events</h4>
 								
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
-									<li class="nav-item" data-option-value=".p"><a class="nav-link" href="#">A guide for AI beginners: Computer Vision and Image Recognition</a></li>
 									<li class="nav-item" data-option-value=".p"><a class="nav-link" href="#">How to become a Data Scientist/Data Engineering 2</a></li>
 									<li class="nav-item" data-option-value=".w"><a class="nav-link" href="#">How to become a Data Scientist/Data Engineering 1</a></li>
 								</ul>
@@ -164,17 +163,17 @@
 								<h4>Event Information</h4>
 								<div class="row">
 									<label class="col-lg-3"><strong>Topic : </strong></label>
-									<label class="col-lg-9">The secrets of running an IT/software company</label>
+									<label class="col-lg-9">A beginner’s guide to AI: Computer vision and image recognition</label>
 								</div>
 								
 								<div class="row">
 									<label class="col-lg-3"><strong>Speaker : </strong></label>
-									<label class="col-lg-9">Athens Zhang</label>
+									<label class="col-lg-9">Dr. Cheng Zhang</label>
 								</div>
 								
 								<div class="row">
 									<label class="col-lg-3"><strong>Date : </strong></label>
-									<label class="col-lg-9">2018-09-15 Saturday</label>
+									<label class="col-lg-9">2018-09-01 Saturday</label>
 								</div>
 								
 								<div class="row">

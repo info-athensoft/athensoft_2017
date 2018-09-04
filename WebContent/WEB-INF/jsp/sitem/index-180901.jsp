@@ -58,55 +58,26 @@
 <c:set var="speaker_desc_5_2" value=""/>
 <c:set var="speaker_desc_5_3" value=""/>
 
-<!-- advisor -->
-<c:set var="advisor_pic_1" value="/images/sitem/speaker/advisor_caotaotao.jpg"/>
-<c:set var="advisor_name_1" value="Charles Cao"/>
-<c:set var="advisor_title_1" value="Innovative Startups Advisor, Founder &amp; CEO of Nebula AI, Chairman of APIGM"/>
-<c:set var="advisor_desc_1_1" value=""/>
-<c:set var="advisor_desc_1_2" value=""/>
-<c:set var="advisor_desc_1_3" value=""/>
-
-<c:set var="advisor_pic_2" value="/images/sitem/speaker/speaker_fangze.jpg"/>
-<c:set var="advisor_name_2" value="Advisor"/>
-<c:set var="advisor_title_2" value="Advisor Title"/>
-<c:set var="advisor_desc_2_1" value=""/>
-<c:set var="advisor_desc_2_2" value=""/>
-<c:set var="advisor_desc_2_3" value=""/>
-
-<c:set var="advisor_pic_3" value="/images/sitem/speaker/speaker_fangze.jpg"/>
-<c:set var="advisor_name_3" value="Advisor"/>
-<c:set var="advisor_title_3" value="Advisor Title"/>
-<c:set var="advisor_desc_3_1" value=""/>
-<c:set var="advisor_desc_3_2" value=""/>
-<c:set var="advisor_desc_3_3" value=""/>
-
-<c:set var="advisor_pic_4" value="/images/sitem/speaker/speaker_fangze.jpg"/>
-<c:set var="advisor_name_4" value="Advisor"/>
-<c:set var="advisor_title_4" value="Advisor Title"/>
-<c:set var="advisor_desc_4_1" value=""/>
-<c:set var="advisor_desc_4_2" value=""/>
-<c:set var="advisor_desc_4_3" value=""/>
-
-<!-- schedule  -->
-<c:set var="day_1_date" value="Sept. 1"/>
+<!-- schedule 1 -->
+<c:set var="day_1_date" value="Aug. 18"/>
 <c:set var="day_1_section_1_time" value="1:30 PM"/>
 <c:set var="day_1_section_1_activity" value="Reception &amp; Welcome"/>
 <c:set var="day_1_section_2_time" value="1:45 PM"/>
-<c:set var="day_1_section_2_activity" value="Explore Computer Vision"/>
-<c:set var="day_1_section_2_speaker" value="Dr. Cheng Zhang"/> 
+<c:set var="day_1_section_2_activity" value="How to become a Data Scientist or a Data Engineer"/>
+<c:set var="day_1_section_2_speaker" value="Dr. Yimin Nie"/> 
 <c:set var="day_1_section_3_time" value="3:00 PM"/>
 <c:set var="day_1_section_3_activity" value="CLOSE"/>
-<c:set var="day_1_section_3_speakerpic" value="/images/sitem/speaker/speaker_chengzhang.jpg"/>
 
-<c:set var="day_2_date" value="Sept. 15"/>
+<!-- schedule 2 -->
+<c:set var="day_2_date" value="Sept. 1"/>
 <c:set var="day_2_section_1_time" value="1:30 PM"/>
 <c:set var="day_2_section_1_activity" value="Reception &amp; Welcome"/>
 <c:set var="day_2_section_2_time" value="1:45 PM"/>
-<c:set var="day_2_section_2_activity" value="The Secrets of running a software/IT company"/>
-<c:set var="day_2_section_2_speaker" value="Athens Zhang"/> 
+<c:set var="day_2_section_2_activity" value="Explore Computer Vision"/>
+<c:set var="day_2_section_2_speaker" value="Dr. Cheng Zhang"/> 
 <c:set var="day_2_section_3_time" value="3:00 PM"/>
 <c:set var="day_2_section_3_activity" value="CLOSE"/>
-<c:set var="day_2_section_3_speakerpic" value="/images/sitem/speaker/speaker_athens.jpg"/>
+
 
 <!-- sponsor -->
 <c:set var="sponsor_1_big" value="/images/sitem/sponsor/sponsor_cjendg.jpg"/>
@@ -115,15 +86,15 @@
 
 <c:set var="sponsor_2_big" value="/images/sitem/sponsor/sponsor_jdesign.jpg"/>
 <c:set var="sponsor_2_sm" value="/images/sitem/sponsor/sponsor_jdesign_sm.jpg"/>
-<c:set var="sponsor_2_name" value="J Design Studio QC, Graphic Design, Digital and Offset Printing, VI/CI Solution, Brand"/>
+<c:set var="sponsor_2_name" value="J Design Studio QC"/>
 
 <c:set var="sponsor_3_big" value="/images/sitem/sponsor/sponsor_athensoft.jpg"/>
 <c:set var="sponsor_3_sm" value="/images/sitem/sponsor/sponsor_athensoft_sm.jpg"/>
-<c:set var="sponsor_3_name" value="Enterprise Web Solution with ML/Big Data, IT/Robotics Education"/>
+<c:set var="sponsor_3_name" value="Informatique Athensoft QC"/>
 
 <c:set var="sponsor_4_big" value="/images/sitem/sponsor/sponsor_candata.jpg"/>
 <c:set var="sponsor_4_sm" value="/images/sitem/sponsor/sponsor_candata_sm.jpg"/>
-<c:set var="sponsor_4_name" value="CANDATA QC, Big Data/ML/AI Consulting Services"/>
+<c:set var="sponsor_4_name" value="CANDATA QC"/>
 
 <!-- venue -->
 <c:set var="venue_1" value="/images/sitem/venue/venue_cjendg.jpg"/>
@@ -206,7 +177,7 @@
 						<div class="header-row">
 							<div class="header-logo">
 								<a href="demo-event.html">
-									<img alt="SITEM" width="102" height="40" src="/images/sitem/logo/sitem-logo.png">
+									<img alt="Porto" width="102" height="40" src="/images/sitem/logo/sitem-logo.png">
 								</a>
 							</div>
 						</div>
@@ -271,7 +242,9 @@
 	</header>
 
 	<main role="main">
-		<div class="slider-container rev_slider_wrapper" style="height: 100vh;">
+
+				
+				<div class="slider-container rev_slider_wrapper" style="height: 100vh;">
 					<div id="revolutionSlider" class="slider rev_slider manual">
 						<ul>
 
@@ -313,7 +286,7 @@
 									data-paddingleft="['0', '0', '0', '0']"
 									data-fontsize="26"
 									style="z-index: 5;"
-									data-transform_in="y:[-300%];opacity:0;s:500;">September 1st &amp; September 15th, 2018 in Montreal QC</div>
+									data-transform_in="y:[-300%];opacity:0;s:500;">August 18th &amp; September 1st, 2018 in Montreal QC</div>
 
 								<div class="tp-caption text-uppercase"
 									data-x="['left','left','left','left']"
@@ -375,8 +348,8 @@
 					</div>
 				</div>
 
-		<section id="speakers" class="background-color-light pt-4">
-			<div class="container mt-4 pt-4 pb-4">
+				<section id="speakers" class="background-color-light pt-4">
+					<div class="container mt-4 pt-4 pb-4">
 						<div class="row pt-2">
 							<div class="col">
 								<h2 class="text-color-dark text-uppercase font-weight-bold text-center mb-1">Speakers</h2>
@@ -588,225 +561,9 @@
 							
 						</div>
 					</div>
-		</section>
+				</section>
 
-		<section id="advisors" class="background-color-light pt-0">
-			<div class="container mt-0 pt-0 pb-4">
-						<div class="row pt-2">
-							<div class="col">
-								<h2 class="text-color-dark text-uppercase font-weight-bold text-center mb-1">Advisors</h2>
-								<p class="custom-font-size-1 text-center mb-2">Thanks to our forum advisors</p>
-							</div>
-						</div>
-
-						<div class="row pt-2 pb-4 mb-4">
-							<div class="col-md-4 col-lg-3 mt-3 mb-3">
-								<div class="custom-speaker-card background-color-light m-auto">
-									<div class="speaker-photo">
-										<a href="#advisor-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img src="${advisor_pic_1}" class="img-fluid" alt="">
-										</a>
-									</div>
-									<div class="speaker-info speaker-social-twitter p-5">
-										<a href="#" class="speaker-social text-center text-color-light"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-										<h3 class="text-color-dark custom-font-size-4 font-weight-semibold mb-1">${advisor_name_1}</h3>
-										<p class="custom-font-size-1 mb-0">${advisor_title_1}</p>
-									</div>
-								</div>
-								<div id="advisor-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-									<div class="row">
-										<div class="col-lg-4 col-sm-4">
-											<img src="${advisor_pic_1}" class="img-fluid mb-4" alt="">
-											<ul class="social-icons text-center">
-												<li class="social-icons-facebook">
-													<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-														<i class="fa fa-facebook"></i>
-													</a>
-												</li>
-												<li class="social-icons-twitter">
-													<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-														<i class="fa fa-twitter"></i>
-													</a>
-												</li>
-												<li class="social-icons-google">
-													<a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-														<i class="fa fa-google-plus" aria-hidden="true"></i>
-													</a>
-												</li>
-												<li class="social-icons-linkedin">
-													<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-														<i class="fa fa-linkedin"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-lg-8 col-sm-8">
-											<h2 class="font-weight-semibold text-color-dark mb-1">${advisor_name_1}</h2>
-											<p class="custom-font-style-1 font-weight-semibold">${advisor_title_1}</p>
-											<p class="text-2 custom-line-height-1">${advisor_desc_1_1}</p>	
-											<p class="text-2 custom-line-height-1">${advisor_desc_1_2}</p>
-											<p class="text-2 custom-line-height-1">${advisor_desc_1_3}</p>		
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-lg-3 mt-3 mb-3">
-								<div class="custom-speaker-card background-color-light m-auto">
-									<div class="speaker-photo">
-										<a href="#advisor-content-2" class="popup-with-zoom-anim text-decoration-none">
-											<img src="${advisor_pic_2}" class="img-fluid" alt="">
-										</a>
-									</div>
-									<div class="speaker-info speaker-social-twitter p-5">
-										<a href="#" class="speaker-social text-center text-color-light"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-										<h3 class="text-color-dark custom-font-size-4 font-weight-semibold mb-1">${advisor_name_2}</h3>
-										<p class="custom-font-size-1 mb-0">${advisor_title_2}</p>
-									</div>
-								</div>
-								<div id="advisor-content-2" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-									<div class="row">
-										<div class="col-lg-4 col-sm-4">
-											<img src="${advisor_pic_2}" class="img-fluid mb-4" alt="">
-											<ul class="social-icons text-center">
-												<li class="social-icons-facebook">
-													<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-														<i class="fa fa-facebook"></i>
-													</a>
-												</li>
-												<li class="social-icons-twitter">
-													<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-														<i class="fa fa-twitter"></i>
-													</a>
-												</li>
-												<li class="social-icons-google">
-													<a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-														<i class="fa fa-google-plus" aria-hidden="true"></i>
-													</a>
-												</li>
-												<li class="social-icons-linkedin">
-													<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-														<i class="fa fa-linkedin"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-lg-8 col-sm-8">
-											<h2 class="font-weight-semibold text-color-dark mb-1">${advisor_name_2}</h2>
-											<p class="custom-font-style-1 font-weight-semibold">${advisor_title_2}</p>
-											<p class="text-2 custom-line-height-1">${advisor_desc_2_1}</p>	
-											<p class="text-2 custom-line-height-1">${advisor_desc_2_2}</p>
-											<p class="text-2 custom-line-height-1">${advisor_desc_2_3}</p>		
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 col-lg-3 mt-3 mb-3">
-								<div class="custom-speaker-card background-color-light m-auto">
-									<div class="speaker-photo">
-										<a href="#advisor-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img src="${advisor_pic_3}" class="img-fluid" alt="">
-										</a>
-									</div>
-									<div class="speaker-info speaker-social-twitter p-5">
-										<a href="#" class="speaker-social text-center text-color-light"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-										<h3 class="text-color-dark custom-font-size-4 font-weight-semibold mb-1">${advisor_name_3}</h3>
-										<p class="custom-font-size-1 mb-0">${advisor_title_3}</p>
-									</div>
-								</div>
-								<div id="speaker-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-									<div class="row">
-										<div class="col-lg-4 col-sm-4">
-											<img src="${advisor_pic_3}" class="img-fluid mb-4" alt="">
-											<ul class="social-icons text-center">
-												<li class="social-icons-facebook">
-													<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-														<i class="fa fa-facebook"></i>
-													</a>
-												</li>
-												<li class="social-icons-twitter">
-													<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-														<i class="fa fa-twitter"></i>
-													</a>
-												</li>
-												<li class="social-icons-google">
-													<a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-														<i class="fa fa-google-plus" aria-hidden="true"></i>
-													</a>
-												</li>
-												<li class="social-icons-linkedin">
-													<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-														<i class="fa fa-linkedin"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-lg-8 col-sm-8">
-											<h2 class="font-weight-semibold text-color-dark mb-1">${advisor_name_3}</h2>
-											<p class="custom-font-style-1 font-weight-semibold">${advisor_title_3}</p>
-											<p class="text-2 custom-line-height-1">${advisor_desc_3_1}</p>	
-											<p class="text-2 custom-line-height-1">${advisor_desc_3_2}</p>
-											<p class="text-2 custom-line-height-1">${advisor_desc_3_3}</p>		
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-4 col-lg-3 mt-3 mb-3">
-								<div class="custom-speaker-card background-color-light m-auto">
-									<div class="speaker-photo">
-										<a href="#advisor-content-1" class="popup-with-zoom-anim text-decoration-none">
-											<img src="${advisor_pic_4}" class="img-fluid" alt="">
-										</a>
-									</div>
-									<div class="speaker-info speaker-social-twitter p-5">
-										<a href="#" class="speaker-social text-center text-color-light"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-										<h3 class="text-color-dark custom-font-size-4 font-weight-semibold mb-1">${advisor_name_4}</h3>
-										<p class="custom-font-size-1 mb-0">${advisor_title_4}</p>
-									</div>
-								</div>
-								<div id="speaker-content-1" class="dialog dialog-lg zoom-anim-dialog mfp-hide p-5">
-									<div class="row">
-										<div class="col-lg-4 col-sm-4">
-											<img src="${advisor_pic_4}" class="img-fluid mb-4" alt="">
-											<ul class="social-icons text-center">
-												<li class="social-icons-facebook">
-													<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-														<i class="fa fa-facebook"></i>
-													</a>
-												</li>
-												<li class="social-icons-twitter">
-													<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-														<i class="fa fa-twitter"></i>
-													</a>
-												</li>
-												<li class="social-icons-google">
-													<a href="http://www.plus.google.com/" target="_blank" title="Twitter">
-														<i class="fa fa-google-plus" aria-hidden="true"></i>
-													</a>
-												</li>
-												<li class="social-icons-linkedin">
-													<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-														<i class="fa fa-linkedin"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-lg-8 col-sm-8">
-											<h2 class="font-weight-semibold text-color-dark mb-1">${advisor_name_4}</h2>
-											<p class="custom-font-style-1 font-weight-semibold">${advisor_title_4}</p>
-											<p class="text-2 custom-line-height-1">${advisor_desc_4_1}</p>	
-											<p class="text-2 custom-line-height-1">${advisor_desc_4_2}</p>
-											<p class="text-2 custom-line-height-1">${advisor_desc_4_3}</p>		
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					
-					</div>
-		</section>
-
-		<section id="about">
+				<section id="about">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-lg-4 about-video align-items-center justify-content-center d-flex p-0" style="background-image: url('/images/sitem/about/657x410.jpg')">
@@ -849,7 +606,7 @@
 					</div>
 				</section>
 
-		<section id="schedule" class="background-color-light pb-4 pt-4">
+				<section id="schedule" class="background-color-light pb-4 pt-4">
 					<div class="container pt-4 pb-4 mt-4">
 						<div class="row pt-2 pb-4">
 							<div class="col">
@@ -891,7 +648,7 @@
 											<span class="balloon-arrow background-color-light"></span>
 											<div class="balloon-photo">
 												<div class="photo-radius">
-													<img src="${day_1_section_3_speakerpic}" class="img-fluid" alt="">
+													<img src="${speaker_pic_2}" class="img-fluid" alt="John Doe">
 												</div>
 											</div>
 											<div class="balloon-description pl-4">
@@ -950,7 +707,7 @@
 											<span class="balloon-arrow background-color-light"></span>
 											<div class="balloon-photo">
 												<div class="photo-radius">
-													<img src="${day_2_section_3_speakerpic}" class="img-fluid" alt="">
+													<img src="${speaker_pic_3}" class="img-fluid" alt="">
 												</div>
 											</div>
 											<div class="balloon-description pl-4">
@@ -986,7 +743,7 @@
 					</div>
 				</section>
 
-		<section id="counter" class="section section-parallax section-text-light section-center m-0 pt-4 pb-4" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="/images/sitem/achieve/1920x525.jpg">
+				<section id="counter" class="section section-parallax section-text-light section-center m-0 pt-4 pb-4" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="/images/sitem/achieve/1920x525.jpg">
 					<div class="container mt-4 mb-4">
 						<div class="row mt-2 mb-2 counters counters-text-light">
 							<div class="col-12 col-lg-3 col-sm-6">
@@ -1024,7 +781,7 @@
 					</div>
 				</section>
 
-		<section id="sponsors" class="section-center pb-2 pt-4">
+				<section id="sponsors" class="section-center pb-2 pt-4">
 					<div class="container pb-4 pt-4 mt-4">
 						<div class="row pt-2 pb-4">
 							<div class="col">
@@ -1093,9 +850,8 @@
 						</div>
 					</div>
 				</section>
-				
-				
-		<section id="venue" class="pt-4">
+
+				<section id="venue" class="pt-4">
 					<div class="container pt-4 mt-4">
 						<div class="row pt-2 mb-3">
 							<div class="col">
@@ -1128,6 +884,7 @@
 						</div>
 					</div>
 				</section>
+				
 				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 				<div id="googlemaps" class="google-map m-0"></div>
 
