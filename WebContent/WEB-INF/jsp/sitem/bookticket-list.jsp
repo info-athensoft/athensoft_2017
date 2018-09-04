@@ -21,6 +21,9 @@
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
 
+<c:set var="book_seat" value="https://goo.gl/forms/osI92OtoMMrD2Jpp2"/>
+<c:set var="book_seat_qr" value="/images/sitem/bookseat/event_0915.png"/>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -121,13 +124,25 @@
 					<div class="row">
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
-								<h4 class="heading-primary">Upcoming Events</h4>
 								
+								
+							
+								<h4 class="heading-primary">Upcoming Events</h4>
 								<ul class="nav nav-list flex-column mb-4 sort-source" data-sort-id="portfolio" data-option-key="filter" data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
 									<li class="nav-item" data-option-value=".p"><a class="nav-link" href="#">09.15 Secrets of running an IT/Software company</a></li>
 									<li class="nav-item" data-option-value=".w"><a class="nav-link" href="#">09.29 TBA</a></li>
 								</ul>
 								<hr class="invisible mt-2 mb-2">
+								
+								
+								<h4 class="heading-primary">Book a seat now</h4>
+									
+									<img src="${book_seat_qr}" alt="qr_book"/>
+								
+									<a href="${book_seat}" class="btn btn-primary btn-sm">&nbsp;&nbsp;&nbsp;&nbsp;Book now &nbsp;&nbsp;&nbsp;&nbsp;</a>
+									
+								<hr class="invisible mt-2 mb-2">
+								
 								
 								<h4 class="heading-primary">Previous Events</h4>
 								

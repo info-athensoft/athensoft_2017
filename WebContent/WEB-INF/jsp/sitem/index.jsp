@@ -22,6 +22,9 @@
 <!-- END i18n -->
 
 
+
+<c:set var="book_seat" value="https://goo.gl/forms/osI92OtoMMrD2Jpp2"/>
+
 <c:set var="speaker_pic_1" value="/images/sitem/speaker/speaker_athens.jpg"/>
 <c:set var="speaker_name_1" value="Athens Zhang"/>
 <c:set var="speaker_title_1" value="Co-Founder, CEO of Informatique Athensoft, Software Architect"/>
@@ -257,7 +260,7 @@
 								</div>
 								
 								<div class="buy-tickets">
-									<a href="/sitem/booklist" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-bold text-color-light text-uppercase outline-none ml-4" href="">Check my seat <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
+									<a href="${book_seat}" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-bold text-color-light text-uppercase outline-none ml-4" href="">Book a seat <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
 								</div> 
 								<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
 									<i class="fa fa-bars"></i>
@@ -980,7 +983,7 @@
 						</div>
 						<div class="row text-center pt-3 pb-4 mb-2">
 							<div class="col">
-								<a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">View More <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
+								<a href="/sitem/booklist" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Check my seat <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
 							</div>
 						</div>
 					</div>
@@ -1140,7 +1143,7 @@
 					<div class="col-lg-5">
 						<div class="mb-4">
 							<h4 class="text-color-light font-weight-light mb-2">SITEM Forum Event</h4>
-							<p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-0">August 18 &amp; September 1, 2018 in Montreal QC</p>
+							<p class="custom-font-size-3 text-color-light font-weight-normal text-uppercase mb-0">Join us as a speaker!</p>
 						</div>
 						<a href="" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Buy Tickets <i class="custom-long-arrow-right ml-3" aria-hidden="true"></i></a>
 					</div>
@@ -1166,7 +1169,7 @@
 						<h4 class="text-color-light font-weight-light mb-4 pb-1">Follow Us</h4>
 						<ul class="social-icons">
 							<li class="social-icons-facebook">
-								<a href="http://www.facebook.com/" target="_blank" title="Facebook">
+								<a href="http://www.facebook.com/sitemevent" target="_blank" title="Facebook">
 									<i class="fa fa-facebook"></i>
 								</a>
 							</li>
@@ -1180,11 +1183,13 @@
 									<i class="fa fa-google-plus" aria-hidden="true"></i>
 								</a>
 							</li>
+							<!-- 
 							<li class="social-icons-linkedin">
 								<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
 									<i class="fa fa-linkedin"></i>
 								</a>
 							</li>
+							 -->
 						</ul>
 					</div>
 				</div>
