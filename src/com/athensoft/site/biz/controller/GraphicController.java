@@ -15,7 +15,7 @@ public class GraphicController {
 	public String gotoGraphicIndex(){
 		logger.info("entering.. /graphic.html");
 		logger.info("exiting.. /graphic.html");
-		return "event/logoexpress2018";
+		return "graphic/graphic";
 	}
 	
 	@RequestMapping("/graphic.html")
