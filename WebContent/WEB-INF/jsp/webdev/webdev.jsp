@@ -89,7 +89,9 @@
 
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
-
+		
+		<!-- Google No reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
 		<div class="body">
@@ -120,7 +122,7 @@
 				<div class="container">
 
 					<div class="row">
-						<div class="col-lg-3 order-2 order-lg-1">
+						<div class="col-lg-4 order-2 order-lg-1">
 							<aside class="sidebar">
 
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-1"/></h4>
@@ -169,6 +171,12 @@
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
+											<!-- production code -->
+												<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6" data-callback="recaptchaCallback"></div>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
 											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
 
 											<div class="alert alert-success d-none" id="contactSuccess">
@@ -188,11 +196,11 @@
 									</div>
 								</form>
 								
-								<hr class="invisible mt-2 mb-2">
+								<hr class="invisible mt-2 mb-0">
 								
 								<a class="twitter-timeline" 
-									data-width="220" 
-									data-height="320" 
+									data-width="320" 
+									data-height="380" 
 									data-theme="light" 
 									data-chrome="nofooter noborders transparent noscrollbar"
 									href="https://twitter.com/Athensoft?ref_src=twsrc%5Etfw">Tweets by Athensoft</a> 
@@ -201,7 +209,7 @@
 							</aside>
 						</div>
 						
-						<div class="col-lg-9 order-1 order-lg-2">
+						<div class="col-lg-8 order-1 order-lg-2">
 						
 							<!-- overview -->
 							<h3><spring:message code="webdev-title-1-1"/></h3>

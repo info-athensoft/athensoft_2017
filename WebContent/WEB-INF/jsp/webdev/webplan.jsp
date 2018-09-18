@@ -89,7 +89,9 @@
 
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
-
+		
+		<!-- Google No reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
 		<div class="body">
@@ -169,6 +171,12 @@
 									</div>
 									<div class="form-row">
 										<div class="form-group col">
+											<!-- production code -->
+											<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6" data-callback="recaptchaCallback"></div>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
 											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
 
 											<div class="alert alert-success d-none" id="contactSuccess">
@@ -209,7 +217,7 @@
 							<div class="pricing-table princig-table-flat row no-gutters mt-2 mb-2">
 								<div class="col-lg-4 col-sm-6 text-center">
 									<div class="plan">
-										<h3><spring:message code="webdev-webplan-plan-title-1"/><em class="desc"><spring:message code="webdev-webplan-plan-type-1"/></em><span>$359.99</span></h3>
+										<h3><spring:message code="webdev-webplan-plan-title-1"/><em class="desc"><spring:message code="webdev-webplan-plan-type-1"/></em><span>$499.99</span></h3>
 										<ul>
 											<li><spring:message code="webdev-webplan-plan-feature-1_1"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-1_2"/></li>
@@ -217,6 +225,7 @@
 											<li><spring:message code="webdev-webplan-plan-feature-1_4"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-1_5"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-1_6"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-1_8"/></li>
 											<li><a class="btn btn-primary" href="/webdev/webplan/order.html?lang=${loc}&webplanNo=1"><spring:message code="webdev-webplan-plan-feature-1_7"/></a></li>
 										</ul>
 									</div>
@@ -224,7 +233,7 @@
 								
 								<div class="col-lg-4 col-sm-6 text-center">
 									<div class="plan">
-										<h3><spring:message code="webdev-webplan-plan-title-2"/><em class="desc"><spring:message code="webdev-webplan-plan-type-2"/></em><span>$479.99</span></h3>
+										<h3><spring:message code="webdev-webplan-plan-title-2"/><em class="desc"><spring:message code="webdev-webplan-plan-type-2"/></em><span>$1499.99</span></h3>
 										<ul>
 											<li><spring:message code="webdev-webplan-plan-feature-2_1"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-2_2"/></li>
@@ -232,6 +241,7 @@
 											<li><spring:message code="webdev-webplan-plan-feature-2_4"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-2_5"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-2_6"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-2_8"/></li>
 											<li><a class="btn btn-primary" href="/webdev/webplan/order.html?lang=${loc}&webplanNo=2"><spring:message code="webdev-webplan-plan-feature-2_7"/></a></li>
 										</ul>
 									</div>
@@ -239,7 +249,7 @@
 								
 								<div class="col-lg-4 col-sm-6 text-center">
 									<div class="plan">
-										<h3><spring:message code="webdev-webplan-plan-title-3"/><em class="desc"><spring:message code="webdev-webplan-plan-type-3"/></em><span>$799.99</span></h3>
+										<h3><spring:message code="webdev-webplan-plan-title-3"/><em class="desc"><spring:message code="webdev-webplan-plan-type-3"/></em><span>$2499.99</span></h3>
 										<ul>
 											<li><spring:message code="webdev-webplan-plan-feature-3_1"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-3_2"/></li>
@@ -247,6 +257,7 @@
 											<li><spring:message code="webdev-webplan-plan-feature-3_4"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-3_5"/></li>
 											<li><spring:message code="webdev-webplan-plan-feature-3_6"/></li>
+											<li><spring:message code="webdev-webplan-plan-feature-3_8"/></li>
 											<li><a class="btn btn-primary" href="/webdev/webplan/order.html?lang=${loc}&webplanNo=3"><spring:message code="webdev-webplan-plan-feature-3_7"/></a></li>
 										</ul>
 									</div>

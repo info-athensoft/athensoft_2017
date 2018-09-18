@@ -89,7 +89,9 @@
 
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
-
+		
+		<!-- Google No reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
 		<div class="body">
@@ -167,6 +169,12 @@
 										<div class="form-group col">
 											<label><spring:message code="contactus-form-message"/> *</label>
 											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<!-- production code -->
+											<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6" data-callback="recaptchaCallback"></div>
 										</div>
 									</div>
 									<div class="form-row">
