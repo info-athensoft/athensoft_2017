@@ -33,6 +33,23 @@
 <c:set var="banner1" value="1.jpg"/>
 <c:set var="banner2" value="2.jpg"/>
 
+
+<c:set var="url_java" value="#"/>
+<c:set var="url_python" value="#"/>
+<c:set var="url_ml" value="#"/>
+<c:set var="url_mobile" value="#"/>
+<c:set var="url_web" value="#"/>
+<c:set var="url_db" value="#"/>
+<c:set var="url_qa" value="#"/>
+<c:set var="url_pm" value="#"/>
+<c:set var="url_devops" value="#"/>
+<c:set var="url_newtech" value="#"/>
+
+<c:set var="url_softdevelite" value="#"/>
+<c:set var="url_softdev" value="#"/>
+<c:set var="url_itkid" value="#"/>
+<c:set var="url_ev3" value="#"/>
+
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -198,7 +215,7 @@
 							<ul class="row portfolio-list">
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_java}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${java}" class="img-fluid" alt="">
@@ -216,7 +233,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_python}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${python}" class="img-fluid" alt="">
@@ -234,7 +251,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_ml}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${ml}" class="img-fluid" alt="">
@@ -257,7 +274,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_mobile}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${mobile}" class="img-fluid" alt="">
@@ -275,7 +292,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_web}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${web}" class="img-fluid" alt="">
@@ -294,7 +311,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_db}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${db}" class="img-fluid" alt="">
@@ -313,7 +330,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_qa}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${qa}" class="img-fluid" alt="">
@@ -331,7 +348,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_devops}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${devops}" class="img-fluid" alt="">
@@ -349,7 +366,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_pm}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${pm}" class="img-fluid" alt="">
@@ -368,7 +385,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_newtech}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${newtech}" class="img-fluid" alt="">
@@ -403,7 +420,7 @@
 							<ul class="row portfolio-list">
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_softdevelite}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_2}/${itelite}" class="img-fluid" alt="">
@@ -422,7 +439,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_softdev}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_2}/${it}" class="img-fluid" alt="">
@@ -440,7 +457,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_ev3}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_2}/${ev3}" class="img-fluid" alt="">
@@ -459,7 +476,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+										<a href="${url_itkid}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_2}/${itkid}" class="img-fluid" alt="">
