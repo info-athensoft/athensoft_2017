@@ -94,7 +94,7 @@
 				
 				<!-- menu - tour -->
 				<li class="dropdown dropdown-mega">
-					<a class="dropdown-item dropdown-toggle" href="/about/comingsoon.html?lang=${loc}"> <spring:message code="menu-edu"/> </a>
+					<a class="dropdown-item dropdown-toggle" href="/learning?lang=${loc}"> <spring:message code="menu-edu"/> </a>
 					<ul class="dropdown-menu">
 						<li>
 							<div class="dropdown-mega-content">
