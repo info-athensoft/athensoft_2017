@@ -22,4 +22,7 @@
 	<context:component-scan
 		base-package="com.athensoft.event.*.service">
 	</context:component-scan>
+	<context:component-scan
+		base-package="com.athensoft.learning.service">
+	</context:component-scan>
 </beans>
