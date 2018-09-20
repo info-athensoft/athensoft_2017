@@ -8,33 +8,40 @@
 <c:set var="webapp_name" value=""/>
 <!-- END global variables settings -->
 
+<!-- i18n -->
+<c:set var="loc" value="zh_CN"/>
+<c:if test="${!(empty param.lang)}">
+  <c:set var="loc" value="${param.lang}"/>
+</c:if>
+<fmt:setLocale value="${loc}" />
+<!-- END i18n -->
+
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="/images"/>
 <c:set var="img_dir_1" value="/learning/vocational"/>
 <c:set var="img_dir_2" value="/learning/youth"/>
 
-<c:set var="java" value="java.jpg"/>
-<c:set var="python" value="python.png"/>
-<c:set var="ml" value="ml2.jpg"/>
-<c:set var="mobile" value="mobile.jpg"/>
-<c:set var="web" value="web.png"/>
-<c:set var="db" value="database.jpg"/>
-<c:set var="qa" value="qa.jpg"/>
-<c:set var="pm" value="pm.jpg"/>
-<c:set var="devops" value="devops.png"/>
-<c:set var="newtech" value="newtech.jpg"/>
-
-<c:set var="itelite" value="it-elite.jpg"/>
-<c:set var="it" value="it.jpg"/>
-<c:set var="itkid" value="it-kid.jpg"/>
-<c:set var="ev3" value="ev3.jpg"/>
-
+<!-- banner -->
 <c:set var="banner1" value="1.jpg"/>
 <c:set var="banner2" value="2.jpg"/>
 
+<!-- featured course -->
 
-<c:set var="url_java" value="#"/>
+
+<!-- it course -->
+<c:set var="java" value="java.jpg"/>
+<c:set var="python" value="python.jpg"/>
+<c:set var="ml" value="ml2.jpg"/>
+<c:set var="mobile" value="mobile.jpg"/>
+<c:set var="web" value="web.jpg"/>
+<c:set var="db" value="database.jpg"/>
+<c:set var="qa" value="qa.jpg"/>
+<c:set var="pm" value="pm.jpg"/>
+<c:set var="devops" value="devops.jpg"/>
+<c:set var="newtech" value="newtech.jpg"/>
+
+<c:set var="url_java" value="/learning/ceit1101"/>
 <c:set var="url_python" value="#"/>
 <c:set var="url_ml" value="#"/>
 <c:set var="url_mobile" value="#"/>
@@ -45,6 +52,12 @@
 <c:set var="url_devops" value="#"/>
 <c:set var="url_newtech" value="#"/>
 
+<!-- stem course -->
+<c:set var="itelite" value="it-elite.jpg"/>
+<c:set var="it" value="it.jpg"/>
+<c:set var="itkid" value="it-kid.jpg"/>
+<c:set var="ev3" value="ev3.jpg"/>
+
 <c:set var="url_softdevelite" value="#"/>
 <c:set var="url_softdev" value="#"/>
 <c:set var="url_itkid" value="#"/>
@@ -52,13 +65,7 @@
 
 <!-- END page variables -->
 
-<!-- i18n -->
-<c:set var="loc" value="zh_CN"/>
-<c:if test="${!(empty param.lang)}">
-  <c:set var="loc" value="${param.lang}"/>
-</c:if>
-<fmt:setLocale value="${loc}" />
-<!-- END i18n -->
+
 
 <!DOCTYPE html>
 <html>
@@ -191,10 +198,11 @@
 							</ul>
 							
 							 <br/><br/>
-							<a href="${webapp_name}/graphic/graphic.html?lang=${loc}"  target="_blank" class="btn btn-primary btn-lg"><spring:message code="graphic-service-btn-view_detail"/></a>
+							
 							 
 							<a href="${webapp_name}/graphic/graphic.html?lang=${loc}" class="btn btn-primary btn-lg"><spring:message code="index-btnlink-quote-1"/></a>
 							 -->
+							 
 						</div>
 					</div>
 					
@@ -207,6 +215,102 @@
 				</div>
 
 				<div class="container">
+					<!-- featured -->
+					<div class="row">
+						<div class="col">
+							<h4 class="mt-5 mb-0 text-uppercase"><strong><spring:message code="learning-featured-items-title"/></strong></h4>
+							<p></p>
+								
+							<ul class="row portfolio-list">
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="${url_java}?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}${img_dir_1}/${java}" class="img-fluid" alt="">
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<span class="thumb-info-title">
+											<span class="thumb-info-type"><spring:message code="learning-vocational-javadev-title"/></span><br/>
+											<span class="thumb-info-inner">Course</span><br/>
+											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm">Register</a>
+										</span>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="${url_ml}?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}${img_dir_1}/${ml}" class="img-fluid" alt="">
+													
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<span class="thumb-info-title">
+											<span class="thumb-info-type"><spring:message code="learning-vocational-bigdata-title"/></span><br/>
+											<span class="thumb-info-inner">Co-Workshop</span><br/>
+											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm">Register</a>
+										</span>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="${url_itkid}?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}${img_dir_2}/${itkid}" class="img-fluid" alt="">
+													
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<span class="thumb-info-title">
+											<span class="thumb-info-type"><spring:message code="learning-young-kiddev-title"/></span><br/>
+											<span class="thumb-info-inner">Workshop</span><br/>
+											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm">Register</a>
+										</span>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="${url_softdevelite}?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}${img_dir_2}/${itelite}" class="img-fluid" alt="">
+													
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<span class="thumb-info-title">
+											<span class="thumb-info-type"><spring:message code="learning-young-softdevelite-title"/></span><br/>
+											<span class="thumb-info-inner">Course</span><br/>
+											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm">Register</a>
+										</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="row" id="section-young">
+						<div class="col">
+							<hr class="solid">
+						</div>
+					</div>
+					
 					<div class="row">
 						<div class="col">
 							<h4 class="mt-5 mb-0 text-uppercase"><strong><spring:message code="learning-program-vocational-title"/></strong></h4>
@@ -412,6 +516,7 @@
 						</div>
 					</div>
 					
+					<!-- STEM -->
 					<div class="row">
 						<div class="col">
 							<h4 class="mt-5 mb-0 text-uppercase"><strong><spring:message code="learning-program-young-title"/></strong></h4>
