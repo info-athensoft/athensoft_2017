@@ -37,9 +37,9 @@
 				<div class="newsletter">
 					<h4><spring:message code="footer-title-followus"/></h4>
 					<ul class="social-icons">
-						<li class="social-icons-facebook"><a href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li class="social-icons-facebook"><a href="https://www.facebook.com/informatique.athensoft/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 						<li class="social-icons-twitter"><a href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li class="social-icons-linkedin"><a href="https://www.linkedin.com/company/athensoft/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 					<hr class="invisible mt-2 mb-2"/>
 					<h4><spring:message code="footer-title-newsletter"/></h4>

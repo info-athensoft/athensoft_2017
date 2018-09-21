@@ -26,8 +26,13 @@
 <c:set var="banner1" value="1.jpg"/>
 <c:set var="banner2" value="2.jpg"/>
 
-<!-- featured course -->
-
+<!-- learning level -->
+<c:set var="level_program" value="Program"/>
+<c:set var="level_course" value="Course"/>
+<c:set var="level_workshop" value="Workshop"/>
+<c:set var="level_event" value="Event"/>
+<c:set var="level_co_course" value="Co-Course"/>
+<c:set var="level_co_workshop" value="Co-Workshop"/>
 
 <!-- it course -->
 <c:set var="java" value="java.jpg"/>
@@ -40,6 +45,8 @@
 <c:set var="pm" value="pm.jpg"/>
 <c:set var="devops" value="devops.jpg"/>
 <c:set var="newtech" value="newtech.jpg"/>
+<c:set var="coten" value="coten.jpg"/>
+<c:set var="uml" value="uml.jpg"/>
 
 <c:set var="url_java" value="/learning/ceit1101"/>
 <c:set var="url_python" value="#"/>
@@ -51,6 +58,11 @@
 <c:set var="url_pm" value="#"/>
 <c:set var="url_devops" value="#"/>
 <c:set var="url_newtech" value="#"/>
+<c:set var="url_coten" value="#"/>
+<c:set var="url_uml" value="#"/>
+
+<!-- program -->
+<c:set var="url_prog_javadeveloper" value="/learning/ceit-p01"/>
 
 <!-- stem course -->
 <c:set var="itelite" value="it-elite.jpg"/>
@@ -187,19 +199,10 @@
 							<hr class="solid">
 
 							<p><spring:message code="learning-center-content-1"/></p>
-							<p><spring:message code="learning-center-content-2"/> &nbsp; <a href="#section-vocational"><spring:message code="learning-center-btn-1"/></a></p>
-							<p><spring:message code="learning-center-content-3"/> &nbsp; <a href="#section-young"><spring:message code="learning-center-btn-1"/></a></p>
+							<p><spring:message code="learning-center-content-2"/> &nbsp; <a href="#section-vocational"><spring:message code="learning-center-btn-view"/></a></p>
+							<p><spring:message code="learning-center-content-3"/> &nbsp; <a href="#section-young"><spring:message code="learning-center-btn-view"/></a></p>
 							
 							<!-- 
-							<ul class="list list-icons">
-								<li><i class="fa fa-check"></i> Fusce sit amet orci quis arcu vestibulum vestibulum sed ut felis.</li>
-								<li><i class="fa fa-check"></i> Phasellus in risus quis lectus iaculis vulputate id quis nisl.</li>
-								<li><i class="fa fa-check"></i> Iaculis vulputate id quis nisl.</li>
-							</ul>
-							
-							 <br/><br/>
-							
-							 
 							<a href="${webapp_name}/graphic/graphic.html?lang=${loc}" class="btn btn-primary btn-lg"><spring:message code="index-btnlink-quote-1"/></a>
 							 -->
 							 
@@ -234,11 +237,12 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-javadev-title"/></span><br/>
-											<span class="thumb-info-inner">Course</span><br/>
-											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm">Register</a>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="ceit-1101-course-code"/></span><br/>
+											<span class="thumb-info-type my-item-title"><spring:message code="ceit-1101-course-name"/></span><br/>
+											<span class="thumb-info-inner">${level_course}</span><br/>
+											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -254,19 +258,19 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-bigdata-title"/></span><br/>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-bigdata-title"/></span><br/>
 											<span class="thumb-info-inner">Co-Workshop</span><br/>
-											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm">Register</a>
-										</span>
+											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${url_itkid}?lang=${loc}" target="_blank">
+										<a href="${url_coten}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
-													<img src="${img_dir}${img_dir_2}/${itkid}" class="img-fluid" alt="">
+													<img src="${img_dir}${img_dir_1}/${coten}" class="img-fluid" alt="">
 													
 													<span class="thumb-info-action">
 														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
@@ -274,11 +278,11 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-young-kiddev-title"/></span><br/>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-coten-title"/></span><br/>
 											<span class="thumb-info-inner">Workshop</span><br/>
-											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm">Register</a>
-										</span>
+											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -287,18 +291,17 @@
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_2}/${itelite}" class="img-fluid" alt="">
-													
 													<span class="thumb-info-action">
 														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 													</span>
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-young-softdevelite-title"/></span><br/>
-											<span class="thumb-info-inner">Course</span><br/>
-											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm">Register</a>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-young-softdevelite-title"/></span><br/>
+											<span class="thumb-info-inner">${level_course}</span><br/>
+											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+										</div>
 									</div>
 								</li>
 							</ul>
@@ -319,7 +322,7 @@
 							<ul class="row portfolio-list">
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${url_java}?lang=${loc}" target="_blank">
+										<a href="${url_prog_javadeveloper}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${java}" class="img-fluid" alt="">
@@ -329,10 +332,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-javadev-title"/></span><br/>
-											<span class="thumb-info-inner">Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-javadev-title"/></span><br/>
+											<span class="thumb-info-inner">${level_program}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -347,10 +350,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-python-title"/></span><br/>
-											<span class="thumb-info-inner">Co-Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-python-title"/></span><br/>
+											<span class="thumb-info-inner">${level_co_course}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -359,21 +362,35 @@
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${ml}" class="img-fluid" alt="">
-													<!-- 
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Co-Workshop</span>
-														<span class="thumb-info-type"><spring:message code="learning-vocational-bigdata-title"/></span>
-													</span> -->
 													<span class="thumb-info-action">
 														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 													</span>
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-bigdata-title"/></span><br/>
-											<span class="thumb-info-inner">Co-Workshop</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-bigdata-title"/></span><br/>
+											<span class="thumb-info-inner">${level_co_workshop}</span>
+										</div>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="${url_itkid}?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}${img_dir_1}/${coten}" class="img-fluid" alt="">
+													
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-coten-title"/></span><br/>
+											<span class="thumb-info-inner">${level_course}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -388,10 +405,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-mobile-title"/></span><br/>
-											<span class="thumb-info-inner">Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-mobile-title"/></span><br/>
+											<span class="thumb-info-inner">${level_program}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -407,10 +424,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-webdev-title"/></span><br/>
-											<span class="thumb-info-inner">Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-webdev-title"/></span><br/>
+											<span class="thumb-info-inner">${level_program}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -426,10 +443,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-db-title"/></span><br/>
-											<span class="thumb-info-inner">Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-db-title"/></span><br/>
+											<span class="thumb-info-inner">${level_course}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -444,10 +461,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-qa-title"/></span><br/>
-											<span class="thumb-info-inner">Co-Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-qa-title"/></span><br/>
+											<span class="thumb-info-inner">${level_co_course}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -462,10 +479,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-devops-title"/></span><br/>
-											<span class="thumb-info-inner">Workshop</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-devops-title"/></span><br/>
+											<span class="thumb-info-inner">${level_program}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -481,10 +498,29 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-pm-title"/></span><br/>
-											<span class="thumb-info-inner">Workshop</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-pm-title"/></span><br/>
+											<span class="thumb-info-inner">${level_workshop}</span>
+										</div>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="${url_uml}?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}${img_dir_1}/${uml}" class="img-fluid" alt="">
+													
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-uml-title"/></span><br/>
+											<span class="thumb-info-inner">${level_course}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -500,10 +536,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-vocational-newtech-title"/></span><br/>
-											<span class="thumb-info-inner">SITEM Event</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-newtech-title"/></span><br/>
+											<span class="thumb-info-inner">SITEM Forum ${level_event}</span>
+										</div>
 									</div>
 								</li>
 							</ul>
@@ -536,10 +572,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-young-softdevelite-title"/></span><br/>
-											<span class="thumb-info-inner">Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-young-softdevelite-title"/></span><br/>
+											<span class="thumb-info-inner">${level_course}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -554,10 +590,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-young-softdev-title"/></span><br/>
-											<span class="thumb-info-inner">Co-Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-young-softdev-title"/></span><br/>
+											<span class="thumb-info-inner">${level_co_course}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -573,10 +609,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-young-robotics-title"/></span><br/>
-											<span class="thumb-info-inner">Co-Course</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-young-robotics-title"/></span><br/>
+											<span class="thumb-info-inner">${level_co_course}</span>
+										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
@@ -592,10 +628,10 @@
 												</span>
 											</span>
 										</a>
-										<span class="thumb-info-title">
-											<span class="thumb-info-type"><spring:message code="learning-young-kiddev-title"/></span><br/>
-											<span class="thumb-info-inner">Workshop</span>
-										</span>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title"><spring:message code="learning-young-kiddev-title"/></span><br/>
+											<span class="thumb-info-inner">${level_workshop}</span>
+										</div>
 									</div>
 								</li>
 							</ul>

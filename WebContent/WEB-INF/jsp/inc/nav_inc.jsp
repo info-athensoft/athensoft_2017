@@ -83,9 +83,9 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title"><spring:message code="learning-vocational-edu"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="/learning/ceit1101?lang=${loc}"><spring:message code="learning-vocational-javadev-title"/><span class="tip">HOT</span></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-python-title"/><span class="tip">HOT</span></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-bigdata-title"/><span class="tip">HOT</span></a></li>
+											<li><a class="dropdown-item" href="/learning/ceit-p01?lang=${loc}"><spring:message code="learning-vocational-javadev-title"/><span class="tip">New</span></a></li>
+											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-python-title"/><span class="tip">New</span></a></li>
+											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-bigdata-title"/><span class="tip">New</span></a></li>
 											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-mobile-title"/></a></li>
 											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-webdev-title"/></a></li>
 											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-db-title"/></a></li>
@@ -113,8 +113,8 @@
 									<div class="col-lg-3">
 										<span class="dropdown-mega-sub-title"><spring:message code="learning-sitem-forum"/></span>
 										<ul class="dropdown-mega-sub-nav">
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-sitem-forum-lecture"/></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-sitem-forum-workshop"/></a></li>
+											<li><a class="dropdown-item" href="/sitem/index.html#lang=${loc}" target="_blank"><spring:message code="learning-sitem-forum-lecture"/></a></li>
+											<li><a class="dropdown-item" href="#lang=${loc}" target="_blank"><spring:message code="learning-sitem-forum-workshop"/><span class="tip">Hot</span></a></li>
 										</ul>
 										<span class="dropdown-mega-sub-title"><spring:message code="learning-coopration"/></span>
 										<ul class="dropdown-mega-sub-nav">
@@ -236,11 +236,11 @@
 	</div>
 	<ul class="header-social-icons social-icons d-none d-sm-block">
 		<li class="social-icons-facebook"><a
-			href="http://www.facebook.com/info.athensoft" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+			href="https://www.facebook.com/informatique.athensoft/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 		<li class="social-icons-twitter"><a
 			href="http://www.twitter.com/Athensoft" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 		<li class="social-icons-linkedin"><a
-			href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+			href="https://www.linkedin.com/company/athensoft/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
 	</ul>
 	<button class="btn header-btn-collapse-nav" data-toggle="collapse"
 		data-target=".header-nav-main nav">

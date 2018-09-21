@@ -17,9 +17,9 @@ public class LearningController {
 		return "learning/ceit1101-java";
 	}
 	
-	@RequestMapping(value={"/ceit2101","/ceit2101.html"})
-	public String gotoCeit2101(){
-		return "learning/ceit2101-dotnet";
+	@RequestMapping(value={"/ceit-p01","/ceit-p01.html"})
+	public String gotoCeitP01(){
+		return "learning/ceit-p01-javadeveloper";
 	}
 	
 }

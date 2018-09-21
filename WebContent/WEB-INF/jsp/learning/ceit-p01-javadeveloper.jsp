@@ -7,6 +7,7 @@
 <!-- global variables settings -->
 <c:set var="webapp_name" value=""/>
 <c:set var="module_name" value="/learning"/>
+<c:set var="pageName" value="ceit-p01"></c:set>
 <!-- END global variables settings -->
 
 <!-- page variables  -->
@@ -23,12 +24,7 @@
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
 
-<!--  -->
-<c:set var="url_program_javadeveloper" value="/learning/ceit-p01"></c:set>
-<c:set var="url_program_javaarchitect" value="#"></c:set>
-<c:set var="url_program_androiddeveloper" value="#"></c:set>
-<c:set var="url_program_qatester" value="#"></c:set>
-
+<c:set var="url_java_ceit1101" value="/learning/ceit1101"/>
 
 <!DOCTYPE html>
 <html>
@@ -216,10 +212,9 @@
 									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
 								
 								<hr class="tall"/>
-
+								
 								<h4 class="heading-primary">Scan QR code to register</h4>
-								<img src="${img_dir}${module_name}/ceit1101/ceit-1101-java-googleform.png" alt="google form registration" width="40%"/><br/>
-								CEIT 1101: <spring:message code="ceit-1101-course-name"/>
+								<img src="${img_dir}${module_name}/ceit1101/ceit-1101-java-googleform.png" alt="google form registration" width="40%"/>
 								
 								<hr class="short">
 								
@@ -237,23 +232,82 @@
 						<div class="col-lg-8 order-1 order-lg-2">
 						
 							<!-- overview -->
-							<h3><spring:message code="ceit-1101-course-name"/></h3>
-							<h4><spring:message code="ceit-1101-course-code"/>&nbsp;&nbsp;&nbsp;<a class="btn btn-primary btn-sm mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
+							<h3><spring:message code="ceit-p01-program-name"/></h3>
+							<h4><spring:message code="ceit-p01-course-code"/></h4>
 							<div class="row">
 								<div class="col">
-									<p><spring:message code="ceit-1101-course-desc-content-1"/></p>
-									<p><spring:message code="ceit-1101-course-desc-content-2"/></p>
-									<p><spring:message code="ceit-1101-course-desc-content-3"/></p>
+									<p><spring:message code="ceit-p01-program-desc-content-1"/></p>
 								</div>
 							</div>
+
 							
-							<h4><spring:message code="ceit-program-title"/></h4>
+							
+							<!-- course list -->
+							<h4><spring:message code="ceit-p01-program-courselist-title"/></h4>
 							<div class="row">
 								<div class="col">
-									<a class="btn btn-dark btn-sm mb-2" href="${url_program_javadeveloper}?lang=${loc}" target="_blank"><spring:message code="ceit-p01-program-name"/></a>
-									<a class="btn btn-light btn-sm mb-2" href="${url_program_javaarchitect}?lang=${loc}" target="_blank"><spring:message code="ceit-p02-program-name"/></a>
-									<a class="btn btn-light btn-sm mb-2" href="${url_program_androiddeveloper}?lang=${loc}" target="_blank"><spring:message code="ceit-p11-program-name"/></a>
-									<a class="btn btn-light btn-sm mb-2" href="${url_program_qatester}?lang=${loc}" target="_blank"><spring:message code="ceit-p21-program-name"/></a>
+									<table class="table table-striped">
+										<tr>
+											<th><spring:message code="ceit-program-name-title"/></th>
+											<th><spring:message code="ceit-program-code-title"/></th>
+											<th></th>
+										</tr>
+										<tr>
+											<td>CEIT 1101</td>
+											<td><a href="${url_java_ceit1101}?lang=${loc}">Programming with Java for Beginners (JavaSE Core I)</a></td>
+											<td><a class="btn btn-success btn-sm mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 1102</td>
+											<td>Programming with Java for Intermediate (JavaSE Core II)</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 1111</td>
+											<td>JDK 8 update</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 1302</td>
+											<td>Spring and Java Web</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 1303</td>
+											<td>Spring Boot</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 1304</td>
+											<td>Spring JDBC</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 6101</td>
+											<td>MySQL for developer (5.x)</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 7401</td>
+											<td>Apache Tomcat Server I (8.x)</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 7601</td>
+											<td>Maven</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 7702</td>
+											<td>Git with GitHub</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 8121</td>
+											<td>Design Pattern with Java</td>
+											<td><a class="btn btn-primary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>	
+									</table>
 								</div>
 							</div>
 
@@ -261,20 +315,6 @@
 							
 							<!-- your take-away -->
 							<h3><spring:message code="ceit-1101-takeaway-title"/></h3>
-							<div class="row">
-								<div class="col">
-									<strong><spring:message code="ceit-1101-takeaway-header-c"/></strong><br/>
-									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="ceit-1101-takeaway-c1"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c2"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c3"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c4"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c5"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c6"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c7"/></li>
-									</ol>
-								</div>
-							</div>
 							<div class="row">
 								<div class="col">
 									<strong><spring:message code="ceit-1101-takeaway-header-g"/></strong><br/>
@@ -287,7 +327,7 @@
 								</div>
 							</div>
 							
-							<hr class="tall">
+							<hr class="short">
 							
 							<!-- our approach -->
 							<h3><spring:message code="ceit-1101-approach-title"/></h3>
@@ -306,33 +346,6 @@
 								</div>
 							</div>
 							
-							<hr class="tall">
-							
-							<!-- audience -->
-							<h3><spring:message code="ceit-1101-audience-title"/></h3>
-							<div class="row">
-								<div class="col">
-									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="ceit-1101-audience-1"/></li>
-										<li><spring:message code="ceit-1101-audience-2"/></li>
-										<li><spring:message code="ceit-1101-audience-3"/></li>
-										<li><spring:message code="ceit-1101-audience-4"/></li>
-										<li><spring:message code="ceit-1101-audience-5"/></li>
-										<li><spring:message code="ceit-1101-audience-6"/></li>
-										<li><spring:message code="ceit-1101-audience-7"/></li>
-									</ol>
-								</div>
-							</div>
-							
-							<hr class="tall">
-							
-							<!-- audience -->
-							<h3><spring:message code="ceit-1101-prereq-title"/></h3>
-							<div class="row">
-								<div class="col">
-									<spring:message code="ceit-1101-prereq-none"/>
-								</div>
-							</div>
 							
 							<!-- <hr class="tall"> -->
 							
@@ -384,7 +397,7 @@
 								</div>
 								<div class="col-sm-3 col-lg-3">
 									<div class="call-to-action-btn">
-										<a href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank" class="btn btn-lg btn-primary"><spring:message code="learning-center-btn-register"/></a>
+										<a href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank" class="btn btn-lg btn-primary">Register now!</a>
 									</div>
 								</div>
 							</section>
