@@ -240,7 +240,7 @@
 										<div class="thumb-info-title my-align-center">
 											<span class="thumb-info-type my-item-title"><spring:message code="ceit-1101-course-code"/></span><br/>
 											<span class="thumb-info-type my-item-title"><spring:message code="ceit-1101-course-name"/></span><br/>
-											<span class="thumb-info-inner">${level_course}</span><br/>
+											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
 											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
@@ -259,8 +259,9 @@
 											</span>
 										</a>
 										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title">WSDS 1001</span><br/>
 											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-bigdata-title"/></span><br/>
-											<span class="thumb-info-inner">Co-Workshop</span><br/>
+											<!-- <span class="thumb-info-inner">Co-Workshop</span><br/>  -->
 											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
@@ -279,8 +280,9 @@
 											</span>
 										</a>
 										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title">CECA 4001</span><br/>
 											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-coten-title"/></span><br/>
-											<span class="thumb-info-inner">Workshop</span><br/>
+											<!-- <span class="thumb-info-inner">Workshop</span><br/>  -->
 											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
@@ -298,8 +300,9 @@
 											</span>
 										</a>
 										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title">STEM 1102</span><br/>
 											<span class="thumb-info-type my-item-title"><spring:message code="learning-young-softdevelite-title"/></span><br/>
-											<span class="thumb-info-inner">${level_course}</span><br/>
+											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
 											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
