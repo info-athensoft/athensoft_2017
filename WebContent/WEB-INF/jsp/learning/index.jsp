@@ -54,7 +54,7 @@
 <c:set var="url_mobile" value="#"/>
 <c:set var="url_web" value="#"/>
 <c:set var="url_db" value="#"/>
-<c:set var="url_qa" value="#"/>
+<c:set var="url_qa" value="https://docs.google.com/forms/d/19pk8FyHsEUtPSShtQSkL2Yftq7WuUYNvulSHIU1_wzM/edit"/>
 <c:set var="url_pm" value="#"/>
 <c:set var="url_devops" value="#"/>
 <c:set var="url_newtech" value="#"/>
