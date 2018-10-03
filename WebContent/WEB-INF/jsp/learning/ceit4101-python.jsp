@@ -24,14 +24,14 @@
 <!-- END i18n -->
 
 <!--  -->
-<c:set var="url_program_javadeveloper" value="/learning/ceit-p01"/>
-<c:set var="url_program_javaarchitect" value="#"/>
-<c:set var="url_program_androiddeveloper" value="#"/>
-<c:set var="url_program_qatester" value="#"/>
+<c:set var="url_program_javadeveloper" value="/learning/ceit-p01"></c:set>
+<c:set var="url_program_javaarchitect" value="#"></c:set>
+<c:set var="url_program_androiddeveloper" value="#"></c:set>
+<c:set var="url_program_qatester" value="#"></c:set>
+
 
 <!-- current course -->
-<c:set var="course_code" value="CEIT 1101"/>
-
+<c:set var="course_code" value="CEIT 4101"/>
 
 <!DOCTYPE html>
 <html>
@@ -240,13 +240,13 @@
 						<div class="col-lg-8 order-1 order-lg-2">
 						
 							<!-- overview -->
-							<h3><spring:message code="ceit-1101-course-name"/></h3>
+							<h3><spring:message code="ceit-4101-course-name"/></h3>
 							<h4><spring:message code="course-code-title"/>${course_code}&nbsp;&nbsp;&nbsp;<a class="btn btn-primary btn-sm mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
-									<p><spring:message code="ceit-1101-course-desc-content-1"/></p>
-									<p><spring:message code="ceit-1101-course-desc-content-2"/></p>
-									<p><spring:message code="ceit-1101-course-desc-content-3"/></p>
+									<p><spring:message code="ceit-4101-course-desc-content-1"/></p>
+									<p><spring:message code="ceit-4101-course-desc-content-2"/></p>
+									<p><spring:message code="ceit-4101-course-desc-content-3"/></p>
 								</div>
 							</div>
 							
@@ -263,29 +263,29 @@
 							<hr class="short">
 							
 							<!-- your take-away -->
-							<h3><spring:message code="ceit-1101-takeaway-title"/></h3>
+							<h3><spring:message code="ceit-4101-takeaway-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceit-1101-takeaway-header-c"/></strong><br/>
+									<strong><spring:message code="ceit-4101-takeaway-header-c"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="ceit-1101-takeaway-c1"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c2"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c3"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c4"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c5"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c6"/></li>
-										<li><spring:message code="ceit-1101-takeaway-c7"/></li>
+										<li><spring:message code="ceit-4101-takeaway-c1"/></li>
+										<li><spring:message code="ceit-4101-takeaway-c2"/></li>
+										<li><spring:message code="ceit-4101-takeaway-c3"/></li>
+										<li><spring:message code="ceit-4101-takeaway-c4"/></li>
+										<li><spring:message code="ceit-4101-takeaway-c5"/></li>
+										<li><spring:message code="ceit-4101-takeaway-c6"/></li>
+										<li><spring:message code="ceit-4101-takeaway-c7"/></li>
 									</ol>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceit-1101-takeaway-header-g"/></strong><br/>
+									<strong><spring:message code="ceit-4101-takeaway-header-g"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="ceit-1101-takeaway-g1"/></li>
-										<li><spring:message code="ceit-1101-takeaway-g2"/></li>
-										<li><spring:message code="ceit-1101-takeaway-g3"/></li>
-										<li><spring:message code="ceit-1101-takeaway-g4"/></li>
+										<li><spring:message code="ceit-4101-takeaway-g1"/></li>
+										<li><spring:message code="ceit-4101-takeaway-g2"/></li>
+										<li><spring:message code="ceit-4101-takeaway-g3"/></li>
+										<li><spring:message code="ceit-4101-takeaway-g4"/></li>
 									</ol>
 								</div>
 							</div>
@@ -293,18 +293,18 @@
 							<hr class="tall">
 							
 							<!-- our approach -->
-							<h3><spring:message code="ceit-1101-approach-title"/></h3>
+							<h3><spring:message code="ceit-4101-approach-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="ceit-1101-approach-1"/></li>
-										<li><spring:message code="ceit-1101-approach-2"/></li>
-										<li><spring:message code="ceit-1101-approach-3"/></li>
-										<li><spring:message code="ceit-1101-approach-4"/></li>
-										<li><spring:message code="ceit-1101-approach-5"/></li>
-										<li><spring:message code="ceit-1101-approach-6"/></li>
-										<li><spring:message code="ceit-1101-approach-7"/></li>
-										<li><spring:message code="ceit-1101-approach-8"/></li>
+										<li><spring:message code="ceit-4101-approach-1"/></li>
+										<li><spring:message code="ceit-4101-approach-2"/></li>
+										<li><spring:message code="ceit-4101-approach-3"/></li>
+										<li><spring:message code="ceit-4101-approach-4"/></li>
+										<li><spring:message code="ceit-4101-approach-5"/></li>
+										<li><spring:message code="ceit-4101-approach-6"/></li>
+										<li><spring:message code="ceit-4101-approach-7"/></li>
+										<li><spring:message code="ceit-4101-approach-8"/></li>
 									</ol>
 								</div>
 							</div>
@@ -312,17 +312,17 @@
 							<hr class="tall">
 							
 							<!-- audience -->
-							<h3><spring:message code="ceit-1101-audience-title"/></h3>
+							<h3><spring:message code="ceit-4101-audience-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="ceit-1101-audience-1"/></li>
-										<li><spring:message code="ceit-1101-audience-2"/></li>
-										<li><spring:message code="ceit-1101-audience-3"/></li>
-										<li><spring:message code="ceit-1101-audience-4"/></li>
-										<li><spring:message code="ceit-1101-audience-5"/></li>
-										<li><spring:message code="ceit-1101-audience-6"/></li>
-										<li><spring:message code="ceit-1101-audience-7"/></li>
+										<li><spring:message code="ceit-4101-audience-1"/></li>
+										<li><spring:message code="ceit-4101-audience-2"/></li>
+										<li><spring:message code="ceit-4101-audience-3"/></li>
+										<li><spring:message code="ceit-4101-audience-4"/></li>
+										<li><spring:message code="ceit-4101-audience-5"/></li>
+										<li><spring:message code="ceit-4101-audience-6"/></li>
+										<li><spring:message code="ceit-4101-audience-7"/></li>
 									</ol>
 								</div>
 							</div>
@@ -330,10 +330,10 @@
 							<hr class="tall">
 							
 							<!-- audience -->
-							<h3><spring:message code="ceit-1101-prereq-title"/></h3>
+							<h3><spring:message code="ceit-4101-prereq-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<spring:message code="ceit-1101-prereq-none"/>
+									<spring:message code="ceit-4101-prereq-none"/>
 								</div>
 							</div>
 							

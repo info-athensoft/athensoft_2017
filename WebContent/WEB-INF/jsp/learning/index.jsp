@@ -49,7 +49,7 @@
 <c:set var="uml" value="uml.jpg"/>
 
 <c:set var="url_java" value="/learning/ceit1101"/>
-<c:set var="url_python" value="#"/>
+<c:set var="url_python" value="/learning/ceit4101"/>
 <c:set var="url_ml" value="#"/>
 <c:set var="url_mobile" value="#"/>
 <c:set var="url_web" value="#"/>
@@ -75,8 +75,28 @@
 <c:set var="url_itkid" value="#"/>
 <c:set var="url_ev3" value="#"/>
 
-<!-- END page variables -->
+<!-- featured course -->
+<c:set var="featured_course_1" value="CEIT 1101"/>
+<c:set var="featured_course_name_1"><spring:message code='ceit-1101-course-name'/></c:set>
+<c:set var="featured_course_pic_1" value="java.jpg"/>
+<c:set var="featured_course_url_1" value="/learning/ceit1101"/>
 
+<c:set var="featured_course_2" value="CEIT 4101"/>
+<c:set var="featured_course_name_2"><spring:message code="ceit-4101-course-name"/></c:set>
+<c:set var="featured_course_pic_2" value="python.jpg"/>
+<c:set var="featured_course_url_2" value="/learning/ceit4101"/>
+
+<c:set var="featured_course_3" value="CECA 4001"/>
+<c:set var="featured_course_name_3"><spring:message code="learning-vocational-coten-title"/></c:set>
+<c:set var="featured_course_pic_3" value="coten.jpg"/>
+<c:set var="featured_course_url_3" value="/learning/ceca1101"/>
+
+<c:set var="featured_course_4" value="STEM 1311"/>
+<c:set var="featured_course_name_4"><spring:message code='learning-young-softdevelite-title'/></c:set>
+<c:set var="featured_course_pic_4" value="it-elite.jpg"/>
+<c:set var="featured_course_url_4" value="/learning/stem1311"/>
+
+<!-- END page variables -->
 
 
 <!DOCTYPE html>
@@ -152,7 +172,6 @@
 		<div class="body">
 			<!-- header -->
 			<jsp:include page="${inc_dir}/header_inc.jsp"></jsp:include>
-
 			
 			<div role="main" class="main">
 
@@ -230,7 +249,7 @@
 										<a href="${url_java}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
-													<img src="${img_dir}${img_dir_1}/${java}" class="img-fluid" alt="">
+													<img src="${img_dir}${img_dir_1}/${featured_course_pic_1}" class="img-fluid" alt="">
 													<span class="thumb-info-action">
 														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 													</span>
@@ -238,20 +257,19 @@
 											</span>
 										</a>
 										<div class="thumb-info-title my-align-center">
-											<span class="thumb-info-type my-item-title"><spring:message code="ceit-1101-course-code"/></span><br/>
-											<span class="thumb-info-type my-item-title"><spring:message code="ceit-1101-course-name"/></span><br/>
+											<span class="thumb-info-type my-item-title">${featured_course_1}</span><br/>
+											<span class="thumb-info-type my-item-title">${featured_course_name_1}</span><br/>
 											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
-											<a href="${webapp_name}/learning/ceit1101?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+											<a href="${webapp_name}${featured_course_url_1}?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${url_ml}?lang=${loc}" target="_blank">
+										<a href="${url_java}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
-													<img src="${img_dir}${img_dir_1}/${ml}" class="img-fluid" alt="">
-													
+													<img src="${img_dir}${img_dir_1}/${featured_course_pic_2}" class="img-fluid" alt="">
 													<span class="thumb-info-action">
 														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 													</span>
@@ -259,51 +277,50 @@
 											</span>
 										</a>
 										<div class="thumb-info-title my-align-center">
-											<span class="thumb-info-type my-item-title">WSDS 1001</span><br/>
-											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-bigdata-title"/></span><br/>
-											<!-- <span class="thumb-info-inner">Co-Workshop</span><br/>  -->
-											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
-										</div>
-									</div>
-								</li>
-								<li class="col-12 col-sm-6 col-lg-3">
-									<div class="portfolio-item">
-										<a href="${url_coten}?lang=${loc}" target="_blank">
-											<span class="thumb-info thumb-info-lighten">
-												<span class="thumb-info-wrapper">
-													<img src="${img_dir}${img_dir_1}/${coten}" class="img-fluid" alt="">
-													
-													<span class="thumb-info-action">
-														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-													</span>
-												</span>
-											</span>
-										</a>
-										<div class="thumb-info-title my-align-center">
-											<span class="thumb-info-type my-item-title">CECA 4001</span><br/>
-											<span class="thumb-info-type my-item-title"><spring:message code="learning-vocational-coten-title"/></span><br/>
-											<!-- <span class="thumb-info-inner">Workshop</span><br/>  -->
-											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
-										</div>
-									</div>
-								</li>
-								<li class="col-12 col-sm-6 col-lg-3">
-									<div class="portfolio-item">
-										<a href="${url_softdevelite}?lang=${loc}" target="_blank">
-											<span class="thumb-info thumb-info-lighten">
-												<span class="thumb-info-wrapper">
-													<img src="${img_dir}${img_dir_2}/${itelite}" class="img-fluid" alt="">
-													<span class="thumb-info-action">
-														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-													</span>
-												</span>
-											</span>
-										</a>
-										<div class="thumb-info-title my-align-center">
-											<span class="thumb-info-type my-item-title">STEM 1102</span><br/>
-											<span class="thumb-info-type my-item-title"><spring:message code="learning-young-softdevelite-title"/></span><br/>
+											<span class="thumb-info-type my-item-title">${featured_course_2}</span><br/>
+											<span class="thumb-info-type my-item-title">${featured_course_name_2}</span><br/>
 											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
-											<a href="#?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+											<a href="${webapp_name}${featured_course_url_2}?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+										</div>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="${url_java}?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}${img_dir_1}/${featured_course_pic_3}" class="img-fluid" alt="">
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title">${featured_course_3}</span><br/>
+											<span class="thumb-info-type my-item-title">${featured_course_name_3}</span><br/>
+											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
+											<a href="${webapp_name}${featured_course_url_3}?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+										</div>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="${url_java}?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}${img_dir_2}/${featured_course_pic_4}" class="img-fluid" alt="">
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+										<div class="thumb-info-title my-align-center">
+											<span class="thumb-info-type my-item-title">${featured_course_4}</span><br/>
+											<span class="thumb-info-type my-item-title">${featured_course_name_4}</span><br/>
+											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
+											<a href="${webapp_name}${featured_course_url_4}?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
 								</li>
