@@ -84,14 +84,14 @@
 										<span class="dropdown-mega-sub-title"><spring:message code="learning-vocational-edu"/></span>
 										<ul class="dropdown-mega-sub-nav">
 											<li><a class="dropdown-item" href="/learning/ceit-p01?lang=${loc}"><spring:message code="learning-vocational-javadev-title"/><span class="tip">New</span></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-python-title"/><span class="tip">New</span></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-bigdata-title"/><span class="tip">New</span></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-mobile-title"/></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-webdev-title"/></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-db-title"/></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-qa-title"/></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-devops-title"/></a></li>
-											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-vocational-pm-title"/></a></li>
+											<li><a class="dropdown-item" href="/learning/ceit-p41?lang=${loc}"><spring:message code="learning-vocational-python-title"/><span class="tip">HOT</span></a></li>
+											<li><a class="dropdown-item" href="?lang=${loc}"><spring:message code="learning-vocational-bigdata-title"/><span class="tip">HOT</span></a></li>
+											<li><a class="dropdown-item" href="?lang=${loc}"><spring:message code="learning-vocational-mobile-title"/></a></li>
+											<li><a class="dropdown-item" href="?lang=${loc}"><spring:message code="learning-vocational-webdev-title"/></a></li>
+											<li><a class="dropdown-item" href="?lang=${loc}"><spring:message code="learning-vocational-db-title"/></a></li>
+											<li><a class="dropdown-item" href="?lang=${loc}"><spring:message code="learning-vocational-qa-title"/></a></li>
+											<li><a class="dropdown-item" href="?lang=${loc}"><spring:message code="learning-vocational-devops-title"/></a></li>
+											<li><a class="dropdown-item" href="?lang=${loc}"><spring:message code="learning-vocational-pm-title"/></a></li>
 										</ul>
 										
 									</div>

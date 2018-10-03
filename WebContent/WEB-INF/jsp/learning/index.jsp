@@ -63,6 +63,7 @@
 
 <!-- program -->
 <c:set var="url_prog_javadeveloper" value="/learning/ceit-p01"/>
+<c:set var="url_prog_python" value="/learning/ceit-p41"/>
 
 <!-- stem course -->
 <c:set var="itelite" value="it-elite.jpg"/>
@@ -92,7 +93,7 @@
 <c:set var="featured_course_url_3" value="/learning/ceca1101"/>
 
 <c:set var="featured_course_4" value="STEM 1311"/>
-<c:set var="featured_course_name_4"><spring:message code='learning-young-softdevelite-title'/></c:set>
+<c:set var="featured_course_name_4"><spring:message code='stem-1311-course-name'/></c:set>
 <c:set var="featured_course_pic_4" value="it-elite.jpg"/>
 <c:set var="featured_course_url_4" value="/learning/stem1311"/>
 
@@ -360,7 +361,7 @@
 								</li>
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${url_python}?lang=${loc}" target="_blank">
+										<a href="${url_prog_python}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${python}" class="img-fluid" alt="">

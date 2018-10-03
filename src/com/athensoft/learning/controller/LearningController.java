@@ -28,6 +28,11 @@ public class LearningController {
 	
 	/*Python*/
 	
+	@RequestMapping(value={"/ceit-p41","/ceit-p41.html"})
+	public String gotoCeitP41(){
+		return "learning/ceit-p41-python";
+	}
+	
 	@RequestMapping(value={"/ceit4101","/ceit4101.html"})
 	public String gotoCeit4101(){
 		return "learning/ceit4101-python";

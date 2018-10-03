@@ -24,7 +24,11 @@
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
 
-<c:set var="url_java_ceit1101" value="/learning/ceit1101"/>
+<c:set var="url_python_ceit4100" value="#"/>
+<c:set var="url_python_ceit4101" value="/learning/ceit4101"/>
+<c:set var="url_python_ceit4102" value="#"/>
+<c:set var="url_python_ceit4103" value="#"/>
+<c:set var="url_python_ceit4104" value="#"/>
 
 <!DOCTYPE html>
 <html>
@@ -232,11 +236,11 @@
 						<div class="col-lg-8 order-1 order-lg-2">
 						
 							<!-- overview -->
-							<h3><spring:message code="ceit-p01-program-name"/></h3>
-							<h4><spring:message code="ceit-p01-course-code"/></h4>
+							<h3><spring:message code="ceit-p41-program-name"/></h3>
+							<h4><spring:message code="ceit-p41-course-code"/></h4>
 							<div class="row">
 								<div class="col">
-									<p><spring:message code="ceit-p01-program-desc-content-1"/></p>
+									<p><spring:message code="ceit-p41-program-desc-content-1"/></p>
 								</div>
 							</div>
 
@@ -253,60 +257,30 @@
 											<th></th>
 										</tr>
 										<tr>
-											<td>CEIT 1101</td>
-											<td><a href="${url_java_ceit1101}?lang=${loc}">Programming with Java for Beginners (JavaSE Core I)</a></td>
-											<td><a class="btn btn-secondary btn-sm mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td>CEIT 4100</td>
+											<td><a href="${url_python_ceit4100}?lang=${loc}">Introduction to Python</a></td>
+											<td><a class="btn btn-success btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-free"/></a></td>
 										</tr>
 										<tr>
-											<td>CEIT 1102</td>
-											<td>Programming with Java for Intermediate (JavaSE Core II)</td>
+											<td>CEIT 4101</td>
+											<td><a href="${url_python_ceit4101}?lang=${loc}">Programming with Python for beginners</a></td>
+											<td><a class="btn btn-secondary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>CEIT 4102</td>
+											<td><a href="${url_python_ceit4102}?lang=${loc}">Programming with Python for expert</a></td>
 											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
 										</tr>
 										<tr>
-											<td>CEIT 1111</td>
-											<td>JDK 8 update</td>
+											<td>CEIT 4103</td>
+											<td><a href="${url_python_ceit4103}?lang=${loc}">Python for Data Analysis</a></td>
 											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
 										</tr>
 										<tr>
-											<td>CEIT 1302</td>
-											<td>Spring and Java Web</td>
+											<td>CEIT 4104</td>
+											<td><a href="${url_python_ceit4104}?lang=${loc}">Python for Machine Learning</a></td>
 											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
 										</tr>
-										<tr>
-											<td>CEIT 1303</td>
-											<td>Spring Boot</td>
-											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
-										</tr>
-										<tr>
-											<td>CEIT 1304</td>
-											<td>Spring JDBC</td>
-											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
-										</tr>
-										<tr>
-											<td>CEIT 6101</td>
-											<td>MySQL for developer (5.x)</td>
-											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
-										</tr>
-										<tr>
-											<td>CEIT 7401</td>
-											<td>Apache Tomcat Server I (8.x)</td>
-											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
-										</tr>
-										<tr>
-											<td>CEIT 7601</td>
-											<td>Maven</td>
-											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
-										</tr>
-										<tr>
-											<td>CEIT 7702</td>
-											<td>Git with GitHub</td>
-											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
-										</tr>
-										<tr>
-											<td>CEIT 8121</td>
-											<td>Design Pattern with Java</td>
-											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
-										</tr>	
 									</table>
 								</div>
 							</div>
