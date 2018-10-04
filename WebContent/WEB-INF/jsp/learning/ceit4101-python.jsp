@@ -28,6 +28,7 @@
 <c:set var="url_program_javaarchitect" value="#"></c:set>
 <c:set var="url_program_androiddeveloper" value="#"></c:set>
 <c:set var="url_program_qatester" value="#"></c:set>
+<c:set var="url_program_datascience" value="#"></c:set>
 
 
 <!-- current course -->
@@ -139,83 +140,71 @@
 								<h4 class="heading-primary"><spring:message code="ceit-1101-sidebar-title-1"/></h4>
 								
 								<h5><spring:message code="ceit-1101-sidebar-reg-date"/>
-									:&nbsp;&nbsp;2018-10-01</h5>
+									:&nbsp;&nbsp;2018-10-08 Monday</h5>
 								
-								<a class="btn btn-primary mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a><br/>
+								<a class="btn btn-primary btn-xs mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a><br/>
 								
 								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181001-1<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
+									:&nbsp;&nbsp;4101-18411A2<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;9:30 - 12:00<br/>
+									:&nbsp;&nbsp;10:00 - 12:00 (Mo We)<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
+									:&nbsp;&nbsp;16 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
 									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
 								
 								<hr class="invisible mt-1 mb-2">
 								
 								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181001-2<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
+									:&nbsp;&nbsp;4101-18411B2<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;14:00 - 16:30<br/>
+									:&nbsp;&nbsp;14:00 - 16:00  (Mo We)<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
+									:&nbsp;&nbsp;16 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
 									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
 								
 								<hr class="invisible mt-1 mb-2">
 								
 								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181001-3<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
+									:&nbsp;&nbsp;4101-18411C2<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;18:00 - 20:30<br/>
+									:&nbsp;&nbsp;18:00 - 20:00  (Mo We)<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
+									:&nbsp;&nbsp;16 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
 									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
 								
 								<hr class="short"/>
 								
 								<h5><spring:message code="ceit-1101-sidebar-reg-date"/>
-									:&nbsp;&nbsp;2018-10-02</h5>
+									:&nbsp;&nbsp;2018-10-09 Tuesday</h5>
 									
-								<a class="btn btn-primary mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a><br/>
+								<a class="btn btn-primary btn-xs mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a><br/>
 								
 								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181002-1<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
+									:&nbsp;&nbsp;4101-18412A2<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;9:30 - 12:00<br/>
+									:&nbsp;&nbsp;10:00 - 12:00 (Tu Th)<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
+									:&nbsp;&nbsp;16 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
 									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
 								
 								<hr class="invisible mt-1 mb-2">
 								
 								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181002-2<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
+									:&nbsp;&nbsp;4101-18412B2<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;14:00 - 16:30<br/>
+									:&nbsp;&nbsp;14:00 - 16:00  (Tu Th)<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
+									:&nbsp;&nbsp;16 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
 									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
 								
 								<hr class="invisible mt-1 mb-2">
 								
 								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181002-3<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
+									:&nbsp;&nbsp;4101-18412C2<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;18:00 - 20:30<br/>
+									:&nbsp;&nbsp;18:00 - 20:00  (Tu Th)<br/>
 								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
+									:&nbsp;&nbsp;16 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
 									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
 								
 								<hr class="tall"/>
@@ -241,26 +230,27 @@
 						
 							<!-- overview -->
 							<h3><spring:message code="ceit-4101-course-name"/></h3>
-							<h4><spring:message code="course-code-title"/>${course_code}&nbsp;&nbsp;&nbsp;<a class="btn btn-primary btn-sm mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
+							<h4><spring:message code="course-code-title"/>${course_code}&nbsp;&nbsp;&nbsp;<a class="btn btn-primary btn-sm mb-2" href="https://goo.gl/forms/THF8Hn94CrEdcDPH2" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
 									<p><spring:message code="ceit-4101-course-desc-content-1"/></p>
 									<p><spring:message code="ceit-4101-course-desc-content-2"/></p>
 									<p><spring:message code="ceit-4101-course-desc-content-3"/></p>
+									<p><spring:message code="ceit-4101-course-desc-content-4"/></p>
 								</div>
 							</div>
 							
 							<h4><spring:message code="ceit-program-title"/></h4>
 							<div class="row">
 								<div class="col">
-									<a class="btn btn-dark btn-sm mb-2" href="${url_program_javadeveloper}?lang=${loc}" target="_blank"><spring:message code="ceit-p01-program-name"/></a>
-									<a class="btn btn-light btn-sm mb-2" href="${url_program_javaarchitect}?lang=${loc}" target="_blank"><spring:message code="ceit-p02-program-name"/></a>
-									<a class="btn btn-light btn-sm mb-2" href="${url_program_androiddeveloper}?lang=${loc}" target="_blank"><spring:message code="ceit-p11-program-name"/></a>
+									<a class="btn btn-dark btn-sm mb-2" href="${url_program_datascience}?lang=${loc}" target="_blank"><spring:message code="ceds-p11-program-name"/></a>
+									<a class="btn btn-dark btn-sm mb-2" href="${url_program_datascience}?lang=${loc}" target="_blank"><spring:message code="ceds-p12-program-name"/></a>
+									<a class="btn btn-dark btn-sm mb-2" href="${url_program_datascience}?lang=${loc}" target="_blank"><spring:message code="ceds-p13-program-name"/></a>
 									<a class="btn btn-light btn-sm mb-2" href="${url_program_qatester}?lang=${loc}" target="_blank"><spring:message code="ceit-p21-program-name"/></a>
 								</div>
 							</div>
 
-							<hr class="short">
+							<hr class="tall">
 							
 							<!-- your take-away -->
 							<h3><spring:message code="ceit-4101-takeaway-title"/></h3>
@@ -330,15 +320,258 @@
 							<hr class="tall">
 							
 							<!-- audience -->
-							<h3><spring:message code="ceit-4101-prereq-title"/></h3>
+							<h3><spring:message code="course-prereq-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<spring:message code="ceit-4101-prereq-none"/>
+									<spring:message code="course-prereq-none"/>
 								</div>
 							</div>
 							
-							<!-- <hr class="tall"> -->
+							<hr class="tall" id="reg-info"> 
 							
+							<!-- course list -->
+							<h3>报名信息</h3>
+							<h4>火箭班 - 开班时间表</h4>
+							<div class="row">
+								<div class="col">
+									<table class="table table-striped table-sm">
+										<tr>
+											<th>开班日期</th>
+											<th>班级编号</th>
+											<th>上课时间</th>
+											<th>每周次数</th>
+											<th>总周数</th>
+											<th></th>
+											
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<td>4101-1841-1A2</td>
+											<td>10:00 - 12:00 (Mo We)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<td>4101-1841-1B2</td>
+											<td>14:00 - 16:00 (Mo We)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<td>4101-1841-1C2</td>
+											<td>18:00 - 20:00 (Mo We)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<tr>
+											<td>2018-10-09</td>
+											<td>4101-1841-2A2</td>
+											<td>10:00 - 12:00 (Tu Th)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-09</td>
+											<td>4101-1841-2B2</td>
+											<td>14:00 - 16:00 (Tu Th)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-09</td>
+											<td>4101-1841-2C2</td>
+											<td>18:00 - 20:00 (Tu Th)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										
+									</table>
+								</div>
+							</div>
+							
+							<h4>常规班 - 开班时间表</h4>
+							<div class="row">
+								<div class="col">
+									<table class="table table-striped table-sm">
+										<tr>
+											<th>开班日期</th>
+											<th>班级编号</th>
+											<th>上课时间</th>
+											<th>每周次数</th>
+											<th>总周数</th>
+											<th></th>
+										</tr>
+										<!-- day 1 -->
+										<tr>
+											<td>2018-10-08</td>
+											<td>4101-1841-1A1</td>
+											<td>10:00 - 12:00 (Mo)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<td>4101-1841-1B1</td>
+											<td>14:00 - 16:00 (Mo)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<td>4101-1841-1C1</td>
+											<td>18:00 - 20:00 (Mo)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<!-- day 2 -->
+										<tr>
+											<td>2018-10-09</td>
+											<td>4101-1841-1A1</td>
+											<td>10:00 - 12:00 (Tu)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-09</td>
+											<td>4101-1841-1B1</td>
+											<td>14:00 - 16:00 (Tu)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-09</td>
+											<td>4101-1841-1C1</td>
+											<td>18:00 - 20:00 (Tu)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<!-- day 3 -->
+										<tr>
+											<td>2018-10-10</td>
+											<td>4101-1841-1A1</td>
+											<td>10:00 - 12:00 (We)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-10</td>
+											<td>4101-1841-1B1</td>
+											<td>14:00 - 16:00 (We)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-10</td>
+											<td>4101-1841-1C1</td>
+											<td>18:00 - 20:00 (We)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<!-- day 4 -->
+										<tr>
+											<td>2018-10-11</td>
+											<td>4101-1841-1A1</td>
+											<td>10:00 - 12:00 (Th)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-11</td>
+											<td>4101-1841-1B1</td>
+											<td>14:00 - 16:00 (Th)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-11</td>
+											<td>4101-1841-1C1</td>
+											<td>18:00 - 20:00 (Th)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<!-- day 5 -->
+										<tr>
+											<td>2018-10-12</td>
+											<td>4101-1841-1A1</td>
+											<td>10:00 - 12:00 (Fr)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-12</td>
+											<td>4101-1841-1B1</td>
+											<td>14:00 - 16:00 (Fr)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-12</td>
+											<td>4101-1841-1C1</td>
+											<td>18:00 - 20:00 (Fr)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+									</table>
+								</div>
+							</div>
+							
+							<h4>学费</h4>
+							<div class="row">
+								<div class="col">
+									16 hours, C$399 + Tx
+								</div>
+							</div>
+							
+							<br/>
+							
+							<h4>地址</h4>
+							<div class="row">
+								<div class="col">
+									1. McGill 校区  <br/>
+									2. Concordia 校区
+								</div>
+							</div>
+							<br/>
+							
+							<h4>报名咨询方式</h4>
+							<div class="row">
+								<div class="col">
+									1. 电话：514-746-9188 <br/>
+									2. 微信: Athens314 <br/>
+									3. 微信: j03280314 <br/>
+									4. 邮件：learning@athenosft.com
+								</div>
+							</div>
 							<!-- testimonial -->
 							<!-- 
 							<h3><spring:message code="webdev-title-4-1"/></h3>

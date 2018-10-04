@@ -283,6 +283,11 @@
 											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
 										</tr>
 										<tr>
+											<td>CEIT 1305</td>
+											<td>Spring Data JPA</td>
+											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+										</tr>
+										<tr>
 											<td>CEIT 6101</td>
 											<td>MySQL for developer (5.x)</td>
 											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
@@ -314,15 +319,15 @@
 							<hr class="short">
 							
 							<!-- your take-away -->
-							<h3><spring:message code="ceit-1101-takeaway-title"/></h3>
+							<h3><spring:message code="program-takeaway-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceit-1101-takeaway-header-g"/></strong><br/>
+									<strong><spring:message code="program-takeaway-header-g"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="ceit-1101-takeaway-g1"/></li>
-										<li><spring:message code="ceit-1101-takeaway-g2"/></li>
-										<li><spring:message code="ceit-1101-takeaway-g3"/></li>
-										<li><spring:message code="ceit-1101-takeaway-g4"/></li>
+										<li><spring:message code="program-takeaway-g1"/></li>
+										<li><spring:message code="program-takeaway-g2"/></li>
+										<li><spring:message code="program-takeaway-g3"/></li>
+										<li><spring:message code="program-takeaway-g4"/></li>
 									</ol>
 								</div>
 							</div>

@@ -241,7 +241,16 @@
 						
 							<!-- overview -->
 							<h3><spring:message code="ceit-1101-course-name"/></h3>
-							<h4><spring:message code="course-code-title"/>${course_code}&nbsp;&nbsp;&nbsp;<a class="btn btn-primary btn-sm mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
+							<h4>
+								<spring:message code="course-code-title"/>${course_code}&nbsp;&nbsp;&nbsp;
+								<a class="btn btn-success btn-sm mb-2" href="#reg-info" target="_blank">
+								选择班级
+								</a>
+								<a class="btn btn-primary btn-sm mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank">
+								直接报名
+								</a>
+								
+							</h4>
 							<div class="row">
 								<div class="col">
 									<p><spring:message code="ceit-1101-course-desc-content-1"/></p>
@@ -260,7 +269,7 @@
 								</div>
 							</div>
 
-							<hr class="short">
+							<hr class="tall">
 							
 							<!-- your take-away -->
 							<h3><spring:message code="ceit-1101-takeaway-title"/></h3>
@@ -330,14 +339,272 @@
 							<hr class="tall">
 							
 							<!-- audience -->
-							<h3><spring:message code="ceit-1101-prereq-title"/></h3>
+							<h3><spring:message code="course-prereq-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<spring:message code="ceit-1101-prereq-none"/>
+									<spring:message code="course-prereq-none"/>
 								</div>
 							</div>
 							
-							<!-- <hr class="tall"> -->
+							<hr class="tall" id="reg-info"> 
+							
+							<!-- course list -->
+							<h3>报名信息</h3>
+							<h4>火箭班 - 开班时间表</h4>
+							<div class="row">
+								<div class="col">
+									<table class="table table-striped table-sm">
+										<tr>
+											<th>开班日期</th>
+											<th>班级编号</th>
+											<th>上课时间</th>
+											<th>每周次数</th>
+											<th>总周数</th>
+											<th></th>
+											
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<th>1101-1841-1A2</th>
+											<td>10:00 - 12:00 (Mo We)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<th>1101-1841-1B2</th>
+											<td>14:00 - 16:00 (Mo We)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<th>1101-1841-1C2</th>
+											<td>18:00 - 20:00 (Mo We)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<tr>
+											<td>2018-10-09</td>
+											<th>1101-1841-2A2</th>
+											<td>10:00 - 12:00 (Tu Th)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-09</td>
+											<th>1101-1841-2B2</th>
+											<td>14:00 - 16:00 (Tu Th)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-09</td>
+											<th>1101-1841-2C2</th>
+											<td>18:00 - 20:00 (Tu Th)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div>
+								<h5>提示：请复制选中的班级编号</h5>
+							</div>
+							
+							<hr class="invisible mt-1">
+							
+							<h4>常规班 - 开班时间表</h4>
+							<div class="row">
+								<div class="col">
+									<table class="table table-striped table-sm">
+										<tr>
+											<th>开班日期</th>
+											<th>班级编号</th>
+											<th>上课时间</th>
+											<th>每周次数</th>
+											<th>总周数</th>
+											<th></th>
+										</tr>
+										<!-- day 1 -->
+										<tr>
+											<td>2018-10-08</td>
+											<th>1101-1841-1A1</th>
+											<td>10:00 - 12:00 (Mo)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<th>1101-1841-1B1</th>
+											<td>14:00 - 16:00 (Mo)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-08</td>
+											<th>1101-1841-1C1</th>
+											<td>18:00 - 20:00 (Mo)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<!-- day 2 -->
+										<tr>
+											<td>2018-10-09</td>
+											<th>1101-1841-1A1</th>
+											<td>10:00 - 12:00 (Tu)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-09</td>
+											<th>1101-1841-1B1</th>
+											<td>14:00 - 16:00 (Tu)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-09</td>
+											<th>1101-1841-1C1</th>
+											<td>18:00 - 20:00 (Tu)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<!-- day 3 -->
+										<tr>
+											<td>2018-10-10</td>
+											<th>1101-1841-1A1</th>
+											<td>10:00 - 12:00 (We)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-10</td>
+											<th>1101-1841-1B1</th>
+											<td>14:00 - 16:00 (We)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-10</td>
+											<th>1101-1841-1C1</th>
+											<td>18:00 - 20:00 (We)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<!-- day 4 -->
+										<tr>
+											<td>2018-10-11</td>
+											<th>1101-1841-1A1</th>
+											<td>10:00 - 12:00 (Th)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-11</td>
+											<th>1101-1841-1B1</th>
+											<td>14:00 - 16:00 (Th)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-11</td>
+											<th>1101-1841-1C1</th>
+											<td>18:00 - 20:00 (Th)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										
+										<!-- day 5 -->
+										<tr>
+											<td>2018-10-12</td>
+											<th>1101-1841-1A1</th>
+											<td>10:00 - 12:00 (Fr)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-12</td>
+											<th>1101-1841-1B1</th>
+											<td>14:00 - 16:00 (Fr)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-12</td>
+											<th>1101-1841-1C1</th>
+											<td>18:00 - 20:00 (Fr)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div>
+								<h5>提示：请复制选中的班级编号</h5>
+							</div>
+							
+							<hr class="invisible mt-2"/>
+							
+							<h4>学费</h4>
+							<div class="row">
+								<div class="col">
+									20 hours, C$499 + Tx
+								</div>
+							</div>
+							
+							<br/>
+							
+							<h4>地址</h4>
+							<div class="row">
+								<div class="col">
+									<h5> 1. McGill 校区  </h5>
+									2001 Blvd. Robert Bourassa Suite 1700 <br/>
+                               Montreal Quebec  H3A 2A6 <br/>
+                               Near McGill University, right beside the entrance(McGill) of Metro Station of McGill <br/>
+                               <br/>
+									<h5> 2. Concordia 校区</h5>
+									1441A Rue. Saint Mathieu <br/>
+                               Montreal Quebec  H3A 2A6 <br/>
+                               Near Concordia University, close to the entrance(St. Mathieu) of Metro Station of Guy Concordia <br/>
+								</div>
+							</div>
+							<br/>
+							
+							<h4>报名咨询方式</h4>
+							<div class="row">
+								<div class="col">
+									1. 电话：514-746-9188 <br/>
+									2. 微信: Athens314 <br/>
+									3. 微信: j03280314 <br/>
+									4. 邮件：learning@athenosft.com
+								</div>
+							</div>
 							
 							<!-- testimonial -->
 							<!-- 
