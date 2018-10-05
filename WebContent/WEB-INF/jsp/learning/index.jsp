@@ -261,7 +261,8 @@
 											<span class="thumb-info-type my-item-title">${featured_course_1}</span><br/>
 											<span class="thumb-info-type my-item-title">${featured_course_name_1}</span><br/>
 											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
-											<a href="${webapp_name}${featured_course_url_1}?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+											<a href="${webapp_name}${featured_course_url_1}?lang=${loc}"  target="_blank" class="btn btn-secondary btn-sm">
+											<spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
 								</li>
@@ -281,7 +282,8 @@
 											<span class="thumb-info-type my-item-title">${featured_course_2}</span><br/>
 											<span class="thumb-info-type my-item-title">${featured_course_name_2}</span><br/>
 											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
-											<a href="${webapp_name}${featured_course_url_2}?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+											<a href="${webapp_name}${featured_course_url_2}?lang=${loc}"  target="_blank" class="btn btn-secondary btn-sm">
+											<spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
 								</li>
@@ -300,8 +302,8 @@
 										<div class="thumb-info-title my-align-center">
 											<span class="thumb-info-type my-item-title">${featured_course_3}</span><br/>
 											<span class="thumb-info-type my-item-title">${featured_course_name_3}</span><br/>
-											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
-											<a href="${webapp_name}${featured_course_url_3}?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+											<a href="${webapp_name}${featured_course_url_3}?lang=${loc}"  target="_blank" class="btn btn-secondary btn-sm">
+											<spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
 								</li>
@@ -320,8 +322,8 @@
 										<div class="thumb-info-title my-align-center">
 											<span class="thumb-info-type my-item-title">${featured_course_4}</span><br/>
 											<span class="thumb-info-type my-item-title">${featured_course_name_4}</span><br/>
-											<!-- <span class="thumb-info-inner">${level_course}</span><br/>  -->
-											<a href="${webapp_name}${featured_course_url_4}?lang=${loc}"  target="_blank" class="btn btn-primary btn-sm"><spring:message code="learning-center-btn-register"/></a>
+											<a href="${webapp_name}${featured_course_url_4}?lang=${loc}"  target="_blank" class="btn btn-secondary btn-sm">
+											<spring:message code="learning-center-btn-register"/></a>
 										</div>
 									</div>
 								</li>

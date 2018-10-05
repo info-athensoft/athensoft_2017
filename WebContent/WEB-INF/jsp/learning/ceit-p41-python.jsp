@@ -133,98 +133,31 @@
 						<div class="col-lg-4 order-2 order-lg-1">
 							<aside class="sidebar">
 							
-								<h4 class="heading-primary"><spring:message code="ceit-1101-sidebar-title-1"/></h4>
+								<h4 class="heading-primary">热门课程</h4>
+								<a href="/learning/ceit1101?lang=${loc}">CEIT 1101:&nbsp;&nbsp;<spring:message code="ceit-1101-course-name"/></a><br/>
+								<a href="/learning/ceit4101?lang=${loc}">CEIT 4101:&nbsp;&nbsp;<spring:message code="ceit-4101-course-name"/></a><br/>
+								<a href="/learning/stem1311?lang=${loc}">STEM 1311:&nbsp;&nbsp;<spring:message code="stem-1311-course-name"/></a><br/>
 								
-								<h5><spring:message code="ceit-1101-sidebar-reg-date"/>
-									:&nbsp;&nbsp;2018-10-01</h5>
 								
-								<a class="btn btn-primary mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a><br/>
-								
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181001-1<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;9:30 - 12:00<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
-									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
-								
-								<hr class="invisible mt-1 mb-2">
-								
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181001-2<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;14:00 - 16:30<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
-									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
-								
-								<hr class="invisible mt-1 mb-2">
-								
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181001-3<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;18:00 - 20:30<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
-									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
 								
 								<hr class="short"/>
+								<h4 class="heading-primary">热门方向</h4>
+								<a href="/learning/ceit-p01?lang=${loc}">CEIT P01:&nbsp;&nbsp;<spring:message code="ceit-p01-program-name"/></a><br/>
+								<a href="/learning/ceit-p41?lang=${loc}">CEIT P41:&nbsp;&nbsp;<spring:message code="ceit-p41-program-name"/></a><br/>
+								<!-- 
+								<a href="/learning/ceit-p02?lang=${loc}">CEIT P02:&nbsp;&nbsp;<spring:message code="ceit-p02-program-name"/></a><br/>
+								<a href="/learning/ceit-p11?lang=${loc}">CEIT P11:&nbsp;&nbsp;<spring:message code="ceit-p11-program-name"/></a><br/>
+								 -->
 								
-								<h5><spring:message code="ceit-1101-sidebar-reg-date"/>
-									:&nbsp;&nbsp;2018-10-02</h5>
-									
-								<a class="btn btn-primary mb-2" href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank"><spring:message code="learning-center-btn-register"/></a><br/>
 								
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181002-1<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;9:30 - 12:00<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
-									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
-								
-								<hr class="invisible mt-1 mb-2">
-								
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181002-2<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;14:00 - 16:30<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
-									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
-								
-								<hr class="invisible mt-1 mb-2">
-								
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-no"/></b>
-									:&nbsp;&nbsp;JV181002-3<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-classtype-title"/></b>
-									:&nbsp;&nbsp;<spring:message code="ceit-1101-sidebar-reg-classtype1"/><br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-duration-title"/></b>
-									:&nbsp;&nbsp;18:00 - 20:30<br/>
-								<b><spring:message code="ceit-1101-sidebar-reg-time-title"/></b>
-									:&nbsp;&nbsp;20 <spring:message code="ceit-1101-sidebar-reg-duration-hour"/>
-									,&nbsp;&nbsp;8 <spring:message code="ceit-1101-sidebar-reg-duration-day"/>
-								
-								<hr class="tall"/>
-								
-								<h4 class="heading-primary">Scan QR code to register</h4>
-								<img src="${img_dir}${module_name}/ceit1101/ceit-1101-java-googleform.png" alt="google form registration" width="40%"/>
+								<hr class="invisible mt-1 mb-1"/>
+								<a class="btn btn-primary btn-sm mb-2" href="/learning?lang=${loc}" target="_blank">查看所有课程</a><br/>
 								
 								<hr class="short">
 								
 								<a class="twitter-timeline" 
 									data-width="320" 
-									data-height="380" 
+									data-height="640" 
 									data-theme="light" 
 									data-chrome="nofooter noborders transparent noscrollbar"
 									href="https://twitter.com/Athensoft?ref_src=twsrc%5Etfw">Tweets by Athensoft</a> 

@@ -38,4 +38,13 @@ public class LearningController {
 		return "learning/ceit4101-python";
 	}
 	
+	
+	/*Youth Python*/
+	
+	
+	@RequestMapping(value={"/stem1311","/stem1311.html"})
+	public String gotoStem1311(){
+		return "learning/stem1311-python";
+	}
+	
 }
