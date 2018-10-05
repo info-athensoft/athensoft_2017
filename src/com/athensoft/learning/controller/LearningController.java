@@ -40,11 +40,15 @@ public class LearningController {
 	
 	
 	/*Youth Python*/
-	
-	
 	@RequestMapping(value={"/stem1311","/stem1311.html"})
 	public String gotoStem1311(){
 		return "learning/stem1311-python";
+	}
+	
+	/*COT Language*/
+	@RequestMapping(value={"/ceca4001","/ceca4001.html"})
+	public String gotoCeca4001(){
+		return "learning/ceca4001-english";
 	}
 	
 }

@@ -13,10 +13,11 @@
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="/images"></c:set>
 <c:set var="pageName" value="ceit4101"></c:set>
+<c:set var="googleFormURL" value="https://goo.gl/forms/U0rOFxB3ge2OVfoo2"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
-<c:set var="loc" value="en_US"/>
+<c:set var="loc" value="zh_CN"/>
 <c:if test="${!(empty param.lang)}">
   <c:set var="loc" value="${param.lang}"/>
 </c:if>
@@ -142,12 +143,13 @@
 								CEIT 4101: <spring:message code="ceit-4101-course-name"/><br/>
 								<img src="${img_dir}${module_name}/ceit4101/ceit-4101-python-googleform.png" alt="google form registration" width="40%"/>
 								<br/>
-								<a class="btn btn-success btn-sm mb-2" href="#reg-info" target="_blank">选择班级</a>
+								<a class="btn btn-success btn-sm mb-2" href="#reg-info"><spring:message code="learning-center-btn-chooseclass"/></a>
 								<hr class="short"/>
 								
 								<h4 class="heading-primary">热门课程</h4>
 								<a href="/learning/ceit1101?lang=${loc}">CEIT 1101:&nbsp;&nbsp;<spring:message code="ceit-1101-course-name"/></a><br/>
 								<a href="/learning/ceit4101?lang=${loc}">CEIT 4101:&nbsp;&nbsp;<spring:message code="ceit-4101-course-name"/></a><br/>
+								<a href="/learning/ceca4001?lang=${loc}">CECA 4001:&nbsp;&nbsp;<spring:message code="ceca-4001-course-name"/></a><br/>
 								<a href="/learning/stem1311?lang=${loc}">STEM 1311:&nbsp;&nbsp;<spring:message code="stem-1311-course-name"/></a><br/>
 								
 								
@@ -182,9 +184,12 @@
 							<!-- overview -->
 							<h3><spring:message code="ceit-4101-course-name"/></h3>
 							<h4><spring:message code="course-code-title"/>${course_code}&nbsp;&nbsp;&nbsp;
-							<a class="btn btn-success btn-sm mb-2" href="#reg-info" target="_blank">选择班级</a>
-							<a class="btn btn-primary btn-sm mb-2" href="https://goo.gl/forms/THF8Hn94CrEdcDPH2" target="_blank">
-							<spring:message code="learning-center-btn-register"/></a></h4>
+							<a class="btn btn-success btn-sm mb-2" href="#reg-info">
+								<spring:message code="learning-center-btn-chooseclass"/>
+							</a>
+							<a class="btn btn-primary btn-sm mb-2" href="${googleFormURL}" target="_blank">
+								<spring:message code="learning-center-btn-register"/>
+							</a></h4>
 							<div class="row">
 								<div class="col">
 									<p><spring:message code="ceit-4101-course-desc-content-1"/></p>
@@ -285,7 +290,7 @@
 							
 							<!-- course list -->
 							<h3>报名信息</h3>
-							<h4>火箭班 - 开班时间表</h4>
+							<h4>火箭班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
 									<table class="table table-striped table-sm">
@@ -298,32 +303,6 @@
 											<th></th>
 											
 										</tr>
-										<!-- 
-										<tr>
-											<td>2018-10-08</td>
-											<th>4101-1841-1A2</th>
-											<td>10:00 - 12:00 (Mo We)</td>
-											<td>2</td>
-											<td>4</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-08</td>
-											<th>4101-1841-1B2</th>
-											<td>14:00 - 16:00 (Mo We)</td>
-											<td>2</td>
-											<td>4</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-08</td>
-											<th>4101-1841-1C2</th>
-											<td>18:00 - 20:00 (Mo We)</td>
-											<td>2</td>
-											<td>4</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
-										</tr>
-										-->
 										
 										<tr>
 											<td>2018-10-09</td>
@@ -331,7 +310,7 @@
 											<td>10:00 - 12:00 (Tu Th)</td>
 											<td>2</td>
 											<td>4</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-09</td>
@@ -339,7 +318,7 @@
 											<td>14:00 - 16:00 (Tu Th)</td>
 											<td>2</td>
 											<td>4</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-09</td>
@@ -347,15 +326,16 @@
 											<td>18:00 - 20:00 (Tu Th)</td>
 											<td>2</td>
 											<td>4</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
-										
-										
 									</table>
 								</div>
 							</div>
+							<div>
+								<h5><spring:message code="course-info-hint-1"/></h5>
+							</div>
 							
-							<h4>常规班 - 开班时间表</h4>
+							<h4>常规班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
 									<table class="table table-striped table-sm">
@@ -368,32 +348,6 @@
 											<th></th>
 										</tr>
 										<!-- day 1 -->
-										<!-- 
-										<tr>
-											<td>2018-10-08</td>
-											<th>4101-1841-1A1</th>
-											<td>10:00 - 12:00 (Mo)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-08</td>
-											<th>4101-1841-1B1</th>
-											<td>14:00 - 16:00 (Mo)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-08</td>
-											<th>4101-1841-1C1</th>
-											<td>18:00 - 20:00 (Mo)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
-										</tr>
-										-->
 										
 										<!-- day 2 -->
 										<tr>
@@ -402,7 +356,7 @@
 											<td>10:00 - 12:00 (Tu)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-09</td>
@@ -410,7 +364,7 @@
 											<td>14:00 - 16:00 (Tu)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-09</td>
@@ -418,7 +372,7 @@
 											<td>18:00 - 20:00 (Tu)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										
 										<!-- day 3 -->
@@ -428,7 +382,7 @@
 											<td>10:00 - 12:00 (We)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-10</td>
@@ -436,7 +390,7 @@
 											<td>14:00 - 16:00 (We)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-10</td>
@@ -444,7 +398,7 @@
 											<td>18:00 - 20:00 (We)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										
 										<!-- day 4 -->
@@ -454,7 +408,7 @@
 											<td>10:00 - 12:00 (Th)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-11</td>
@@ -462,7 +416,7 @@
 											<td>14:00 - 16:00 (Th)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-11</td>
@@ -470,7 +424,7 @@
 											<td>18:00 - 20:00 (Th)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										
 										<!-- day 5 -->
@@ -480,7 +434,7 @@
 											<td>10:00 - 12:00 (Fr)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-12</td>
@@ -488,7 +442,7 @@
 											<td>14:00 - 16:00 (Fr)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
 											<td>2018-10-12</td>
@@ -496,18 +450,21 @@
 											<td>18:00 - 20:00 (Fr)</td>
 											<td>1</td>
 											<td>8</td>
-											<td><a class="btn btn-secondary btn-xs mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										
 									</table>
 								</div>
 							</div>
+							<div>
+								<h5><spring:message code="course-info-hint-1"/></h5>
+							</div>
 							
 							<h4>学费</h4>
 							<div class="row">
 								<div class="col">
-									16 hours, C$399 + tx (Before Oct. 16, Save 100, 16.7% Off)<br/>
-                               		16 hours, C$480 + tx (Regular Price)
+									16 hours, 2 hours/session, 8 sessions, C$399 + tx (Before Oct. 16, Save 100, 16.7% Off)<br/>
+                               		16 hours, 2 hours/session, 8 sessions, C$480 + tx (Regular Price)
 								</div>
 							</div>
 							
@@ -586,7 +543,7 @@
 								</div>
 								<div class="col-sm-3 col-lg-3">
 									<div class="call-to-action-btn">
-										<a href="https://goo.gl/forms/WiPrE1DrlEluffu62" target="_blank" class="btn btn-lg btn-primary"><spring:message code="learning-center-btn-register"/></a>
+										<a href="${googleFormURL}" target="_blank" class="btn btn-lg btn-primary"><spring:message code="learning-center-btn-register"/></a>
 									</div>
 								</div>
 							</section>
