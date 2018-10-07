@@ -196,6 +196,7 @@
 									<p><spring:message code="ceit-4101-course-desc-content-2"/></p>
 									<p><spring:message code="ceit-4101-course-desc-content-3"/></p>
 									<p><spring:message code="ceit-4101-course-desc-content-4"/></p>
+									<p><spring:message code="ceit-4101-course-desc-content-5"/></p>
 								</div>
 							</div>
 							
