@@ -308,28 +308,35 @@
 										<tr>
 											<td>2018-10-09</td>
 											<th>1101-1841-2A2</th>
-											<td>10:00 - 12:00 (Tu Th)</td>
+											<td>10:00 - 12:30 (Tu Th)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-primary btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-full"/></a></td>
+										</tr>
+										<tr>
+											<td>2018-10-15</td>
+											<th>1101-1842-1A2</th>
+											<td>10:00 - 12:30 (Mo We)</td>
 											<td>2</td>
 											<td>4</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
-										<!-- 
 										<tr>
-											<td>2018-10-09</td>
-											<th>1101-1841-2B2</th>
-											<td>14:00 - 16:00 (Tu Th)</td>
+											<td>2018-10-15</td>
+											<th>1101-1842-1B2</th>
+											<td>14:00 - 16:30 (Mo We)</td>
 											<td>2</td>
 											<td>4</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
-											<td>2018-10-09</td>
-											<th>1101-1841-2C2</th>
-											<td>18:00 - 20:00 (Tu Th)</td>
+											<td>2018-10-16</td>
+											<th>1101-1842-2B2</th>
+											<td>14:00 - 16:30 (Tu Th)</td>
 											<td>2</td>
 											<td>4</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr> -->
+										</tr>
 									</table>
 								</div>
 							</div>
@@ -339,7 +346,7 @@
 							
 							<hr class="invisible mt-1">
 							
-							<h4>常规班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
+							<h4>常规白天班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
 									<table class="table table-striped table-sm">
@@ -352,109 +359,67 @@
 											<th>当前状态</th>
 										</tr>
 										
-										<!-- day 2 -->
 										<tr>
-											<td>2018-10-09</td>
-											<th>1101-1841-1A1</th>
-											<td>10:00 - 12:00 (Tu)</td>
+											<td>2018-10-19</td>
+											<th>1101-1842-5A1</th>
+											<td>10:00 - 12:30 (Fr)</td>
 											<td>1</td>
 											<td>8</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
-											<td>2018-10-09</td>
-											<th>1101-1841-1B1</th>
-											<td>14:00 - 16:00 (Tu)</td>
+											<td>2018-10-19</td>
+											<th>1101-1842-5B1</th>
+											<td>14:00 - 16:30 (Fr)</td>
+											<td>1</td>
+											<td>8</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+							<div>
+								<h5><spring:message code="course-info-hint-1"/></h5>
+							</div>
+							
+							<hr class="invisible mt-1">
+							<h4>常规晚班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
+							<div class="row">
+								<div class="col">
+									<table class="table table-striped table-sm">
+										<tr>
+											<th>开班日期</th>
+											<th>班级编号</th>
+											<th>上课时间</th>
+											<th>每周次数</th>
+											<th>总周数</th>
+											<th>当前状态</th>
+										</tr>
+										<tr>
+											<td>2018-10-12</td>
+											<th>1101-1842-1C1</th>
+											<td>18:00 - 20:00 (Mo)</td>
 											<td>1</td>
 											<td>8</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
-											<td>2018-10-09</td>
-											<th>1101-1841-1C1</th>
+											<td>2018-10-12</td>
+											<th>1101-1842-2C1</th>
 											<td>18:00 - 20:00 (Tu)</td>
 											<td>1</td>
 											<td>8</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
-										
-										<!-- day 3 -->
 										<tr>
-											<td>2018-10-10</td>
-											<th>1101-1841-1A1</th>
-											<td>10:00 - 12:00 (We)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-10</td>
-											<th>1101-1841-1B1</th>
-											<td>14:00 - 16:00 (We)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-10</td>
-											<th>1101-1841-1C1</th>
+											<td>2018-10-12</td>
+											<th>1101-1842-3C1</th>
 											<td>18:00 - 20:00 (We)</td>
 											<td>1</td>
 											<td>8</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										
-										<!-- day 4 -->
-										<tr>
-											<td>2018-10-11</td>
-											<th>1101-1841-1A1</th>
-											<td>10:00 - 12:00 (Th)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-11</td>
-											<th>1101-1841-1B1</th>
-											<td>14:00 - 16:00 (Th)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-11</td>
-											<th>1101-1841-1C1</th>
-											<td>18:00 - 20:00 (Th)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										
-										<!-- day 5 -->
-										<tr>
-											<td>2018-10-12</td>
-											<th>1101-1841-1A1</th>
-											<td>10:00 - 12:00 (Fr)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-12</td>
-											<th>1101-1841-1B1</th>
-											<td>14:00 - 16:00 (Fr)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-12</td>
-											<th>1101-1841-1C1</th>
-											<td>18:00 - 20:00 (Fr)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
 									</table>
 								</div>
 							</div>
@@ -467,8 +432,11 @@
 							<h4>学费</h4>
 							<div class="row">
 								<div class="col">
-									20 hours, 2.5hours/session, 8 sessions, C$499 + tx (Before Oct. 16, Save 100, 16.7% Off)<br/>
-                               		20 hours, 2.5hours/session, 8 sessions, C$599 + tx (Regular Price)
+									(Rocket Class and Daytime Class) 20 hours, 2.5hours/session, 8 sessions, C$499 + tx (Before Oct. 16, Save 100, 16.7% Off)<br/>
+									(Regular Evening Class) 16 hours, 2.0hours/session, 8 sessions, C$399 + tx (Before Oct. 16, Save 100, 20.0% Off)<br/>
+									<br/>
+                               		(Rocket Class and Daytime Class) 20 hours, 2.5hours/session, 8 sessions, C$599 + tx (Regular Price)<br/>
+                               		(Regular Evening Class) 16 hours, 2.0hours/session, 8 sessions, C$499 + tx (Regular Price)<br/>
 								</div>
 							</div>
 							
