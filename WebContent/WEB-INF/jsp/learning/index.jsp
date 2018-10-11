@@ -21,6 +21,7 @@
 <c:set var="img_dir" value="/images"/>
 <c:set var="img_dir_1" value="/learning/vocational"/>
 <c:set var="img_dir_2" value="/learning/youth"/>
+<c:set var="img_dir_case" value="/learning/case"/>
 
 <!-- banner -->
 <c:set var="banner1" value="1.jpg"/>
@@ -96,6 +97,12 @@
 <c:set var="featured_course_name_4"><spring:message code='stem-1311-course-name'/></c:set>
 <c:set var="featured_course_pic_4" value="it-elite.jpg"/>
 <c:set var="featured_course_url_4" value="/learning/stem1311"/>
+
+<c:set var="case_pic_1" value="sample1.jpg"/>
+<c:set var="case_pic_2" value="sample2.jpg"/>
+<c:set var="case_pic_3" value="sample3.jpg"/>
+<c:set var="case_pic_4" value="sample4.jpg"/>
+
 
 <!-- END page variables -->
 
@@ -227,9 +234,6 @@
 							<a href="https://twitter.com/athensoft" target="_blank" class="btn btn-primary btn-sm">官方 Twitter</a> 
 							<a href="https://www.meetup.com/sitem-ai/" target="_blank" class="btn btn-primary btn-sm">人工智能 Meetup</a>
 							<a href="https://www.meetup.com/mtldev/" target="_blank" class="btn btn-primary btn-sm">软件研发 Meetup</a>
-							
-							
-							
 							 
 						</div>
 					</div>
@@ -334,6 +338,76 @@
 										</div>
 									</div>
 								</li>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="row" id="">
+						<div class="col">
+							<hr class="solid">
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col">
+							<h4 class="mt-5 mb-0 text-uppercase"><strong><spring:message code="learning-class-pic"/></strong></h4>
+							<p></p>
+								
+							<ul class="row portfolio-list">
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten">
+											<span class="thumb-info-wrapper">
+												<img src="${img_dir}${img_dir_case}/${case_pic_1}" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</div>
+								</li>
+								
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten">
+											<span class="thumb-info-wrapper">
+												<img src="${img_dir}${img_dir_case}/${case_pic_2}" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</div>
+								</li>
+								
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten">
+											<span class="thumb-info-wrapper">
+												<img src="${img_dir}${img_dir_case}/${case_pic_3}" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</div>
+								</li>
+								
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten">
+											<span class="thumb-info-wrapper">
+												<img src="${img_dir}${img_dir_case}/${case_pic_4}" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</div>
+								</li>
+								
+								
+							
 							</ul>
 						</div>
 					</div>
