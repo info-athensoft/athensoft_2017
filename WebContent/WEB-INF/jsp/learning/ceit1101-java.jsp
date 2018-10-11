@@ -313,6 +313,7 @@
 											<td>4</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
+										<!-- 
 										<tr>
 											<td>2018-10-09</td>
 											<th>1101-1841-2B2</th>
@@ -328,7 +329,7 @@
 											<td>2</td>
 											<td>4</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
+										</tr> -->
 									</table>
 								</div>
 							</div>
