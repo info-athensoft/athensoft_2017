@@ -13,9 +13,11 @@
 	<!-- Component auto-scan support -->
 	<context:component-scan base-package="com.athensoft.site.**.controller"></context:component-scan>
 	<context:component-scan base-package="com.athensoft.resource.**.controller"></context:component-scan>
+	<context:component-scan base-package="com.athensoft.event.*.controller"></context:component-scan>
+	<context:component-scan base-package="com.athensoft.learning.controller"></context:component-scan>
 	<context:component-scan base-package="com.athensoft.team.controller"></context:component-scan>
 	<context:component-scan base-package="com.athensoft.blog.controller"></context:component-scan>
-	<context:component-scan base-package="com.athensoft.event.*.controller"></context:component-scan>
+	
 	
 
 	<!-- View Resolver -->
@@ -31,6 +33,7 @@
 		<property name="basenames">
 			<list>
 				<value>com/athensoft/site/resources/site</value>
+				<value>com/athensoft/site/resources/learning</value>
 				<value>com/athensoft/site/resources/graphic</value>
 				<value>com/athensoft/site/resources/seo</value>
 				<value>com/athensoft/site/resources/errorcodes</value>

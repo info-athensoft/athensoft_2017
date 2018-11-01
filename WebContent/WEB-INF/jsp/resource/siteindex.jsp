@@ -90,6 +90,9 @@
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
 		
+		<!-- Google No reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		
 		<style>
 			.text-sm{
 				font-size:0.9em !important;
@@ -125,7 +128,7 @@
 				
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-3 order-2 order-lg-1">
+						<div class="col-lg-4 order-2 order-lg-1">
 							<aside class="sidebar">
 								<h4 class="heading-primary"><spring:message code="rsc-sidebar-title-siteindex"/></h4>
 								
@@ -152,6 +155,12 @@
 										<div class="form-group col">
 											<label><spring:message code="rsc-siteindex-form-desc"/> *</label>
 											<textarea maxlength="5000" data-msg-required="Website description" rows="3" class="form-control form-control-sm" name="siteDesc" id="siteDesc" required></textarea>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col">
+											<!-- production code -->
+											<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6" data-callback="recaptchaCallback"></div>
 										</div>
 									</div>
 									<div class="form-row">
@@ -201,7 +210,7 @@
 						</div>
 						
 						<!-- case show -->
-						<div class="col-lg-9 order-1 order-lg-2">
+						<div class="col-lg-8 order-1 order-lg-2">
 							<div class="toggle toggle-primary toggle-sm" data-plugin-toggle>
 								<c:forEach items="${listSiteIndex}" var="siteindex">
 									<section class="toggle">

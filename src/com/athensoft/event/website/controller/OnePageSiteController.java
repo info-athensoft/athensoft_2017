@@ -1,4 +1,4 @@
-package com.athensoft.event.onepage.controller;
+package com.athensoft.event.website.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

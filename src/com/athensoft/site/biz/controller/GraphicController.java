@@ -25,6 +25,13 @@ public class GraphicController {
 		return "graphic/graphic";
 	}
 	
+	@RequestMapping("/jdesign.html")
+	public String gotoJdesign(){
+		logger.info("entering.. /graphic/jdesign.html");
+		logger.info("exiting.. /graphic/jdesign.html");
+		return "graphic/jdesign";
+	}
+	
 	@RequestMapping("/demo.html")
 	public String gotoGraphicDemo(){
 		logger.info("entering.. /graphic/demo.html");

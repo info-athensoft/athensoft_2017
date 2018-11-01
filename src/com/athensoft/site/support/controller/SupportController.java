@@ -16,12 +16,8 @@ import com.athensoft.site.support.service.SupportService;
 public class SupportController {
 	private static final Logger logger = Logger.getLogger(SupportController.class);
 	
-	private SupportService supportService;
-	
 	@Autowired
-	public void setSupportService(SupportService supportService) {
-		this.supportService = supportService;
-	}
+	private SupportService supportService;
 
 	@RequestMapping("/support.html")
 	public String gotoSupportIndex(){
@@ -103,9 +99,6 @@ public class SupportController {
 				break;
 			case "webpricing":
 				returnURL = "redirect:/webdev/pricing.html?lang="+lang;
-				break;
-			case "graphic":
-				returnURL = "redirect:/graphic/graphic.html?lang="+lang;
 				break;
 			case "graphicdemo":
 				returnURL = "redirect:/graphic/demo.html?lang="+lang;
