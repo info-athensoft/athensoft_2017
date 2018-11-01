@@ -20,6 +20,7 @@
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
 
+<h4 class="heading-primary"><spring:message code="graphic-sidebar-title-3"/></h4>
 <ul class="nav nav-list flex-column mb-4 sort-source">
 	<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/brochure.html?lang=${loc}"><spring:message code="graphic-service-brochure"/></a></li> 
 	<li class="nav-item"><a class="nav-link" href="${webapp_name}/graphic/service/catalog.html?lang=${loc}"><spring:message code="graphic-service-catalog"/></a></li> 

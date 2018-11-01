@@ -122,6 +122,7 @@
 				<div class="container">
 
 					<div class="row">
+						<!-- side bar -->
 						<div class="col-lg-3 order-2 order-lg-1">
 							<aside class="sidebar">
 
@@ -141,64 +142,17 @@
 								<hr class="invisible mt-5 mb-2">
 								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
-								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
-									<a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a></p>
+								<p>
+									<spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;<br/>
+									Email: desgin@athensoft.com
+									<!-- <a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a>  -->
+								</p>
 								
-								<form id="contactForm" action="/support/mailInquiry" method="POST">
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="contactus-form-clientname"/> *</label>
-											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="contactus-form-clientemail"/> *</label>
-											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="contactus-form-subject"/></label>
-											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="contactus-form-message"/> *</label>
-											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<!-- production code -->
-											<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6" data-callback="recaptchaCallback"></div>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
-								
-											<div class="alert alert-success d-none" id="contactSuccess">
-												Message has been sent to us.
-											</div>
-								
-											<div class="alert alert-danger d-none" id="contactError">
-												Error sending your message.
-											</div>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<input type="hidden" value="${loc}" name="lang"/>
-											<input type="hidden" value="${pageName}" name="pageName"/>
-										</div>
-									</div>
-								</form>
 								
 							</aside>
 						</div>
 						
+						<!-- main area -->
 						<div class="col-lg-9 order-1 order-lg-2">
 						
 							<!-- overview -->
@@ -259,7 +213,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-catalog"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/catalog.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-catalog"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/catalog.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -300,7 +256,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-brochure"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/brochure.html?lang=${loc}" target="_blank">
+															<spring:message code="graphic-service-brochure"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/brochure.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -341,7 +299,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-flyer"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/flyer.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-flyer"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/flyer.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -382,7 +342,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-adbanner"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/adbanner.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-adbanner"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/adbanner.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -423,7 +385,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-imgprocess"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/imgprocess.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-imgprocess"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/imgprocess.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -464,7 +428,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-logo"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/logo.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-logo"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/logo.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -505,7 +471,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-webpic"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/webpic.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-webpic"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/webpic.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -544,7 +512,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-smbanner"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/smbanner.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-smbanner"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/smbanner.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -584,7 +554,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-poster"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/poster.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-poster"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/poster.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -603,7 +575,7 @@
 								</div>
 							</div>
 							
-							<!-- 14 -->
+							<!-- 10 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-bizcard"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -625,7 +597,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-bizcard"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/bizcard.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-bizcard"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/bizcard.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -643,7 +617,7 @@
 								</div>
 							</div>
 							
-							<!-- 7 -->
+							<!-- 11 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-menu"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -665,7 +639,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-menu"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/menu.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-menu"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/menu.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -684,7 +660,7 @@
 								</div>
 							</div>
 							
-							<!-- 8 -->
+							<!-- 12 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-coupon"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -706,7 +682,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-coupon"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/coupon.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-coupon"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/coupon.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -724,7 +702,7 @@
 								</div>
 							</div>
 							
-							<!-- 10 -->
+							<!-- 13 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-imgicon"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -746,7 +724,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-imgicon"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/imgicon.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-imgicon"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/imgicon.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -764,7 +744,7 @@
 								</div>
 							</div>
 							
-							<!-- 11 -->
+							<!-- 14 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-fonticon"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -786,7 +766,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-fonticon"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/fonticon.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-fonticon"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/fonticon.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -804,7 +786,7 @@
 								</div>
 							</div>
 							
-							<!-- 16 -->
+							<!-- 15 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-wallpaper"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -826,7 +808,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-wallpaper"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/wallpaper.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-wallpaper"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/wallpaper.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
@@ -844,7 +828,7 @@
 								</div>
 							</div>
 							
-							<!-- 17 -->
+							<!-- 16 -->
 							<hr class="invisible mt-4 mb-2" id="graphic-service-ecalender"/>
 							<div class="col-lg-12 isotope-item mt-4 brands">
 								<div class="row">
@@ -866,7 +850,9 @@
 										<div class="portfolio-info">
 											<div class="row">
 												<div class="col-md-9">
-													<h4 class="heading-primary"><spring:message code="graphic-service-ecalender"/></h4>	
+													<h4 class="heading-primary">
+														<a href="${webapp_name}/graphic/service/ecalender.html?lang=${loc}" target="_blank">
+														<spring:message code="graphic-service-ecalender"/></a></h4>	
 												</div>
 												<div class="col-md-3 text-center text-md-right">
 													<a href="${webapp_name}/graphic/service/ecalender.html?lang=${loc}" class="btn btn-primary btn-xs"><spring:message code="graphic-service-btn-view_detail"/></a>
