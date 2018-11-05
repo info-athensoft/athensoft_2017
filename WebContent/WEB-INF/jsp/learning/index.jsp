@@ -51,7 +51,7 @@
 
 <c:set var="url_java" value="/learning/ceit1101"/>
 <c:set var="url_python" value="/learning/ceit4101"/>
-<c:set var="url_ml" value="#"/>
+<c:set var="url_ml" value="/learning/ceds1101"/>
 <c:set var="url_mobile" value="#"/>
 <c:set var="url_web" value="#"/>
 <c:set var="url_db" value="#"/>
@@ -93,15 +93,25 @@
 <c:set var="featured_course_pic_3" value="coten.jpg"/>
 <c:set var="featured_course_url_3" value="/learning/ceca4001"/>
 
-<c:set var="featured_course_4" value="STEM 1311"/>
-<c:set var="featured_course_name_4"><spring:message code='stem-1311-course-name'/></c:set>
-<c:set var="featured_course_pic_4" value="it-elite.jpg"/>
-<c:set var="featured_course_url_4" value="/learning/stem1311"/>
+<c:set var="featured_course_5" value="STEM 1311"/>
+<c:set var="featured_course_name_5"><spring:message code='stem-1311-course-name'/></c:set>
+<c:set var="featured_course_pic_5" value="it-elite.jpg"/>
+<c:set var="featured_course_url_5" value="/learning/stem1311"/>
+
+<c:set var="featured_course_4" value="CEDS 1101"/>
+<c:set var="featured_course_name_4"><spring:message code='ceds-1101-course-name'/></c:set>
+<c:set var="featured_course_pic_4" value="ml2.jpg"/>
+<c:set var="featured_course_url_4" value="/learning/ceds1101"/>
 
 <c:set var="case_pic_1" value="sample1.jpg"/>
 <c:set var="case_pic_2" value="sample2.jpg"/>
 <c:set var="case_pic_3" value="sample3.jpg"/>
 <c:set var="case_pic_4" value="sample4.jpg"/>
+
+<c:set var="case_pic_5" value="ml-01.jpg"/>
+<c:set var="case_pic_6" value="ml-06.jpg"/>
+<c:set var="case_pic_7" value="ml-09.jpg"/>
+<c:set var="case_pic_8" value="ml-10.jpg"/>
 
 
 <!-- END page variables -->
@@ -229,11 +239,11 @@
 							<p><spring:message code="learning-center-content-2"/> &nbsp; <a href="#section-vocational"><spring:message code="learning-center-btn-view"/></a></p>
 							<p><spring:message code="learning-center-content-3"/> &nbsp; <a href="#section-young"><spring:message code="learning-center-btn-view"/></a></p>
 							
-							<p><b>关注我们</b></p>
-							<a href="https://www.facebook.com/inf.athensoft/" target="_blank" class="btn btn-primary btn-sm">官方 Facebook</a>
-							<a href="https://twitter.com/athensoft" target="_blank" class="btn btn-primary btn-sm">官方 Twitter</a> 
-							<a href="https://www.meetup.com/sitem-ai/" target="_blank" class="btn btn-primary btn-sm">人工智能 Meetup</a>
-							<a href="https://www.meetup.com/mtldev/" target="_blank" class="btn btn-primary btn-sm">软件研发 Meetup</a>
+							<p><b>Follow us</b></p>
+							<a href="https://www.facebook.com/inf.athensoft/" target="_blank" class="btn btn-primary btn-sm">Facebook</a>
+							<a href="https://twitter.com/athensoft" target="_blank" class="btn btn-primary btn-sm">Twitter</a> 
+							<a href="https://www.meetup.com/sitem-ai/" target="_blank" class="btn btn-primary btn-sm">SITEM AI/ML Meetup</a>
+							<a href="https://www.meetup.com/mtldev/" target="_blank" class="btn btn-primary btn-sm">SITEM Developers Meetup</a>
 							 
 						</div>
 					</div>
@@ -302,7 +312,7 @@
 										<a href="${webapp_name}${featured_course_url_4}?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
-													<img src="${img_dir}${img_dir_2}/${featured_course_pic_4}" class="img-fluid" alt="">
+													<img src="${img_dir}${img_dir_1}/${featured_course_pic_4}" class="img-fluid" alt="">
 													<span class="thumb-info-action">
 														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
 													</span>
@@ -406,6 +416,57 @@
 									</div>
 								</li>
 								
+								<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_5}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_6}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_7}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_8}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
 								
 							
 							</ul>

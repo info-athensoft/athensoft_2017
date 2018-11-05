@@ -12,8 +12,9 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="/images"></c:set>
-<c:set var="pageName" value="stem1311"></c:set>
-<c:set var="googleFormURL" value="https://goo.gl/forms/rzj4YXyffMrAVhdq1"></c:set>
+<c:set var="img_dir_case" value="/learning/case"/>
+<c:set var="pageName" value="ceds1101"></c:set>
+<c:set var="googleFormURL" value="https://goo.gl/forms/BxSPKU02OPowaJAW2"></c:set>
 <!-- END page variables -->
 
 <!-- i18n -->
@@ -33,7 +34,20 @@
 
 
 <!-- current course -->
-<c:set var="course_code" value="STEM 1311"/>
+<c:set var="course_code" value="CEDS 1101"/>
+<c:set var="course_pic" value="ceds1101-ml-1.jpg"/>
+
+
+<!-- class pic -->
+<c:set var="case_pic_1" value="ml-01.jpg"/>
+<c:set var="case_pic_2" value="ml-06.jpg"/>
+<c:set var="case_pic_3" value="ml-09.jpg"/>
+<c:set var="case_pic_4" value="ml-10.jpg"/>
+<c:set var="case_pic_5" value="ml-12.jpg"/>
+<c:set var="case_pic_6" value="ml-13.jpg"/>
+<c:set var="case_pic_7" value="ml-14.jpg"/>
+<c:set var="case_pic_8" value="ml-cert-1.png"/>
+
 
 <!DOCTYPE html>
 <html>
@@ -138,16 +152,17 @@
 						<div class="col-lg-4 order-2 order-lg-1">
 							<aside class="sidebar">
 								
-								<h4 class="heading-primary">扫码报名</h4>
+								<img src="${img_dir}${module_name}/ceds1101/${course_pic}" alt="ceds 1101 ml"/>
+								<hr class="tall"/>
 								
-								STEM 1311: <spring:message code="stem-1311-course-name"/><br/>
-								<img src="${img_dir}${module_name}/stem1311/stem-1311-python-googleform.png" alt="google form registration" width="40%"/>
+								<h4 class="heading-primary">Scan and Register</h4>
+								${course_code}: <spring:message code="ceds-1101-course-name"/><br/>
+								<img src="${img_dir}${module_name}/ceds1101/ceds-1101-ml-googleform.png" alt="google form registration" width="40%"/>
 								<br/>
 								<a class="btn btn-success btn-sm mb-2" href="#reg-info"><spring:message code="learning-center-btn-chooseclass"/></a>
-								
 								<hr class="short"/>
 								
-								<h4 class="heading-primary">热门课程</h4>
+								<h4 class="heading-primary">Featured Courses</h4>
 								<a href="/learning/ceit1101?lang=${loc}">CEIT 1101:&nbsp;&nbsp;<spring:message code="ceit-1101-course-name"/></a><br/>
 								<a href="/learning/ceit4101?lang=${loc}">CEIT 4101:&nbsp;&nbsp;<spring:message code="ceit-4101-course-name"/></a><br/>
 								<a href="/learning/ceca4001?lang=${loc}">CECA 4001:&nbsp;&nbsp;<spring:message code="ceca-4001-course-name"/></a><br/>
@@ -156,7 +171,7 @@
 								
 								
 								<hr class="short"/>
-								<h4 class="heading-primary">热门方向</h4>
+								<h4 class="heading-primary">Featured Programs</h4>
 								<a href="/learning/ceit-p01?lang=${loc}">CEIT P01:&nbsp;&nbsp;<spring:message code="ceit-p01-program-name"/></a><br/>
 								<a href="/learning/ceit-p41?lang=${loc}">CEIT P41:&nbsp;&nbsp;<spring:message code="ceit-p41-program-name"/></a><br/>
 								<!-- 
@@ -166,7 +181,7 @@
 								
 								
 								<hr class="invisible mt-1 mb-1"/>
-								<a class="btn btn-primary btn-sm mb-2" href="/learning?lang=${loc}" target="_blank">查看所有课程</a><br/>
+								<a class="btn btn-primary btn-sm mb-2" href="/learning?lang=${loc}" target="_blank">View All Courses</a><br/>
 								
 								<hr class="tall"/>
 								<a class="twitter-timeline" 
@@ -183,20 +198,21 @@
 						<div class="col-lg-8 order-1 order-lg-2">
 						
 							<!-- overview -->
-							<h3><spring:message code="stem-1311-course-name"/></h3>
+							<h3><spring:message code="ceds-1101-course-name"/></h3>
 							<h4><spring:message code="course-code-title"/>${course_code}&nbsp;&nbsp;&nbsp;
 							<a class="btn btn-success btn-sm mb-2" href="#reg-info">
 								<spring:message code="learning-center-btn-chooseclass"/>
 							</a>
 							<a class="btn btn-primary btn-sm mb-2" href="${googleFormURL}" target="_blank">
-							<spring:message code="learning-center-btn-register"/></a></h4>
+								<spring:message code="learning-center-btn-register"/>
+							</a></h4>
 							<div class="row">
 								<div class="col">
-									<p><spring:message code="stem-1311-course-desc-content-1"/></p>
-									<p><spring:message code="stem-1311-course-desc-content-2"/></p>
-									<p><spring:message code="stem-1311-course-desc-content-3"/></p>
-									<p><spring:message code="stem-1311-course-desc-content-4"/></p>
-									<p><spring:message code="stem-1311-course-desc-content-5"/></p>
+									<p><spring:message code="ceds-1101-course-desc-content-1"/></p>
+									<p><spring:message code="ceds-1101-course-desc-content-2"/></p>
+									<p><spring:message code="ceds-1101-course-desc-content-3"/></p>
+									<p><spring:message code="ceds-1101-course-desc-content-4"/></p>
+									<p><spring:message code="ceds-1101-course-desc-content-5"/></p>
 								</div>
 							</div>
 							
@@ -210,32 +226,32 @@
 								</div>
 							</div>
 
-							<hr class="tall">
+							<hr class="short">
 							
 							<!-- your take-away -->
-							<h3><spring:message code="stem-1311-takeaway-title"/></h3>
+							<h3><spring:message code="course-takeaway-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="stem-1311-takeaway-header-c"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-c"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="stem-1311-takeaway-c1"/></li>
-										<li><spring:message code="stem-1311-takeaway-c2"/></li>
-										<li><spring:message code="stem-1311-takeaway-c3"/></li>
-										<li><spring:message code="stem-1311-takeaway-c4"/></li>
-										<li><spring:message code="stem-1311-takeaway-c5"/></li>
-										<li><spring:message code="stem-1311-takeaway-c6"/></li>
-										<li><spring:message code="stem-1311-takeaway-c7"/></li>
+										<li><spring:message code="ceds-1101-takeaway-c1"/></li>
+										<li><spring:message code="ceds-1101-takeaway-c2"/></li>
+										<li><spring:message code="ceds-1101-takeaway-c3"/></li>
+										<li><spring:message code="ceds-1101-takeaway-c4"/></li>
+										<li><spring:message code="ceds-1101-takeaway-c5"/></li>
+										<li><spring:message code="ceds-1101-takeaway-c6"/></li>
+										<!-- <li><spring:message code="ceds-1101-takeaway-c7"/></li> -->
 									</ol>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="stem-1311-takeaway-header-g"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-g"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="stem-1311-takeaway-g1"/></li>
-										<li><spring:message code="stem-1311-takeaway-g2"/></li>
-										<li><spring:message code="stem-1311-takeaway-g3"/></li>
-										<li><spring:message code="stem-1311-takeaway-g4"/></li>
+										<li><spring:message code="ceds-1101-takeaway-g1"/></li>
+										<li><spring:message code="ceds-1101-takeaway-g2"/></li>
+										<li><spring:message code="ceds-1101-takeaway-g3"/></li>
+										<li><spring:message code="ceds-1101-takeaway-g4"/></li>
 									</ol>
 								</div>
 							</div>
@@ -243,18 +259,18 @@
 							<hr class="short">
 							
 							<!-- our approach -->
-							<h3><spring:message code="stem-1311-approach-title"/></h3>
+							<h3><spring:message code="course-approach-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="stem-1311-approach-1"/></li>
-										<li><spring:message code="stem-1311-approach-2"/></li>
-										<li><spring:message code="stem-1311-approach-3"/></li>
-										<li><spring:message code="stem-1311-approach-4"/></li>
-										<li><spring:message code="stem-1311-approach-5"/></li>
-										<li><spring:message code="stem-1311-approach-6"/></li>
-										<li><spring:message code="stem-1311-approach-7"/></li>
-										<li><spring:message code="stem-1311-approach-8"/></li>
+										<li><spring:message code="ceds-1101-approach-1"/></li>
+										<li><spring:message code="ceds-1101-approach-2"/></li>
+										<li><spring:message code="ceds-1101-approach-3"/></li>
+										<li><spring:message code="ceds-1101-approach-4"/></li>
+										<li><spring:message code="ceds-1101-approach-5"/></li>
+										<li><spring:message code="ceds-1101-approach-6"/></li>
+										<li><spring:message code="ceds-1101-approach-7"/></li>
+										<li><spring:message code="ceds-1101-approach-8"/></li>
 									</ol>
 								</div>
 							</div>
@@ -262,22 +278,22 @@
 							<hr class="short">
 							
 							<!-- audience -->
-							<h3><spring:message code="stem-1311-audience-title"/></h3>
+							<h3><spring:message code="course-audience-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
-										<li><spring:message code="stem-1311-audience-1"/></li>
-										<li><spring:message code="stem-1311-audience-2"/></li>
-										<li><spring:message code="stem-1311-audience-3"/></li>
-										<li><spring:message code="stem-1311-audience-4"/></li>
-										<li><spring:message code="stem-1311-audience-5"/></li>
-										<li><spring:message code="stem-1311-audience-6"/></li>
-										<li><spring:message code="stem-1311-audience-7"/></li>
+										<li><spring:message code="ceds-1101-audience-1"/></li>
+										<li><spring:message code="ceds-1101-audience-2"/></li>
+										<li><spring:message code="ceds-1101-audience-3"/></li>
+										<li><spring:message code="ceds-1101-audience-4"/></li>
+										<li><spring:message code="ceds-1101-audience-5"/></li>
+										<!-- <li><spring:message code="ceds-1101-audience-6"/></li>
+										<li><spring:message code="ceds-1101-audience-7"/></li>  -->
 									</ol>
 								</div>
 							</div>
 							
-							<hr class="short">
+							<hr class="tall">
 							
 							<!-- audience -->
 							<h3><spring:message code="course-prereq-title"/></h3>
@@ -290,141 +306,181 @@
 							<hr class="tall" id="reg-info"> 
 							
 							<!-- course list -->
-							<h3>报名信息</h3>
-							<h4>晚班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
+							<h3>Course information</h3>
+							<h4>Regular Class - Schedule&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
 									<table class="table table-striped table-sm">
 										<tr>
-											<th>开班日期</th>
-											<th>班级编号</th>
-											<th>上课时间</th>
-											<th>每周次数</th>
-											<th>总周数</th>
+											<th>Starting Date</th>
+											<th>Class No.</th>
+											<th>Time</th>
+											<th>Sessions per week</th>
+											<th>Total Session</th>
 											<th></th>
 											
 										</tr>
 										
 										<tr>
-											<td>2018-10-15</td>
-											<th>1311-1842-1C1</th>
-											<td>18:00 - 20:00 (Mo)</td>
+											<td>2018-11-17</td>
+											<th>1101-1846-6A1</th>
+											<td>10:00 - 12:30 (Sa)</td>
 											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-16</td>
-											<th>1311-1842-2C1</th>
-											<td>18:00 - 20:00 (Tu)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-17</td>
-											<th>1311-1842-3C1</th>
-											<td>18:00 - 20:00 (We)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-18</td>
-											<th>1311-1842-4C1</th>
-											<td>18:00 - 20:00 (Th)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-19</td>
-											<th>1311-1842-5C1</th>
-											<td>18:00 - 20:00 (Fr)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-									</table>
-								</div>
-							</div>
-							<div>
-								<h5><spring:message code="course-info-hint-1"/></h5>
-							</div>
-							
-							<h4>周末班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
-							<div class="row">
-								<div class="col">
-									<table class="table table-striped table-sm">
-										<tr>
-											<th>开班日期</th>
-											<th>班级编号</th>
-											<th>上课时间</th>
-											<th>每周次数</th>
-											<th>总周数</th>
-											<th></th>
-										</tr>
-										
-										<!-- day 1 -->
-										<tr>
-											<td>2018-10-13</td>
-											<th>1311-1841-6C1</th>
-											<td>18:00 - 20:00 (Sa)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										
-										<!-- day 2 -->
-										<tr>
-											<td>2018-10-20</td>
-											<th>1311-1842-6C1</th>
-											<td>18:00 - 20:00 (Sa)</td>
-											<td>1</td>
-											<td>8</td>
+											<td>6</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										
 									</table>
 								</div>
 							</div>
+							<!-- 
 							<div>
 								<h5><spring:message code="course-info-hint-1"/></h5>
-							</div>
+							</div> -->
 							
-							<h4>学费</h4>
 							<div class="row">
 								<div class="col">
-									16 hours, C$399 + tx (Before Oct. 16, Save 100, 16.7% Off)<br/>
-                               		16 hours, C$480 + tx (Regular Price)
+									<h4 class="mt-5 mb-0 text-uppercase"><strong><spring:message code="learning-class-pic"/></strong></h4>
+									<p></p>
+										
+									<ul class="row portfolio-list">
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_1}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_2}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_3}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_4}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_5}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_6}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_7}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+										
+										<li class="col-12 col-sm-6 col-lg-3">
+											<div class="portfolio-item">
+												<span class="thumb-info thumb-info-lighten">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}${img_dir_case}/${case_pic_8}" class="img-fluid" alt="">
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							<hr class="invisible mt-1 mb-2">
+							
+							<h4>Admission Fee</h4>
+							<div class="row">
+								<div class="col">
+									15 hours, 2.5 hours/session, 6 sessions, CAD$375 (Regular Price)<br/>
 								</div>
 							</div>
 							
 							<br/>
 							
-							<h4>地址</h4>
+							<h4>Location</h4>
 							<div class="row">
 								<div class="col">
-									<h5> 1. McGill 校区  </h5>
-									2001 Blvd. Robert Bourassa Suite 1700 <br/>
-                               Montreal Quebec  H3A 2A6 <br/>
-                               Near McGill University, right beside the entrance(McGill) of Metro Station of McGill <br/>
+									<h5> 1. NDG Classroom  </h5>
+									6380 Rue Sherbrooke. Ouest <br/>
+                               Montreal Quebec  H4B 1N1 <br/>
+                               CJE-NDG Events and Workshop Room <br/>
                                <br/>
-									<h5> 2. Concordia 校区</h5>
-									1441A Rue. Saint Mathieu <br/>
-                               Montreal Quebec  H3H 2M4 <br/>
-                               Near Concordia University, close to the entrance(St. Mathieu) of Metro Station of Guy Concordia <br/>
+									
 								</div>
 							</div>
 							<br/>
 							
-							<h4>报名咨询方式</h4>
+							<h4>Contact us</h4>
 							<div class="row">
 								<div class="col">
-									1. 电话：514-746-9188 <br/>
-									2. 微信: Athens314 <br/>
-									3. 微信: j03280314 <br/>
-									4. 邮件：learning@athenosft.com
+									1. Tel：514-746-9188 (Text message only)<br/>
+									2. Wechat: Athens314 <br/>
+									3. Email：learning@athensoft.com
 								</div>
 							</div>
 							<!-- testimonial -->

@@ -205,7 +205,7 @@
 							</div>
 							
 							<!-- 
-							<h4><spring:message code="ceit-program-title"/></h4>
+							<h4><spring:message code="program-title"/></h4>
 							<div class="row">
 								<div class="col">
 									<a class="btn btn-dark btn-sm mb-2" href="${url_program_javadeveloper}?lang=${loc}" target="_blank"><spring:message code="ceit-p01-program-name"/></a>

@@ -200,7 +200,7 @@
 								</div>
 							</div>
 							
-							<h4><spring:message code="ceit-program-title"/></h4>
+							<h4><spring:message code="program-title"/></h4>
 							<div class="row">
 								<div class="col">
 									<a class="btn btn-dark btn-sm mb-2" href="${url_program_javadeveloper}?lang=${loc}" target="_blank"><spring:message code="ceit-p01-program-name"/></a>
@@ -213,10 +213,10 @@
 							<hr class="tall">
 							
 							<!-- your take-away -->
-							<h3><spring:message code="ceit-1101-takeaway-title"/></h3>
+							<h3><spring:message code="course-takeaway-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceit-1101-takeaway-header-c"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-c"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
 										<li><spring:message code="ceit-1101-takeaway-c1"/></li>
 										<li><spring:message code="ceit-1101-takeaway-c2"/></li>
@@ -230,7 +230,7 @@
 							</div>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceit-1101-takeaway-header-g"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-g"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
 										<li><spring:message code="ceit-1101-takeaway-g1"/></li>
 										<li><spring:message code="ceit-1101-takeaway-g2"/></li>
@@ -243,7 +243,7 @@
 							<hr class="short">
 							
 							<!-- our approach -->
-							<h3><spring:message code="ceit-1101-approach-title"/></h3>
+							<h3><spring:message code="course-approach-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
@@ -262,7 +262,7 @@
 							<hr class="short">
 							
 							<!-- audience -->
-							<h3><spring:message code="ceit-1101-audience-title"/></h3>
+							<h3><spring:message code="course-audience-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
