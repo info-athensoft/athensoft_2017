@@ -180,8 +180,8 @@
 								<div class="col">
 									<table class="table table-striped">
 										<tr>
-											<th><spring:message code="ceit-program-name-title"/></th>
-											<th><spring:message code="ceit-program-code-title"/></th>
+											<th><spring:message code="program-name-title"/></th>
+											<th><spring:message code="program-code-title"/></th>
 											<th></th>
 										</tr>
 										<tr>
@@ -192,7 +192,7 @@
 										<tr>
 											<td>CEIT 1102</td>
 											<td>Programming with Java for Intermediate (JavaSE Core II)</td>
-											<td><a class="btn btn-dark btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-coming"/></a></td>
+											<td><a class="btn btn-secondary btn-sm mb-2" href="#" target="_blank"><spring:message code="learning-center-btn-register"/></a></td>
 										</tr>
 										<tr>
 											<td>CEIT 1111</td>
@@ -267,7 +267,7 @@
 							<hr class="short">
 							
 							<!-- our approach -->
-							<h3><spring:message code="ceit-1101-approach-title"/></h3>
+							<h3><spring:message code="course-approach-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">

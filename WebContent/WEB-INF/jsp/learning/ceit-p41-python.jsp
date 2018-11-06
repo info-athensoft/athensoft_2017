@@ -186,8 +186,8 @@
 								<div class="col">
 									<table class="table table-striped">
 										<tr>
-											<th><spring:message code="ceit-program-name-title"/></th>
-											<th><spring:message code="ceit-program-code-title"/></th>
+											<th><spring:message code="program-name-title"/></th>
+											<th><spring:message code="program-code-title"/></th>
 											<th></th>
 										</tr>
 										<tr>

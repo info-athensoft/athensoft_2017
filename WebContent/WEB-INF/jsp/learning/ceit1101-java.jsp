@@ -32,7 +32,13 @@
 
 <!-- current course -->
 <c:set var="course_code" value="CEIT 1101"/>
+<c:set var="course_pic" value="ceit1101-java-1.jpg"/>
 
+<c:set var="img_dir_case" value="/learning/case"/>
+<c:set var="case_pic_1" value="sample1.jpg"/>
+<c:set var="case_pic_2" value="sample2.jpg"/>
+<c:set var="case_pic_3" value="sample3.jpg"/>
+<c:set var="case_pic_4" value="sample4.jpg"/>
 
 <!DOCTYPE html>
 <html>
@@ -137,15 +143,18 @@
 						<div class="col-lg-4 order-2 order-lg-1">
 							<aside class="sidebar">
 								
-								<h4 class="heading-primary">扫码报名</h4>
+								<img src="${img_dir}${module_name}/ceit1101/${course_pic}" alt="ceds 1101 ml"/>
+								<hr class="tall"/>
 								
-								CEIT 1101: <spring:message code="ceit-1101-course-name"/><br/>
+								<h4 class="heading-primary"><spring:message code="sidebar-scanqr-title"/></h4>
+								
+								${course_code}: <spring:message code="ceit-1101-course-name"/><br/>
 								<img src="${img_dir}${module_name}/ceit1101/ceit-1101-java-googleform.png" alt="google form registration" width="40%"/>
 								<br/>
 								<a class="btn btn-success btn-sm mb-2" href="#reg-info"><spring:message code="learning-center-btn-chooseclass"/></a>
 								<hr class="short"/>
 								
-								<h4 class="heading-primary">热门课程</h4>
+								<h4 class="heading-primary"><spring:message code="sidebar-featured-course-title"/></h4>
 								<a href="/learning/ceit1101?lang=${loc}">CEIT 1101:&nbsp;&nbsp;<spring:message code="ceit-1101-course-name"/></a><br/>
 								<a href="/learning/ceit4101?lang=${loc}">CEIT 4101:&nbsp;&nbsp;<spring:message code="ceit-4101-course-name"/></a><br/>
 								<a href="/learning/ceca4001?lang=${loc}">CECA 4001:&nbsp;&nbsp;<spring:message code="ceca-4001-course-name"/></a><br/>
@@ -154,7 +163,7 @@
 								
 								
 								<hr class="short"/>
-								<h4 class="heading-primary">热门方向</h4>
+								<h4 class="heading-primary"><spring:message code="sidebar-featured-program-title"/></h4>
 								<a href="/learning/ceit-p01?lang=${loc}">CEIT P01:&nbsp;&nbsp;<spring:message code="ceit-p01-program-name"/></a><br/>
 								<a href="/learning/ceit-p41?lang=${loc}">CEIT P41:&nbsp;&nbsp;<spring:message code="ceit-p41-program-name"/></a><br/>
 								<!-- 
@@ -164,7 +173,7 @@
 								
 								
 								<hr class="invisible mt-1 mb-1"/>
-								<a class="btn btn-primary btn-sm mb-2" href="/learning?lang=${loc}" target="_blank">查看所有课程</a><br/>
+								<a class="btn btn-primary btn-sm mb-2" href="/learning?lang=${loc}" target="_blank"><spring:message code="sidebar-btn-viewallcourse"/></a><br/>
 								
 								<hr class="tall"/>
 								<a class="twitter-timeline" 
@@ -290,53 +299,54 @@
 							<hr class="tall" id="reg-info"> 
 							
 							<!-- course list -->
-							<h3>报名信息</h3>
-							<h4>火箭班 - 开班时间表 &nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
+							<h3><spring:message code="course-reginfo-title"/></h3>
+							<h4>Rocket Class - Schedule&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
 									<table class="table table-striped table-sm">
 										<tr>
-											<th>开班日期</th>
-											<th>班级编号</th>
-											<th>上课时间</th>
-											<th>每周次数</th>
-											<th>总周数</th>
-											<th>当前状态</th>
-											
+											<th>Starting Date</th>
+											<th>Class No.</th>
+											<th>Time</th>
+											<th>Sessions per week</th>
+											<th>Total Weeks</th>
+											<th>Status</th>
 										</tr>
 										 
 										<tr>
-											<td>2018-10-09</td>
-											<th>1101-1841-2A2</th>
-											<td>10:00 - 12:30 (Tu Th)</td>
-											<td>2</td>
-											<td>4</td>
-											<td><a class="btn btn-primary btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-full"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-15</td>
-											<th>1101-1842-1A2</th>
-											<td>10:00 - 12:30 (Mo We)</td>
+											<td>2018-11-12</td>
+											<th>1101-1847-1A2</th>
+											<td>10:00 - 12:30 (Mo Th)</td>
 											<td>2</td>
 											<td>4</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
-											<td>2018-10-15</td>
-											<th>1101-1842-1B2</th>
-											<td>14:00 - 16:30 (Mo We)</td>
+											<td>2018-11-12</td>
+											<th>1101-1847-1B2</th>
+											<td>14:00 - 16:30 (Mo Th)</td>
+											<td>2</td>
+											<td>4</td>
+											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
+										</tr>
+										
+										<tr>
+											<td>2018-11-13</td>
+											<th>1101-1847-2A2</th>
+											<td>10:00 - 12:30 (Mo Th)</td>
 											<td>2</td>
 											<td>4</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
 										<tr>
-											<td>2018-10-16</td>
-											<th>1101-1842-2B2</th>
-											<td>14:00 - 16:30 (Tu Th)</td>
+											<td>2018-11-13</td>
+											<th>1101-1847-2B2</th>
+											<td>14:00 - 16:30 (Mo Th)</td>
 											<td>2</td>
 											<td>4</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
+										
 									</table>
 								</div>
 							</div>
@@ -344,8 +354,80 @@
 								<h5><spring:message code="course-info-hint-1"/></h5>
 							</div>
 							
+							<div class="row" id="">
+						<div class="col">
+							<hr class="solid">
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col">
+							<h4 class="mt-5 mb-0 text-uppercase"><strong><spring:message code="learning-class-pic"/></strong></h4>
+							<p></p>
+								
+							<ul class="row portfolio-list">
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten">
+											<span class="thumb-info-wrapper">
+												<img src="${img_dir}${img_dir_case}/${case_pic_1}" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</div>
+								</li>
+								
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten">
+											<span class="thumb-info-wrapper">
+												<img src="${img_dir}${img_dir_case}/${case_pic_2}" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</div>
+								</li>
+								
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten">
+											<span class="thumb-info-wrapper">
+												<img src="${img_dir}${img_dir_case}/${case_pic_3}" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</div>
+								</li>
+								
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<span class="thumb-info thumb-info-lighten">
+											<span class="thumb-info-wrapper">
+												<img src="${img_dir}${img_dir_case}/${case_pic_4}" class="img-fluid" alt="">
+												<span class="thumb-info-action">
+													<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+												</span>
+											</span>
+										</span>
+									</div>
+								</li>
+								
+								
+									</ul>
+								</div>
+							</div>
+							
+							
+							
 							<hr class="invisible mt-1">
 							
+							<!-- 
 							<h4>常规白天班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
@@ -367,21 +449,14 @@
 											<td>8</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
-										<tr>
-											<td>2018-10-19</td>
-											<th>1101-1842-5B1</th>
-											<td>14:00 - 16:30 (Fr)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
 									</table>
 								</div>
 							</div>
 							<div>
 								<h5><spring:message code="course-info-hint-1"/></h5>
-							</div>
+							</div>  -->
 							
+							<!-- 
 							<hr class="invisible mt-1">
 							<h4>常规晚班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
@@ -403,22 +478,6 @@
 											<td>8</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
-										<tr>
-											<td>2018-10-12</td>
-											<th>1101-1842-2C1</th>
-											<td>18:00 - 20:00 (Tu)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-12</td>
-											<th>1101-1842-3C1</th>
-											<td>18:00 - 20:00 (We)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
 										
 									</table>
 								</div>
@@ -426,45 +485,45 @@
 							<div>
 								<h5><spring:message code="course-info-hint-1"/></h5>
 							</div>
+							 -->
 							
 							<hr class="invisible mt-2"/>
 							
-							<h4>学费</h4>
+							<h4><spring:message code="course-admissionfee-title"/></h4>
 							<div class="row">
 								<div class="col">
-									(Rocket Class and Daytime Class) 20 hours, 2.5hours/session, 8 sessions, C$499 + tx (Before Oct. 16, Save 100, 16.7% Off)<br/>
-									(Regular Evening Class) 16 hours, 2.0hours/session, 8 sessions, C$399 + tx (Before Oct. 16, Save 100, 20.0% Off)<br/>
+									(Rocket Class) 20 hours, 2.5hours/session, 8 sessions, 2sessions/week, C$499 + tx <br/>
 									<br/>
-                               		(Rocket Class and Daytime Class) 20 hours, 2.5hours/session, 8 sessions, C$599 + tx (Regular Price)<br/>
-                               		(Regular Evening Class) 16 hours, 2.0hours/session, 8 sessions, C$499 + tx (Regular Price)<br/>
+                               		(Daytime Class) 20 hours, 2.5hours/session, 8 sessions, 1 session/week, C$499 + tx <br/>
 								</div>
 							</div>
 							
 							<br/>
 							
-							<h4>地址</h4>
+							<h4><spring:message code="course-address-title"/></h4>
 							<div class="row">
 								<div class="col">
-									<h5> 1. McGill 校区  </h5>
+									<h5> 1. McGill Area  </h5>
 									2001 Blvd. Robert Bourassa Suite 1700 <br/>
                                Montreal Quebec  H3A 2A6 <br/>
                                Near McGill University, right beside the entrance(McGill) of Metro Station of McGill <br/>
                                <br/>
+                               <!-- 
 									<h5> 2. Concordia 校区</h5>
 									1441A Rue. Saint Mathieu <br/>
                                Montreal Quebec  H3H 2M4 <br/>
-                               Near Concordia University, close to the entrance(St. Mathieu) of Metro Station of Guy Concordia <br/>
-								</div>
+                               Near Concordia University, close to the entrance(St. Mathieu) of Metro Station of Guy Concordia <br/>-->
+								</div> 
 							</div>
 							<br/>
 							
-							<h4>报名咨询方式</h4>
+							<h4><spring:message code="course-inquiry-title"/></h4>
 							<div class="row">
 								<div class="col">
-									1. 电话：514-746-9188 <br/>
-									2. 微信: Athens314 <br/>
-									3. 微信: j03280314 <br/>
-									4. 邮件：learning@athenosft.com
+									1. Tel：514-746-9188 (Text message only)<br/>
+									2. Wechat: Athens314 <br/>
+									3. Wechat: j03280314 <br/>
+									4. Email：learning@athenosft.com
 								</div>
 							</div>
 							

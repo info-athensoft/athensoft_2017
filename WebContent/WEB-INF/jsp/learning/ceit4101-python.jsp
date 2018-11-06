@@ -138,7 +138,7 @@
 						<div class="col-lg-4 order-2 order-lg-1">
 							<aside class="sidebar">
 								
-								<h4 class="heading-primary">扫码报名</h4>
+								<h4 class="heading-primary"><spring:message code="sidebar-scanqr-title"/></h4>
 								
 								CEIT 4101: <spring:message code="ceit-4101-course-name"/><br/>
 								<img src="${img_dir}${module_name}/ceit4101/ceit-4101-python-googleform.png" alt="google form registration" width="40%"/>
@@ -146,7 +146,7 @@
 								<a class="btn btn-success btn-sm mb-2" href="#reg-info"><spring:message code="learning-center-btn-chooseclass"/></a>
 								<hr class="short"/>
 								
-								<h4 class="heading-primary">热门课程</h4>
+								<h4 class="heading-primary"><spring:message code="sidebar-featured-course-title"/></h4>
 								<a href="/learning/ceit1101?lang=${loc}">CEIT 1101:&nbsp;&nbsp;<spring:message code="ceit-1101-course-name"/></a><br/>
 								<a href="/learning/ceit4101?lang=${loc}">CEIT 4101:&nbsp;&nbsp;<spring:message code="ceit-4101-course-name"/></a><br/>
 								<a href="/learning/ceca4001?lang=${loc}">CECA 4001:&nbsp;&nbsp;<spring:message code="ceca-4001-course-name"/></a><br/>
@@ -155,7 +155,7 @@
 								
 								
 								<hr class="short"/>
-								<h4 class="heading-primary">热门方向</h4>
+								<h4 class="heading-primary"><spring:message code="sidebar-featured-program-title"/></h4>
 								<a href="/learning/ceit-p01?lang=${loc}">CEIT P01:&nbsp;&nbsp;<spring:message code="ceit-p01-program-name"/></a><br/>
 								<a href="/learning/ceit-p41?lang=${loc}">CEIT P41:&nbsp;&nbsp;<spring:message code="ceit-p41-program-name"/></a><br/>
 								<!-- 
@@ -165,7 +165,7 @@
 								
 								
 								<hr class="invisible mt-1 mb-1"/>
-								<a class="btn btn-primary btn-sm mb-2" href="/learning?lang=${loc}" target="_blank">查看所有课程</a><br/>
+								<a class="btn btn-primary btn-sm mb-2" href="/learning?lang=${loc}" target="_blank"><spring:message code="sidebar-btn-viewallcourse"/></a><br/>
 								
 								<hr class="tall"/>
 								<a class="twitter-timeline" 
@@ -213,10 +213,10 @@
 							<hr class="short">
 							
 							<!-- your take-away -->
-							<h3><spring:message code="ceit-4101-takeaway-title"/></h3>
+							<h3><spring:message code="course-takeaway-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceit-4101-takeaway-header-c"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-c"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
 										<li><spring:message code="ceit-4101-takeaway-c1"/></li>
 										<li><spring:message code="ceit-4101-takeaway-c2"/></li>
@@ -230,7 +230,7 @@
 							</div>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceit-4101-takeaway-header-g"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-g"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
 										<li><spring:message code="ceit-4101-takeaway-g1"/></li>
 										<li><spring:message code="ceit-4101-takeaway-g2"/></li>
@@ -243,7 +243,7 @@
 							<hr class="short">
 							
 							<!-- our approach -->
-							<h3><spring:message code="ceit-4101-approach-title"/></h3>
+							<h3><spring:message code="course-approach-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
@@ -262,7 +262,7 @@
 							<hr class="short">
 							
 							<!-- audience -->
-							<h3><spring:message code="ceit-4101-audience-title"/></h3>
+							<h3><spring:message code="course-audience-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
@@ -290,8 +290,8 @@
 							<hr class="tall" id="reg-info"> 
 							
 							<!-- course list -->
-							<h3>报名信息</h3>
-							<h4>火箭班 - 开班时间表&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
+							<h3><spring:message code="course-reginfo-title"/></h3>
+							<h4>Rocket Class - Schedule&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary btn-xs mb-2" href="${googleFormURL}" target="_blank"><spring:message code="learning-center-btn-register"/></a></h4>
 							<div class="row">
 								<div class="col">
 									<table class="table table-striped table-sm">
@@ -367,92 +367,7 @@
 											<td>8</td>
 											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
 										</tr>
-										<tr>
-											<td>2018-10-09</td>
-											<th>4101-1841-1C1</th>
-											<td>18:00 - 20:00 (Tu)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
 										
-										<!-- day 3 -->
-										<tr>
-											<td>2018-10-10</td>
-											<th>4101-1841-1A1</th>
-											<td>10:00 - 12:00 (We)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-10</td>
-											<th>4101-1841-1B1</th>
-											<td>14:00 - 16:00 (We)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-10</td>
-											<th>4101-1841-1C1</th>
-											<td>18:00 - 20:00 (We)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										
-										<!-- day 4 -->
-										<tr>
-											<td>2018-10-11</td>
-											<th>4101-1841-1A1</th>
-											<td>10:00 - 12:00 (Th)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-11</td>
-											<th>4101-1841-1B1</th>
-											<td>14:00 - 16:00 (Th)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-11</td>
-											<th>4101-1841-1C1</th>
-											<td>18:00 - 20:00 (Th)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										
-										<!-- day 5 -->
-										<tr>
-											<td>2018-10-12</td>
-											<th>4101-1841-1A1</th>
-											<td>10:00 - 12:00 (Fr)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-12</td>
-											<th>4101-1841-1B1</th>
-											<td>14:00 - 16:00 (Fr)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
-										<tr>
-											<td>2018-10-12</td>
-											<th>4101-1841-1C1</th>
-											<td>18:00 - 20:00 (Fr)</td>
-											<td>1</td>
-											<td>8</td>
-											<td><a class="btn btn-success btn-xs mb-2" href="#" ><spring:message code="learning-center-btn-enroll"/></a></td>
-										</tr>
 										
 									</table>
 								</div>
@@ -461,7 +376,7 @@
 								<h5><spring:message code="course-info-hint-1"/></h5>
 							</div>
 							
-							<h4>学费</h4>
+							<h4><spring:message code="course-admissionfee-title"/></h4>
 							<div class="row">
 								<div class="col">
 									16 hours, 2 hours/session, 8 sessions, C$399 + tx (Before Oct. 16, Save 100, 16.7% Off)<br/>
@@ -471,10 +386,10 @@
 							
 							<br/>
 							
-							<h4>地址</h4>
+							<h4><spring:message code="course-address-title"/></h4>
 							<div class="row">
 								<div class="col">
-									<h5> 1. McGill 校区  </h5>
+									<h5> 1. McGill Area  </h5>
 									2001 Blvd. Robert Bourassa Suite 1700 <br/>
                                Montreal Quebec  H3A 2A6 <br/>
                                Near McGill University, right beside the entrance(McGill) of Metro Station of McGill <br/>
@@ -487,13 +402,13 @@
 							</div>
 							<br/>
 							
-							<h4>报名咨询方式</h4>
+							<h4><spring:message code="course-inquiry-title"/></h4>
 							<div class="row">
 								<div class="col">
-									1. 电话：514-746-9188 <br/>
-									2. 微信: Athens314 <br/>
-									3. 微信: j03280314 <br/>
-									4. 邮件：learning@athenosft.com
+									1. Tel：514-746-9188 (Text message only)<br/>
+									2. Wechat: Athens314 <br/>
+									3. Wechat: j03280314 <br/>
+									4. Email：learning@athenosft.com
 								</div>
 							</div>
 							<!-- testimonial -->
