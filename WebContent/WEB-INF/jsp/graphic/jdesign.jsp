@@ -11,10 +11,17 @@
 <!-- page variables  -->
 <c:set var="inc_dir" value="../inc"/>
 <c:set var="img_dir" value="/images"/>
+
 <c:set var="work1" value="logo-workshop-mug.jpg"/>
 <c:set var="work2" value="Catalog-Furniture.jpg"/>
 <c:set var="work4" value="magazine2.jpg"/>
 <c:set var="work3" value="Menu-Restaurant.jpg"/>
+
+<c:set var="work5" value="sitem-dark.jpg"/>
+<c:set var="work6" value="comicchoco1.jpg"/>
+<c:set var="work7" value="comicchoco2.jpg"/>
+<c:set var="work8" value="comicchoco3.jpg"/>
+
 <c:set var="banner1" value="logorgb20180723-04.jpg"/>
 <c:set var="banner2" value="logorgb20180723-03.jpg"/>
 
@@ -180,6 +187,82 @@
 							<p></p>
 								
 							<ul class="row portfolio-list">
+							
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}/graphic/demo/${work5}" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">SITEM Forum</span>
+														<span class="thumb-info-type">Logo</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</li>
+								
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}/graphic/demo/${work6}" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Chocolate Business</span>
+														<span class="thumb-info-type">Logo</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}/graphic/demo/${work7}" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Chocolate Business</span>
+														<span class="thumb-info-type">Logo</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</li>
+								<li class="col-12 col-sm-6 col-lg-3">
+									<div class="portfolio-item">
+										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
+											<span class="thumb-info thumb-info-lighten">
+												<span class="thumb-info-wrapper">
+													<img src="${img_dir}/graphic/demo/${work8}" class="img-fluid" alt="">
+													<span class="thumb-info-title">
+														<span class="thumb-info-inner">Chocolate Business</span>
+														<span class="thumb-info-type">Logo</span>
+													</span>
+													<span class="thumb-info-action">
+														<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</li>
+							
+							
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
 										<a href="/graphic/demo.html?lang=${loc}" target="_blank">
