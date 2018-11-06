@@ -131,10 +131,16 @@
 								<spring:message code="aboutus-section-1a"/>
 							</p>
 							<p class="lead">
+								<spring:message code="aboutus-section-1e"/>
+							</p>
+							<p class="lead">
 								<spring:message code="aboutus-section-1c"/>
 							</p>
 							<p class="lead">
 								<spring:message code="aboutus-section-1b"/>
+							</p>
+							<p class="lead">
+								<spring:message code="aboutus-section-1d"/>
 							</p>
 						</div>
 						<div class="col-lg-2">

@@ -188,6 +188,8 @@
 							<ul class="list list-icons list-icons-style-3 mt-4">
 								<li><i class="fa fa-envelope"></i> <spring:message code="contactus-email-name-1"/>: <a href="mailto:info@athensoft.com">info@athensoft.com</a></li>
 								<li><i class="fa fa-envelope"></i> <spring:message code="contactus-email-name-2"/>: <a href="mailto:support@athensoft.com">support@athensoft.com</a></li>
+								<li><i class="fa fa-envelope"></i> <spring:message code="contactus-email-name-3"/>: <a href="mailto:learning@athensoft.com">learning@athensoft.com</a></li>
+								<li><i class="fa fa-envelope"></i> <spring:message code="contactus-email-name-4"/>: <a href="mailto:design@athensoft.com">design@athensoft.com</a></li>
 							</ul>
 
 							<hr>

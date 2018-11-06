@@ -523,7 +523,7 @@
 									1. Tel：514-746-9188 (Text message only)<br/>
 									2. Wechat: Athens314 <br/>
 									3. Wechat: j03280314 <br/>
-									4. Email：learning@athenosft.com
+									4. Email：learning@athensoft.com
 								</div>
 							</div>
 							
