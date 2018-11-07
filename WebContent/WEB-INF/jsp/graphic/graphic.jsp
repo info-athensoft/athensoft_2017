@@ -127,7 +127,6 @@
 							<aside class="sidebar">
 
 								<h4 class="heading-primary"><spring:message code="graphic-sidebar-title-nav"/></h4>
-
 								<ul class="nav nav-list flex-column mb-4 sort-source">
 									<li class="nav-item"><a class="nav-link active" href="#"><spring:message code="graphic-sidebar-link-overview"/></a></li>
 									<!--  <li class="nav-item"><a class="nav-link" href="${webapp_name}/about/comingsoon.html?lang=${loc}"><spring:message code="graphic-sidebar-link-service"/></a></li> -->
@@ -140,11 +139,10 @@
 								</ul>
 
 								<hr class="invisible mt-5 mb-2">
-								
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
 								<p>
 									<spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;<br/>
-									Email: desgin@athensoft.com
+									Email: design@athensoft.com
 									<!-- <a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a>  -->
 								</p>
 								

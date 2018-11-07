@@ -89,7 +89,9 @@
 
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
-
+		
+		<!-- Google No reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
 		<div class="body">
@@ -139,57 +141,14 @@
 								<hr class="invisible mt-5 mb-2">
 
 								<h4 class="heading-primary"><spring:message code="webdev-sidebar-title-2"/></h4>
-								<p><spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;
-									<a href="/support/contactus.html?lang=${loc}" target="_blank"><spring:message code="webdev-sidebar-form-btn"/></a></p>
+								<p>
+									<spring:message code="webdev-sidebar-form-text"/>&nbsp;&nbsp;<br/>
+									Email: info@athensoft.com
+									<!-- <a href="/support/contactus.html?lang=${loc}"><spring:message code="webdev-sidebar-form-btn"/></a>  -->
+								</p>
 
-								<form id="contactForm" action="/support/mailInquiry" method="POST">
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="contactus-form-clientname"/> *</label>
-											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="contactus-form-clientemail"/> *</label>
-											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="contactus-form-subject"/></label>
-											<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<label><spring:message code="contactus-form-message"/> *</label>
-											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<input type="submit" value='<spring:message code="contactus-form-btn-sendmessage"/>' class="btn btn-primary mb-4" data-loading-text="Loading...">
 
-											<div class="alert alert-success d-none" id="contactSuccess">
-												Message has been sent to us.
-											</div>
-
-											<div class="alert alert-danger d-none" id="contactError">
-												Error sending your message.
-											</div>
-										</div>
-									</div>
-									<div class="form-row">
-										<div class="form-group col">
-											<input type="hidden" value="${loc}" name="lang"/>
-											<input type="hidden" value="${pageName}" name="pageName"/>
-										</div>
-									</div>
-								</form>
-								
 								<hr class="invisible mt-2 mb-2">
-								
 								<a class="twitter-timeline" 
 									data-width="220" 
 									data-height="320" 
@@ -474,12 +433,15 @@
 								</div>
 								<!-- END other req -->
 								
+								
+								
+								
 							</div>
 							<!-- END ROW -->
 							
 							<hr class="invisible mt-3 mb-2"/>
 							<div class="row">
-								<label class="col-lg-2 pt-2 text-lg-right"><spring:message code="pricing-form-from-direction"/></label>
+								<label class="col-lg-2 pt-2 text-lg-left"><spring:message code="pricing-form-from-direction"/></label>
 								<div class="col-lg-3">
 									<input type="text" class="form-control" id="customerName" placeholder='<spring:message code="pricing-form-from-customer"/>'/></div>
 								
@@ -488,10 +450,28 @@
 									<input type="text" class="form-control" id="customerEmail" placeholder='<spring:message code="pricing-form-from-email"/>'/></div>
 									
 								<div class="col-lg-2">
-									<a href="javascript:void(0);" class="btn btn-primary" onclick="placeOrder();"><spring:message code="webdev-webplan-order-btn-1"/></a></div>
+									
+									<!-- 
+									<a href="javascript:void(0);" class="btn btn-primary" onclick="placeOrder();"><spring:message code="webdev-webplan-order-btn-1"/></a>
+									 -->
+									<input type="button" id="btnSubmit"  value='<spring:message code="webdev-webplan-order-btn-1"/>' class="btn btn-primary btn-lg"  onclick="placeOrder();" data-loading-text="Loading..." disabled="disabled">	
+									
+								</div>
 								
+								<div class="col-sm-12 col-lg-12">
+									<p>&nbsp;</p>
+								</div>
+								
+								<div class="col-sm-12 col-lg-12">
+									<!-- production code -->
+									<div class="g-recaptcha" data-sitekey="6Lc-AWcUAAAAAE7zKhSlWkbG8yjaxW5MioUT-Ie6" data-callback="recaptchaCallback"></div>
+									
+									<!-- local test code 
+									<div class="g-recaptcha" data-sitekey="6LfmVWcUAAAAAMWNCPNWK0kfrACYYQmgBNVYgRgG" data-callback="recaptchaCallback"></div>
+									-->
+								</div>
 							</div>
-											
+							
  
  							<hr class="tall"/>
 							
@@ -673,10 +653,15 @@
 		}
 		
 		
+		<!-- google reCAPTCHA -->
 		
+		function recaptchaCallback(){
+			//alert("verified");
+			$("#btnSubmit").removeAttr("disabled");
+		}
+		</script>
 			
 		
-		
-		</script>
+	
 	</body>
 </html>
