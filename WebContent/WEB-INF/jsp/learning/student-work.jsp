@@ -244,7 +244,7 @@
 								
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${webapp_name}/learning/stuwork/thomas?lang=${loc}" target="_blank">
+										<a href="${webapp_name}/learning/stuwork/bowen?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${featured_course_pic_3}" class="img-fluid" alt="">
@@ -266,7 +266,7 @@
 								
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${webapp_name}/learning/stuwork/thomas?lang=${loc}" target="_blank">
+										<a href="${webapp_name}/learning/stuwork/yuzhe?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${featured_course_pic_3}" class="img-fluid" alt="">
@@ -288,7 +288,7 @@
 								
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${webapp_name}/learning/stuwork/thomas?lang=${loc}" target="_blank">
+										<a href="${webapp_name}/learning/stuwork/yuchen?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${featured_course_pic_3}" class="img-fluid" alt="">
@@ -310,7 +310,7 @@
 								
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${webapp_name}/learning/stuwork/thomas?lang=${loc}" target="_blank">
+										<a href="${webapp_name}/learning/stuwork/bai?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${featured_course_pic_3}" class="img-fluid" alt="">
@@ -332,7 +332,7 @@
 								
 								<li class="col-12 col-sm-6 col-lg-3">
 									<div class="portfolio-item">
-										<a href="${webapp_name}/learning/stuwork/thomas?lang=${loc}" target="_blank">
+										<a href="${webapp_name}/learning/stuwork/william?lang=${loc}" target="_blank">
 											<span class="thumb-info thumb-info-lighten">
 												<span class="thumb-info-wrapper">
 													<img src="${img_dir}${img_dir_1}/${featured_course_pic_3}" class="img-fluid" alt="">
