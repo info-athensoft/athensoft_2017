@@ -213,10 +213,10 @@
 							<hr class="tall">
 							
 							<!-- your take-away -->
-							<h3><spring:message code="stem-1311-takeaway-title"/></h3>
+							<h3><spring:message code="course-takeaway-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="stem-1311-takeaway-header-c"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-c"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
 										<li><spring:message code="stem-1311-takeaway-c1"/></li>
 										<li><spring:message code="stem-1311-takeaway-c2"/></li>
@@ -230,7 +230,7 @@
 							</div>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="stem-1311-takeaway-header-g"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-g"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
 										<li><spring:message code="stem-1311-takeaway-g1"/></li>
 										<li><spring:message code="stem-1311-takeaway-g2"/></li>
@@ -243,7 +243,7 @@
 							<hr class="short">
 							
 							<!-- our approach -->
-							<h3><spring:message code="stem-1311-approach-title"/></h3>
+							<h3><spring:message code="course-approach-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
@@ -262,7 +262,7 @@
 							<hr class="short">
 							
 							<!-- audience -->
-							<h3><spring:message code="stem-1311-audience-title"/></h3>
+							<h3><spring:message code="course-audience-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
