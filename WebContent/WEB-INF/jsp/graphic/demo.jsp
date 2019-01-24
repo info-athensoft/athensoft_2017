@@ -171,6 +171,25 @@
 									
 									<div class="col-lg-6 isotope-item mockprod">
 										<div class="portfolio-item image-gallery-item">
+											<a href="${img_dir}/graphic/demo/bizcard-aliceplant.jpg" class="lightbox-portfolio">
+												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
+													<span class="thumb-info-wrapper">
+														<img src="${img_dir}/graphic/demo/bizcard-aliceplant.jpg" class="img-fluid" alt="">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner">Alice Indoor Plant</span>
+															<span class="thumb-info-type">Bizcard</span>
+														</span>
+														<span class="thumb-info-action">
+															<span class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+									
+									<div class="col-lg-6 isotope-item mockprod">
+										<div class="portfolio-item image-gallery-item">
 											<a href="${img_dir}/graphic/demo/sitem-dark.jpg" class="lightbox-portfolio">
 												<span class="thumb-info thumb-info-lighten thumb-info-no-borders">
 													<span class="thumb-info-wrapper">

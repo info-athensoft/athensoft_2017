@@ -22,10 +22,8 @@
 <!-- END i18n -->
 
 
-<c:set var="current_event" value="2019 Deep Learning and Machine Learning Workshop"/>
-<c:set var="current_event_sub" value="Start on Jan 26 in Montreal"/>
 
-<c:set var="book_seat" value="#"/>
+<c:set var="book_seat" value="https://goo.gl/forms/osI92OtoMMrD2Jpp2"/>
 
 <c:set var="speaker_pic_1" value="/images/sitem/speaker/speaker_athens.jpg"/>
 <c:set var="speaker_name_1" value="Athens Zhang"/>
@@ -37,24 +35,24 @@
 
 <c:set var="speaker_pic_2" value="/images/sitem/speaker/speaker_nie.jpg"/>
 <c:set var="speaker_name_2" value="Dr. Yimin Nie"/>
-<c:set var="speaker_title_2" value="Co-Founder, Principle Data Scientist, CEO of Candata"/>
+<c:set var="speaker_title_2" value="Co-Founder, Data Scientist at Faimdata, CEO of Candata"/>
 <c:set var="speaker_desc_2_1" value=""/>
 <c:set var="speaker_desc_2_2" value=""/>
 <c:set var="speaker_desc_2_3" value=""/>
 
-<c:set var="speaker_pic_4" value="/images/sitem/speaker/advisor_caotaotao.jpg"/>
-<c:set var="speaker_name_4" value="Charles Cao"/>
-<c:set var="speaker_title_4" value="Innovative Startups Advisor, CEO of Nebula AI, Chairman of APIGM"/>
-<c:set var="speaker_desc_4_1" value=""/>
-<c:set var="speaker_desc_4_2" value=""/>
-<c:set var="speaker_desc_4_3" value=""/>
-
-<c:set var="speaker_pic_3" value="/images/sitem/speaker/speaker_deng.jpg"/>
-<c:set var="speaker_name_3" value="Dr. XG Deng"/>
-<c:set var="speaker_title_3" value="Forum Partner, Senior Research Scientist at IVADO"/>
+<c:set var="speaker_pic_3" value="/images/sitem/speaker/speaker_chengzhang.jpg"/>
+<c:set var="speaker_name_3" value="Dr. Cheng Zhang"/>
+<c:set var="speaker_title_3" value="Forum Partner, CV Scientist at Faimdata, AI/ML Expert"/>
 <c:set var="speaker_desc_3_1" value=""/>
 <c:set var="speaker_desc_3_2" value=""/>
 <c:set var="speaker_desc_3_3" value=""/>
+
+<c:set var="speaker_pic_4" value="/images/sitem/speaker/speaker_deng.jpg"/>
+<c:set var="speaker_name_4" value="Dr. XG Deng"/>
+<c:set var="speaker_title_4" value="Forum Partner, Research Scientist at AiNemo"/>
+<c:set var="speaker_desc_4_1" value=""/>
+<c:set var="speaker_desc_4_2" value=""/>
+<c:set var="speaker_desc_4_3" value=""/>
 
 <c:set var="speaker_pic_5" value="/images/sitem/speaker/speaker_fangze.jpg"/>
 <c:set var="speaker_name_5" value="Fangze Sun"/>
@@ -62,13 +60,6 @@
 <c:set var="speaker_desc_5_1" value=""/>
 <c:set var="speaker_desc_5_2" value=""/>
 <c:set var="speaker_desc_5_3" value=""/>
-
-<c:set var="speaker_pic_6" value="/images/sitem/speaker/speaker_chengzhang.jpg"/>
-<c:set var="speaker_name_6" value="Dr. Cheng Zhang"/>
-<c:set var="speaker_title_6" value="Forum Speaker, CV Scientist at Faimdata, AI/ML Expert"/>
-<c:set var="speaker_desc_6_1" value=""/>
-<c:set var="speaker_desc_6_2" value=""/>
-<c:set var="speaker_desc_6_3" value=""/>
 
 <!-- advisor -->
 <c:set var="advisor_pic_1" value="/images/sitem/speaker/advisor_caotaotao.jpg"/>
@@ -100,23 +91,23 @@
 <c:set var="advisor_desc_4_3" value=""/>
 
 <!-- schedule  -->
-<c:set var="day_1_date" value="Jan. 26"/>
-<c:set var="day_1_section_1_time" value="10:00 AM"/>
-<c:set var="day_1_section_1_activity" value="CEAI 1101 Deep Learning in Action"/>
-<c:set var="day_1_section_2_time" value="1:00 PM"/>
+<c:set var="day_1_date" value="Sept. 1"/>
+<c:set var="day_1_section_1_time" value="1:30 PM"/>
+<c:set var="day_1_section_1_activity" value="Reception &amp; Welcome"/>
+<c:set var="day_1_section_2_time" value="1:45 PM"/>
 <c:set var="day_1_section_2_activity" value="Explore Computer Vision"/>
 <c:set var="day_1_section_2_speaker" value="Dr. Cheng Zhang"/> 
-<c:set var="day_1_section_3_time" value="1:00 PM"/>
+<c:set var="day_1_section_3_time" value="3:00 PM"/>
 <c:set var="day_1_section_3_activity" value="CLOSE"/>
 <c:set var="day_1_section_3_speakerpic" value="/images/sitem/speaker/speaker_chengzhang.jpg"/>
 
-<c:set var="day_2_date" value="Feb. 2"/>
-<c:set var="day_2_section_1_time" value="2:00 PM"/>
-<c:set var="day_2_section_1_activity" value="CEDS 1101 Machine Learning in Action"/>
+<c:set var="day_2_date" value="Sept. 15"/>
+<c:set var="day_2_section_1_time" value="1:30 PM"/>
+<c:set var="day_2_section_1_activity" value="Reception &amp; Welcome"/>
 <c:set var="day_2_section_2_time" value="1:45 PM"/>
 <c:set var="day_2_section_2_activity" value="The Secrets of running a software/IT company"/>
 <c:set var="day_2_section_2_speaker" value="Athens Zhang"/> 
-<c:set var="day_2_section_3_time" value="4:30 PM"/>
+<c:set var="day_2_section_3_time" value="3:00 PM"/>
 <c:set var="day_2_section_3_activity" value="CLOSE"/>
 <c:set var="day_2_section_3_speakerpic" value="/images/sitem/speaker/speaker_athens.jpg"/>
 
@@ -246,7 +237,7 @@
 											</li>
 											<li>
 												<a class="nav-link font-weight-semibold" data-hash data-hash-offset="80" href="#schedule">
-													Events
+													Schedule
 												</a>
 											</li>
 											<li>
@@ -268,10 +259,9 @@
 									</nav>
 								</div>
 								
-								<!-- 
 								<div class="buy-tickets">
-									<a href="${book_seat}" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-bold text-color-light text-uppercase outline-none ml-4">Book a seat <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
-								</div>  --> 
+									<a href="${book_seat}" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-bold text-color-light text-uppercase outline-none ml-4" href="">Book a seat <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
+								</div> 
 								<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
 									<i class="fa fa-bars"></i>
 								</button>
@@ -326,7 +316,7 @@
 									data-paddingleft="['0', '0', '0', '0']"
 									data-fontsize="26"
 									style="z-index: 5;"
-									data-transform_in="y:[-300%];opacity:0;s:500;">${current_event}</div>
+									data-transform_in="y:[-300%];opacity:0;s:500;">September 1st &amp; September 15th, 2018 in Montreal QC</div>
 
 								<div class="tp-caption text-uppercase"
 									data-x="['left','left','left','left']"
@@ -338,7 +328,7 @@
 									data-fontsize="['12', '12', '12', '18']"
 									data-lineheight="['12', '12', '12', '22']"
 									style="z-index: 5; color: #6acdca;"
-									data-transform_in="y:[-300%];opacity:0;s:500;"><!-- <i class="fa fa-map-marker"></i> --> ${current_event_sub}</div>
+									data-transform_in="y:[-300%];opacity:0;s:500;"><!-- <i class="fa fa-map-marker"></i> --> 2 Days, 2 Talks</div>
 
 								<div class="tp-caption text-uppercase"
 									data-x="['right','right','right','right']"
@@ -392,8 +382,8 @@
 			<div class="container mt-4 pt-4 pb-4">
 						<div class="row pt-2">
 							<div class="col">
-								<h2 class="text-color-dark text-uppercase font-weight-bold text-center mb-1">Speakers and Partners</h2>
-								<p class="custom-font-size-1 text-center mb-2">SITEM Forum Event 2019</p>
+								<h2 class="text-color-dark text-uppercase font-weight-bold text-center mb-1">Speakers</h2>
+								<p class="custom-font-size-1 text-center mb-2">SITEM Forum Event 2018</p>
 							</div>
 						</div>
 
@@ -602,8 +592,7 @@
 						</div>
 					</div>
 		</section>
-		
-       <!-- 
+
 		<section id="advisors" class="background-color-light pt-0">
 			<div class="container mt-0 pt-0 pb-4">
 						<div class="row pt-2">
@@ -819,8 +808,7 @@
 					
 					</div>
 		</section>
-       -->
-       
+
 		<section id="about">
 					<div class="container-fluid">
 						<div class="row">
@@ -869,7 +857,7 @@
 						<div class="row pt-2 pb-4">
 							<div class="col">
 								<h2 class="text-color-dark text-uppercase font-weight-bold text-center mb-1">Schedule</h2>
-								<p class="custom-font-size-1 text-center mb-2">Workshop and Course in Spring 2019</p>
+								<p class="custom-font-size-1 text-center mb-2">SITEM Forum Event Agenda</p>
 							</div>
 						</div>
 						<div class="row">
@@ -877,7 +865,7 @@
 								<div class="custom-circle-date background-color-primary no-border text-color-light text-center ml-5 mb-4">
 									<div class="circle-dotted">
 										<div class="circle-center">
-											<span class="custom-font-size-7 text-color-light font-weight-bold text-uppercase mb-0">Event-1</span>
+											<span class="custom-font-size-6 text-color-light font-weight-bold text-uppercase mb-0">Day-1</span>
 											<span class="text-color-light font-weight-normal">${day_1_date}</span>
 										</div>
 									</div>
@@ -896,7 +884,6 @@
 										</div>
 									</div>
 								</div>
-								<!-- 
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
 										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_1_section_2_time}</span>
@@ -916,8 +903,7 @@
 											</div>
 										</div>
 									</div>
-								</div>  -->
-								
+								</div>
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
 										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_1_section_3_time}</span>
@@ -932,20 +918,13 @@
 										</div>
 									</div>
 								</div>
-								
-								<div class="row text-center pt-3 pb-4 mb-2">
-									<div class="col">
-										<a href="https://goo.gl/forms/Gp9HQoFz2x6gv5l13" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Register now <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
-										<!-- /sitem/booklist -->
-									</div>
-								</div>
 							</div>
 
 							<div class="col-sm-12 col-lg-6">
 								<div class="custom-circle-date custom-circle-date-light background-color-light text-center ml-5 mb-4">
 									<div class="circle-dotted">
 										<div class="circle-center">
-											<span class="custom-font-size-7 text-color-dark font-weight-bold text-uppercase mb-0">Event-2</span>
+											<span class="custom-font-size-6 text-color-dark font-weight-bold text-uppercase mb-0">Day-2</span>
 											<span class="text-color-dark font-weight-normal">${day_2_date}</span>
 										</div>
 									</div>
@@ -964,7 +943,6 @@
 										</div>
 									</div>
 								</div>
-								<!-- 
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
 										<span class="time-text text-color-dark font-weight-bold custom-font-size-3">${day_2_section_2_time}</span>
@@ -984,7 +962,7 @@
 											</div>
 										</div>
 									</div>
-								</div>  -->
+								</div>
 								
 								<div class="timeline-balloon pb-4 mb-2">
 									<div class="balloon-cell balloon-time pt-4">
@@ -1001,17 +979,13 @@
 									</div>
 								</div>
 								
-								<div class="row text-center pt-3 pb-4 mb-2">
-									<div class="col">
-										<a href="https://goo.gl/forms/vPhOvbLOAFlav4Ip2" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Register now <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
-										<!-- /sitem/booklist -->
-									</div>
-								</div>
-								
 							</div>
-							
 						</div>
-						
+						<div class="row text-center pt-3 pb-4 mb-2">
+							<div class="col">
+								<a href="/sitem/booklist" class="btn btn-primary custom-border-radius custom-btn-style-1 text-3 font-weight-semibold text-color-light text-uppercase outline-none">Check my seat <i class="custom-long-arrow-right" aria-hidden="true"></i></a>
+							</div>
+						</div>
 					</div>
 				</section>
 
@@ -1158,11 +1132,8 @@
 					</div>
 				</section>
 				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-				<!--  <div id="googlemaps" class="google-map m-0"></div> -->
-				<div style="margin:0; padding:0; line-height: 0;">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.236555178105!2d-73.62808448509936!3d45.46503847910092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc910ca95a9a9a3%3A0x75d9d084fc6882c6!2s6380+Sherbrooke+St+W%2C+Montreal%2C+QC+H4B+1N1!5e0!3m2!1sen!2sca!4v1548357741884" 
-				width="100%" height="450" frameborder="0" style="border:0; padding:0; margin:0" allowfullscreen></iframe>
-				</div>
+				<div id="googlemaps" class="google-map m-0"></div>
+
 		</main>
 		
 		
@@ -1225,7 +1196,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="footer-border text-center pt-5">
-							<p class="font-weight-normal mb-0">&copy; Copyright 2019. SITEM Forum &amp; Informatique Athensoft All Rights Reserved.</p>
+							<p class="font-weight-normal mb-0">&copy; Copyright 2018. SITEM FORUM All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
@@ -1268,9 +1239,8 @@
 		<!-- Theme Initialization Files -->
 		<script src="/js/theme.init.js"></script>
 
-		<!-- 
+
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7ak25SLOdgskXHhchf5gIDG1prLfKD4w"></script>
-		 -->
 		<script>
 
 			/*
@@ -1282,8 +1252,6 @@
 
 			*/
 
-			/*
-			
 			// Map Markers
 			var mapMarkers = [{
 				address: "6380 Rue Sherbrook Ouest, Montreal Quebec H4B 1N1",
@@ -1340,7 +1308,7 @@
 				mapRef.panBy(-68,50);
 			}
 
-			*/
+			
 
 		</script>
 

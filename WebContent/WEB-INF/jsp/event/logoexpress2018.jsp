@@ -28,7 +28,7 @@
 <c:set var="slide_title_1" value="LOGO 免费试稿"/>
 <c:set var="slide_title_2" value="品质LOGO  伴您成功 "/>
 <c:set var="slide_title_3" value="手工设计，私人定制，可与设计师全程沟通"/>
-<c:set var="slide_title_4" value="2018夏季 6折特惠&nbsp;&nbsp; 7.25 - 8.25"/>
+<c:set var="slide_title_4" value="2019新春特惠&nbsp;&nbsp; 2.1 - 2.28"/>
 <c:set var="slide_btn_1" value="了解详情"/>
 
 <c:set var="detail_1_1" value="我们的设计师根据您提出的要求，手工绘出3个概念设计稿，然后分别用黑白、您指定的偏好颜色进行配色，总共制作6枚LOGO供您选择！"/>

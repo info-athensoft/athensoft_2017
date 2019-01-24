@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/sitem")
 public class SitemController {
 	
-	@RequestMapping(value={"/index.html","/"})
+	@RequestMapping(value={"/index.html","/",""})
 	public String gotoIndex(){
 		return "sitem/index";
 	}
