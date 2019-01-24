@@ -141,7 +141,7 @@
 								
 								<h4 class="heading-primary">扫码报名</h4>
 								
-								CECA 4001: <spring:message code="ceca-4001-course-name"/><br/>
+								CECA 4001: <spring:message code="course-course-name"/><br/>
 								<img src="${img_dir}${module_name}/ceca4001/ceca-4001-english-googleform.png" alt="google form registration" width="40%"/>
 								<br/>
 								<a class="btn btn-success btn-sm mb-2" href="#reg-info">
@@ -185,7 +185,7 @@
 						<div class="col-lg-8 order-1 order-lg-2">
 						
 							<!-- overview -->
-							<h3><spring:message code="ceca-4001-course-name"/></h3>
+							<h3><spring:message code="course-course-name"/></h3>
 							<h4>
 								<spring:message code="course-code-title"/>${course_code}&nbsp;&nbsp;&nbsp;
 								<a class="btn btn-success btn-sm mb-2" href="#reg-info">
@@ -219,10 +219,10 @@
 							<hr class="tall">
 							
 							<!-- your take-away -->
-							<h3><spring:message code="ceca-4001-takeaway-title"/></h3>
+							<h3><spring:message code="course-takeaway-title"/></h3>
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceca-4001-takeaway-header-c"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-c"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
 										<li><spring:message code="ceca-4001-takeaway-c1"/></li>
 										<li><spring:message code="ceca-4001-takeaway-c2"/></li>
@@ -237,7 +237,7 @@
 							<!-- 
 							<div class="row">
 								<div class="col">
-									<strong><spring:message code="ceca-4001-takeaway-header-g"/></strong><br/>
+									<strong><spring:message code="course-takeaway-header-g"/></strong><br/>
 									<ol class="list1 list-ordened1 list-ordened-style-31">
 										<li><spring:message code="ceca-4001-takeaway-g1"/></li>
 										<li><spring:message code="ceca-4001-takeaway-g2"/></li>
@@ -251,7 +251,7 @@
 							<hr class="short">
 							
 							<!-- our approach -->
-							<h3><spring:message code="ceca-4001-approach-title"/></h3>
+							<h3><spring:message code="course-approach-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">
@@ -268,7 +268,7 @@
 							<hr class="short">
 							
 							<!-- audience -->
-							<h3><spring:message code="ceca-4001-audience-title"/></h3>
+							<h3><spring:message code="course-audience-title"/></h3>
 							<div class="row">
 								<div class="col">
 									<ol class="list1 list-ordened1 list-ordened-style-31">

@@ -108,6 +108,7 @@
 										<span class="dropdown-mega-sub-title"><spring:message code="learning-youth-edu-event"/></span>
 										<ul class="dropdown-mega-sub-nav">
 											<li><a class="dropdown-item" href="#lang=${loc}"><spring:message code="learning-youth-edu-workshop"/></a></li>
+											<li><a class="dropdown-item" href="/learning/stuwork?lang=${loc}"><spring:message code="learning-youth-edu-workshow"/></a></li>
 										</ul>
 									</div>
 									
