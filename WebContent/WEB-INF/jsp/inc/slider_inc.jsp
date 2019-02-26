@@ -56,7 +56,7 @@
 				<a class="tp-caption btn btn-lg btn-primary btn-slider-action"
 					data-hash
 					data-hash-offset="85"
-					href="/learning?lang=${loc}"
+					href="#home-intro"
 					data-x="center" data-hoffset="0"
 					data-y="center" data-voffset="80"
 					data-start="2200"
