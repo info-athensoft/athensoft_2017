@@ -89,6 +89,13 @@
 		<!-- Head Libs -->
 		<script src="${webapp_name}/vendor/modernizr/modernizr.min.js"></script>
 
+		<style>
+			.home-news-body{
+				 font-size:0.9em; 
+				 line-height:1.4em;
+			}
+		</style>
+		
 	</head>
 	<body>
 		<div class="body">
@@ -119,8 +126,155 @@
 					</div>
 				</div>
 
+				<!-- Recent posts -->
 				<div class="container">
-
+				<div class="row mt-5">
+					<div class="col">
+						<h4><spring:message code="index-section-new-title"></spring:message></h4>
+						<div class="owl-carousel owl-theme show-nav-title top-border" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 3}}, 'items': 3, 'margin': 10, 'loop': false, 'nav': true, 'dots': false}">
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0301-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0301-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">1</span>
+											<span class="month">Mar</span>
+										</div>
+										<h5><a href="#">2019春假青少年IT特别集训招生即将截止</a></h5>
+										<p class="home-news-body">该活动是Athensoft 信息科技组织策划，由一线软件工程师、专业讲师、数据科学家共同编排和实施的面向青少年的春假特别集训活动。该活动旨在让孩子提前了解当前IT及相关科技行业、科技启蒙、通过动手实操体验和工程师一起打基础。内容系统而丰富，十分难得。
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0226-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0226-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">26</span>
+											<span class="month">Feb</span>
+										</div>
+										<h5><a href="#">Java零基础职业班杨女士顺利结业</a></h5>
+										<p class="home-news-body">恭喜杨女士成功完成Athensoft自编“JavaSE与面向对象编程”课程，达到理论和实战要求，并获得结业证书。杨女士在为期10周的培训中，刻苦努力、坚持不懈，成功由零基础转变为具备一定工程实战能力的Java软件工程师。祝愿在后续的学习和工作中取得佳绩！
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0215-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0215-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">15</span>
+											<span class="month">Feb</span>
+										</div>
+										<h5><a href="#">Athensoft青少年科技教育外包服务启动</a></h5>
+										<p  class="home-news-body">我们在青少年科技类培训领域，积极与相关教育机构进行教育外包合作。外包服务包含但不仅限于课程产品设计与研发、教学实施、讲师培训、质量评估与监督等。我们独立开发了较实用的课程体系、一系列精品课程、借鉴了成熟的教学管理模式、运用了过程质量评估方法。
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0215-2.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0215-2.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">15</span>
+											<span class="month">Jan</span>
+										</div>
+										<h5><a href="#">杨丽娅舞蹈学校网站构建第二阶段完成</a></h5>
+										<p  class="home-news-body">杨老师是著名的舞蹈演员、培养了无数艺术人才，在蒙特利尔享有盛誉。我们很荣幸被蒙特利尔华人职商会推荐承包杨丽娅舞蹈学校的官网及后台管理应用的设计与构建工作。第二阶段已于今日提交，并开始在线内测阶段，感谢华侨新报张健总裁的积极联络和推进。
+										 <a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				</div>
+				<!-- End of Recent posts -->
+				
+				
+				
+				<!-- Main Business Features --> 
+				<section class="section">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="feature-box feature-box-style-2">
+											<div class="feature-box-icon">
+												<i class="fa fa-tv"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="mb-0"><spring:message code="index-biz-title-1"/></h4>
+												<p class="mb-0"><spring:message code="index-biz-desc-1"/></p>
+											</div>
+										</div>
+										
+									</div>
+									<div class="col-lg-4">
+										<div class="feature-box feature-box-style-2">
+											<div class="feature-box-icon">
+												<i class="fa fa-share-alt"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="mb-0"><spring:message code="index-biz-title-2"/></h4>
+												<p class="mb-0"><spring:message code="index-biz-desc-2"/></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="feature-box feature-box-style-2">
+											<div class="feature-box-icon">
+												<i class="fa fa-paint-brush"></i>
+											</div>
+											<div class="feature-box-info">
+												<h4 class="mb-0"><spring:message code="index-biz-title-3"/></h4>
+												<p class="mb-0"><spring:message code="index-biz-desc-3"/></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End of Main Business Features -->
+				
+				
+				<!-- Company slogan -->
+				<div class="container">
 					<div class="row text-center">
 						<div class="col">
 							<h2 class="mb-2 word-rotator-title">
@@ -131,83 +285,12 @@
 							</p>
 						</div>
 					</div>
-
 				</div>
+				<!-- End of Company slogan -->
 				
+				<hr class="short"/>
 				
-				 
-				<section class="section">
-					<div class="container">
-
-						<div class="row">
-							<div class="col">
-								<div class="row">
-									<div class="col-lg-4">
-										<div class="feature-box feature-box-style-2">
-											<div class="feature-box-icon">
-												<i class="fa fa-tv"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="mb-0"><spring:message code="index-feature-title-1"/></h4>
-												<p class="mb-4"><spring:message code="index-feature-1"/></p>
-											</div>
-										</div>
-										<div class="feature-box feature-box-style-2">
-											<div class="feature-box-icon">
-												<i class="fa fa-paint-brush"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="mb-0"><spring:message code="index-feature-title-2"/></h4>
-												<p class="mb-4"><spring:message code="index-feature-2"/></p>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4">
-										<div class="feature-box feature-box-style-2">
-											<div class="feature-box-icon">
-												<i class="fa fa-share-alt"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="mb-0"><spring:message code="index-feature-title-3"/></h4>
-												<p class="mb-4"><spring:message code="index-feature-3"/></p>
-											</div>
-										</div>
-										<div class="feature-box feature-box-style-2">
-											<div class="feature-box-icon">
-												<i class="fa fa-question-circle"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="mb-0"><spring:message code="index-feature-title-4"/></h4>
-												<p class="mb-4"><spring:message code="index-feature-4"/></p>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4">
-										<div class="feature-box feature-box-style-2">
-											<div class="feature-box-icon">
-												<i class="fa fa-cloud"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="mb-0"><spring:message code="index-feature-title-5"/></h4>
-												<p class="mb-4"><spring:message code="index-feature-5"/></p>
-											</div>
-										</div>
-										<div class="feature-box feature-box-style-2">
-											<div class="feature-box-icon">
-												<i class="fa fa-rocket"></i>
-											</div>
-											<div class="feature-box-info">
-												<h4 class="mb-0"><spring:message code="index-feature-title-6"/></h4>
-												<p class="mb-4"><spring:message code="index-feature-6"/></p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
+				<!-- Details of Business -->
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4">
@@ -302,6 +385,9 @@
 					</div>
 					 
 				</div>
+				<!-- End of Details of Business -->
+				
+				
 				
 				<!-- portfolio -->
 				
@@ -456,18 +542,6 @@
 		<!-- Theme Initialization Files -->
 		<script src="${webapp_name}/js/theme.init.js"></script>
 
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
-			ga('create', 'UA-12345678-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		 -->
-		 
 		 <!-- language switching -->
 		<script>
 			$(document).ready(function(){

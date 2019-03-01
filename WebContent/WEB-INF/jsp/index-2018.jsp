@@ -93,12 +93,11 @@
 	<body>
 		<div class="body">
 			<!-- header -->
-			
+			<jsp:include page="${inc_dir}/header_inc.jsp"></jsp:include>
 
 			<div role="main" class="main">
-
 				<jsp:include page="${inc_dir}/slider_inc.jsp"></jsp:include>
-<!-- 
+
 				<div class="home-intro" id="home-intro">
 					<div class="container">
 
@@ -207,7 +206,7 @@
 							</div>
 						</div>
 					</div>
-				</section>  -->
+				</section>
 
 				<div class="container">
 					<div class="row">
@@ -278,7 +277,18 @@
 					</div>
 					 
 					<hr class="tall">
-					
+					<!-- 
+					<div class="row text-center">
+						<div class="col">
+							<h2 class="mb-0 word-rotator-title mt-5">
+								Our <strong>Portfolio</strong>
+							</h2>
+							<p class="lead mb-5">
+								Check out what we have been doing
+							</p>
+						</div>
+					</div>
+					 -->
 					 
 					<div class="row text-center">
 						<div class="col">
@@ -388,7 +398,25 @@
 					</div>
 				</div>
 				
-			
+				<!-- 
+				<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-lg-9">
+								<div class="call-to-action-content">
+									<h3>Informatique Athensoft is <strong>everything</strong> you need to create an <strong>awesome</strong> website!</h3>
+									<p class="mb-0">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-lg-3">
+								<div class="call-to-action-btn">
+									<a href="#" target="_blank" class="btn btn-lg btn-primary">Buy Now!</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				 -->
 			</div>
 	
 	
@@ -428,7 +456,17 @@
 		<!-- Theme Initialization Files -->
 		<script src="${webapp_name}/js/theme.init.js"></script>
 
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		
+			ga('create', 'UA-12345678-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		 -->
 		 
 		 <!-- language switching -->
 		<script>
