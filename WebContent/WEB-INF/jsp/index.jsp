@@ -137,6 +137,28 @@
 									<article class="post">
 										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
 											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0302-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0302-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">1</span>
+											<span class="month">Mar</span>
+										</div>
+										<h5><a href="#">2018-2019 冬季人工智能-深度学习第六讲CNN</a></h5>
+										<p class="home-news-body">Athensoft 信息科技. SITEM论坛 人工智能与数据科学职业培训系列 第六讲 用TENSORFLOW/KERAS 构建卷积神经网络CNN，我们正在进行针对摄像头下的行人进行识别与跟踪的应用项目实战。解决问题的思路、编程逻辑与Python技巧、建模和调参都同等重要。
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
 												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0301-1.jpg">
 											</div>
 											<div>
