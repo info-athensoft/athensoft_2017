@@ -144,7 +144,7 @@
 											</div>
 										</div>
 										<div class="date">
-											<span class="day">1</span>
+											<span class="day">2</span>
 											<span class="month">Mar</span>
 										</div>
 										<h5><a href="#">2018-2019 冬季人工智能-深度学习第六讲CNN</a></h5>
