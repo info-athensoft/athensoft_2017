@@ -137,6 +137,28 @@
 									<article class="post">
 										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
 											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0304-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0304-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">4</span>
+											<span class="month">Mar</span>
+										</div>
+										<h5><a href="#">春假青少年IT特别集训第一天日记</a></h5>
+										<p class="home-news-body">今天我们感受到了孩子们蓬勃的朝气。他们面对新知识、新技能表现出了浓厚的兴趣和极强的接受能力。孩子们了解了IT工程师的工作环境、日常的工作并在他们的指导下学习了计算机的内部构造、软件的分类、操作系统、并用开发工具制作第一个Web应用，收获满满。
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
 												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0302-1.jpg">
 											</div>
 											<div>
