@@ -137,6 +137,27 @@
 									<article class="post">
 										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
 											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0307-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0307-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">7</span>
+											<span class="month">Mar</span>
+										</div>
+										<h5><a href="#">春假青少年IT特别集训第四天日记</a></h5>
+										<p class="home-news-body">今天我们深入讨论了软件过程、软件生命周期的核心概念、了解了IT团队各种角色、不同角色的工作职责。在Java环节，全面了解了JavaSE的技术体系，并现场代码演示如何理解和使用面向对象思想进行建模和编码。Python环节以边代码边讲解的方式阐述Python的基础语法以及其简洁易用性。
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
 												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0306-1.jpg">
 											</div>
 											<div>
