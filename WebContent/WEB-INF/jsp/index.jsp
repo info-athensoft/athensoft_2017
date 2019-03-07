@@ -137,6 +137,49 @@
 									<article class="post">
 										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
 											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0306-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0306-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">6</span>
+											<span class="month">Mar</span>
+										</div>
+										<h5><a href="#">春假青少年IT特别集训第三天日记</a></h5>
+										<p class="home-news-body">今天我们介绍了开发、测试、产品环境，了解了不同的测试类型，演示和实际搭建了Java开发环境，并进行了测试，还介绍了字节码，JVM基本概念和经典开发流程。下半场，我们详细列举了Python语言学习初级阶段应关注的大部分技术话题。
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0305-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0305-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">5</span>
+											<span class="month">Mar</span>
+										</div>
+										<h5><a href="#">春假青少年IT特别集训第二天日记</a></h5>
+										<p class="home-news-body">今天我们分享了有关计算机科学、软件工程、计算机应用科学、信息安全等专业的主要研究或学习任务，为学员将来选择信息技术相关专业提供一些基本信息。之后，我们分享了有关计算机语言的基本概念，重点讨论了Java语言与Python语言的范型特征。
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
+							
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
 												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0304-1.jpg">
 											</div>
 											<div>
