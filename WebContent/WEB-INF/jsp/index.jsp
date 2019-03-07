@@ -326,6 +326,7 @@
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-biz-title-1"/></h4>
 												<p class="mb-0"><spring:message code="index-biz-desc-1"/></p>
+												<p><a href="/webdev/webdev.html?lang=${loc}">Read more</a></p>
 											</div>
 										</div>
 										
@@ -338,6 +339,7 @@
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-biz-title-2"/></h4>
 												<p class="mb-0"><spring:message code="index-biz-desc-2"/></p>
+												<p><a href="/learning/index.html?lang=${loc}">Read more</a></p>
 											</div>
 										</div>
 									</div>
@@ -349,6 +351,7 @@
 											<div class="feature-box-info">
 												<h4 class="mb-0"><spring:message code="index-biz-title-3"/></h4>
 												<p class="mb-0"><spring:message code="index-biz-desc-3"/></p>
+												<p><a href="/graphic/graphic.html?lang=${loc}">Read more</a></p>
 											</div>
 										</div>
 									</div>
