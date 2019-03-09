@@ -79,7 +79,6 @@
 		
 		<!-- Demo CSS -->
 
-
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="${webapp_name}/css/skins/default.css"> 
 
@@ -132,6 +131,27 @@
 					<div class="col">
 						<h4><spring:message code="index-section-new-title"></spring:message></h4>
 						<div class="owl-carousel owl-theme show-nav-title top-border" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 3}}, 'items': 3, 'margin': 10, 'loop': false, 'nav': true, 'dots': false}">
+							<div>
+								<div class="recent-posts">
+									<article class="post">
+										<div class="owl-carousel owl-theme nav-inside float-left mr-4 mb-2" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0308-1.jpg">
+											</div>
+											<div>
+												<img alt="" class="img-fluid rounded" src="${img_dir}/news/news-0308-1.jpg">
+											</div>
+										</div>
+										<div class="date">
+											<span class="day">8</span>
+											<span class="month">Mar</span>
+										</div>
+										<h5><a href="#">春假青少年IT特别集训第五天日记</a></h5>
+										<p class="home-news-body">今天完成了一个Web小项目，学员运用了HTML5和CSS技术构建了一个多页网站项目，并实践了软件制作流程，先设计再编码，随之测试，如此迭代直到调整到满意效果。在数据库+Python环节，我们了解了数据、大数据、数据库、数据库产品等概念和知识和并实际用Python连接了MySQL数据库。
+										<a href="/" class="read-more">更多新闻 <i class="fa fa-angle-right"></i></a></p>
+									</article>
+								</div>
+							</div>
 							<div>
 								<div class="recent-posts">
 									<article class="post">
